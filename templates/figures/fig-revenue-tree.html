@@ -1,0 +1,49 @@
+<figure class="fig" id="fig-revenue-tree" aria-labelledby="fig-revenue-tree-t">
+  <p class="fig-title" id="fig-revenue-tree-t">Revenue is four things multiplied, plus the contracts already signed</p>
+  <p class="fig-sub">Read from the top down. GW means gigawatts, a unit of electric power.</p>
+  <div class="fig-rt">
+    <p class="fig-rt-root">Revenue <span aria-hidden="true">=</span><span class="sr-only">equals</span></p>
+    <div class="fig-rt-tree">
+      <ol class="fig-rt-list">
+        <li class="fig-rt-node">
+          <div class="fig-rt-card">
+            <p class="fig-rt-name">Capacity online</p>
+            <p class="fig-rt-why">How much computing power is switched on, counted in GW.</p>
+            <p class="fig-rt-ex">Example: CoreWeave, a cloud that rents out AI chips, had <strong class="num"><span data-k="drivers.crwv_active_gw" data-f="raw">1.5</span> GW</strong> online at 30 June 2026.</p>
+          </div>
+        </li>
+        <li class="fig-rt-node">
+          <span class="fig-rt-op"><span aria-hidden="true">&times;</span><span class="sr-only">times</span></span>
+          <div class="fig-rt-card">
+            <p class="fig-rt-name">Share of capacity busy</p>
+            <p class="fig-rt-why">A machine that nobody rents earns nothing. The more is rented, the more is earned.</p>
+          </div>
+        </li>
+        <li class="fig-rt-node">
+          <span class="fig-rt-op"><span aria-hidden="true">&times;</span><span class="sr-only">times</span></span>
+          <div class="fig-rt-card">
+            <p class="fig-rt-name">Price per unit</p>
+            <p class="fig-rt-why">What one chip earns for one hour. A GPU is a chip built for AI.</p>
+            <p class="fig-rt-ex">Example, one NVIDIA H100 chip for one hour: <strong class="num">$<span data-k="drivers.h100_od" data-f="n2">4.20</span></strong> pay as you go, <strong class="num">$<span data-k="drivers.h100_1yr" data-f="n2">2.35</span></strong> on a one-year contract.</p>
+          </div>
+        </li>
+        <li class="fig-rt-node fig-rt-last">
+          <span class="fig-rt-op"><span aria-hidden="true">&times;</span><span class="sr-only">times</span></span>
+          <div class="fig-rt-card">
+            <p class="fig-rt-name">Mix of what is sold</p>
+            <p class="fig-rt-why">Raw computing, or managed services and AI tools on top of it. Selling more layers can earn more from the same capacity.</p>
+          </div>
+        </li>
+        <li class="fig-rt-node fig-rt-side">
+          <span class="fig-rt-op"><span aria-hidden="true">+</span><span class="sr-only">plus</span></span>
+          <div class="fig-rt-card">
+            <p class="fig-rt-name">Backlog: revenue already signed</p>
+            <p class="fig-rt-why">Contracts that customers have signed for work not yet delivered.</p>
+            <p class="fig-rt-ex">Example: the four biggest clouds hold <strong class="num"><span data-k="backlog.big4_total_b" data-f="t2">$2.49T</span></strong> of it.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <figcaption>Source: CoreWeave Q2 2026 results (unaudited); GPU prices from the Uvik GPU price index (median list price, 7 Oct 2026) and the SemiAnalysis H100 one-year index as cited by Uvik (March 2026); backlog from the companies' latest 10-Qs (unaudited).</figcaption>
+</figure>

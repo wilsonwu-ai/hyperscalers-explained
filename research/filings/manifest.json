@@ -1,0 +1,558 @@
+{
+ "tickers": {
+  "AMZN": {
+   "cik": 1018724,
+   "name": "AMAZON COM INC",
+   "fiscal_year_end": "1231",
+   "docs": [
+    {
+     "name": "quarterly_10-Q_2026-10-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+     "txt": "research/filings/AMZN/quarterly_10-Q_2026-10-30.txt",
+     "lines": 1660,
+     "bytes": 1646478,
+     "kind": "quarterly",
+     "form": "10-Q",
+     "filed": "2026-10-30",
+     "period": "2026-09-30",
+     "accession": "0001018724-26-000040"
+    },
+    {
+     "name": "annual_10-K_2026-02-06",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+     "txt": "research/filings/AMZN/annual_10-K_2026-02-06.txt",
+     "lines": 2463,
+     "bytes": 1968816,
+     "kind": "annual",
+     "form": "10-K",
+     "filed": "2026-02-06",
+     "period": "2025-12-31",
+     "accession": "0001018724-26-000004"
+    },
+    {
+     "name": "earnings_8-K_2026-10-29",
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+     "txt": "research/filings/AMZN/earnings_8-K_2026-10-29.txt",
+     "lines": 453,
+     "bytes": 673888,
+     "kind": "earnings",
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "period": "2026-10-29",
+     "accession": "0001018724-26-000038"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/AMZN/companyfacts.json",
+    "bytes": 4554378
+   }
+  },
+  "MSFT": {
+   "cik": 789019,
+   "name": "MICROSOFT CORP",
+   "fiscal_year_end": "0630",
+   "docs": [
+    {
+     "name": "quarterly_10-Q_2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+     "txt": "research/filings/MSFT/quarterly_10-Q_2026-10-28.txt",
+     "lines": 1580,
+     "bytes": 5483334,
+     "kind": "quarterly",
+     "form": "10-Q",
+     "filed": "2026-10-28",
+     "period": "2026-09-30",
+     "accession": "0001193125-26-436133"
+    },
+    {
+     "name": "annual_10-K_2026-07-29",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+     "txt": "research/filings/MSFT/annual_10-K_2026-07-29.txt",
+     "lines": 2685,
+     "bytes": 8585974,
+     "kind": "annual",
+     "form": "10-K",
+     "filed": "2026-07-29",
+     "period": "2026-06-30",
+     "accession": "0001193125-26-323660"
+    },
+    {
+     "name": "earnings_8-K_2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
+     "txt": "research/filings/MSFT/earnings_8-K_2026-10-28.txt",
+     "lines": 329,
+     "bytes": 597827,
+     "kind": "earnings",
+     "form": "8-K",
+     "filed": "2026-10-28",
+     "period": "2026-10-28",
+     "accession": "0001193125-26-436122"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/MSFT/companyfacts.json",
+    "bytes": 4938072
+   }
+  },
+  "GOOGL": {
+   "cik": 1652044,
+   "name": "Alphabet Inc.",
+   "fiscal_year_end": "1231",
+   "docs": [
+    {
+     "name": "quarterly_10-Q_2026-10-29",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+     "txt": "research/filings/GOOGL/quarterly_10-Q_2026-10-29.txt",
+     "lines": 2229,
+     "bytes": 2531077,
+     "kind": "quarterly",
+     "form": "10-Q",
+     "filed": "2026-10-29",
+     "period": "2026-09-30",
+     "accession": "0001652044-26-000084"
+    },
+    {
+     "name": "annual_10-K_2026-02-05",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+     "txt": "research/filings/GOOGL/annual_10-K_2026-02-05.txt",
+     "lines": 2949,
+     "bytes": 2616973,
+     "kind": "annual",
+     "form": "10-K",
+     "filed": "2026-02-05",
+     "period": "2025-12-31",
+     "accession": "0001652044-26-000018"
+    },
+    {
+     "name": "earnings_8-K_2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+     "txt": "research/filings/GOOGL/earnings_8-K_2026-10-28.txt",
+     "lines": 322,
+     "bytes": 370952,
+     "kind": "earnings",
+     "form": "8-K",
+     "filed": "2026-10-28",
+     "period": "2026-10-28",
+     "accession": "0001652044-26-000080"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/GOOGL/companyfacts.json",
+    "bytes": 3250837
+   }
+  },
+  "ORCL": {
+   "cik": 1341439,
+   "name": "ORACLE CORP",
+   "fiscal_year_end": "0531",
+   "docs": [
+    {
+     "name": "quarterly_10-Q_2026-09-11",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+     "txt": "research/filings/ORCL/quarterly_10-Q_2026-09-11.txt",
+     "lines": 1321,
+     "bytes": 2709426,
+     "kind": "quarterly",
+     "form": "10-Q",
+     "filed": "2026-09-11",
+     "period": "2026-08-31",
+     "accession": "0001193125-26-389274"
+    },
+    {
+     "name": "annual_10-K_2026-06-22",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+     "txt": "research/filings/ORCL/annual_10-K_2026-06-22.txt",
+     "lines": 3208,
+     "bytes": 6874411,
+     "kind": "annual",
+     "form": "10-K",
+     "filed": "2026-06-22",
+     "period": "2026-05-31",
+     "accession": "0001193125-26-277521"
+    },
+    {
+     "name": "earnings_8-K_2026-09-10",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm",
+     "txt": "research/filings/ORCL/earnings_8-K_2026-09-10.txt",
+     "lines": 328,
+     "bytes": 1324967,
+     "kind": "earnings",
+     "form": "8-K",
+     "filed": "2026-09-10",
+     "period": "2026-09-10",
+     "accession": "0001193125-26-387905"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/ORCL/companyfacts.json",
+    "bytes": 3964639
+   }
+  },
+  "META": {
+   "cik": 1326801,
+   "name": "Meta Platforms, Inc.",
+   "fiscal_year_end": "1231",
+   "docs": [
+    {
+     "name": "quarterly_10-Q_2026-10-22",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+     "txt": "research/filings/META/quarterly_10-Q_2026-10-22.txt",
+     "lines": 2162,
+     "bytes": 1826523,
+     "kind": "quarterly",
+     "form": "10-Q",
+     "filed": "2026-10-22",
+     "period": "2026-09-30",
+     "accession": "0001628280-26-066773"
+    },
+    {
+     "name": "annual_10-K_2026-01-29",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+     "txt": "research/filings/META/annual_10-K_2026-01-29.txt",
+     "lines": 2920,
+     "bytes": 2372223,
+     "kind": "annual",
+     "form": "10-K",
+     "filed": "2026-01-29",
+     "period": "2025-12-31",
+     "accession": "0001628280-26-003942"
+    },
+    {
+     "name": "earnings_8-K_2026-10-21",
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+     "txt": "research/filings/META/earnings_8-K_2026-10-21.txt",
+     "lines": 284,
+     "bytes": 288042,
+     "kind": "earnings",
+     "form": "8-K",
+     "filed": "2026-10-21",
+     "period": "2026-10-19",
+     "accession": "0001628280-26-066700"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/META/companyfacts.json",
+    "bytes": 2810958
+   }
+  },
+  "CRWV": {
+   "cik": 1769628,
+   "name": "CoreWeave, Inc.",
+   "fiscal_year_end": "1231",
+   "docs": [
+    {
+     "name": "quarterly_10-Q_2026-08-12",
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+     "txt": "research/filings/CRWV/quarterly_10-Q_2026-08-12.txt",
+     "lines": 2853,
+     "bytes": 2197992,
+     "kind": "quarterly",
+     "form": "10-Q",
+     "filed": "2026-08-12",
+     "period": "2026-06-30",
+     "accession": "0001769628-26-000366"
+    },
+    {
+     "name": "annual_10-K_2026-03-02",
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+     "txt": "research/filings/CRWV/annual_10-K_2026-03-02.txt",
+     "lines": 3789,
+     "bytes": 2792505,
+     "kind": "annual",
+     "form": "10-K",
+     "filed": "2026-03-02",
+     "period": "2025-12-31",
+     "accession": "0001769628-26-000104"
+    },
+    {
+     "name": "earnings_8-K_2026-08-11",
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm",
+     "txt": "research/filings/CRWV/earnings_8-K_2026-08-11.txt",
+     "lines": 279,
+     "bytes": 359719,
+     "kind": "earnings",
+     "form": "8-K",
+     "filed": "2026-08-11",
+     "period": "2026-08-11",
+     "accession": "0001769628-26-000362"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/CRWV/companyfacts.json",
+    "bytes": 501063
+   }
+  },
+  "NBIS": {
+   "cik": 1513845,
+   "name": "Nebius Group N.V.",
+   "fiscal_year_end": null,
+   "docs": [
+    {
+     "name": "misc_6K_oct22",
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/tm2628078d1_6k.htm",
+     "txt": "hyperscalers-explained/research/filings/NBIS/misc_6K_oct22.txt",
+     "lines": 58,
+     "bytes": 12320,
+     "kind": "misc",
+     "form": "6-K",
+     "filed": "2026-10-22",
+     "period": "2026-10-22",
+     "accession": "0001104659-26-117978"
+    },
+    {
+     "name": "annual_20-F_2026-04-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+     "txt": "research/filings/NBIS/annual_20-F_2026-04-30.txt",
+     "lines": 4091,
+     "bytes": 4252129,
+     "kind": "annual",
+     "form": "20-F",
+     "filed": "2026-04-30",
+     "period": "2025-12-31",
+     "accession": "0001104659-26-052948"
+    },
+    {
+     "name": "earnings_q2_part1",
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094568/tm2622968d1_ex99-1.htm",
+     "txt": "hyperscalers-explained/research/filings/NBIS/earnings_q2_part1.txt",
+     "lines": 435,
+     "bytes": 334946,
+     "kind": "earnings",
+     "form": "6-K",
+     "filed": "2026-08-12",
+     "period": "2026-06-30",
+     "accession": "0001104659-26-094568"
+    },
+    {
+     "name": "earnings_q2_part2",
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094568/tm2622968d1_ex99-2.htm",
+     "txt": "hyperscalers-explained/research/filings/NBIS/earnings_q2_part2.txt",
+     "lines": 749,
+     "bytes": 53855,
+     "kind": "earnings",
+     "form": "6-K",
+     "filed": "2026-08-12",
+     "period": "2026-06-30",
+     "accession": "0001104659-26-094568"
+    },
+    {
+     "name": "earnings_q2_part3",
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094844/nbis-20260812xex99d1.htm",
+     "txt": "hyperscalers-explained/research/filings/NBIS/earnings_q2_part3.txt",
+     "lines": 261,
+     "bytes": 265067,
+     "kind": "earnings",
+     "form": "6-K",
+     "filed": "2026-08-12",
+     "period": "2026-06-30",
+     "accession": "0001104659-26-094844"
+    },
+    {
+     "name": "earnings_q2_part4",
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094844/nbis-20260812xex99d2.htm",
+     "txt": "hyperscalers-explained/research/filings/NBIS/earnings_q2_part4.txt",
+     "lines": 1056,
+     "bytes": 1602897,
+     "kind": "earnings",
+     "form": "6-K",
+     "filed": "2026-08-12",
+     "period": "2026-06-30",
+     "accession": "0001104659-26-094844"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/NBIS/companyfacts.json",
+    "bytes": 1568737
+   }
+  },
+  "EQIX": {
+   "cik": 1101239,
+   "name": "EQUINIX INC",
+   "fiscal_year_end": "1231",
+   "docs": [
+    {
+     "name": "quarterly_10-Q_2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000180/eqix-20260930.htm",
+     "txt": "research/filings/EQIX/quarterly_10-Q_2026-10-28.txt",
+     "lines": 2860,
+     "bytes": 2909161,
+     "kind": "quarterly",
+     "form": "10-Q",
+     "filed": "2026-10-28",
+     "period": "2026-09-30",
+     "accession": "0001101239-26-000180"
+    },
+    {
+     "name": "annual_10-K_2026-02-11",
+     "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000032/eqix-20251231.htm",
+     "txt": "research/filings/EQIX/annual_10-K_2026-02-11.txt",
+     "lines": 4217,
+     "bytes": 4072359,
+     "kind": "annual",
+     "form": "10-K",
+     "filed": "2026-02-11",
+     "period": "2025-12-31",
+     "accession": "0001101239-26-000032"
+    },
+    {
+     "name": "earnings_8-K_2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/a991eqix-q326xpr.htm",
+     "txt": "research/filings/EQIX/earnings_8-K_2026-10-28.txt",
+     "lines": 509,
+     "bytes": 621073,
+     "kind": "earnings",
+     "form": "8-K",
+     "filed": "2026-10-28",
+     "period": "2026-10-28",
+     "accession": "0001101239-26-000178"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/EQIX/companyfacts.json",
+    "bytes": 4931940
+   }
+  },
+  "DLR": {
+   "cik": 1297996,
+   "name": "DIGITAL REALTY TRUST, INC.",
+   "fiscal_year_end": "1231",
+   "docs": [
+    {
+     "name": "quarterly_10-Q_2026-10-30",
+     "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926120710/dlr-20260930x10q.htm",
+     "txt": "research/filings/DLR/quarterly_10-Q_2026-10-30.txt",
+     "lines": 2127,
+     "bytes": 4868586,
+     "kind": "quarterly",
+     "form": "10-Q",
+     "filed": "2026-10-30",
+     "period": "2026-09-30",
+     "accession": "0001104659-26-120710"
+    },
+    {
+     "name": "annual_10-K_2026-02-13",
+     "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926015365/dlr-20251231x10k.htm",
+     "txt": "research/filings/DLR/annual_10-K_2026-02-13.txt",
+     "lines": 5308,
+     "bytes": 8453540,
+     "kind": "annual",
+     "form": "10-K",
+     "filed": "2026-02-13",
+     "period": "2025-12-31",
+     "accession": "0001104659-26-015365"
+    },
+    {
+     "name": "earnings_8-K_2026-10-29",
+     "url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465926120212/dlr-ex99d1.htm",
+     "txt": "research/filings/DLR/earnings_8-K_2026-10-29.txt",
+     "lines": 1333,
+     "bytes": 4509540,
+     "kind": "earnings",
+     "form": "8-K",
+     "filed": "2026-10-29",
+     "period": "2026-10-29",
+     "accession": "0001104659-26-120212"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/DLR/companyfacts.json",
+    "bytes": 3708301
+   }
+  },
+  "NVDA": {
+   "cik": 1045810,
+   "name": "NVIDIA CORP",
+   "fiscal_year_end": "0131",
+   "docs": [
+    {
+     "name": "quarterly_10-Q_2026-08-26",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+     "txt": "research/filings/NVDA/quarterly_10-Q_2026-08-26.txt",
+     "lines": 1360,
+     "bytes": 1517520,
+     "kind": "quarterly",
+     "form": "10-Q",
+     "filed": "2026-08-26",
+     "period": "2026-07-26",
+     "accession": "0001045810-26-000075"
+    },
+    {
+     "name": "annual_10-K_2026-02-25",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+     "txt": "research/filings/NVDA/annual_10-K_2026-02-25.txt",
+     "lines": 2377,
+     "bytes": 1968289,
+     "kind": "annual",
+     "form": "10-K",
+     "filed": "2026-02-25",
+     "period": "2026-01-25",
+     "accession": "0001045810-26-000021"
+    },
+    {
+     "name": "earnings_8-K_2026-08-26",
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+     "txt": "research/filings/NVDA/earnings_8-K_2026-08-26.txt",
+     "lines": 285,
+     "bytes": 341586,
+     "kind": "earnings",
+     "form": "8-K",
+     "filed": "2026-08-26",
+     "period": "2026-08-26",
+     "accession": "0001045810-26-000073"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/NVDA/companyfacts.json",
+    "bytes": 4092966
+   }
+  },
+  "VRT": {
+   "cik": 1674101,
+   "name": "Vertiv Holdings Co",
+   "fiscal_year_end": "1231",
+   "docs": [
+    {
+     "name": "quarterly_10-Q_2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm",
+     "txt": "research/filings/VRT/quarterly_10-Q_2026-10-28.txt",
+     "lines": 1410,
+     "bytes": 1614744,
+     "kind": "quarterly",
+     "form": "10-Q",
+     "filed": "2026-10-28",
+     "period": "2026-09-30",
+     "accession": "0001628280-26-067893"
+    },
+    {
+     "name": "annual_10-K_2026-02-13",
+     "url": "https://www.sec.gov/Archives/edgar/data/1674101/000167410126000008/vrt-20251231.htm",
+     "txt": "research/filings/VRT/annual_10-K_2026-02-13.txt",
+     "lines": 2771,
+     "bytes": 2328805,
+     "kind": "annual",
+     "form": "10-K",
+     "filed": "2026-02-13",
+     "period": "2025-12-31",
+     "accession": "0001674101-26-000008"
+    },
+    {
+     "name": "earnings_8-K_2026-10-28",
+     "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm",
+     "txt": "research/filings/VRT/earnings_8-K_2026-10-28.txt",
+     "lines": 468,
+     "bytes": 707988,
+     "kind": "earnings",
+     "form": "8-K",
+     "filed": "2026-10-28",
+     "period": "2026-10-28",
+     "accession": "0001628280-26-067707"
+    }
+   ],
+   "companyfacts": {
+    "path": "research/filings/VRT/companyfacts.json",
+    "bytes": 1848467
+   }
+  }
+ },
+ "problems": []
+}

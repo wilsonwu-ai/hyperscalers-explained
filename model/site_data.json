@@ -1,0 +1,1573 @@
+{
+ "as_of": "2026-11-07",
+ "capex_wave": {
+  "labels": [
+   "Q1 20",
+   "Q2 20",
+   "Q3 20",
+   "Q4 20",
+   "Q1 21",
+   "Q2 21",
+   "Q3 21",
+   "Q4 21",
+   "Q1 22",
+   "Q2 22",
+   "Q3 22",
+   "Q4 22",
+   "Q1 23",
+   "Q2 23",
+   "Q3 23",
+   "Q4 23",
+   "Q1 24",
+   "Q2 24",
+   "Q3 24",
+   "Q4 24",
+   "Q1 25",
+   "Q2 25",
+   "Q3 25",
+   "Q4 25",
+   "Q1 26",
+   "Q2 26",
+   "Q3 26"
+  ],
+  "series": [
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "values": [
+     6.8,
+     7.5,
+     11.1,
+     14.8,
+     12.1,
+     14.3,
+     15.7,
+     18.9,
+     15.0,
+     15.7,
+     16.4,
+     16.6,
+     14.2,
+     11.5,
+     12.5,
+     14.6,
+     14.9,
+     17.6,
+     22.6,
+     27.8,
+     25.0,
+     32.2,
+     35.1,
+     39.5,
+     44.2,
+     54.2,
+     77.3
+    ]
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "values": [
+     3.8,
+     4.7,
+     4.9,
+     4.2,
+     5.1,
+     6.5,
+     5.8,
+     5.9,
+     5.3,
+     6.9,
+     6.3,
+     6.3,
+     6.6,
+     8.9,
+     9.9,
+     9.7,
+     11.0,
+     13.9,
+     14.9,
+     15.8,
+     16.7,
+     17.1,
+     19.4,
+     29.9,
+     30.9,
+     35.8,
+     39.4
+    ]
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "values": [
+     6.0,
+     5.4,
+     5.4,
+     5.5,
+     5.9,
+     5.5,
+     6.8,
+     6.4,
+     9.8,
+     6.8,
+     7.3,
+     7.6,
+     6.3,
+     6.9,
+     8.1,
+     11.0,
+     12.0,
+     13.2,
+     13.1,
+     14.3,
+     17.2,
+     22.4,
+     24.0,
+     27.9,
+     35.7,
+     44.9,
+     51.4
+    ]
+   },
+   {
+    "ticker": "META",
+    "name": "Meta",
+    "values": [
+     3.6,
+     3.3,
+     3.7,
+     4.7,
+     4.3,
+     4.6,
+     4.3,
+     5.4,
+     5.4,
+     7.6,
+     9.4,
+     8.8,
+     6.8,
+     6.1,
+     6.5,
+     7.6,
+     6.4,
+     8.2,
+     8.3,
+     14.4,
+     12.9,
+     16.5,
+     18.8,
+     21.4,
+     19.0,
+     30.1,
+     33.9
+    ]
+   },
+   {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "values": [
+     0.4,
+     0.4,
+     0.4,
+     0.6,
+     0.4,
+     0.7,
+     1.1,
+     0.9,
+     1.1,
+     1.4,
+     1.7,
+     2.4,
+     2.6,
+     1.9,
+     1.3,
+     1.1,
+     1.7,
+     2.8,
+     2.3,
+     4.0,
+     5.9,
+     9.1,
+     8.5,
+     12.0,
+     18.6,
+     16.5,
+     28.5
+    ]
+   },
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "values": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     1.7,
+     2.2,
+     1.2,
+     3.5,
+     1.4,
+     2.5,
+     2.4,
+     4.1,
+     7.7,
+     6.4,
+     null
+    ]
+   }
+  ],
+  "unit": "$B per quarter",
+  "big5_latest": 230.4,
+  "big5_year_ago": 105.8,
+  "note": "Cash purchases of property and equipment from SEC filings (XBRL), by calendar quarter of the period end. Oracle's quarters end one month earlier (Aug, Nov, Feb, May). Microsoft and Meta also add assets through finance leases, not shown. CoreWeave reports Q3 2026 after this page's date. Interim figures unaudited.",
+  "source": "SEC EDGAR company facts (XBRL), 10-Q and 10-K filings"
+ },
+ "annual_capex": {
+  "AMZN": {
+   "2019": 16.9,
+   "2020": 40.1,
+   "2021": 61.1,
+   "2022": 63.6,
+   "2023": 52.7,
+   "2024": 83.0,
+   "2025": 131.8,
+   "2026": 175.7
+  },
+  "MSFT": {
+   "2019": 13.5,
+   "2020": 17.6,
+   "2021": 23.2,
+   "2022": 24.8,
+   "2023": 35.2,
+   "2024": 55.6,
+   "2025": 83.1,
+   "2026": 106.0
+  },
+  "GOOGL": {
+   "2019": 23.5,
+   "2020": 22.3,
+   "2021": 24.6,
+   "2022": 31.5,
+   "2023": 32.3,
+   "2024": 52.5,
+   "2025": 91.4,
+   "2026": 132.0
+  },
+  "META": {
+   "2019": 15.1,
+   "2020": 15.2,
+   "2021": 18.7,
+   "2022": 31.2,
+   "2023": 27.0,
+   "2024": 37.3,
+   "2025": 69.7,
+   "2026": 83.1
+  },
+  "ORCL": {
+   "2019": 1.6,
+   "2020": 1.8,
+   "2021": 3.1,
+   "2022": 6.7,
+   "2023": 6.9,
+   "2024": 10.7,
+   "2025": 35.5,
+   "2026": 63.6
+  }
+ },
+ "intensity": {
+  "rows": [
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "ttm_end": "2026-09-30",
+    "capex_b": 215.2,
+    "revenue_b": 797.5,
+    "ocf_b": 168.3,
+    "da_b": 79.4,
+    "capex_to_revenue": 27,
+    "capex_to_ocf": 128,
+    "capex_to_da": 2.7,
+    "fcf_b": -46.9
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "ttm_end": "2026-09-30",
+    "capex_b": 135.9,
+    "revenue_b": 346.4,
+    "ocf_b": 195.9,
+    "da_b": 38.3,
+    "capex_to_revenue": 39,
+    "capex_to_ocf": 69,
+    "capex_to_da": 3.5,
+    "fcf_b": 60.0
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "ttm_end": "2026-09-30",
+    "capex_b": 159.8,
+    "revenue_b": 471.1,
+    "ocf_b": 179.6,
+    "da_b": 28.0,
+    "capex_to_revenue": 34,
+    "capex_to_ocf": 89,
+    "capex_to_da": 5.7,
+    "fcf_b": 19.7
+   },
+   {
+    "ticker": "META",
+    "name": "Meta",
+    "ttm_end": "2026-09-30",
+    "capex_b": 104.4,
+    "revenue_b": 241.6,
+    "ocf_b": 133.1,
+    "da_b": 24.9,
+    "capex_to_revenue": 43,
+    "capex_to_ocf": 78,
+    "capex_to_da": 4.2,
+    "fcf_b": 28.6
+   },
+   {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "ttm_end": "2026-08-31",
+    "capex_b": 75.7,
+    "revenue_b": 71.8,
+    "ocf_b": 46.9,
+    "da_b": 9.4,
+    "capex_to_revenue": 105,
+    "capex_to_ocf": 161,
+    "capex_to_da": 8.0,
+    "fcf_b": -28.7
+   },
+   {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "ttm_end": "2026-06-30",
+    "capex_b": 20.6,
+    "revenue_b": 7.6,
+    "ocf_b": 6.9,
+    "da_b": 4.0,
+    "capex_to_revenue": 271,
+    "capex_to_ocf": 298,
+    "capex_to_da": 5.2,
+    "fcf_b": -13.7
+   }
+  ],
+  "note": "Trailing 12 months from SEC XBRL. Free cash flow here = operating cash flow minus cash capex; company definitions differ slightly. Interim figures unaudited."
+ },
+ "cloud_units": {
+  "rows": [
+   {
+    "name": "AWS",
+    "ticker": "AMZN",
+    "period": "Q3 2026 (Jul to Sep)",
+    "revenue_m": 45984.0,
+    "revenue_prior_m": 33006.0,
+    "growth_pct": 39,
+    "op_income_m": 17773.0,
+    "op_margin_pct": 38.7,
+    "op_income_prior_m": 11434.0,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm"
+   },
+   {
+    "name": "Google Cloud",
+    "ticker": "GOOGL",
+    "period": "Q3 2026 (Jul to Sep)",
+    "revenue_m": 30709.0,
+    "revenue_prior_m": 15157.0,
+    "growth_pct": 103,
+    "op_income_m": 11121.0,
+    "op_margin_pct": 36.2,
+    "op_income_prior_m": 3594.0,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+   },
+   {
+    "name": "Microsoft Azure",
+    "ticker": "MSFT",
+    "period": "FY27 Q1 (Jul to Sep 2026)",
+    "revenue_m": 33165.0,
+    "revenue_prior_m": 22384.0,
+    "growth_pct": 48,
+    "op_income_m": null,
+    "op_margin_pct": null,
+    "op_income_prior_m": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm"
+   },
+   {
+    "name": "Oracle cloud infrastructure",
+    "ticker": "ORCL",
+    "period": "FY27 Q1 (Jun to Aug 2026)",
+    "revenue_m": 7388.0,
+    "revenue_prior_m": 3347.0,
+    "growth_pct": 121,
+    "op_income_m": null,
+    "op_margin_pct": null,
+    "op_income_prior_m": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
+   },
+   {
+    "name": "CoreWeave",
+    "ticker": "CRWV",
+    "period": "Q2 2026 (Apr to Jun)",
+    "revenue_m": 2575.0,
+    "revenue_prior_m": 1212.0,
+    "growth_pct": 112,
+    "op_income_m": -49.0,
+    "op_margin_pct": -1.9,
+    "op_income_prior_m": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm"
+   },
+   {
+    "name": "Nebius",
+    "ticker": "NBIS",
+    "period": "Q2 2026 (Apr to Jun)",
+    "revenue_m": 582.3,
+    "revenue_prior_m": 105.1,
+    "growth_pct": 454,
+    "op_income_m": -175.9,
+    "op_margin_pct": -30.2,
+    "op_income_prior_m": null,
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094568/tm2622968d1_ex99-1.htm"
+   }
+  ],
+  "note": "Microsoft and Oracle do not report operating income for Azure or cloud infrastructure. CoreWeave adjusted operating margin (non-GAAP) was 5%. Interim figures unaudited."
+ },
+ "backlog": {
+  "rows": [
+   {
+    "name": "Microsoft",
+    "ticker": "MSFT",
+    "rpo_b": 683.0,
+    "note": "total remaining performance obligation, Sep 30 2026",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+    "run_rate_b": 369.1,
+    "run_rate_basis": "company",
+    "years_of_revenue": 1.9
+   },
+   {
+    "name": "Oracle",
+    "ticker": "ORCL",
+    "rpo_b": 664.0,
+    "note": "remaining performance obligations, Aug 31 2026 ($455B a year earlier)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+    "run_rate_b": 77.4,
+    "run_rate_basis": "company",
+    "years_of_revenue": 8.6
+   },
+   {
+    "name": "Amazon",
+    "ticker": "AMZN",
+    "rpo_b": 578.0,
+    "note": "performance obligations not yet recognized, mainly AWS, Sep 30 2026",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+    "run_rate_b": 183.9,
+    "run_rate_basis": "AWS",
+    "years_of_revenue": 3.1
+   },
+   {
+    "name": "Alphabet",
+    "ticker": "GOOGL",
+    "rpo_b": 567.7,
+    "note": "revenue backlog, Sep 30 2026 ($560.8B of it Google Cloud)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+    "run_rate_b": 122.8,
+    "run_rate_basis": "Google Cloud",
+    "years_of_revenue": 4.6
+   },
+   {
+    "name": "CoreWeave",
+    "ticker": "CRWV",
+    "rpo_b": 103.7,
+    "note": "remaining performance obligations, Jun 30 2026",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+    "run_rate_b": 10.3,
+    "run_rate_basis": "company",
+    "years_of_revenue": 10.1
+   },
+   {
+    "name": "Nebius",
+    "ticker": "NBIS",
+    "rpo_b": 37.5,
+    "note": "remaining performance obligations, Jun 30 2026",
+    "source_url": null,
+    "run_rate_b": 2.3,
+    "run_rate_basis": "company",
+    "years_of_revenue": 16.1
+   }
+  ],
+  "big4_total_b": 2492.7,
+  "years_note": "Backlog divided by the latest quarter's revenue x 4 (AWS and Google Cloud revenue for Amazon and Alphabet; total company revenue for the others).",
+  "note": "Signed contracts not yet delivered. Microsoft says about 30% lands in the next 12 months; Oracle 13%; Alphabet just over 55% in 24 months. Interim figures unaudited."
+ },
+ "chain": {
+  "rows": [
+   {
+    "name": "TSMC (makes the chips)",
+    "layer": "chips",
+    "op_margin": 58.7,
+    "period": "Q3 2026",
+    "source": "TSMC 6-K"
+   },
+   {
+    "name": "NVIDIA (designs GPUs and systems)",
+    "layer": "chips",
+    "op_margin": 66.2,
+    "period": "FY27 Q2 (May to Jul 2026)",
+    "source": "NVIDIA 8-K"
+   },
+   {
+    "name": "Vertiv (power and cooling gear)",
+    "layer": "power",
+    "op_margin": 22.8,
+    "period": "Q3 2026",
+    "source": "Vertiv 8-K"
+   },
+   {
+    "name": "AWS (full-service cloud)",
+    "layer": "compute",
+    "op_margin": 38.7,
+    "period": "Q3 2026",
+    "source": "Amazon 8-K"
+   },
+   {
+    "name": "Google Cloud (full-service cloud)",
+    "layer": "compute",
+    "op_margin": 36.2,
+    "period": "Q3 2026",
+    "source": "Alphabet 8-K"
+   },
+   {
+    "name": "Equinix (data center landlord)",
+    "layer": "buildings",
+    "op_margin": 23.3,
+    "period": "Q3 2026",
+    "source": "Equinix 8-K"
+   },
+   {
+    "name": "Digital Realty (data center landlord)",
+    "layer": "buildings",
+    "op_margin": 15.9,
+    "period": "Q3 2026",
+    "source": "Digital Realty 8-K"
+   },
+   {
+    "name": "CoreWeave (GPU cloud)",
+    "layer": "compute",
+    "op_margin": -1.9,
+    "period": "Q2 2026",
+    "source": "CoreWeave 8-K"
+   },
+   {
+    "name": "Nebius (GPU cloud)",
+    "layer": "compute",
+    "op_margin": -30.2,
+    "period": "Q2 2026",
+    "source": "Nebius 6-K"
+   }
+  ],
+  "note": "GAAP operating income as a share of revenue, latest reported quarter. Interim figures unaudited.",
+  "nvda_gross_margin": 75.0
+ },
+ "lives": {
+  "rows": [
+   {
+    "name": "Alphabet",
+    "years": "6",
+    "low": 6,
+    "high": 6
+   },
+   {
+    "name": "Microsoft",
+    "years": "2 to 6",
+    "low": 2,
+    "high": 6
+   },
+   {
+    "name": "Oracle",
+    "years": "6",
+    "low": 6,
+    "high": 6
+   },
+   {
+    "name": "CoreWeave",
+    "years": "6 (from 5 in 2023)",
+    "low": 6,
+    "high": 6
+   },
+   {
+    "name": "Amazon",
+    "years": "5 to 6 (some cut from 6 to 5)",
+    "low": 5,
+    "high": 6
+   },
+   {
+    "name": "Meta",
+    "years": "5.5 (from 2025)",
+    "low": 5.5,
+    "high": 5.5
+   },
+   {
+    "name": "Nebius",
+    "years": "5 (from 4 in 2026)",
+    "low": 5,
+    "high": 5
+   }
+  ],
+  "meta_2025_saving_b": 2.92,
+  "note": "Useful life policy for servers and network gear, from each company's latest 10-K or 10-Q."
+ },
+ "debt": {
+  "rows": [
+   {
+    "name": "Amazon",
+    "ticker": "AMZN",
+    "now_b": 173.1,
+    "before_b": 65.6,
+    "label": "Long-term debt, 2026-09-30 (2025-12-31: 65,648)"
+   },
+   {
+    "name": "Alphabet",
+    "ticker": "GOOGL",
+    "now_b": 125.1,
+    "before_b": 46.5,
+    "label": "Long-term debt, 2026-09-30 (2025-12-31: 46,547)"
+   },
+   {
+    "name": "Meta",
+    "ticker": "META",
+    "now_b": 80.9,
+    "before_b": 58.7,
+    "label": "Long-term debt, non-current (Dec 31 2025: 58,744)"
+   },
+   {
+    "name": "CoreWeave",
+    "ticker": "CRWV",
+    "now_b": 31.4,
+    "before_b": 20.7,
+    "label": "Total recourse debt, net of discount and issuance costs (Dec 31 2025: 20,726)"
+   },
+   {
+    "name": "Nebius",
+    "ticker": "NBIS",
+    "now_b": 8.5,
+    "before_b": 4.1,
+    "label": "Debt, non-current at Jun 30 2026 (Dec 31 2025: 4,103.2)"
+   }
+  ],
+  "note": "Long-term debt on the balance sheet, Dec 31 2025 versus latest quarter. Unaudited."
+ },
+ "campus": {
+  "params": {
+   "it_mw": 1000.0,
+   "pue": 1.2,
+   "load": 0.8,
+   "price_mwh": 96.4,
+   "facility_per_mw_m": 17.6,
+   "it_per_mw_m": 35.0,
+   "life_it": 6,
+   "life_fac": 20,
+   "opex_share": 0.12,
+   "realized_price": 3.5,
+   "gpus_per_rack": 72,
+   "rack_kw": 120
+  },
+  "capex_b": 52.6,
+  "capex_facility_b": 17.6,
+  "capex_it_b": 35.0,
+  "rack_capex_b": 25.0,
+  "racks": 8333,
+  "gpus": 600000,
+  "power_b": 0.81,
+  "energy_twh": 8.41,
+  "price_mwh": 96.4,
+  "cases": {
+   "low": {
+    "label": "CoreWeave today (end-of-quarter power)",
+    "revenue_b": 6.87,
+    "how": "CoreWeave Q2 2026 revenue x 4 = $10.3B, divided by 1.5 GW of active power",
+    "pnl": {
+     "revenue": 6.87,
+     "power": 0.81,
+     "opex": 0.82,
+     "ebitda": 5.23,
+     "depreciation": 6.71,
+     "ebit": -1.48,
+     "interest": 0.0,
+     "pretax": -1.48,
+     "ebit_margin_pct": -21.6,
+     "payback_years": 10.1
+    },
+    "pnl_neocloud": {
+     "revenue": 6.87,
+     "power": 0.81,
+     "opex": 0.82,
+     "ebitda": 5.23,
+     "depreciation": 6.71,
+     "ebit": -1.48,
+     "interest": 3.68,
+     "pretax": -5.16,
+     "ebit_margin_pct": -21.6,
+     "payback_years": 10.1
+    },
+    "pnl_hyperscaler": {
+     "revenue": 6.87,
+     "power": 0.81,
+     "opex": 0.82,
+     "ebitda": 5.23,
+     "depreciation": 6.71,
+     "ebit": -1.48,
+     "interest": 0.79,
+     "pretax": -2.27,
+     "ebit_margin_pct": -21.6,
+     "payback_years": 10.1
+    }
+   },
+   "base": {
+    "label": "CoreWeave today (average power in quarter)",
+    "revenue_b": 8.24,
+    "how": "$10.3B divided by about 1.25 GW, the average active power during the quarter",
+    "pnl": {
+     "revenue": 8.24,
+     "power": 0.81,
+     "opex": 0.99,
+     "ebitda": 6.44,
+     "depreciation": 6.71,
+     "ebit": -0.27,
+     "interest": 0.0,
+     "pretax": -0.27,
+     "ebit_margin_pct": -3.3,
+     "payback_years": 8.2
+    },
+    "pnl_neocloud": {
+     "revenue": 8.24,
+     "power": 0.81,
+     "opex": 0.99,
+     "ebitda": 6.44,
+     "depreciation": 6.71,
+     "ebit": -0.27,
+     "interest": 3.68,
+     "pretax": -3.95,
+     "ebit_margin_pct": -3.3,
+     "payback_years": 8.2
+    },
+    "pnl_hyperscaler": {
+     "revenue": 8.24,
+     "power": 0.81,
+     "opex": 0.99,
+     "ebitda": 6.44,
+     "depreciation": 6.71,
+     "ebit": -0.27,
+     "interest": 0.79,
+     "pretax": -1.06,
+     "ebit_margin_pct": -3.3,
+     "payback_years": 8.2
+    }
+   },
+   "high": {
+    "label": "Busy, well-priced campus",
+    "revenue_b": 14.72,
+    "how": "600,000 GPUs x $3.50 per GPU-hour x 8,760 hours x 80% busy",
+    "pnl": {
+     "revenue": 14.72,
+     "power": 0.81,
+     "opex": 1.77,
+     "ebitda": 12.14,
+     "depreciation": 6.71,
+     "ebit": 5.43,
+     "interest": 0.0,
+     "pretax": 5.43,
+     "ebit_margin_pct": 36.9,
+     "payback_years": 4.3
+    },
+    "pnl_neocloud": {
+     "revenue": 14.72,
+     "power": 0.81,
+     "opex": 1.77,
+     "ebitda": 12.14,
+     "depreciation": 6.71,
+     "ebit": 5.43,
+     "interest": 3.68,
+     "pretax": 1.74,
+     "ebit_margin_pct": 36.9,
+     "payback_years": 4.3
+    },
+    "pnl_hyperscaler": {
+     "revenue": 14.72,
+     "power": 0.81,
+     "opex": 1.77,
+     "ebitda": 12.14,
+     "depreciation": 6.71,
+     "ebit": 5.43,
+     "interest": 0.79,
+     "pretax": 4.64,
+     "ebit_margin_pct": 36.9,
+     "payback_years": 4.3
+    }
+   }
+  },
+  "financing": {
+   "hyperscaler": {
+    "debt_share": 0.3,
+    "rate": 0.05,
+    "label": "Hyperscaler: mostly cash, investment-grade bonds"
+   },
+   "neocloud": {
+    "debt_share": 0.7,
+    "rate": 0.1,
+    "label": "Neocloud: mostly debt, high-yield rates"
+   }
+  },
+  "life_sensitivity": [
+   {
+    "years": 3,
+    "base_ebit": -6.11,
+    "high_ebit": -0.4,
+    "it_depreciation": 11.67
+   },
+   {
+    "years": 4,
+    "base_ebit": -3.19,
+    "high_ebit": 2.51,
+    "it_depreciation": 8.75
+   },
+   {
+    "years": 5,
+    "base_ebit": -1.44,
+    "high_ebit": 4.26,
+    "it_depreciation": 7.0
+   },
+   {
+    "years": 6,
+    "base_ebit": -0.27,
+    "high_ebit": 5.43,
+    "it_depreciation": 5.83
+   }
+  ],
+  "breakeven_revenue_b": 8.55,
+  "breakeven_revenue_neocloud_b": 12.73,
+  "calibration": {
+   "model_base_ebit_margin": -3.3,
+   "coreweave_actual_op_margin": -1.9,
+   "aws_actual_op_margin": 38.7,
+   "model_high_ebit_margin": 36.9
+  },
+  "inputs": [
+   {
+    "input": "IT capacity",
+    "value": "1,000 MW (1 GW)",
+    "source": "Definition used throughout"
+   },
+   {
+    "input": "Building, power and cooling",
+    "value": "$17.6M per MW = $17.6B",
+    "source": "Cushman & Wakefield 2026 (excludes chips); JLL's global average is $11.3M"
+   },
+   {
+    "input": "Chips, servers and network",
+    "value": "$35M per MW = $35.0B",
+    "source": "About $35B of NVIDIA systems per GW (Huang, as reported); racks alone: 8,333 x $3M = $25.0B"
+   },
+   {
+    "input": "Total capex",
+    "value": "$52.6B",
+    "source": "Sum; Huang's reported all-in estimate is $50B to $60B per GW"
+   },
+   {
+    "input": "GPUs",
+    "value": "600,000",
+    "source": "1 GW / 120 kW per 72-GPU rack (fal.ai)"
+   },
+   {
+    "input": "PUE",
+    "value": "1.2",
+    "source": "Assumption between Google (1.09) and the industry average (1.54)"
+   },
+   {
+    "input": "Busy share of the year",
+    "value": "80%",
+    "source": "Assumption"
+   },
+   {
+    "input": "Electricity price",
+    "value": "$96.4 per MWh",
+    "source": "EIA US industrial average, August 2026"
+   },
+   {
+    "input": "Useful life",
+    "value": "6 years for IT, 20 for the building",
+    "source": "Hyperscaler policy (IT); assumption (building)"
+   },
+   {
+    "input": "Running costs",
+    "value": "12% of revenue",
+    "source": "Assumption: staff, maintenance, network, software, overhead"
+   },
+   {
+    "input": "Financing",
+    "value": "30% debt at 5% (hyperscaler); 70% debt at 10% (neocloud)",
+    "source": "Assumption; CoreWeave's bonds yielded 10% to 15% in 2026 (The Economist)"
+   }
+  ],
+  "note": "Illustration only, not a forecast. Year-one view, before taxes; interest on the full starting debt."
+ },
+ "tam": {
+  "tam_b": 558,
+  "tam_run_rate_b": 670.8,
+  "tam_label": "Worldwide cloud infrastructure services, last 12 months (Synergy Research)",
+  "sam_b": 104.9,
+  "sam_parts": [
+   {
+    "name": "Microsoft AI run rate (April 2026)",
+    "value_b": 37.0,
+    "source": "The Economist, 14 Oct 2026"
+   },
+   {
+    "name": "Amazon AI run rate (July 2026)",
+    "value_b": 25.0,
+    "source": "The Economist, 14 Oct 2026"
+   },
+   {
+    "name": "Oracle cloud infrastructure, annualized",
+    "value_b": 29.6,
+    "source": "Oracle FY27 Q1 release"
+   },
+   {
+    "name": "CoreWeave, annualized",
+    "value_b": 10.3,
+    "source": "CoreWeave Q2 2026 release"
+   },
+   {
+    "name": "Nebius annualized run rate",
+    "value_b": 3.0,
+    "source": "Nebius Q2 2026 release"
+   }
+  ],
+  "sam_label": "AI-heavy compute sold by the hour or by contract, a rough sum of company run rates that leaves out Google",
+  "som_low_b": 5.2,
+  "som_high_b": 10.5,
+  "som_label": "What a well-funded new entrant could win in about five years: 5% to 10% of today's SAM",
+  "som_check": "CoreWeave's annualized revenue is $10.3B on 1.5 GW of active power and $31.4B of debt."
+ },
+ "forces": [
+  {
+   "force": "Rivalry",
+   "level": 4,
+   "why": "Three giants hold 61% and fight on AI capacity, price and chips; Oracle and neoclouds add supply."
+  },
+  {
+   "force": "New entrants",
+   "level": 3,
+   "why": "GPU clouds can start fast with debt, but full-service cloud takes decades and hundreds of billions."
+  },
+  {
+   "force": "Supplier power",
+   "level": 5,
+   "why": "NVIDIA keeps 75% gross margins; turbines and grid connections are scarce too."
+  },
+  {
+   "force": "Buyer power",
+   "level": 4,
+   "why": "A few AI labs sign the largest contracts; CoreWeave's top customer is 36% of revenue."
+  },
+  {
+   "force": "Substitutes",
+   "level": 2,
+   "why": "Own data centers, custom chips and smaller open models can replace some rented compute."
+  }
+ ],
+ "scenarios": [
+  {
+   "id": "utility",
+   "name": "The new utility",
+   "x": "AI revenue keeps pace",
+   "y": "Long asset lives, cheap money",
+   "what": "Backlog converts on time; capex stays high but earns its keep; margins near today's.",
+   "watch": "Backlog turning into revenue on schedule; GPU rental prices holding"
+  },
+  {
+   "id": "squeeze",
+   "name": "The margin squeeze",
+   "x": "AI revenue keeps pace",
+   "y": "Short lives, costly money",
+   "what": "Demand is real, but faster chip cycles and higher rates eat profit; cash-rich giants gain share.",
+   "watch": "Useful-life cuts; bond spreads and default-swap prices"
+  },
+  {
+   "id": "digestion",
+   "name": "Digestion",
+   "x": "AI revenue slows",
+   "y": "Long asset lives, cheap money",
+   "what": "Too much capacity for a while; prices fall, capex is cut, customers win, as with fiber after 2001.",
+   "watch": "Capex guidance cuts; on-demand GPU prices falling"
+  },
+  {
+   "id": "bust",
+   "name": "The bust",
+   "x": "AI revenue slows",
+   "y": "Short lives, costly money",
+   "what": "Write-downs and defaults among debt-funded builders; the giants survive on their other businesses.",
+   "watch": "Neocloud refinancing; lease cancellations; impairment charges"
+  }
+ ],
+ "industry": {
+  "synergy_q3": {
+   "value": 167.7,
+   "unit": "$B",
+   "label": "Worldwide cloud infrastructure services revenue, Q3 2026, up 55% year on year",
+   "source": "Synergy Research Group, Q3 2026 cloud market release",
+   "date": "2026-10",
+   "url": "https://www.srgresearch.com/articles/cloud-market-growth-rate-surges-to-well-over-50-per-year-q3-2026",
+   "anchor": "page"
+  },
+  "synergy_ttm": {
+   "value": 558,
+   "unit": "$B",
+   "label": "Cloud infrastructure services revenue, trailing 12 months to Q3 2026",
+   "source": "Synergy Research Group",
+   "date": "2026-10",
+   "url": "same as synergy_q3",
+   "anchor": "page"
+  },
+  "synergy_shares": {
+   "value": {
+    "Amazon": 26,
+    "Microsoft": 19,
+    "Google": 16
+   },
+   "unit": "% share, Q3 2026",
+   "label": "Cloud infrastructure market shares, Q3 2026 (61% combined)",
+   "source": "Synergy Research Group",
+   "date": "2026-10",
+   "url": "same as synergy_q3",
+   "anchor": "page"
+  },
+  "synergy_hyperscale_capacity": {
+   "value": {
+    "2025": 48,
+    "2031": 67
+   },
+   "unit": "% of worldwide data center capacity",
+   "label": "Hyperscale operators' share of all data center capacity, 2025 and 2031 forecast",
+   "source": "Synergy Research Group",
+   "date": "2026",
+   "url": "https://www.srgresearch.com/articles/hyperscale-operators-to-account-for-67-of-all-data-center-capacity-by-2031",
+   "anchor": "page"
+  },
+  "delloro_2026": {
+   "value": 1000,
+   "unit": "$B",
+   "label": "Worldwide data center capex in 2026, more than $1 trillion (June 2026 outlook)",
+   "source": "Dell'Oro Group, as summarised by IEEE ComSoc Technology Blog",
+   "date": "2026-09-16",
+   "url": "https://techblog.comsoc.org/2026/09/16/delloro-data-center-capex-grew-92-in-2q-2026-caveats-galore/",
+   "anchor": "page"
+  },
+  "delloro_2030": {
+   "value": 3000,
+   "unit": "$B",
+   "label": "Worldwide data center capex expected to surpass $3 trillion by 2030",
+   "source": "Dell'Oro Group, as summarised by IEEE ComSoc Technology Blog",
+   "date": "2026-09-16",
+   "url": "same as delloro_2026",
+   "anchor": "page"
+  },
+  "mckinsey_2030": {
+   "value": 6.7,
+   "unit": "$T",
+   "label": "Cumulative data center capital spending needed worldwide by 2030 ($5.2T of it for AI)",
+   "source": "McKinsey & Company, 'The cost of compute: A $7 trillion race to scale data centers'",
+   "date": "2025-04-28",
+   "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers",
+   "anchor": "read"
+  },
+  "gpu_h100_od": {
+   "value": 4.2,
+   "unit": "$ per GPU-hour",
+   "label": "Median on-demand list price, NVIDIA H100, 7 Oct 2026 (16 providers)",
+   "source": "Uvik GPU price index",
+   "date": "2026-10-07",
+   "url": "https://uvik.net/blog/gpu-price-index/",
+   "anchor": "page"
+  },
+  "gpu_b200_od": {
+   "value": 8.19,
+   "unit": "$ per GPU-hour",
+   "label": "Median on-demand list price, NVIDIA B200, 7 Oct 2026 (9 providers)",
+   "source": "Uvik GPU price index",
+   "date": "2026-10-07",
+   "url": "https://uvik.net/blog/gpu-price-index/",
+   "anchor": "page"
+  },
+  "gpu_h100_1yr": {
+   "value": 2.35,
+   "unit": "$ per GPU-hour",
+   "label": "SemiAnalysis H100 one-year contract index, March 2026 (from $1.70 in Oct 2025)",
+   "source": "SemiAnalysis index as cited by Uvik",
+   "date": "2026-03",
+   "url": "https://uvik.net/blog/gpu-price-index/",
+   "anchor": "page"
+  },
+  "gb200_rack_price": {
+   "value": 3.0,
+   "unit": "$M per rack",
+   "label": "Analyst estimates for one GB200 NVL72 rack (72 GPUs); NVIDIA does not publish a price",
+   "source": "fal.ai summary of analyst estimates",
+   "date": "2026",
+   "url": "https://fal.ai/learn/serverless/nvidia-gb200-price",
+   "anchor": "page"
+  },
+  "gb200_rack_kw": {
+   "value": 120,
+   "unit": "kW per rack",
+   "label": "Power draw of one GB200 NVL72 rack, about 120 kW",
+   "source": "fal.ai",
+   "date": "2026",
+   "url": "https://fal.ai/learn/serverless/nvidia-gb200-price",
+   "anchor": "page"
+  },
+  "cw_cost_per_mw": {
+   "value": 17.6,
+   "unit": "$M per MW",
+   "label": "Average all-in greenfield cost of new US and Canadian data centers, excluding chips and GPUs",
+   "source": "Cushman & Wakefield 2026 Data Center Development Cost Guide",
+   "date": "2026-09",
+   "url": "https://finviz.com/news/388803/cushman-wakefield-releases-2026-data-center-development-cost-guide",
+   "anchor": "page"
+  },
+  "jll_cost_per_mw": {
+   "value": 11.3,
+   "unit": "$M per MW",
+   "label": "JLL global average data center construction cost forecast for 2026",
+   "source": "JLL 2026 Global Data Center Outlook",
+   "date": "2026",
+   "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook",
+   "anchor": "read"
+  },
+  "huang_per_gw": {
+   "value": "50 to 60",
+   "unit": "$B per GW",
+   "label": "Jensen Huang's reported estimate of the all-in cost of 1 GW of AI data center, about $35B of it NVIDIA systems",
+   "source": "Reported remarks (secondhand), 24/7 Wall St.",
+   "date": "2026-09-24",
+   "url": "https://247wallst.com/investing/2026/09/24/nvidias-ceo-says-a-1-gigawatt-ai-factory-rents-for-50-billion/",
+   "anchor": "news"
+  },
+  "pue_google": {
+   "value": 1.09,
+   "unit": "PUE",
+   "label": "Google fleet-wide average power usage effectiveness, 2025",
+   "source": "Google data center efficiency page",
+   "date": "2026",
+   "url": "https://datacenters.google/efficiency/",
+   "anchor": "page"
+  },
+  "pue_industry": {
+   "value": 1.54,
+   "unit": "PUE",
+   "label": "Industry average PUE (Uptime Institute survey), as cited by Google",
+   "source": "Uptime Institute via Google",
+   "date": "2026",
+   "url": "https://datacenters.google/efficiency/",
+   "anchor": "page"
+  },
+  "eia_industrial": {
+   "value": 9.64,
+   "unit": "cents per kWh",
+   "label": "US average retail electricity price, industrial customers, August 2026 (8.98 a year earlier; preliminary)",
+   "source": "US Energy Information Administration, Electric Power Monthly Table 5.6.A",
+   "date": "2026-10",
+   "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+   "anchor": "gov"
+  },
+  "pjm_cap": {
+   "value": 333.44,
+   "unit": "$ per MW-day",
+   "label": "PJM capacity auction price for 2027/28, at the price cap for a third straight auction",
+   "source": "Utility Dive",
+   "date": "2025-12-18",
+   "url": "https://www.utilitydive.com/news/pjm-interconnection-capacity-auction-data-center/808264/",
+   "anchor": "read"
+  },
+  "tsmc_margins": {
+   "value": {
+    "gross": 66.4,
+    "operating": 58.7
+   },
+   "unit": "% of revenue, Q3 2026",
+   "label": "TSMC gross and operating margin, Q3 2026",
+   "source": "TSMC Q3 2026 management report (SEC Form 6-K)",
+   "date": "2026-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/",
+   "anchor": "filing"
+  },
+  "gev_backlog": {
+   "value": 116,
+   "unit": "GW",
+   "label": "GE Vernova gas power equipment backlog plus slot reservations, Q2 2026 (up from 100 GW)",
+   "source": "GE Vernova Q2 2026 Form 8-K",
+   "date": "2026-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000147/gev2q2026form8-k.pdf",
+   "anchor": "filing"
+  },
+  "hyperion_jv": {
+   "value": 27,
+   "unit": "$B",
+   "label": "Meta and Blue Owl joint venture for the Hyperion campus in Louisiana: about $27B, Blue Owl funds 80%, Meta 20%",
+   "source": "Hubbis (Meta and Blue Owl announcement coverage)",
+   "date": "2025-10-21",
+   "url": "https://www.hubbis.com/news/meta-and-blue-owl-capital-launch-usd27-billion-joint-venture-for-hyperion",
+   "anchor": "page"
+  },
+  "aws_savings_plans": {
+   "value": 72,
+   "unit": "% maximum discount",
+   "label": "AWS Savings Plans: a one- or three-year spending commitment for discounts of up to 72% versus on-demand prices",
+   "source": "AWS Savings Plans pricing page",
+   "date": "2026",
+   "url": "https://aws.amazon.com/savingsplans/compute-pricing/",
+   "anchor": "read"
+  },
+  "aws_spot": {
+   "value": 90,
+   "unit": "% maximum discount",
+   "label": "AWS Spot: spare capacity at up to 90% off on-demand prices, which AWS can take back at short notice",
+   "source": "AWS EC2 Spot pricing page",
+   "date": "2026",
+   "url": "https://aws.amazon.com/ec2/spot/pricing/",
+   "anchor": "read"
+  },
+  "bedrock_tokens": {
+   "value": "0.50 / 1.50",
+   "unit": "$ per 1M input / output tokens",
+   "label": "Example of per-token AI pricing on Amazon Bedrock (Mistral Large 3, on demand)",
+   "source": "Amazon Bedrock pricing page",
+   "date": "2026",
+   "url": "https://aws.amazon.com/bedrock/pricing/",
+   "anchor": "read"
+  }
+ },
+ "news": [
+  {
+   "pub": "Financial Times",
+   "date": "2026-11-07",
+   "headline": "How Wall Street's all-in bet on AI blew up",
+   "url": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c",
+   "via": null,
+   "point": "Put the 5 November sell-off at $3.2T without naming the index or data provider; hedge funds unwound leveraged tech positions and retail investors sold single stocks."
+  },
+  {
+   "pub": "Financial Times",
+   "date": "2026-11-02",
+   "headline": "Unpicking Microsoft's free cash flow",
+   "url": "https://www.ft.com/content/f16babea-fd38-440b-8278-5871d3a47b17",
+   "via": null,
+   "point": "An analyst argues that much of Microsoft's free cash flow comes from financing choices such as stock pay, leases and deferred payables rather than core profit."
+  },
+  {
+   "pub": "The Wall Street Journal",
+   "date": "2026-11-06",
+   "headline": "The Wild Week That Brought AI Investors to the Brink",
+   "url": "https://www.wsj.com/finance/stocks/midterms-markets-week-ai-trade-97b3fc5d",
+   "via": null,
+   "point": "After the 3 November midterms, the Nasdaq Composite entered correction territory on 5 November; that day's sell-off erased about $2.5T of Nasdaq market value."
+  },
+  {
+   "pub": "The Wall Street Journal",
+   "date": "2026-11-05",
+   "headline": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
+   "url": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14",
+   "via": null,
+   "point": "Anthropic's S-1 details about $895.4B of computing and infrastructure commitments through 2045 and flags local moratoriums as a risk; OpenAI is weighing whether to reset next year's capacity plans."
+  },
+  {
+   "pub": "The New York Times",
+   "date": "2026-10-29",
+   "headline": "Big Tech's Data Center Blitz Is Burning Through Cash and Scaring Wall St.",
+   "url": "https://www.nytimes.com/2026/10/29/technology/big-tech-data-center-spending.html",
+   "via": "https://www.proquest.com/docview/3406427287",
+   "point": "Amazon, Microsoft, Google and Meta are on track to spend more than $720B this year on data centers and other capital projects, about triple two years earlier."
+  },
+  {
+   "pub": "The New York Times",
+   "date": "2026-11-02",
+   "headline": "Cracks in the A.I. Borrowing Binge (DealBook)",
+   "url": "https://www.nytimes.com/2026/11/02/business/dealbook/ai-borrowing.html",
+   "via": "https://www.proquest.com/docview/3407500605",
+   "point": "S&P Global Ratings cut Meta's credit outlook; Goldman Sachs expects $420B of tech debt issuance next year; the Nasdaq Composite fell 5.3% in October, its worst month since March 2025."
+  },
+  {
+   "pub": "The New York Times",
+   "date": "2026-11-06",
+   "headline": "A target on industry as power balance shifts.",
+   "url": "https://www.proquest.com/docview/3409700015",
+   "via": "https://www.proquest.com/docview/3409700015",
+   "point": "In 40 of 41 local ballot measures, voters chose to limit or block data center development."
+  },
+  {
+   "pub": "The Economist",
+   "date": "2026-10-18",
+   "headline": "The AI industry's gigantic debts are making investors nervous",
+   "url": "https://www.economist.com/",
+   "via": "https://www.proquest.com/docview/3401849289",
+   "point": "Alphabet, Amazon, Microsoft and Meta borrowed $214B in 2026 versus $83B in all of 2025; JPMorgan expects about $5.5T of capex through 2030, three quarters debt-funded."
+  },
+  {
+   "pub": "The Economist",
+   "date": "2026-07-28",
+   "headline": "AI revenues are growing fast, but not fast enough",
+   "url": "https://www.economist.com/",
+   "via": "https://www.proquest.com/docview/3368998783",
+   "point": "Current AI revenue estimates run $150B to $220B a year, against a rough $2.5T a year needed to cover the capex."
+  },
+  {
+   "pub": "The Economist",
+   "date": "2026-10-14",
+   "headline": "The AI boom is threatened by an epidemic of unreliable numbers",
+   "url": "https://www.economist.com/",
+   "via": "https://www.proquest.com/docview/3399788681",
+   "point": "Microsoft put its AI revenue run rate at $37B in April and Amazon at $25B in July; Goldman Sachs estimates about $1T of annual revenue is needed for 10% to 20% returns."
+  },
+  {
+   "pub": "Financial Times",
+   "date": "2026-11-03",
+   "headline": "A chill wind in the AI credit market",
+   "url": "https://www.ft.com/content/5f08f1fb-4948-4420-8fe4-3c8c8cc492ef",
+   "via": null,
+   "point": "Hyperscalers are paying higher coupons on new bonds, and default-swap prices for AI borrowers have risen."
+  },
+  {
+   "pub": "Financial Times",
+   "date": "2026-11-04",
+   "headline": "Are we ready for an AI bust? (Martin Wolf)",
+   "url": "https://www.ft.com/content/b954b99c-b71e-4334-9789-18e2b69de76d",
+   "via": null,
+   "point": "Forecast hyperscaler spending now exceeds operating cash flow, and financing is moving to developers, REITs and private credit."
+  },
+  {
+   "pub": "The Wall Street Journal",
+   "date": "2026-11-04",
+   "headline": "The Election Day Revolt That Threatens America's AI Boom",
+   "url": "https://www.wsj.com/tech/ai/the-election-day-revolt-that-threatens-americas-ai-boom-03a53b52",
+   "via": null,
+   "point": "Goldman Sachs puts AI investment at 1.9% of US GDP this year; Texas, Georgia and Ohio hold over 40% of planned capacity (Evercore ISI)."
+  },
+  {
+   "pub": "The Wall Street Journal",
+   "date": "2026-11-05",
+   "headline": "How the Data Center Backlash Could Play Into the Hands of Big Tech",
+   "url": "https://www.wsj.com/tech/ai/how-the-data-center-backlash-could-play-into-the-hands-of-big-tech-a37dfb29",
+   "via": null,
+   "point": "A slower build-out would ease costs and give existing powered data centers scarcity value, which favors the largest players."
+  }
+ ],
+ "cross_check": [
+  {
+   "ticker": "AMZN",
+   "xbrl_m": 77259,
+   "release_m": 77259.0,
+   "agree": true
+  },
+  {
+   "ticker": "MSFT",
+   "xbrl_m": 39367,
+   "release_m": 39367.0,
+   "agree": true
+  },
+  {
+   "ticker": "GOOGL",
+   "xbrl_m": 51355,
+   "release_m": 51355.0,
+   "agree": true
+  },
+  {
+   "ticker": "META",
+   "xbrl_m": 33942,
+   "release_m": 33942.0,
+   "agree": true
+  },
+  {
+   "ticker": "ORCL",
+   "xbrl_m": 28499,
+   "release_m": 28499.0,
+   "agree": true
+  },
+  {
+   "ticker": "CRWV",
+   "xbrl_m": 6422,
+   "release_m": 6422.0,
+   "agree": true
+  }
+ ],
+ "fiscal": {
+  "MSFT": "fiscal year ends June 30; FY27 Q1 = Jul to Sep 2026",
+  "ORCL": "fiscal year ends May 31; FY27 Q1 = Jun to Aug 2026",
+  "NVDA": "fiscal year ends late January; FY27 Q2 = May to Jul 2026"
+ },
+ "ibis": {
+  "source": "IBISWorld US industry reports, 2026 (screen of 31 industries, 6 November 2026)",
+  "hyperscale_margin": 29.9,
+  "hyperscale_cagr_10y_real": 25.1,
+  "hyperscale_rev_start_b": 29.0,
+  "hyperscale_rev_now_b": 271.6,
+  "hyperscale_forecast_cagr": 12.2,
+  "buckets": [
+   {
+    "id": "profitable",
+    "title": "Most profitable",
+    "items": [
+     {
+      "name": "Hyperscale data centers",
+      "stat": "29.9% margin",
+      "hot": true
+     },
+     {
+      "name": "Occupational health and safety",
+      "stat": "26.7%"
+     },
+     {
+      "name": "Security software",
+      "stat": "24.9%"
+     },
+     {
+      "name": "Insurance brokers",
+      "stat": "20.6%"
+     }
+    ]
+   },
+   {
+    "id": "growing",
+    "title": "Fastest growing",
+    "items": [
+     {
+      "name": "Hyperscale data centers",
+      "stat": "25.1% a year",
+      "hot": true
+     },
+     {
+      "name": "3D printing services",
+      "stat": "18.3%"
+     },
+     {
+      "name": "Security software",
+      "stat": "14.3%"
+     }
+    ]
+   },
+   {
+    "id": "steady",
+    "title": "Steadiest",
+    "items": [
+     {
+      "name": "Janitorial services",
+      "stat": "no down year since 2012"
+     },
+     {
+      "name": "IT consulting",
+      "stat": ""
+     },
+     {
+      "name": "Insurance brokers",
+      "stat": ""
+     }
+    ]
+   },
+   {
+    "id": "declining",
+    "title": "Declining",
+    "items": [
+     {
+      "name": "Directory publishing",
+      "stat": "12% of its 2007 peak"
+     },
+     {
+      "name": "Newsprint",
+      "stat": "16% of its 2008 peak"
+     },
+     {
+      "name": "Printing",
+      "stat": "53% of its 2007 peak"
+     }
+    ]
+   }
+  ],
+  "note": "Growth is after inflation over 10 years. Margins are the reports' profit margins, not IBISWorld's public list figure."
+ },
+ "drivers": {
+  "crwv_active_gw": 1.5,
+  "crwv_contracted_gw": 3.7,
+  "h100_od": 4.2,
+  "b200_od": 8.19,
+  "h100_1yr": 2.35,
+  "synergy_growth_pct": 55,
+  "msft_openai_rev_q_b": 10.0,
+  "msft_rpo_12m_pct": 30.0,
+  "crwv_top_customer_pct": 36.0,
+  "note": "Microsoft's OpenAI revenue is from its 10-Q related-party note (FY27 Q1)."
+ },
+ "growth_margin": {
+  "points": [
+   {
+    "name": "AWS",
+    "growth_pct": 39,
+    "op_margin_pct": 38.7,
+    "kind": "cloud",
+    "period": "Q3 2026 (Jul to Sep)"
+   },
+   {
+    "name": "Google Cloud",
+    "growth_pct": 103,
+    "op_margin_pct": 36.2,
+    "kind": "cloud",
+    "period": "Q3 2026 (Jul to Sep)"
+   },
+   {
+    "name": "CoreWeave",
+    "growth_pct": 112,
+    "op_margin_pct": -1.9,
+    "kind": "cloud",
+    "period": "Q2 2026 (Apr to Jun)"
+   },
+   {
+    "name": "Nebius",
+    "growth_pct": 454,
+    "op_margin_pct": -30.2,
+    "kind": "cloud",
+    "period": "Q2 2026 (Apr to Jun)"
+   },
+   {
+    "name": "NVIDIA (supplier)",
+    "growth_pct": 106,
+    "op_margin_pct": 66.2,
+    "kind": "supplier",
+    "period": "FY27 Q2 (May to Jul 2026)"
+   }
+  ],
+  "no_margin": [
+   {
+    "name": "Microsoft Azure",
+    "growth_pct": 48
+   },
+   {
+    "name": "Oracle cloud infrastructure",
+    "growth_pct": 121
+   }
+  ],
+  "note": "Revenue growth versus a year earlier and operating margin, latest quarter. Unaudited."
+ }
+}

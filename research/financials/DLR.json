@@ -1,0 +1,277 @@
+{
+ "company": "Digital Realty Trust, Inc.",
+ "ticker": "DLR",
+ "latest_period": "Q3 2026 (quarter ended 2026-09-30; 10-Q filed 2026-10-30, financial supplement filed 2026-10-29; interim figures unaudited; DLR reports in USD thousands)",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Total operating revenues, Q3 2026 vs Q3 2025 (YoY +21% per release text)",
+   "value": "1,902,418 vs 1,577,234",
+   "unit": "USD thousands",
+   "period": "Q3 2026",
+   "file": "DLR/quarterly_10-Q_2026-10-30.txt",
+   "line": 217,
+   "quote": "Total operating revenues | | 1,902,418 | | 1,577,234 | | 5,461,631 | | 4,478,021",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Total operating revenues, Q3 2025",
+   "value": "1,577,234",
+   "unit": "USD thousands",
+   "period": "Q3 2025",
+   "file": "DLR/quarterly_10-Q_2026-10-30.txt",
+   "line": 217,
+   "quote": "Total operating revenues | | 1,902,418 | | 1,577,234 | | 5,461,631 | | 4,478,021",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "Operating income (Digital Realty Trust, L.P. statement), Q3 2026 vs Q3 2025; includes gain on disposition of properties (operating income before gain: 293,728 vs 138,421)",
+   "value": "302,131 vs 158,201",
+   "unit": "USD thousands",
+   "period": "Q3 2026",
+   "file": "DLR/quarterly_10-Q_2026-10-30.txt",
+   "line": 490,
+   "quote": "Operating income | | 302,131 | | 158,201 | | 1,037,182",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "adjusted_ebitda_q",
+   "label": "Adjusted EBITDA (company-defined), Q3 2026 vs Q3 2025 (867,807)",
+   "value": "977,702 vs 867,807",
+   "unit": "USD thousands",
+   "period": "Q3 2026",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 181,
+   "quote": "Adjusted EBITDA (4) | | 977,702",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q",
+   "label": "Total Improvements to and Advances for Investment in Real Estate, Q3 2026 (includes indirect capex such as capitalized interest 70,964 and overhead 48,175; direct capex 1,262,844)",
+   "value": "1,381,983",
+   "unit": "USD thousands",
+   "period": "Q3 2026",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 1064,
+   "quote": "Total Improvements to and Advances for Investment in Real Estate | | | $1,381,983",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q_prior",
+   "label": "Total Improvements to and Advances for Investment in Real Estate, Q3 2025 (label-less end of same row: Q4'25 1,002,161, Q3'25 687,392, 9M26 3,166,212, 9M25 2,179,018)",
+   "value": "687,392",
+   "unit": "USD thousands",
+   "period": "Q3 2025",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 1064,
+   "quote": "$1,002,161 | | | $687,392 | | | | $3,166,212 | | | $2,179,018",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Improvements to investments in real estate (cash flow), nine months 2026 vs 2025",
+   "value": "3,166,212 vs 2,179,018",
+   "unit": "USD thousands",
+   "period": "9M 2026",
+   "file": "DLR/quarterly_10-Q_2026-10-30.txt",
+   "line": 396,
+   "quote": "Improvements to investments in real estate | | | ( 3,166,212 ) | | | ( 2,179,018 )",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_guidance",
+   "label": "FY2026 development capex net of partner contributions, outlook as of October 29, 2026 (same range as July 23, 2026; guidance column is the last two ranges)",
+   "value": "$4,250 - $4,750 million",
+   "unit": "USD millions",
+   "period": "FY2026",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 348,
+   "quote": "| | $4,250 - $4,750 million | | $4,250 - $4,750 million",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "recurring_capex_guidance",
+   "label": "FY2026 recurring capex plus capitalized leasing costs outlook (unchanged across all four outlook dates)",
+   "value": "$400 - $425 million",
+   "unit": "USD millions",
+   "period": "FY2026",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 351,
+   "quote": "Recurring CapEx + capitalized leasing costs (6) | | $400 - $425 million",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "da_q",
+   "label": "Depreciation and amortization, Q3 2026 vs Q3 2025 and nine months 2026 vs 2025",
+   "value": "Q3: 539,471 vs 497,002; 9M: 1,546,088 vs 1,401,178",
+   "unit": "USD thousands",
+   "period": "Q3 2026",
+   "file": "DLR/quarterly_10-Q_2026-10-30.txt",
+   "line": 221,
+   "quote": "Depreciation and amortization | | 539,471 | | 497,002 | | | 1,546,088 | | | 1,401,178",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash provided by operating activities, nine months 2026 vs 2025",
+   "value": "1,977,486 vs 1,693,183",
+   "unit": "USD thousands",
+   "period": "9M 2026",
+   "file": "DLR/quarterly_10-Q_2026-10-30.txt",
+   "line": 394,
+   "quote": "Net cash provided by operating activities | | 1,977,486 | | | 1,693,183",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_total",
+   "label": "Backlog of signed-but-not-commenced leases (annualized GAAP base rent, 100% share; DLR's share $1.8 billion). Not a formal RPO; used as backlog",
+   "value": "2.5",
+   "unit": "USD billions annualized base rent",
+   "period": "2026-09-30",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 241,
+   "quote": "record total backlog of $2.5 billion of annualized GAAP base rent at 100% share",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "leases_not_yet_commenced",
+   "label": "Signed-but-not-commenced lease backlog at quarter-end (annualized rent, not lease-liability commitments)",
+   "value": "2.5 billion at 100% share; 1.8 billion at DLR share",
+   "unit": "USD billions annualized GAAP base rent",
+   "period": "2026-09-30",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 253,
+   "quote": "The backlog of signed-but-not-commenced leases at quarter-end was $2.5 billion of annualized GAAP base rent at 100% share",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "bookings_q",
+   "label": "Record total bookings, Q3 2026 (annualized GAAP base rent, 100% share; DLR share $627 million)",
+   "value": "855",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 239,
+   "quote": "Signed record total bookings during 3Q26 that are expected to generate $855 million of annualized GAAP base rent",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Net investments in real estate, 2026-09-30 vs 2025-12-31",
+   "value": "38,458,519 vs 29,861,520",
+   "unit": "USD thousands",
+   "period": "2026-09-30",
+   "file": "DLR/quarterly_10-Q_2026-10-30.txt",
+   "line": 169,
+   "quote": "Net investments in real estate | | 38,458,519 | | 29,861,520",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Total debt outstanding at 2026-09-30 ($17.9 billion unsecured, about $1.6 billion secured and other); balance sheet carrying value 19,494,615 ($ thousands) at line 163",
+   "value": "approximately 19.5",
+   "unit": "USD billions",
+   "period": "2026-09-30",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 313,
+   "quote": "Digital Realty had approximately $19.5 billion of total debt outstanding as of September 30, 2026",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "interest_expense_q",
+   "label": "Interest expense, Q3 2026 vs Q3 2025",
+   "value": "93,273 vs 113,584",
+   "unit": "USD thousands",
+   "period": "Q3 2026",
+   "file": "DLR/quarterly_10-Q_2026-10-30.txt",
+   "line": 234,
+   "quote": "Interest expense | | ( 93,273 ) | | ( 113,584 )",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capacity_gw",
+   "label": "Portfolio IT capacity and buildable capacity",
+   "value": "3.2 GW IT capacity; 9.8 GW buildable under development or held for future development",
+   "unit": "gigawatts",
+   "period": "2026-09-30",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 70,
+   "quote": "is comprised of approximately 3.2 gigawatts of IT capacity, as well as approximately 9.8 gigawatts of buildable IT capacity",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Full-time employees at 2025-12-31",
+   "value": "4,282",
+   "unit": "employees",
+   "period": "2025-12-31",
+   "file": "DLR/annual_10-K_2026-02-13.txt",
+   "line": 357,
+   "quote": "As of December 31, 2025, we had 4,282 full-time employees.",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Depreciable lives: machinery and equipment (buildings 5 to 39 years at line 2466)",
+   "value": "7 - 15 years",
+   "unit": "years",
+   "period": "FY2025 10-K",
+   "file": "DLR/annual_10-K_2026-02-13.txt",
+   "line": 2467,
+   "quote": "Machinery and equipment | | 7 - 15 years",
+   "non_gaap": false,
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "Revenue grew 21% YoY (about 10% sequentially excluding $201 million of Q2 promote income), which management ties to record leasing and strong demand for connectivity-rich environments.",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 244
+  },
+  {
+   "text": "Record bookings and backlog: weighted-average lag between signing and commencement was 17 months, so the $2.5 billion backlog is future revenue not yet in results.",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 253
+  },
+  {
+   "text": "Renewal rental rates rose 11.8% on a cash basis and 17.0% on a GAAP basis in Q3.",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 253
+  },
+  {
+   "text": "Development capex outlook (net of partner contributions) is $4.25 to $4.75 billion, raised from $3.25 to $3.75 billion in February; new land secured in Indianapolis, Chicago and Charlotte for large-scale campuses.",
+   "file": "DLR/earnings_8-K_2026-10-29.txt",
+   "line": 348
+  }
+ ],
+ "gaps": [
+  "rpo_next_12m_pct and a formal RPO figure: not found in the DLR 10-Q by search; backlog (annualized rent) reported instead.",
+  "cloud_segment fields and customer concentration (largest customer share): not located; DLR 10-Q line 825 mentions 'largest customers accounted for approximately' with the figure on a following line, not read.",
+  "capex_incl_finance_leases and finance lease principal: not read.",
+  "Server useful life and useful life change: not applicable beyond the depreciable-life table; no change found.",
+  "10-Q operating income quote is from the Operating Partnership statement (line 490); the release shows the same Q3 2026 value 302,131 with Q3 2025 shown as 158,200 (rounding difference of 1).",
+  "Quarterly 10-Q file name displays as the literal string quarterly_10-Q_2026-10-30.txt in the directory and manifest; cited as displayed. DLR figures are in USD thousands."
+ ]
+}

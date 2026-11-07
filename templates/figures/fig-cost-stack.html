@@ -1,0 +1,65 @@
+<figure class="fig" id="fig-cost-stack" aria-labelledby="fig-cost-stack-t">
+  <p class="fig-title" id="fig-cost-stack-t">The bill for one gigawatt (illustrative): depreciation is about 8 times the power bill</p>
+  <p class="fig-sub">Left: the one-time build. Right: what it costs each year. Depreciation means spreading an equipment bill over the years the equipment lasts. A gigawatt (GW) is a billion watts of power.</p>
+  <svg class="fig-cost-stack-svg" viewBox="0 0 320 404" role="img" aria-label="Illustrative bill for one gigawatt. A one-time build, mostly chips and servers, is spread over the life of the chips as depreciation. Each year, depreciation is about 8 times the electricity bill. Exact figures are listed after the diagram.">
+    <g class="fig-cost-stack-heads">
+      <text class="fig-cost-stack-head" x="0" y="18">One-time build</text>
+      <text class="fig-cost-stack-head" x="148" y="18">Costs every year</text>
+    </g>
+
+    <g class="fig-cost-stack-left">
+      <rect class="fig-cost-stack-fac" x="0" y="34" width="84" height="110.4" rx="3"/>
+      <rect class="fig-cost-stack-it" x="0" y="144.4" width="84" height="219.6" rx="3"/>
+    </g>
+    <g class="fig-cost-stack-lt">
+      <text class="fig-cost-stack-name fig-cost-stack-mid" x="42" y="64">Building,</text>
+      <text class="fig-cost-stack-name fig-cost-stack-mid" x="42" y="81">power and</text>
+      <text class="fig-cost-stack-name fig-cost-stack-mid" x="42" y="98">cooling</text>
+      <text class="fig-cost-stack-val fig-cost-stack-mid" x="42" y="126"><tspan data-k="campus.capex_facility_b" data-f="b1">$17.6B</tspan></text>
+      <text class="fig-cost-stack-name fig-cost-stack-mid fig-cost-stack-on" x="42" y="236">Chips and</text>
+      <text class="fig-cost-stack-name fig-cost-stack-mid fig-cost-stack-on" x="42" y="253">servers</text>
+      <text class="fig-cost-stack-val fig-cost-stack-mid fig-cost-stack-on" x="42" y="281"><tspan data-k="campus.capex_it_b" data-f="b1">$35.0B</tspan></text>
+    </g>
+    <g class="fig-cost-stack-total">
+      <path class="fig-cost-stack-lead" d="M0 369 V375 H84 V369"/>
+      <text class="fig-cost-stack-val" x="0" y="393">Total <tspan data-k="campus.capex_b" data-f="b1">$52.6B</tspan></text>
+    </g>
+
+    <g class="fig-cost-stack-arr">
+      <text class="fig-cost-stack-name fig-cost-stack-mid" x="116" y="198">spread</text>
+      <text class="fig-cost-stack-name fig-cost-stack-mid" x="116" y="215">over</text>
+      <text class="fig-cost-stack-val fig-cost-stack-mid" x="116" y="232"><tspan data-k="campus.params.life_it" data-f="raw">6</tspan> years</text>
+      <path class="fig-cost-stack-arrow" d="M92 252 H141 M133 245 L141 252 L133 259"/>
+    </g>
+
+    <g class="fig-cost-stack-bar">
+      <rect class="fig-cost-stack-pow" x="148" y="34" width="36" height="31.4" rx="3"/>
+      <rect class="fig-cost-stack-run" x="148" y="65.4" width="36" height="38.4" rx="3"/>
+      <rect class="fig-cost-stack-dep" x="148" y="103.8" width="36" height="260.2" rx="3"/>
+    </g>
+    <g class="fig-cost-stack-lab">
+      <path class="fig-cost-stack-lead" d="M184 49.7 H190"/>
+      <text class="fig-cost-stack-name" x="194" y="46">Electricity</text>
+      <text class="fig-cost-stack-val" x="194" y="63"><tspan data-k="campus.power_b" data-f="b2">$0.81B</tspan></text>
+    </g>
+    <g class="fig-cost-stack-lab">
+      <path class="fig-cost-stack-lead" d="M184 84.6 H190"/>
+      <text class="fig-cost-stack-name" x="194" y="86">Running costs</text>
+      <text class="fig-cost-stack-val" x="194" y="103"><tspan data-k="campus.cases.base.pnl.opex" data-f="b2">$0.99B</tspan></text>
+    </g>
+    <g class="fig-cost-stack-lab">
+      <path class="fig-cost-stack-lead" d="M184 234 H190"/>
+      <text class="fig-cost-stack-val" x="194" y="226">Depreciation</text>
+      <text class="fig-cost-stack-hero" x="194" y="252"><tspan data-k="campus.cases.base.pnl.depreciation" data-f="b1">$6.7B</tspan></text>
+      <text class="fig-cost-stack-sm" x="194" y="272">equipment</text>
+      <text class="fig-cost-stack-sm" x="194" y="289">wearing out,</text>
+      <text class="fig-cost-stack-sm" x="194" y="306">a slice a year</text>
+    </g>
+  </svg>
+  <p class="fig-cost-stack-note">Power limits how fast anyone can build, but it is not the biggest bill.</p>
+  <ul class="sr-only">
+    <li>One-time build, in total: <span data-k="campus.capex_b" data-f="b1">$52.6B</span>. Building, power and cooling: <span data-k="campus.capex_facility_b" data-f="b1">$17.6B</span>. Chips and servers: <span data-k="campus.capex_it_b" data-f="b1">$35.0B</span>.</li>
+    <li>Each year: depreciation <span data-k="campus.cases.base.pnl.depreciation" data-f="b1">$6.7B</span>, electricity <span data-k="campus.power_b" data-f="b2">$0.81B</span>, running costs <span data-k="campus.cases.base.pnl.opex" data-f="b2">$0.99B</span>.</li>
+  </ul>
+  <figcaption>Source: the author's illustrative model of a one-gigawatt campus, not a forecast; year-one view, before tax. Inputs: Cushman &amp; Wakefield 2026 (building), a reported NVIDIA system estimate (chips), EIA August 2026 (electricity price) and a <span data-k="campus.params.life_it" data-f="raw">6</span>-year chip life. The yearly bar uses the base revenue case, built from CoreWeave's current revenue per gigawatt. It is drawn larger than the build block so the small items stay visible. Interim figures unaudited.</figcaption>
+</figure>

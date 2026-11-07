@@ -1,0 +1,508 @@
+{
+ "company": "CoreWeave, Inc.",
+ "ticker": "CRWV",
+ "latest_period": "Q2 2026 (three months ended 2026-06-30; 10-Q filed 2026-08-12, earnings 8-K 2026-08-11); unaudited interim",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Revenue, Q2 2026; YoY +112% (same 10-Q row)",
+   "value": "2,575",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 14,
+   "quote": "Revenue | $2,575 | $1,212",
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Revenue, Q2 2025",
+   "value": "1,212",
+   "unit": "USD millions",
+   "period": "Q2 2025",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 14,
+   "quote": "Revenue | $2,575 | $1,212",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_growth_pct",
+   "label": "Revenue growth YoY, single cloud segment, three months",
+   "value": "112%",
+   "unit": "percent",
+   "period": "Q2 2026",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 1631,
+   "quote": "Revenue | $2,575 | $1,212 | $1,363 | 112%",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "Operating income (loss), Q2 2026",
+   "value": "(49)",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 16,
+   "quote": "Operating income (loss) | $(49) | $19",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q_prior",
+   "label": "Operating income, Q2 2025",
+   "value": "19",
+   "unit": "USD millions",
+   "period": "Q2 2025",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 16,
+   "quote": "Operating income (loss) | $(49) | $19",
+   "verify": "exact"
+  },
+  {
+   "key": "adjusted_ebitda_q",
+   "label": "Adjusted EBITDA (company-defined non-GAAP), Q2 2026; Q2 2025 753; margin 59% vs 62%",
+   "value": "1,510",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 26,
+   "quote": "Adjusted EBITDA | $1,510 | $753",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "adjusted_operating_income_q",
+   "label": "Adjusted operating income (non-GAAP), Q2 2026; Q2 2025 200",
+   "value": "128",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 28,
+   "quote": "Adjusted operating income | $128 | $200",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "net_loss_q",
+   "label": "Net loss, Q2 2026; Q2 2025 (290)",
+   "value": "(626)",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 19,
+   "quote": "Net loss | $(626) | $(290)",
+   "verify": "exact"
+  },
+  {
+   "key": "interest_expense_q",
+   "label": "Interest expense, net, Q2 2026 (140% increase)",
+   "value": "(640)",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 18,
+   "quote": "Interest expense, net | $(640) | $(267)",
+   "verify": "exact"
+  },
+  {
+   "key": "interest_expense_q_prior",
+   "label": "Interest expense, net, Q2 2025",
+   "value": "(267)",
+   "unit": "USD millions",
+   "period": "Q2 2025",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 18,
+   "quote": "Interest expense, net | $(640) | $(267)",
+   "verify": "exact"
+  },
+  {
+   "key": "interest_expense_ytd",
+   "label": "Interest expense, net, six months 2026 vs (531)",
+   "value": "(1,176)",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 225,
+   "quote": "Interest expense, net | ( 640 ) | ( 267 ) | ( 1,176 ) | ( 531 )",
+   "verify": "exact"
+  },
+  {
+   "key": "cash_paid_interest_ytd",
+   "label": "Cash paid for interest, net of capitalized amounts, six months 2026 vs 362",
+   "value": "806",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 347,
+   "quote": "Cash paid for interest, net of capitalized amounts | $806 | $362",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q",
+   "label": "Purchase of property and equipment including capitalized internal-use software, Q2 2026",
+   "value": "6,422",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 203,
+   "quote": "Purchase of property and equipment, including capitalized internal-use software | (6,422) | (2,453) | (14,117) | (3,860)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q_prior",
+   "label": "Purchase of property and equipment, Q2 2025",
+   "value": "2,453",
+   "unit": "USD millions",
+   "period": "Q2 2025",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 203,
+   "quote": "Purchase of property and equipment, including capitalized internal-use software | (6,422) | (2,453) | (14,117) | (3,860)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Purchase of property and equipment, six months 2026",
+   "value": "14,117",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 203,
+   "quote": "Purchase of property and equipment, including capitalized internal-use software | (6,422) | (2,453) | (14,117) | (3,860)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd_prior",
+   "label": "Purchase of property and equipment, six months 2025",
+   "value": "3,860",
+   "unit": "USD millions",
+   "period": "6M 2025",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 203,
+   "quote": "Purchase of property and equipment, including capitalized internal-use software | (6,422) | (2,453) | (14,117) | (3,860)",
+   "verify": "exact"
+  },
+  {
+   "key": "non_cash_ppe_additions_ytd",
+   "label": "Liabilities related to property and equipment additions, including OEM financed additions (non-cash), six months 2026 vs 2,155",
+   "value": "9,796",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 349,
+   "quote": "Liabilities related to property and equipment additions, including OEM financed additions | $9,796 | $2,155",
+   "verify": "exact"
+  },
+  {
+   "key": "finance_lease_principal_ytd",
+   "label": "Financing cash flows used in finance leases, six months 2026 (second figure on the row may be prior-year 28)",
+   "value": "33",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 847,
+   "quote": "Financing cash flows used in finance leases | 33 | 28",
+   "verify": "exact"
+  },
+  {
+   "key": "da_q",
+   "label": "Depreciation and amortization, Q2 2026 (Q2 2025 560)",
+   "value": "1,393",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 188,
+   "quote": "Depreciation and amortization | 1,393 | 560 | 2,540 | 1,003",
+   "verify": "exact"
+  },
+  {
+   "key": "da_ytd",
+   "label": "Depreciation and amortization, six months 2026 vs 1,003",
+   "value": "2,540",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 188,
+   "quote": "Depreciation and amortization | 1,393 | 560 | 2,540 | 1,003",
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_q",
+   "label": "Net cash provided by (used in) operating activities, Q2 2026 vs (251)",
+   "value": "679",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 201,
+   "quote": "Net cash provided by (used in) operating activities | $679 | $(251) | $3,663 | $(190)",
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash provided by operating activities, six months 2026 vs (190)",
+   "value": "3,663",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 201,
+   "quote": "Net cash provided by (used in) operating activities | $679 | $(251) | $3,663 | $(190)",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_total",
+   "label": "Unsatisfied RPO at Jun 30 2026 (10-Q note); 41% expected over the 24 months ending Jun 30 2028, 39% months 25-48, remainder months 49-78 (value on line 514, text on 513 and 515)",
+   "value": "103.7",
+   "unit": "USD billions",
+   "period": "2026-06-30",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 514,
+   "quote": "103.7",
+   "verify": "exact"
+  },
+  {
+   "key": "revenue_backlog",
+   "label": "Revenue backlog (company-defined; RPO plus other committed amounts), Jun 30 2026",
+   "value": "approximately 104",
+   "unit": "USD billions",
+   "period": "2026-06-30",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 36,
+   "quote": "was approximately $104 billion as of June 30, 2026.",
+   "verify": "exact"
+  },
+  {
+   "key": "revenue_backlog_subsequent_commitments",
+   "label": "Not included in the $104 billion backlog: net new customer commitments added in early Q3",
+   "value": "more than 25",
+   "unit": "USD billions",
+   "period": "early Q3 2026",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 38,
+   "quote": "Does not include more than $25 billion of net new customer commitments added in early Q3.",
+   "verify": "exact"
+  },
+  {
+   "key": "contracted_power",
+   "label": "Total contracted power",
+   "value": "approximately 3.7",
+   "unit": "GW",
+   "period": "2026-06-30",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 51,
+   "quote": "Grew total contracted power to approximately 3.7 GW",
+   "verify": "exact"
+  },
+  {
+   "key": "active_power",
+   "label": "Active power after expansion of nearly 500 MW in the quarter",
+   "value": "1.5",
+   "unit": "GW",
+   "period": "2026-06-30",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 49,
+   "quote": "Expanded active power by nearly 500 MWs to reach 1.5 GW",
+   "verify": "exact"
+  },
+  {
+   "key": "largest_customer_share_q",
+   "label": "Customer A share of revenue, three months (Customer B 26%, Customer C 10% in same quarter; Q2 2025 Customer A 71%; letters may differ between periods, identities not given)",
+   "value": "36",
+   "unit": "percent of revenue",
+   "period": "Q2 2026",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 482,
+   "quote": "Customer A | 36 % | 71 % | 40 % | 72 %",
+   "verify": "exact"
+  },
+  {
+   "key": "largest_customer_share_ytd",
+   "label": "Customer A share of revenue, six months 2026 (Customer B 23%); six months 2025 72%",
+   "value": "40",
+   "unit": "percent of revenue",
+   "period": "6M 2026",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 482,
+   "quote": "Customer A | 36 % | 71 % | 40 % | 72 %",
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Property and equipment, net at Jun 30 2026 (Dec 31 2025: 30,557)",
+   "value": "46,736",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 170,
+   "quote": "Property and equipment, net | 46,736 | 30,557",
+   "verify": "exact"
+  },
+  {
+   "key": "construction_in_progress",
+   "label": "Construction in progress within property and equipment (Dec 31 2025: 9,376)",
+   "value": "11,918",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 728,
+   "quote": "Construction in progress | 11,918 | 9,376",
+   "verify": "exact"
+  },
+  {
+   "key": "leases_not_yet_commenced",
+   "label": "Estimated future undiscounted payments on executed leases not yet commenced (data centers, equipment, offices), commencing 2026-2029, terms seven to sixteen years; value on line 876, text on line 875",
+   "value": "35.5",
+   "unit": "USD billions",
+   "period": "2026-06-30",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 876,
+   "quote": "35.5",
+   "verify": "exact"
+  },
+  {
+   "key": "operating_lease_liabilities_total",
+   "label": "Total operating lease liabilities (Dec 31 2025: 8,195)",
+   "value": "16,319",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 831,
+   "quote": "Total operating lease liabilities | $16,319 | $8,195",
+   "verify": "exact"
+  },
+  {
+   "key": "finance_lease_liabilities_total",
+   "label": "Total finance lease liabilities (Dec 31 2025: 254)",
+   "value": "221",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 838,
+   "quote": "Total finance lease liabilities | $221 | $254",
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Total recourse debt, net of discount and issuance costs (Dec 31 2025: 20,726)",
+   "value": "31,405",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 945,
+   "quote": "Total recourse debt, net of unamortized discount and issuance costs | 31,405 | 20,726",
+   "verify": "exact"
+  },
+  {
+   "key": "non_recourse_debt",
+   "label": "Total non-recourse debt, net (Dec 31 2025: 647)",
+   "value": "3,663",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 952,
+   "quote": "Total non-recourse debt, net of unamortized discount and issuance costs | $3,663 | $647",
+   "verify": "exact"
+  },
+  {
+   "key": "debt_principal_total",
+   "label": "Future principal payments, total debt",
+   "value": "35,551",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 971,
+   "quote": "Total | $35,551",
+   "verify": "exact"
+  },
+  {
+   "key": "debt_non_current_recourse",
+   "label": "Recourse debt, non-current (balance sheet; Dec 31 2025: 14,608)",
+   "value": "25,170",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 160,
+   "quote": "Recourse debt, non-current | 25,170 | 14,608",
+   "verify": "exact"
+  },
+  {
+   "key": "debt_non_current_non_recourse",
+   "label": "Non-recourse debt, non-current (Dec 31 2025: 57)",
+   "value": "2,385",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 161,
+   "quote": "Non-recourse debt, non-current | 2,385 | 57",
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Employees at Dec 31 2025 (10-K)",
+   "value": "2,189",
+   "unit": "employees",
+   "period": "2025-12-31",
+   "file": "CRWV/annual_10-K_2026-03-02.txt",
+   "line": 275,
+   "quote": "As of December 31, 2025, we had 2,189 employees",
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Technology equipment useful life (10-K accounting policy)",
+   "value": "6",
+   "unit": "years",
+   "period": "2025-12-31",
+   "file": "CRWV/annual_10-K_2026-03-02.txt",
+   "line": 2028,
+   "quote": "Technology equipment | 6 years",
+   "verify": "exact"
+  },
+  {
+   "key": "useful_life_change",
+   "label": "Effective Jan 1 2023, useful life of computing equipment in data centers changed from five to six years (five on line 2019, six on line 2021); stated effect for 2023: reduction in total expenses of $20 million on line 2023, +$0.10 per share on line 2025",
+   "value": "Five to six years effective 2023-01-01",
+   "unit": "text",
+   "period": "FY2023 change, per FY2025 10-K",
+   "file": "CRWV/annual_10-K_2026-03-02.txt",
+   "line": 2018,
+   "quote": "Effective January 1, 2023, the Company changed its estimate of the useful life",
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "Revenue up 112% on higher demand from existing and new customer contracts and delivery through an expanded data center footprint; about 93% of the increase came from existing customers.",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 1632
+  },
+  {
+   "text": "Cost of revenue rose 181% mainly from data center expansion: rent up about $335 million and power/utilities up about $87 million.",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 1641
+  },
+  {
+   "text": "Technology and infrastructure expense rose largely on about $752 million more depreciation and amortization from servers, switches and networking equipment placed in service.",
+   "file": "CRWV/quarterly_10-Q_2026-08-12.txt",
+   "line": 1649
+  },
+  {
+   "text": "Net interest expense rose 140% on increased borrowing and total debt; the company raised more than $10 billion of unsecured debt and convertible bonds in the period and a $3.1 billion delayed-draw term loan.",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 79
+  },
+  {
+   "text": "Management points to operating leverage beginning to show and accelerating customer demand; backlog about $104 billion excluding more than $25 billion of commitments added in early Q3.",
+   "file": "CRWV/earnings_8-K_2026-08-11.txt",
+   "line": 10
+  }
+ ],
+ "gaps": [
+  "capex_guidance: the release says forward-looking guidance will be given on the earnings call (line 85); no capex guidance figure is in the files.",
+  "rpo_next_12m_pct: the 10-Q gives 41% within the first 24 months (to Jun 30 2028), not a 12-month share.",
+  "cloud_segment_revenue_q / cloud_segment_op_income_q: CoreWeave reports a single segment, so total revenue and operating income are the cloud figures.",
+  "largest-customer identity: filing labels Customer A/B/C/D without names and notes letters may differ between periods.",
+  "contracted power and active power are release statements (company reporting), not in the 10-Q numeric tables; the 10-Q grep for GW found no match.",
+  "useful_life_change: the stated earnings impact in the 10-K is for 2023 only (reduction in total expenses of $20 million); no change in estimate found for 2025-2026 in the files read.",
+  "capex incl. finance leases: finance lease principal is minimal (33 for six months, financing cash flow line); quarter-only figure not disclosed.",
+  "Interest expense in the release is net of capitalized interest (capitalized interest 79 in Q2, 10-Q line 977)."
+ ]
+}

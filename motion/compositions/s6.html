@@ -1,0 +1,53 @@
+<template>
+<style>
+@font-face { font-family: 'Fraunces'; src: url('assets/fonts/fraunces-600.woff2') format('woff2'); font-weight: 600; }
+#root { position:absolute; inset:0; background:#F6F3EC; font-family:'Inter',sans-serif; color:#10202F; overflow:hidden; }
+#root .wrap { position:absolute; inset:0; }
+#root .h { font-family:'Fraunces','EB Garamond',serif; font-weight:600; position:absolute; line-height:1.08; letter-spacing:-0.01em; white-space:nowrap; font-variant-numeric:tabular-nums; }
+#root .t { position:absolute; font-weight:600; white-space:nowrap; line-height:1.1; font-variant-numeric:tabular-nums; }
+#root .box { position:absolute; }
+#root .bar { position:absolute; height:104px; border-radius:0 12px 12px 0; transform-origin:0 50%; }
+</style>
+<div id="root" data-composition-id="s6" data-width="1920" data-height="1080">
+<div class="wrap" id="s6-wrap">
+<div class="h" id="s6-h" style="left:192px;top:100px;font-size:80px;">Who keeps the money?</div>
+<div class="t" id="s6-l0" style="left:192px;top:382px;font-size:54px;">Chip makers</div>
+<div class="bar" id="s6-b0" style="left:660px;top:360px;width:1002.5px;background:#6B4FA0;"></div>
+<div class="t" id="s6-l1" style="left:192px;top:562px;font-size:54px;">Big clouds</div>
+<div class="bar" id="s6-b1" style="left:660px;top:540px;width:548.2px;background:#2F5DA8;"></div>
+<div class="t" id="s6-l2" style="left:192px;top:742px;font-size:54px;">GPU clouds</div>
+<div class="bar" id="s6-b2" style="left:660px;top:720px;width:12px;background:#C2552D;"></div>
+<div class="bar" id="s6-b1x" style="left:1208.2px;top:540px;width:37.9px;background:#4A78C4;border-radius:0 12px 12px 0;opacity:0;"></div>
+<div class="h" id="s6-v0" style="left:1642.5px;top:370px;font-size:80px;color:#fff;transform:translateX(-100%);">66%</div>
+<div class="h" id="s6-v1" style="left:1276.0px;top:550px;font-size:80px;color:#2F5DA8;">36% to 39%</div>
+<div class="h" id="s6-v2" style="left:702px;top:730px;font-size:80px;color:#C2552D;">zero or less</div>
+<div class="t" id="s6-f" style="left:192px;top:900px;font-size:46px;color:#5B6672;">Operating margin: profit kept from each $1 of sales</div>
+<div class="t" id="s6-src" style="left:192px;top:960px;font-size:44px;color:#5B6672;">Latest quarters, company filings, unaudited</div>
+
+</div>
+</div>
+<script>
+(function() {
+const tl = gsap.timeline({ paused: true });
+const D = 10.3;
+tl.fromTo('#s6-wrap', { opacity: 0 }, { opacity: 1, duration: 0.25, ease: 'power2.out' }, 0);
+tl.to('#s6-wrap', { opacity: 0, duration: 0.2, ease: 'power2.in' }, D - 0.2);
+tl.fromTo('#s6-h', { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 0.25);
+tl.fromTo('#s6-l0', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 1.59);
+tl.fromTo('#s6-b0', { scaleX: 0 }, { scaleX: 1, duration: 1.0, ease: 'power2.out' }, 1.690);
+tl.fromTo('#s6-l1', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 5.15);
+tl.fromTo('#s6-b1', { scaleX: 0 }, { scaleX: 1, duration: 1.0, ease: 'power2.out' }, 5.250);
+tl.fromTo('#s6-l2', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 7.77);
+tl.fromTo('#s6-b2', { scaleX: 0 }, { scaleX: 1, duration: 1.0, ease: 'power2.out' }, 7.870);
+tl.set('#s6-v0,#s6-v1,#s6-v2', { opacity: 0 }, 0);
+tl.fromTo('#s6-v0', { opacity: 0 }, { opacity: 1, duration: 0.5 }, 2.490);
+tl.fromTo('#s6-b1x', { opacity: 0, scaleX: 0 }, { opacity: 1, scaleX: 1, duration: 0.6, ease: 'power2.out' }, 6.550);
+tl.fromTo('#s6-v1', { opacity: 0 }, { opacity: 1, duration: 0.5 }, 6.250);
+tl.fromTo('#s6-v2', { opacity: 0 }, { opacity: 1, duration: 0.5 }, 8.390);
+tl.fromTo('#s6-f', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 2.53);
+tl.fromTo('#s6-src', { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 2.9299999999999997);
+
+window.__timelines['s6'] = tl;
+})();
+</script>
+</template>

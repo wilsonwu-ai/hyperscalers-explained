@@ -1,0 +1,212 @@
+{
+ "tickers": {
+  "AMZN": {
+   "metrics": 30,
+   "drivers": 5,
+   "verify": {
+    "exact": 30
+   },
+   "gaps": [
+    "rpo_next_12m_pct: not found in AMZN 10-Q; the 10-Q gives only total ($578B) and weighted-average life 6.1 years.",
+    "capex_incl_finance_leases_q: no single disclosed figure; inputs are purchases of PP&E 77,259 and PP&E acquired under finance leases 1,472 (Q3 2026) plus finance-lease principal repayments 433. Proceeds/incentives 1,381 are on cash flow line 172.",
+    "Quarterly useful-life change: none found in the Q3 2026 10-Q; last change is the Jan 2025 change in the 10-K.",
+    "AWS RPO separate from total: not split out (total described as 'primarily related to AWS').",
+    "Headcount by 10-K is as of 2025-12-31; Q3 2026 headcount comes from the earnings release (1,638,000)."
+   ]
+  },
+  "MSFT": {
+   "metrics": 29,
+   "drivers": 5,
+   "verify": {
+    "exact": 29
+   },
+   "gaps": [
+    "Microsoft no longer reports an Intelligent Cloud segment from FY27 (segments recast to Agents and Infra and Devices and Consumer; announced Sept 2026). Agents and Infra includes Microsoft 365 cloud and other lines, so it is not a like-for-like Intelligent Cloud figure. The FY2026 10-K still reports Intelligent Cloud (annual only).",
+    "capex_guidance: the release says guidance is given on the call (line 52); no capex figure in the filings.",
+    "capex_incl_finance_leases_q: no single disclosed figure; inputs are additions to PP&E 39,367, finance-lease ROU assets obtained 5,192, and financing cash flows from finance leases 1,000. Accounts-payable-accrued PP&E is 26.5 billion at 2026-09-30 (10-Q line 603).",
+    "useful_life_change: no change in estimated useful lives found in the FY2026 10-K or Q1 FY27 10-Q text searched; the 10-K states only the 2-to-6-year servers range.",
+    "Microsoft Cloud prior-year (49.1) and several RPO and lease figures sit on lines of their own in the 10-Q, so quotes are bare numbers (billions).",
+    "Headcount: the 10-Q says total company headcount decreased 2% (line 1074) but gives no 10-Q count."
+   ]
+  },
+  "GOOGL": {
+   "metrics": 28,
+   "drivers": 5,
+   "verify": {
+    "exact": 28
+   },
+   "gaps": [
+    "capex_guidance: no dollar capex guidance in the release or 10-Q; only the qualitative statement that 2026 technical-infrastructure investment will significantly increase versus 2025.",
+    "rpo_next_12m_pct: not disclosed; the 10-Q gives just over 55% over the next 24 months.",
+    "da_q is depreciation of property and equipment only; no combined depreciation and amortization line was found in the release cash flow statement.",
+    "useful_life_change: no change in server useful life found in the 10-K or Q3 10-Q text; the 10-K says servers and network equipment are depreciated generally over six years and that any change is applied prospectively.",
+    "capex_incl_finance_leases_q: no single disclosed figure; inputs are purchases of PP&E 51,355, finance-lease assets obtained 2,085 and financing cash flows used for finance leases 1,110. Also 159 million (Q3) of lease prepayments for leases not yet commenced (10-Q line 869).",
+    "Quote for the Q3 2026 headcount on the release line carries both years; the 10-Q MD&A (line 1789) also states 204,757."
+   ]
+  },
+  "ORCL": {
+   "metrics": 42,
+   "drivers": 5,
+   "verify": {
+    "exact": 42
+   },
+   "gaps": [
+    "cloud_segment_op_income: Oracle reports segment margin for the cloud and software business (9,358 vs 7,691, excludes SBC, intangibles amortization and other items), not a segment operating income; no OCI-only profit disclosed in these files.",
+    "Oracle no longer shows a 'cloud services and license support' line in this 10-Q; the offerings table gives cloud applications, cloud infrastructure, software license and software support (lines 1037-1040).",
+    "capex_guidance: no dollar capex guidance in the 10-Q or earnings release exhibit (only 'higher than fiscal 2026'); any figure given on the call is not in these files.",
+    "useful_life_change: no change in estimate of server useful life found in the FY26 10-K (searched change in estimate, extend useful); servers and networking stated at six years.",
+    "capex_incl_finance_leases_q: Oracle does not give a combined figure; inputs are capex 28,499 and finance lease cash paid 186 (supplemental line); finance lease principal repayment is not a separate cash flow line in these files.",
+    "rpo_total and rpo_next_12m_pct in the 10-Q are split across lines (664 on line 321, 13 on line 325); only the release states RPO on one line.",
+    "da_ytd equals da_q (Q1 is fiscal YTD); no separate D&A total beyond depreciation 3,156 plus intangible amortization 202.",
+    "Non-quote context: 10-Q line numbers for ORCL quarterly file confirmed by Grep; filename is quarterly_10-Q_2026-09-11.txt (display of the name was masked by the tool)."
+   ]
+  },
+  "META": {
+   "metrics": 35,
+   "drivers": 5,
+   "verify": {
+    "exact": 35
+   },
+   "gaps": [
+    "cloud_segment_*: Meta has no cloud segment (segments are Family of Apps and Reality Labs); cloud revenue and cloud operating income are not applicable.",
+    "rpo_total, rpo_next_12m_pct: not disclosed for Meta in these files (no remaining performance obligations of note found).",
+    "The filings do not use the name 'Hyperion'; the 10-Q describes two unconsolidated data center ventures called the Louisiana Venture (Oct 2025) and Texas Venture (Jul 2026), each 20% owned, with estimated development costs of 27 and 14 billion (numbers on lines 502 and 504, split across lines). Whether the Louisiana Venture is the one the article calls Hyperion is not stated in the files.",
+    "capex_q (cash flow, purchases of P&E) is from the earnings release; the 10-Q cash flow statement gives only nine-month figures (line 246).",
+    "Prior-year capex-incl-finance-leases for Q3 2025 is not stated as a single figure in the files; inputs are 18,829 and 545 (release lines 217 and 231).",
+    "Headcount: the annual-report figure is 78,865 at Dec 31 2025; the latest figure 66,775 at Sep 30 2026 is from the earnings release.",
+    "Q3 2026 total long-term debt interest and 'third-party AI token costs' amounts not quantified in files read."
+   ]
+  },
+  "CRWV": {
+   "metrics": 42,
+   "drivers": 5,
+   "verify": {
+    "exact": 42
+   },
+   "gaps": [
+    "capex_guidance: the release says forward-looking guidance will be given on the earnings call (line 85); no capex guidance figure is in the files.",
+    "rpo_next_12m_pct: the 10-Q gives 41% within the first 24 months (to Jun 30 2028), not a 12-month share.",
+    "cloud_segment_revenue_q / cloud_segment_op_income_q: CoreWeave reports a single segment, so total revenue and operating income are the cloud figures.",
+    "largest-customer identity: filing labels Customer A/B/C/D without names and notes letters may differ between periods.",
+    "contracted power and active power are release statements (company reporting), not in the 10-Q numeric tables; the 10-Q grep for GW found no match.",
+    "useful_life_change: the stated earnings impact in the 10-K is for 2023 only (reduction in total expenses of $20 million); no change in estimate found for 2025-2026 in the files read.",
+    "capex incl. finance leases: finance lease principal is minimal (33 for six months, financing cash flow line); quarter-only figure not disclosed.",
+    "Interest expense in the release is net of capitalized interest (capitalized interest 79 in Q2, 10-Q line 977)."
+   ]
+  },
+  "NBIS": {
+   "metrics": 41,
+   "drivers": 5,
+   "verify": {
+    "exact": 39,
+    "miss": 1,
+    "moved": 1
+   },
+   "gaps": [
+    "capex_guidance: the release defers detailed guidance to the call (line 612: 'will share a detailed view of guidance on its earnings call'); the deck text says FY2026 guidance reiterated and 50-60% of capex self-financed, but no capex dollar guidance is in the files.",
+    "rpo_next_12m_pct: only 36% within the 24 months ending Jun 30 2028 is given; no 12-month share.",
+    "useful_life_change: the stated earnings impact is not in the 20-F or release text searched (searched four to five, reduction in depreciation).",
+    "contracted_power: only year-end 2026 target (5 GW) and prior indication (+4 GW) found; the deck graphic (lines 98-105 of part2) shows a progression chart but no current actual figure in text.",
+    "largest-customer share: Customers A to E are not named in the filing, so mapping to Microsoft or Meta is not stated; Customer C held 83% of accounts receivable at Dec 31 2025, Customer E 29% and D 16% at Jun 30 2026.",
+    "cloud_segment_op_income_q: no segment operating income found in the parts read (AI cloud adjusted EBITDA 285.7 is non-GAAP); segment note not read in full.",
+    "Nebius files 6-K/20-F; 'quarterly_*' 10-Q does not exist, so Q2 figures are from earnings_q2_part1-4 (parts 1-4 read selectively), all unaudited.",
+    "Nebius column order in the release is 2025 then 2026 (prior year first); balance sheet is Dec 31 2025 then Jun 30 2026.",
+    "Interest expense is net of capitalized interest per MD&A; capex line also includes intangible assets, so it is not strictly purchases of PP&E."
+   ]
+  },
+  "EQIX": {
+   "metrics": 24,
+   "drivers": 4,
+   "verify": {
+    "exact": 24
+   },
+   "gaps": [
+    "capex_q and capex_q_prior (quarter alone): the release and 10-Q cash flow statements show only nine-month capex; Q3 standalone not disclosed in the files read. Inputs: 9M 2026 4,392; 9M 2025 2,875 (purchases of other PP&E); real estate acquisitions 9M 234 vs 391.",
+    "rpo_next_12m_pct: 10-Q gives only about 65% over the next two years with more in the first year; no 12-month percentage.",
+    "cloud_segment fields: not applicable (EQIX reports Americas, EMEA, Asia-Pacific regions).",
+    "server_useful_life and useful_life_change: no server-specific life; no stated total earnings impact of shortened lives found.",
+    "xScale/hyperscale development backlog and development capex split: not located in the lines read; 10-Q line 459 shows 'Total xScale Joint Ventures | 687 | 536' but its meaning was not confirmed so it is not reported as a metric.",
+    "Quarterly 10-Q file name displays as the literal string quarterly_10-Q_2026-10-28.txt in the directory and manifest; cited as displayed."
+   ]
+  },
+  "DLR": {
+   "metrics": 20,
+   "drivers": 4,
+   "verify": {
+    "exact": 20
+   },
+   "gaps": [
+    "rpo_next_12m_pct and a formal RPO figure: not found in the DLR 10-Q by search; backlog (annualized rent) reported instead.",
+    "cloud_segment fields and customer concentration (largest customer share): not located; DLR 10-Q line 825 mentions 'largest customers accounted for approximately' with the figure on a following line, not read.",
+    "capex_incl_finance_leases and finance lease principal: not read.",
+    "Server useful life and useful life change: not applicable beyond the depreciable-life table; no change found.",
+    "10-Q operating income quote is from the Operating Partnership statement (line 490); the release shows the same Q3 2026 value 302,131 with Q3 2025 shown as 158,200 (rounding difference of 1).",
+    "Quarterly 10-Q file name displays as the literal string quarterly_10-Q_2026-10-30.txt in the directory and manifest; cited as displayed. DLR figures are in USD thousands."
+   ]
+  },
+  "NVDA": {
+   "metrics": 26,
+   "drivers": 4,
+   "verify": {
+    "exact": 26
+   },
+   "gaps": [
+    "data_center compute vs networking split: not disclosed in the 10-Q or release as read; the platform split is Hyperscale, ACIE, Edge Computing. Compute & Networking is a reportable segment, not a Data Center split.",
+    "capex_guidance: no capex guidance stated in the release; only contractual capex commitments of $8 billion are disclosed.",
+    "leases_not_yet_commenced: the $25 billion row is total commitments; term and start dates (Q3 FY27 to FY33) are in the 10-Q text.",
+    "useful_life_change: no change to useful lives found in the lines read.",
+    "Quarterly 10-Q file name displays as the literal string quarterly_10-Q_2026-08-26.txt in the directory and manifest; cited as displayed. Fiscal calendar: quarter ended 2026-07-26 is Q2 FY2027."
+   ]
+  },
+  "VRT": {
+   "metrics": 22,
+   "drivers": 4,
+   "verify": {
+    "exact": 22
+   },
+   "gaps": [
+    "Q3 2026 orders in dollars, backlog and book_to_bill: not stated in the release or 10-Q as searched; only 'organic orders growth over 100%' and the 10-K year-end 2025 backlog of $15.0 billion.",
+    "rpo_total / rpo_next_12m_pct: no remaining-performance-obligation disclosure found in the 10-Q by search; leases_not_yet_commenced: none found.",
+    "da_q combined: depreciation 39.8 and amortization 68.1 are reported separately from the cash flow statement; no combined D&A figure was computed.",
+    "Segment (Americas, APAC, EMEA) data is geographic, not a cloud segment; cloud fields not applicable.",
+    "Quarterly 10-Q file name displays as the literal string quarterly_10-Q_2026-10-28.txt (same label as EQIX's); no VRT 10-Q line is cited in the metrics."
+   ]
+  }
+ },
+ "misses": [
+  {
+   "ticker": "NBIS",
+   "key": "capex_commentary_q",
+   "status": "miss",
+   "value": "approximately 5.7",
+   "quote": "primarily driven by purchases of GPUs and GPU-related hardware"
+  }
+ ],
+ "sent": [
+  "AMZN",
+  "MSFT",
+  "GOOGL",
+  "ORCL",
+  "META",
+  "CRWV",
+  "NBIS",
+  "EQIX",
+  "DLR",
+  "NVDA",
+  "VRT"
+ ],
+ "returned": [
+  "AMZN",
+  "MSFT",
+  "GOOGL",
+  "ORCL",
+  "META",
+  "CRWV",
+  "NBIS",
+  "EQIX",
+  "DLR",
+  "NVDA",
+  "VRT"
+ ],
+ "missing_tickers": []
+}

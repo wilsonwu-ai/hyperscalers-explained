@@ -1,0 +1,429 @@
+{
+ "company": "Meta Platforms, Inc.",
+ "ticker": "META",
+ "latest_period": "Q3 2026 (three months ended 2026-09-30; 10-Q filed 2026-10-22, earnings 8-K 2026-10-21); unaudited interim",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Revenue, Q3 2026; YoY +26%",
+   "value": "64,601",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 13,
+   "quote": "Revenue | $64,601 | $51,242 | 26%",
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Revenue, Q3 2025",
+   "value": "51,242",
+   "unit": "USD millions",
+   "period": "Q3 2025",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 13,
+   "quote": "Revenue | $64,601 | $51,242 | 26%",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "Income from operations, Q3 2026 (includes $9.89 billion legal charge; YoY -37%)",
+   "value": "12,988",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 15,
+   "quote": "Income from operations | $12,988 | $20,535 | (37)%",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q_prior",
+   "label": "Income from operations, Q3 2025",
+   "value": "20,535",
+   "unit": "USD millions",
+   "period": "Q3 2025",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 15,
+   "quote": "Income from operations | $12,988 | $20,535 | (37)%",
+   "verify": "exact"
+  },
+  {
+   "key": "foa_op_income_q",
+   "label": "Family of Apps income from operations, Q3 2026 vs 24,967",
+   "value": "17,117",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 1081,
+   "quote": "Income (loss) from operations | $17,117 | $24,967 | (31)% | $(4,129) | $(4,432) | 7%",
+   "verify": "exact"
+  },
+  {
+   "key": "reality_labs_op_loss_q",
+   "label": "Reality Labs loss from operations, Q3 2026 vs (4,432)",
+   "value": "(4,129)",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 1081,
+   "quote": "Income (loss) from operations | $17,117 | $24,967 | (31)% | $(4,129) | $(4,432) | 7%",
+   "verify": "exact"
+  },
+  {
+   "key": "legal_charge_q",
+   "label": "Charge related to August 2026 multistate attorneys general agreement included in Q3 costs; agreement provides payments of up to about $18.59 billion",
+   "value": "9.89",
+   "unit": "USD billions",
+   "period": "Q3 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 22,
+   "quote": "Third quarter 2026 costs and expenses includes a $9.89 billion charge related to this agreement.",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q",
+   "label": "Purchases of property and equipment, Q3 2026",
+   "value": "33,942",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 217,
+   "quote": "Purchases of property and equipment | (33,942) | (18,829) | (83,055) | (48,308)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q_prior",
+   "label": "Purchases of property and equipment, Q3 2025",
+   "value": "18,829",
+   "unit": "USD millions",
+   "period": "Q3 2025",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 217,
+   "quote": "Purchases of property and equipment | (33,942) | (18,829) | (83,055) | (48,308)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Purchases of property and equipment, nine months 2026",
+   "value": "83,055",
+   "unit": "USD millions",
+   "period": "9M 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 217,
+   "quote": "Purchases of property and equipment | (33,942) | (18,829) | (83,055) | (48,308)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd_prior",
+   "label": "Purchases of property and equipment, nine months 2025",
+   "value": "48,308",
+   "unit": "USD millions",
+   "period": "9M 2025",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 217,
+   "quote": "Purchases of property and equipment | (33,942) | (18,829) | (83,055) | (48,308)",
+   "verify": "exact"
+  },
+  {
+   "key": "finance_lease_principal_q",
+   "label": "Principal payments on finance leases: Q3 2026 964 vs Q3 2025 545; 9M 2026 2,769 vs 9M 2025 1,770",
+   "value": "964",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 231,
+   "quote": "Principal payments on finance leases | (964) | (545) | (2,769) | (1,770)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_incl_finance_leases_q",
+   "label": "Capital expenditures including principal payments on finance leases, Q3 2026 (company-defined)",
+   "value": "34.91",
+   "unit": "USD billions",
+   "period": "Q3 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 47,
+   "quote": "Capital expenditures, including principal payments on finance leases, were $34.91 billion.",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_guidance",
+   "label": "FY2026 capex including principal payments on finance leases, narrowed from prior $130-145 billion",
+   "value": "135-145",
+   "unit": "USD billions",
+   "period": "FY2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 70,
+   "quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $135-145 billion,",
+   "verify": "exact"
+  },
+  {
+   "key": "total_expense_guidance",
+   "label": "FY2026 total expenses outlook, raised to include the Q3 legal charge",
+   "value": "175-179",
+   "unit": "USD billions",
+   "period": "FY2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 67,
+   "quote": "We now expect full year 2026 total expenses to be in the range of $175-179 billion.",
+   "verify": "exact"
+  },
+  {
+   "key": "q4_revenue_guidance",
+   "label": "Q4 2026 total revenue outlook",
+   "value": "73-76",
+   "unit": "USD billions",
+   "period": "Q4 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 66,
+   "quote": "We expect fourth quarter 2026 total revenue to be in the range of $73-76 billion.",
+   "verify": "exact"
+  },
+  {
+   "key": "da_q",
+   "label": "Depreciation and amortization, Q3 2026; Q3 2025 4,963",
+   "value": "7,154",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 203,
+   "quote": "Depreciation and amortization | 7,154 | 4,963 | 19,509 | 13,205",
+   "verify": "exact"
+  },
+  {
+   "key": "da_ytd",
+   "label": "Depreciation and amortization, nine months 2026 vs 13,205",
+   "value": "19,509",
+   "unit": "USD millions",
+   "period": "9M 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 203,
+   "quote": "Depreciation and amortization | 7,154 | 4,963 | 19,509 | 13,205",
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_q",
+   "label": "Net cash provided by operating activities, Q3 2026 vs 29,999",
+   "value": "32,786",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 280,
+   "quote": "Net cash provided by operating activities | $32,786 | $29,999 | $96,873 | $79,586",
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash provided by operating activities, nine months 2026 vs 79,586",
+   "value": "96,873",
+   "unit": "USD millions",
+   "period": "9M 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 280,
+   "quote": "Net cash provided by operating activities | $32,786 | $29,999 | $96,873 | $79,586",
+   "verify": "exact"
+  },
+  {
+   "key": "free_cash_flow_q",
+   "label": "Free cash flow as defined by Meta (op cash flow less purchases of P&E and finance lease principal); Q3 2025 $10,625; 9M 2026 11,049",
+   "value": "(2,120)",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 283,
+   "quote": "Free cash flow | $(2,120) | $10,625 | $11,049 | $29,508",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Property and equipment, net at Sep 30 2026 (Dec 31 2025: 176,400)",
+   "value": "253,222",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 123,
+   "quote": "Property and equipment, net | 253,222 | 176,400",
+   "verify": "exact"
+  },
+  {
+   "key": "construction_in_progress",
+   "label": "Construction in progress within property and equipment (Dec 31 2025: 50,521)",
+   "value": "89,499",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 537,
+   "quote": "Construction in progress (1) | 89,499 | 50,521",
+   "verify": "exact"
+  },
+  {
+   "key": "leases_not_yet_commenced",
+   "label": "Operating and finance leases not yet commenced (data centers, energy infrastructure, colocations, network); commence remainder of 2026 through 2036, terms >1 to 30 years",
+   "value": "355.73",
+   "unit": "USD billions",
+   "period": "2026-09-30",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 1356,
+   "quote": "These lease obligations were approximately $355.73 billion, consisting of data centers",
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Long-term debt, non-current (Dec 31 2025: 58,744)",
+   "value": "80,922",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 135,
+   "quote": "Long-term debt | 80,922 | 58,744",
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt_current",
+   "label": "Long-term debt, current portion",
+   "value": "2,747",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 594,
+   "quote": "Long-term debt, current | 2,747 | \u2014",
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt_face",
+   "label": "Total face value of long-term debt (Dec 31 2025: 59,000)",
+   "value": "84,000",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 621,
+   "quote": "Total face value of long-term debt | 84,000 | 59,000",
+   "verify": "exact"
+  },
+  {
+   "key": "off_balance_sheet_ventures_max_exposure",
+   "label": "Maximum exposure to loss in two unconsolidated 20%-owned data center ventures (Louisiana, entered Oct 2025; Texas, entered Jul 2026); not consolidated because Meta is not primary beneficiary; Dec 31 2025 comparative 45,952",
+   "value": "68,404",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 518,
+   "quote": "Total | $68,404 | $45,952",
+   "verify": "exact"
+  },
+  {
+   "key": "off_balance_sheet_ventures_rvg",
+   "label": "Maximum residual value guarantees to the ventures (component of 68,404); Dec 31 2025 28,091; RVG payments not probable, no liability recorded",
+   "value": "41,493",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 517,
+   "quote": "Maximum residual value guarantees | 41,493 | 28,091",
+   "verify": "exact"
+  },
+  {
+   "key": "off_balance_sheet_ventures_lease_commitments",
+   "label": "Lease commitments to the ventures (component of 68,404)",
+   "value": "18,476",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 515,
+   "quote": "Lease commitments | 18,476 | 12,311",
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Headcount at Sep 30 2026, down 15% YoY (latest, from earnings release)",
+   "value": "66,775",
+   "unit": "employees",
+   "period": "2026-09-30",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 61,
+   "quote": "was 66,775 as of September 30, 2026, a decrease of 15% year-over-year.",
+   "verify": "exact"
+  },
+  {
+   "key": "headcount_annual_report",
+   "label": "Headcount at Dec 31 2025 from the 10-K",
+   "value": "78,865",
+   "unit": "employees",
+   "period": "2025-12-31",
+   "file": "META/annual_10-K_2026-01-29.txt",
+   "line": 1029,
+   "quote": "Headcount was 78,865 as of December 31, 2025, an increase of 6% year-over-year.",
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Servers and network assets useful life as of Dec 31 2025",
+   "value": "Five to 5.5",
+   "unit": "years",
+   "period": "2025-12-31",
+   "file": "META/annual_10-K_2026-01-29.txt",
+   "line": 1716,
+   "quote": "Servers and network assets | Five to 5.5 years",
+   "verify": "exact"
+  },
+  {
+   "key": "useful_life_change",
+   "label": "Change in estimate: most servers and network assets extended to 5.5 years effective January 1, 2025 (10-K FY2025)",
+   "value": "Extended to 5.5 years effective 2025-01-01",
+   "unit": "text",
+   "period": "FY2025",
+   "file": "META/annual_10-K_2026-01-29.txt",
+   "line": 1626,
+   "quote": "we completed an assessment of the useful lives of property and equipment",
+   "verify": "exact"
+  },
+  {
+   "key": "useful_life_change_depreciation_reduction",
+   "label": "Reduction in 2025 depreciation expense from the change (value on its own line; net income +$2.59 billion on line 1631, $1.00 per diluted share on line 1633)",
+   "value": "2.92",
+   "unit": "USD billions",
+   "period": "FY2025",
+   "file": "META/annual_10-K_2026-01-29.txt",
+   "line": 1629,
+   "quote": "2.92",
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "Revenue grew 26% on higher advertising revenue: ad impressions up 10% and average price per ad up 14% year over year.",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 1069
+  },
+  {
+   "text": "Operating income fell 37% because costs rose: the $9.89 billion attorneys general charge, data center and technical infrastructure expense (including third-party cloud), and third-party AI token costs.",
+   "file": "META/quarterly_10-Q_2026-10-22.txt",
+   "line": 1070
+  },
+  {
+   "text": "Excluding the legal charge, management says Q3 operating income would have been $22.88 billion, up from $20.535 billion; headcount is down 15% year over year.",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 24
+  },
+  {
+   "text": "Management expects to keep investing aggressively in 2027 for core business and AI; current and scheduled capacity gives flexibility across model training, core growth and new products.",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 73
+  },
+  {
+   "text": "Capex outlook was narrowed to $135-145 billion for 2026 (prior $130-145 billion), and Reality Labs losses are expected at $18-19 billion.",
+   "file": "META/earnings_8-K_2026-10-21.txt",
+   "line": 69
+  }
+ ],
+ "gaps": [
+  "cloud_segment_*: Meta has no cloud segment (segments are Family of Apps and Reality Labs); cloud revenue and cloud operating income are not applicable.",
+  "rpo_total, rpo_next_12m_pct: not disclosed for Meta in these files (no remaining performance obligations of note found).",
+  "The filings do not use the name 'Hyperion'; the 10-Q describes two unconsolidated data center ventures called the Louisiana Venture (Oct 2025) and Texas Venture (Jul 2026), each 20% owned, with estimated development costs of 27 and 14 billion (numbers on lines 502 and 504, split across lines). Whether the Louisiana Venture is the one the article calls Hyperion is not stated in the files.",
+  "capex_q (cash flow, purchases of P&E) is from the earnings release; the 10-Q cash flow statement gives only nine-month figures (line 246).",
+  "Prior-year capex-incl-finance-leases for Q3 2025 is not stated as a single figure in the files; inputs are 18,829 and 545 (release lines 217 and 231).",
+  "Headcount: the annual-report figure is 78,865 at Dec 31 2025; the latest figure 66,775 at Sep 30 2026 is from the earnings release.",
+  "Q3 2026 total long-term debt interest and 'third-party AI token costs' amounts not quantified in files read."
+ ]
+}

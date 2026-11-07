@@ -1,0 +1,1455 @@
+ticker,metric,concept,quarter_end,value_usd,derived,accessions
+AMZN,capex,PaymentsToAcquireProductiveAssets,2019-03-31,3290000000,False,0001018724-20-000010
+AMZN,capex,PaymentsToAcquireProductiveAssets,2019-06-30,3562000000,False,0001018724-20-000021
+AMZN,capex,PaymentsToAcquireProductiveAssets,2019-09-30,4697000000,False,0001018724-20-000030
+AMZN,capex,PaymentsToAcquireProductiveAssets,2019-12-31,5312000000,True,0001018724-20-000030 0001018724-22-000005
+AMZN,capex,PaymentsToAcquireProductiveAssets,2020-03-31,6795000000,False,0001018724-21-000010
+AMZN,capex,PaymentsToAcquireProductiveAssets,2020-06-30,7459000000,False,0001018724-21-000020
+AMZN,capex,PaymentsToAcquireProductiveAssets,2020-09-30,11063000000,False,0001018724-21-000028
+AMZN,capex,PaymentsToAcquireProductiveAssets,2020-12-31,14823000000,True,0001018724-21-000028 0001018724-23-000004
+AMZN,capex,PaymentsToAcquireProductiveAssets,2021-03-31,12082000000,False,0001018724-22-000013
+AMZN,capex,PaymentsToAcquireProductiveAssets,2021-06-30,14288000000,False,0001018724-22-000019
+AMZN,capex,PaymentsToAcquireProductiveAssets,2021-09-30,15748000000,False,0001018724-22-000023
+AMZN,capex,PaymentsToAcquireProductiveAssets,2021-12-31,18935000000,True,0001018724-22-000023 0001018724-24-000008
+AMZN,capex,PaymentsToAcquireProductiveAssets,2022-03-31,14951000000,False,0001018724-23-000008
+AMZN,capex,PaymentsToAcquireProductiveAssets,2022-06-30,15724000000,False,0001018724-23-000012
+AMZN,capex,PaymentsToAcquireProductiveAssets,2022-09-30,16378000000,False,0001018724-23-000018
+AMZN,capex,PaymentsToAcquireProductiveAssets,2022-12-31,16592000000,True,0001018724-23-000018 0001018724-25-000004
+AMZN,capex,PaymentsToAcquireProductiveAssets,2023-03-31,14207000000,False,0001018724-24-000083
+AMZN,capex,PaymentsToAcquireProductiveAssets,2023-06-30,11455000000,False,0001018724-24-000130
+AMZN,capex,PaymentsToAcquireProductiveAssets,2023-09-30,12479000000,False,0001018724-24-000161
+AMZN,capex,PaymentsToAcquireProductiveAssets,2023-12-31,14588000000,True,0001018724-24-000161 0001018724-26-000004
+AMZN,capex,PaymentsToAcquireProductiveAssets,2024-03-31,14925000000,False,0001018724-25-000036
+AMZN,capex,PaymentsToAcquireProductiveAssets,2024-06-30,17620000000,False,0001018724-25-000086
+AMZN,capex,PaymentsToAcquireProductiveAssets,2024-09-30,22620000000,False,0001018724-25-000123
+AMZN,capex,PaymentsToAcquireProductiveAssets,2024-12-31,27834000000,True,0001018724-25-000123 0001018724-26-000004
+AMZN,capex,PaymentsToAcquireProductiveAssets,2025-03-31,25019000000,False,0001018724-26-000014
+AMZN,capex,PaymentsToAcquireProductiveAssets,2025-06-30,32183000000,False,0001018724-26-000026
+AMZN,capex,PaymentsToAcquireProductiveAssets,2025-09-30,35095000000,False,0001018724-26-000040
+AMZN,capex,PaymentsToAcquireProductiveAssets,2025-12-31,39522000000,True,0001018724-26-000040 0001018724-26-000004
+AMZN,capex,PaymentsToAcquireProductiveAssets,2026-03-31,44203000000,False,0001018724-26-000014
+AMZN,capex,PaymentsToAcquireProductiveAssets,2026-06-30,54208000000,False,0001018724-26-000026
+AMZN,capex,PaymentsToAcquireProductiveAssets,2026-09-30,77259000000,False,0001018724-26-000040
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2019-03-31,2214000000,False,0001018724-20-000010
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2019-06-30,2327000000,False,0001018724-20-000021
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2019-09-30,2307000000,False,0001018724-20-000030
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2019-12-31,2780000000,True,0001018724-20-000030 0001018724-22-000005
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2020-03-31,2600000000,False,0001018724-21-000010
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2020-06-30,2817000000,False,0001018724-21-000020
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2020-09-30,2857000000,False,0001018724-21-000028
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2020-12-31,2368000000,True,0001018724-21-000028 0001018724-23-000004
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2021-03-31,3406000000,False,0001018724-22-000013
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2021-06-30,2804000000,False,0001018724-22-000019
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2021-09-30,2693000000,False,0001018724-22-000023
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2021-12-31,2260000000,True,0001018724-22-000023 0001018724-24-000008
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2022-03-31,2777000000,False,0001018724-23-000008
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2022-06-30,2059000000,False,0001018724-23-000012
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2022-09-30,1465000000,False,0001018724-23-000018
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2022-12-31,1640000000,True,0001018724-23-000018 0001018724-25-000004
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2023-03-31,1380000000,False,0001018724-24-000083
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2023-06-30,1220000000,False,0001018724-24-000130
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2023-09-30,1005000000,False,0001018724-24-000161
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2023-12-31,779000000,True,0001018724-24-000161 0001018724-26-000004
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2024-03-31,770000000,False,0001018724-25-000036
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2024-06-30,538000000,False,0001018724-25-000086
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2024-09-30,402000000,False,0001018724-25-000123
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2024-12-31,333000000,True,0001018724-25-000123 0001018724-26-000004
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2025-03-31,410000000,False,0001018724-26-000014
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2025-06-30,411000000,False,0001018724-26-000026
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2025-09-30,351000000,False,0001018724-26-000040
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2025-12-31,385000000,True,0001018724-26-000040 0001018724-26-000004
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2026-03-31,468000000,False,0001018724-26-000014
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2026-06-30,395000000,False,0001018724-26-000026
+AMZN,finance_lease_principal,FinanceLeasePrincipalPayments,2026-09-30,433000000,False,0001018724-26-000040
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-03-31,59700000000,False,0001018724-21-000004
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-06-30,63404000000,False,0001018724-21-000004
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-09-30,69981000000,False,0001018724-21-000004
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-12-31,87437000000,False,0001018724-21-000004
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-03-31,75452000000,False,0001018724-21-000010
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-06-30,88912000000,False,0001018724-21-000020
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-09-30,96145000000,False,0001018724-21-000028
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-12-31,125555000000,False,0001018724-21-000004
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-03-31,108518000000,False,0001018724-22-000013
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-06-30,113080000000,False,0001018724-22-000019
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-09-30,110812000000,False,0001018724-22-000023
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-12-31,137412000000,True,0001018724-22-000023 0001018724-24-000008
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-03-31,116444000000,False,0001018724-23-000008
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-06-30,121234000000,False,0001018724-23-000012
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-09-30,127101000000,False,0001018724-23-000018
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-12-31,149204000000,True,0001018724-23-000018 0001018724-25-000004
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-03-31,127358000000,False,0001018724-24-000083
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-06-30,134383000000,False,0001018724-24-000130
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-09-30,143083000000,False,0001018724-24-000161
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-12-31,169961000000,True,0001018724-24-000161 0001018724-26-000004
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-03-31,143313000000,False,0001018724-25-000036
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-06-30,147977000000,False,0001018724-25-000086
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-09-30,158877000000,False,0001018724-25-000123
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-12-31,187792000000,True,0001018724-25-000123 0001018724-26-000004
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-03-31,155667000000,False,0001018724-26-000014
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-06-30,167702000000,False,0001018724-26-000026
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-09-30,180169000000,False,0001018724-26-000040
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-12-31,213386000000,True,0001018724-26-000040 0001018724-26-000004
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-03-31,181519000000,False,0001018724-26-000014
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-06-30,200606000000,False,0001018724-26-000026
+AMZN,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-09-30,201944000000,False,0001018724-26-000040
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-03-31,1846000000,False,0001018724-20-000010
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-06-30,9118000000,False,0001018724-20-000021
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-09-30,7892000000,False,0001018724-20-000030
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-12-31,19659000000,True,0001018724-20-000030 0001018724-22-000005
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-03-31,3064000000,False,0001018724-21-000010
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-06-30,20606000000,False,0001018724-21-000020
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-09-30,11964000000,False,0001018724-21-000028
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-12-31,30431000000,True,0001018724-21-000028 0001018724-23-000004
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-03-31,4213000000,False,0001018724-22-000013
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-06-30,12715000000,False,0001018724-22-000019
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-09-30,7313000000,False,0001018724-22-000023
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-12-31,22086000000,True,0001018724-22-000023 0001018724-24-000008
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-03-31,-2790000000,False,0001018724-23-000008
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-06-30,8965000000,False,0001018724-23-000012
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-09-30,11404000000,False,0001018724-23-000018
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-12-31,29173000000,True,0001018724-23-000018 0001018724-25-000004
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-03-31,4788000000,False,0001018724-24-000083
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-06-30,16476000000,False,0001018724-24-000130
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-09-30,21217000000,False,0001018724-24-000161
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-12-31,42465000000,True,0001018724-24-000161 0001018724-26-000004
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-03-31,18989000000,False,0001018724-25-000036
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-06-30,25281000000,False,0001018724-25-000086
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-09-30,25971000000,False,0001018724-25-000123
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-12-31,45636000000,True,0001018724-25-000123 0001018724-26-000004
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-03-31,17015000000,False,0001018724-26-000014
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-06-30,32515000000,False,0001018724-26-000026
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-09-30,35525000000,False,0001018724-26-000040
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-12-31,54459000000,True,0001018724-26-000040 0001018724-26-000004
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-03-31,26032000000,False,0001018724-26-000014
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-06-30,45387000000,False,0001018724-26-000026
+AMZN,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-09-30,42422000000,False,0001018724-26-000040
+AMZN,operating_income,OperatingIncomeLoss,2019-03-31,4420000000,False,0001018724-21-000004
+AMZN,operating_income,OperatingIncomeLoss,2019-06-30,3084000000,False,0001018724-21-000004
+AMZN,operating_income,OperatingIncomeLoss,2019-09-30,3157000000,False,0001018724-21-000004
+AMZN,operating_income,OperatingIncomeLoss,2019-12-31,3879000000,False,0001018724-21-000004
+AMZN,operating_income,OperatingIncomeLoss,2020-03-31,3989000000,False,0001018724-21-000010
+AMZN,operating_income,OperatingIncomeLoss,2020-06-30,5843000000,False,0001018724-21-000020
+AMZN,operating_income,OperatingIncomeLoss,2020-09-30,6194000000,False,0001018724-21-000028
+AMZN,operating_income,OperatingIncomeLoss,2020-12-31,6873000000,False,0001018724-21-000004
+AMZN,operating_income,OperatingIncomeLoss,2021-03-31,8865000000,False,0001018724-22-000013
+AMZN,operating_income,OperatingIncomeLoss,2021-06-30,7702000000,False,0001018724-22-000019
+AMZN,operating_income,OperatingIncomeLoss,2021-09-30,4852000000,False,0001018724-22-000023
+AMZN,operating_income,OperatingIncomeLoss,2021-12-31,3460000000,True,0001018724-22-000023 0001018724-24-000008
+AMZN,operating_income,OperatingIncomeLoss,2022-03-31,3669000000,False,0001018724-23-000008
+AMZN,operating_income,OperatingIncomeLoss,2022-06-30,3317000000,False,0001018724-23-000012
+AMZN,operating_income,OperatingIncomeLoss,2022-09-30,2525000000,False,0001018724-23-000018
+AMZN,operating_income,OperatingIncomeLoss,2022-12-31,2737000000,True,0001018724-23-000018 0001018724-25-000004
+AMZN,operating_income,OperatingIncomeLoss,2023-03-31,4774000000,False,0001018724-24-000083
+AMZN,operating_income,OperatingIncomeLoss,2023-06-30,7681000000,False,0001018724-24-000130
+AMZN,operating_income,OperatingIncomeLoss,2023-09-30,11188000000,False,0001018724-24-000161
+AMZN,operating_income,OperatingIncomeLoss,2023-12-31,13209000000,True,0001018724-24-000161 0001018724-26-000004
+AMZN,operating_income,OperatingIncomeLoss,2024-03-31,15307000000,False,0001018724-25-000036
+AMZN,operating_income,OperatingIncomeLoss,2024-06-30,14672000000,False,0001018724-25-000086
+AMZN,operating_income,OperatingIncomeLoss,2024-09-30,17411000000,False,0001018724-25-000123
+AMZN,operating_income,OperatingIncomeLoss,2024-12-31,21203000000,True,0001018724-25-000123 0001018724-26-000004
+AMZN,operating_income,OperatingIncomeLoss,2025-03-31,18405000000,False,0001018724-26-000014
+AMZN,operating_income,OperatingIncomeLoss,2025-06-30,19171000000,False,0001018724-26-000026
+AMZN,operating_income,OperatingIncomeLoss,2025-09-30,17422000000,False,0001018724-26-000040
+AMZN,operating_income,OperatingIncomeLoss,2025-12-31,24977000000,True,0001018724-26-000040 0001018724-26-000004
+AMZN,operating_income,OperatingIncomeLoss,2026-03-31,23852000000,False,0001018724-26-000014
+AMZN,operating_income,OperatingIncomeLoss,2026-06-30,27461000000,False,0001018724-26-000026
+AMZN,operating_income,OperatingIncomeLoss,2026-09-30,28076000000,False,0001018724-26-000040
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2019-03-31,4854000000,False,0001018724-20-000010
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2019-06-30,5202000000,False,0001018724-20-000021
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2019-09-30,5563000000,False,0001018724-20-000030
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2019-12-31,6170000000,True,0001018724-20-000030 0001018724-22-000005
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2020-03-31,5362000000,False,0001018724-21-000010
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2020-06-30,5748000000,False,0001018724-21-000020
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2020-09-30,6523000000,False,0001018724-21-000028
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2020-12-31,7547000000,True,0001018724-21-000028 0001018724-23-000004
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2021-03-31,7508000000,False,0001018724-22-000013
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2021-06-30,8038000000,False,0001018724-22-000019
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2021-09-30,8948000000,False,0001018724-22-000023
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2021-12-31,9939000000,True,0001018724-22-000023 0001018724-24-000008
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2022-03-31,9193000000,False,0001018724-23-000008
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2022-06-30,9716000000,False,0001018724-23-000012
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2022-09-30,10327000000,False,0001018724-23-000018
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2022-12-31,12685000000,True,0001018724-23-000018 0001018724-25-000004
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2023-03-31,11123000000,False,0001018724-24-000083
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2023-06-30,11589000000,False,0001018724-24-000130
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2023-09-30,12131000000,False,0001018724-24-000161
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2023-12-31,13820000000,True,0001018724-24-000161 0001018724-26-000004
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2024-03-31,11684000000,False,0001018724-25-000036
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2024-06-30,12038000000,False,0001018724-25-000086
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2024-09-30,13442000000,False,0001018724-25-000123
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2024-12-31,15631000000,True,0001018724-25-000123 0001018724-26-000004
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2025-03-31,14262000000,False,0001018724-26-000014
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2025-06-30,15227000000,False,0001018724-26-000026
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2025-09-30,16796000000,False,0001018724-26-000040
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2025-12-31,19471000000,True,0001018724-26-000040 0001018724-26-000004
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2026-03-31,18945000000,False,0001018724-26-000014
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2026-06-30,19988000000,False,0001018724-26-000026
+AMZN,dep_amort,DepreciationDepletionAndAmortization,2026-09-30,20949000000,False,0001018724-26-000040
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-03-31,2565000000,False,0001564590-20-019706
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-06-30,4051000000,True,0001564590-20-019706 0001564590-21-039151
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-09-30,3385000000,False,0001564590-20-047996
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-12-31,3545000000,False,0001564590-21-002316
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-03-31,3767000000,False,0001564590-21-020891
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-06-30,4744000000,True,0001564590-21-020891 0001564590-22-026876
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-09-30,4907000000,False,0001564590-21-051992
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-12-31,4174000000,False,0001564590-22-002324
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-03-31,5089000000,False,0001564590-22-015675
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-06-30,6452000000,True,0001564590-22-015675 0000950170-23-035122
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-09-30,5810000000,False,0001564590-22-035087
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-12-31,5865000000,False,0001564590-23-000733
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-03-31,5340000000,False,0000950170-23-014423
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-06-30,6871000000,True,0000950170-23-014423 0000950170-24-132722
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-09-30,6283000000,False,0000950170-23-054855
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-12-31,6274000000,False,0000950170-24-008814
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-03-31,6607000000,False,0000950170-24-048288
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-06-30,8943000000,True,0000950170-24-048288 0000950170-25-100235
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-09-30,9917000000,False,0000950170-24-118967
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-12-31,9735000000,False,0000950170-25-010491
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-03-31,10952000000,False,0000950170-25-061046
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-06-30,13873000000,True,0000950170-25-061046 0001193125-26-323660
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-09-30,14923000000,False,0001193125-25-256321
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-12-31,15804000000,False,0001193125-26-027207
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-03-31,16745000000,False,0001193125-26-191507
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-06-30,17079000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-09-30,19394000000,False,0001193125-26-436133
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-12-31,29876000000,False,0001193125-26-027207
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-03-31,30876000000,False,0001193125-26-191507
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-06-30,35802000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-09-30,39367000000,False,0001193125-26-436133
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2019-03-31,66000000,False,0001564590-20-019706
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2019-06-30,54000000,True,0001564590-20-019706 0001564590-21-039151
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2019-09-30,79000000,False,0001564590-20-047996
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2019-12-31,104000000,False,0001564590-21-002316
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2020-03-31,110000000,False,0001564590-21-020891
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2020-06-30,116000000,True,0001564590-21-020891 0001564590-22-026876
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2020-09-30,136000000,False,0001564590-21-051992
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2020-12-31,153000000,False,0001564590-22-002324
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2021-03-31,168000000,False,0001564590-22-015675
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2021-06-30,191000000,True,0001564590-22-015675 0000950170-23-035122
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2021-09-30,200000000,False,0001564590-22-035087
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2021-12-31,222000000,False,0001564590-23-000733
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2022-03-31,233000000,False,0000950170-23-014423
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2022-06-30,241000000,True,0000950170-23-014423 0000950170-24-132722
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2022-09-30,256000000,False,0000950170-23-054855
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2022-12-31,262000000,False,0000950170-24-008814
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2023-03-31,272000000,False,0000950170-24-048288
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2023-06-30,266000000,True,0000950170-24-048288 0000950170-25-100235
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2023-09-30,285000000,False,0000950170-24-118967
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2023-12-31,288000000,False,0000950170-25-010491
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2024-03-31,323000000,False,0000950170-25-061046
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2024-06-30,390000000,True,0000950170-25-061046 0001193125-26-323660
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2024-09-30,802000000,False,0001193125-25-256321
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2024-12-31,480000000,False,0001193125-26-027207
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2025-03-31,352000000,False,0001193125-26-191507
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2025-06-30,649000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2025-09-30,639000000,False,0001193125-26-436133
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2025-12-31,701000000,False,0001193125-26-027207
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2026-03-31,839000000,False,0001193125-26-191507
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2026-06-30,922000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,finance_lease_principal,FinanceLeasePrincipalPayments,2026-09-30,1000000000,False,0001193125-26-436133
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-03-31,30571000000,False,0001564590-20-034944
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-06-30,33717000000,False,0001564590-20-034944
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-09-30,33055000000,False,0001564590-20-047996
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-12-31,36906000000,False,0001564590-21-002316
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-03-31,35021000000,False,0001564590-21-020891
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-06-30,38033000000,False,0001564590-20-034944
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-09-30,37154000000,False,0001564590-21-051992
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-12-31,43076000000,False,0001564590-22-002324
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-03-31,41706000000,False,0001564590-22-015675
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-06-30,46152000000,True,0001564590-22-015675 0000950170-23-035122
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-09-30,45317000000,False,0001564590-22-035087
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-12-31,51728000000,False,0001564590-23-000733
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-03-31,49360000000,False,0000950170-23-014423
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-06-30,51865000000,True,0000950170-23-014423 0000950170-24-132722
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-09-30,50122000000,False,0000950170-23-054855
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-12-31,52747000000,False,0000950170-24-008814
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-03-31,52857000000,False,0000950170-24-048288
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-06-30,56189000000,True,0000950170-24-048288 0000950170-25-100235
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-09-30,56517000000,False,0000950170-24-118967
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-12-31,62020000000,False,0000950170-25-010491
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-03-31,61858000000,False,0000950170-25-061046
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-06-30,64727000000,True,0000950170-25-061046 0001193125-26-323660
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-09-30,65585000000,False,0001193125-25-256321
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-12-31,69632000000,False,0001193125-26-027207
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-03-31,70066000000,False,0001193125-26-191507
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-06-30,76441000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-09-30,77673000000,False,0001193125-26-436133
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-12-31,81273000000,False,0001193125-26-027207
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-03-31,82886000000,False,0001193125-26-191507
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-06-30,90007000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-09-30,92279000000,False,0001193125-26-436133
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-03-31,13520000000,False,0001564590-20-019706
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-06-30,16108000000,True,0001564590-20-019706 0001564590-21-039151
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-09-30,13818000000,False,0001564590-20-047996
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-12-31,10680000000,False,0001564590-21-002316
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-03-31,17504000000,False,0001564590-21-020891
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-06-30,18673000000,True,0001564590-21-020891 0001564590-22-026876
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-09-30,19335000000,False,0001564590-21-051992
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-12-31,12516000000,False,0001564590-22-002324
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-03-31,22179000000,False,0001564590-22-015675
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-06-30,22710000000,True,0001564590-22-015675 0000950170-23-035122
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-09-30,24540000000,False,0001564590-22-035087
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-12-31,14480000000,False,0001564590-23-000733
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-03-31,25386000000,False,0000950170-23-014423
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-06-30,24629000000,True,0000950170-23-014423 0000950170-24-132722
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-09-30,23198000000,False,0000950170-23-054855
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-12-31,11173000000,False,0000950170-24-008814
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-03-31,24441000000,False,0000950170-24-048288
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-06-30,28770000000,True,0000950170-24-048288 0000950170-25-100235
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-09-30,30583000000,False,0000950170-24-118967
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-12-31,18853000000,False,0000950170-25-010491
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-03-31,31917000000,False,0000950170-25-061046
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-06-30,37195000000,True,0000950170-25-061046 0001193125-26-323660
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-09-30,34180000000,False,0001193125-25-256321
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-12-31,22291000000,False,0001193125-26-027207
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-03-31,37044000000,False,0001193125-26-191507
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-06-30,42647000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-09-30,45057000000,False,0001193125-26-436133
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-12-31,35758000000,False,0001193125-26-027207
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-03-31,46679000000,False,0001193125-26-191507
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-06-30,55441000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-09-30,58000000000,False,0001193125-26-436133
+MSFT,operating_income,OperatingIncomeLoss,2019-03-31,10341000000,False,0001564590-20-034944
+MSFT,operating_income,OperatingIncomeLoss,2019-06-30,12405000000,False,0001564590-20-034944
+MSFT,operating_income,OperatingIncomeLoss,2019-09-30,12686000000,False,0001564590-20-047996
+MSFT,operating_income,OperatingIncomeLoss,2019-12-31,13891000000,False,0001564590-21-002316
+MSFT,operating_income,OperatingIncomeLoss,2020-03-31,12975000000,False,0001564590-21-020891
+MSFT,operating_income,OperatingIncomeLoss,2020-06-30,13407000000,False,0001564590-20-034944
+MSFT,operating_income,OperatingIncomeLoss,2020-09-30,15876000000,False,0001564590-21-051992
+MSFT,operating_income,OperatingIncomeLoss,2020-12-31,17897000000,False,0001564590-22-002324
+MSFT,operating_income,OperatingIncomeLoss,2021-03-31,17048000000,False,0001564590-22-015675
+MSFT,operating_income,OperatingIncomeLoss,2021-06-30,19095000000,True,0001564590-22-015675 0000950170-23-035122
+MSFT,operating_income,OperatingIncomeLoss,2021-09-30,20238000000,False,0001564590-22-035087
+MSFT,operating_income,OperatingIncomeLoss,2021-12-31,22247000000,False,0001564590-23-000733
+MSFT,operating_income,OperatingIncomeLoss,2022-03-31,20364000000,False,0000950170-23-014423
+MSFT,operating_income,OperatingIncomeLoss,2022-06-30,20534000000,True,0000950170-23-014423 0000950170-24-132722
+MSFT,operating_income,OperatingIncomeLoss,2022-09-30,21518000000,False,0000950170-23-054855
+MSFT,operating_income,OperatingIncomeLoss,2022-12-31,20399000000,False,0000950170-24-008814
+MSFT,operating_income,OperatingIncomeLoss,2023-03-31,22352000000,False,0000950170-24-048288
+MSFT,operating_income,OperatingIncomeLoss,2023-06-30,24254000000,True,0000950170-24-048288 0000950170-25-100235
+MSFT,operating_income,OperatingIncomeLoss,2023-09-30,26895000000,False,0000950170-24-118967
+MSFT,operating_income,OperatingIncomeLoss,2023-12-31,27032000000,False,0000950170-25-010491
+MSFT,operating_income,OperatingIncomeLoss,2024-03-31,27581000000,False,0000950170-25-061046
+MSFT,operating_income,OperatingIncomeLoss,2024-06-30,27925000000,True,0000950170-25-061046 0001193125-26-323660
+MSFT,operating_income,OperatingIncomeLoss,2024-09-30,30552000000,False,0001193125-25-256321
+MSFT,operating_income,OperatingIncomeLoss,2024-12-31,31653000000,False,0001193125-26-027207
+MSFT,operating_income,OperatingIncomeLoss,2025-03-31,32000000000,False,0001193125-26-191507
+MSFT,operating_income,OperatingIncomeLoss,2025-06-30,34323000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,operating_income,OperatingIncomeLoss,2025-09-30,37961000000,False,0001193125-26-436133
+MSFT,operating_income,OperatingIncomeLoss,2025-12-31,38275000000,False,0001193125-26-027207
+MSFT,operating_income,OperatingIncomeLoss,2026-03-31,38398000000,False,0001193125-26-191507
+MSFT,operating_income,OperatingIncomeLoss,2026-06-30,40603000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,operating_income,OperatingIncomeLoss,2026-09-30,45915000000,False,0001193125-26-436133
+MSFT,dep_amort,Depreciation,2024-09-30,4700000000,False,0001193125-25-256321
+MSFT,dep_amort,Depreciation,2024-12-31,5200000000,False,0001193125-26-027207
+MSFT,dep_amort,Depreciation,2025-03-31,5800000000,False,0001193125-26-191507
+MSFT,dep_amort,Depreciation,2025-06-30,6300000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,dep_amort,Depreciation,2025-09-30,7100000000,False,0001193125-26-436133
+MSFT,dep_amort,Depreciation,2025-12-31,7900000000,False,0001193125-26-027207
+MSFT,dep_amort,Depreciation,2026-03-31,9000000000,False,0001193125-26-191507
+MSFT,dep_amort,Depreciation,2026-06-30,10300000000,True,0001193125-26-191507 0001193125-26-323660
+MSFT,dep_amort,Depreciation,2026-09-30,11100000000,False,0001193125-26-436133
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-03-31,4638000000,False,0001652044-20-000021
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-06-30,6126000000,False,0001652044-20-000032
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-09-30,6732000000,False,0001652044-20-000050
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-12-31,6052000000,True,0001652044-20-000050 0001652044-22-000019
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-03-31,6005000000,False,0001652044-21-000020
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-06-30,5391000000,False,0001652044-20-000032
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-09-30,5406000000,False,0001652044-20-000050
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-12-31,5479000000,True,0001652044-21-000057 0001652044-23-000016
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-03-31,5942000000,False,0001652044-22-000029
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-06-30,5496000000,True,0001652044-22-000029 0001652044-22-000071
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-09-30,6819000000,True,0001652044-22-000071 0001652044-22-000090
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-12-31,6383000000,True,0001652044-22-000090 0001652044-24-000022
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-03-31,9786000000,False,0001652044-23-000045
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-06-30,6828000000,True,0001652044-23-000045 0001652044-23-000070
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-09-30,7276000000,True,0001652044-23-000070 0001652044-23-000094
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-12-31,7595000000,True,0001652044-23-000094 0001652044-25-000014
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-03-31,6289000000,False,0001652044-24-000053
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-06-30,6888000000,True,0001652044-24-000053 0001652044-24-000079
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-09-30,8055000000,True,0001652044-24-000079 0001652044-24-000118
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-12-31,11019000000,True,0001652044-24-000118 0001652044-26-000018
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-03-31,12012000000,False,0001652044-25-000043
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-06-30,13186000000,True,0001652044-25-000043 0001652044-25-000062
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-09-30,13061000000,True,0001652044-25-000062 0001652044-25-000091
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-12-31,14276000000,True,0001652044-25-000091 0001652044-26-000018
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-03-31,17197000000,False,0001652044-26-000048
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-06-30,22446000000,True,0001652044-26-000048 0001652044-26-000071
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-09-30,23953000000,True,0001652044-26-000071 0001652044-26-000084
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-12-31,27851000000,True,0001652044-26-000084 0001652044-26-000018
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-03-31,35674000000,False,0001652044-26-000048
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-06-30,44924000000,True,0001652044-26-000048 0001652044-26-000071
+GOOGL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-09-30,51355000000,True,0001652044-26-000071 0001652044-26-000084
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2024-03-31,90000000,False,0001652044-25-000043
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2024-06-30,97000000,False,0001652044-25-000062
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2024-09-30,127000000,False,0001652044-25-000091
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2024-12-31,91000000,True,0001652044-25-000091 0001652044-26-000018
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2025-03-31,192000000,False,0001652044-26-000048
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2025-06-30,110000000,False,0001652044-26-000071
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2025-09-30,92000000,False,0001652044-26-000084
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2025-12-31,1594000000,True,0001652044-26-000084 0001652044-26-000018
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2026-03-31,522000000,False,0001652044-26-000048
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2026-06-30,318000000,False,0001652044-26-000071
+GOOGL,finance_lease_principal,FinanceLeasePrincipalPayments,2026-09-30,1110000000,False,0001652044-26-000084
+GOOGL,revenue,Revenues,2019-03-31,36339000000,False,0001652044-19-000015
+GOOGL,revenue,Revenues,2020-03-31,41159000000,False,0001652044-21-000020
+GOOGL,revenue,Revenues,2020-06-30,38297000000,False,0001652044-21-000047
+GOOGL,revenue,Revenues,2021-03-31,55314000000,False,0001652044-21-000020
+GOOGL,revenue,Revenues,2021-06-30,61880000000,False,0001652044-21-000047
+GOOGL,revenue,Revenues,2024-06-30,84742000000,False,0001652044-25-000062
+GOOGL,revenue,Revenues,2024-09-30,88268000000,False,0001652044-25-000091
+GOOGL,revenue,Revenues,2024-12-31,96469000000,True,0001652044-25-000091 0001652044-26-000018
+GOOGL,revenue,Revenues,2025-03-31,90234000000,False,0001652044-26-000048
+GOOGL,revenue,Revenues,2025-06-30,96428000000,False,0001652044-26-000071
+GOOGL,revenue,Revenues,2025-09-30,102346000000,False,0001652044-26-000084
+GOOGL,revenue,Revenues,2025-12-31,113829000000,True,0001652044-26-000084 0001652044-26-000018
+GOOGL,revenue,Revenues,2026-03-31,109896000000,False,0001652044-26-000048
+GOOGL,revenue,Revenues,2026-06-30,119796000000,False,0001652044-26-000071
+GOOGL,revenue,Revenues,2026-09-30,127577000000,False,0001652044-26-000084
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-03-31,12000000000,False,0001652044-20-000021
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-06-30,12627000000,True,0001652044-20-000021 0001652044-20-000032
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-09-30,15466000000,True,0001652044-20-000032 0001652044-20-000050
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-12-31,14427000000,True,0001652044-20-000050 0001652044-22-000019
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-03-31,11451000000,False,0001652044-21-000020
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-06-30,13993000000,True,0001652044-21-000020 0001652044-21-000047
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-09-30,17003000000,True,0001652044-21-000047 0001652044-21-000057
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-12-31,22677000000,True,0001652044-21-000057 0001652044-23-000016
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-03-31,19289000000,False,0001652044-22-000029
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-06-30,21890000000,True,0001652044-22-000029 0001652044-22-000071
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-09-30,25539000000,True,0001652044-22-000071 0001652044-22-000090
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-12-31,24934000000,True,0001652044-22-000090 0001652044-24-000022
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-03-31,25106000000,False,0001652044-23-000045
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-06-30,19422000000,True,0001652044-23-000045 0001652044-23-000070
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-09-30,23353000000,True,0001652044-23-000070 0001652044-23-000094
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-12-31,23614000000,True,0001652044-23-000094 0001652044-25-000014
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-03-31,23509000000,False,0001652044-24-000053
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-06-30,28666000000,True,0001652044-24-000053 0001652044-24-000079
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-09-30,30656000000,True,0001652044-24-000079 0001652044-24-000118
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-12-31,18915000000,True,0001652044-24-000118 0001652044-26-000018
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-03-31,28848000000,False,0001652044-25-000043
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-06-30,26640000000,True,0001652044-25-000043 0001652044-25-000062
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-09-30,30698000000,True,0001652044-25-000062 0001652044-25-000091
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-12-31,39113000000,True,0001652044-25-000091 0001652044-26-000018
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-03-31,36150000000,False,0001652044-26-000048
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-06-30,27747000000,True,0001652044-26-000048 0001652044-26-000071
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-09-30,48414000000,True,0001652044-26-000071 0001652044-26-000084
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-12-31,52402000000,True,0001652044-26-000084 0001652044-26-000018
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-03-31,45790000000,False,0001652044-26-000048
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-06-30,39069000000,True,0001652044-26-000048 0001652044-26-000071
+GOOGL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-09-30,42290000000,True,0001652044-26-000071 0001652044-26-000084
+GOOGL,operating_income,OperatingIncomeLoss,2019-03-31,6608000000,False,0001652044-20-000021
+GOOGL,operating_income,OperatingIncomeLoss,2019-06-30,9180000000,False,0001652044-20-000032
+GOOGL,operating_income,OperatingIncomeLoss,2019-09-30,9177000000,False,0001652044-20-000050
+GOOGL,operating_income,OperatingIncomeLoss,2019-12-31,9266000000,True,0001652044-20-000050 0001652044-22-000019
+GOOGL,operating_income,OperatingIncomeLoss,2020-03-31,7977000000,False,0001652044-21-000020
+GOOGL,operating_income,OperatingIncomeLoss,2020-06-30,6383000000,False,0001652044-21-000047
+GOOGL,operating_income,OperatingIncomeLoss,2020-09-30,11213000000,False,0001652044-21-000057
+GOOGL,operating_income,OperatingIncomeLoss,2020-12-31,15651000000,True,0001652044-21-000057 0001652044-23-000016
+GOOGL,operating_income,OperatingIncomeLoss,2021-03-31,16437000000,False,0001652044-22-000029
+GOOGL,operating_income,OperatingIncomeLoss,2021-06-30,19361000000,False,0001652044-22-000071
+GOOGL,operating_income,OperatingIncomeLoss,2021-09-30,21031000000,False,0001652044-22-000090
+GOOGL,operating_income,OperatingIncomeLoss,2021-12-31,21885000000,True,0001652044-22-000090 0001652044-24-000022
+GOOGL,operating_income,OperatingIncomeLoss,2022-03-31,20094000000,False,0001652044-23-000045
+GOOGL,operating_income,OperatingIncomeLoss,2022-06-30,19453000000,False,0001652044-23-000070
+GOOGL,operating_income,OperatingIncomeLoss,2022-09-30,17135000000,False,0001652044-23-000094
+GOOGL,operating_income,OperatingIncomeLoss,2022-12-31,18160000000,True,0001652044-23-000094 0001652044-25-000014
+GOOGL,operating_income,OperatingIncomeLoss,2023-03-31,17415000000,False,0001652044-24-000053
+GOOGL,operating_income,OperatingIncomeLoss,2023-06-30,21838000000,False,0001652044-24-000079
+GOOGL,operating_income,OperatingIncomeLoss,2023-09-30,21343000000,False,0001652044-24-000118
+GOOGL,operating_income,OperatingIncomeLoss,2023-12-31,23697000000,True,0001652044-24-000118 0001652044-26-000018
+GOOGL,operating_income,OperatingIncomeLoss,2024-03-31,25472000000,False,0001652044-25-000043
+GOOGL,operating_income,OperatingIncomeLoss,2024-06-30,27425000000,False,0001652044-25-000062
+GOOGL,operating_income,OperatingIncomeLoss,2024-09-30,28521000000,False,0001652044-25-000091
+GOOGL,operating_income,OperatingIncomeLoss,2024-12-31,30972000000,True,0001652044-25-000091 0001652044-26-000018
+GOOGL,operating_income,OperatingIncomeLoss,2025-03-31,30606000000,False,0001652044-26-000048
+GOOGL,operating_income,OperatingIncomeLoss,2025-06-30,31271000000,False,0001652044-26-000071
+GOOGL,operating_income,OperatingIncomeLoss,2025-09-30,31228000000,False,0001652044-26-000084
+GOOGL,operating_income,OperatingIncomeLoss,2025-12-31,35934000000,True,0001652044-26-000084 0001652044-26-000018
+GOOGL,operating_income,OperatingIncomeLoss,2026-03-31,39696000000,False,0001652044-26-000048
+GOOGL,operating_income,OperatingIncomeLoss,2026-06-30,40770000000,False,0001652044-26-000071
+GOOGL,operating_income,OperatingIncomeLoss,2026-09-30,40576000000,False,0001652044-26-000084
+GOOGL,dep_amort,Depreciation,2023-03-31,2635000000,False,0001652044-24-000053
+GOOGL,dep_amort,Depreciation,2023-06-30,2824000000,True,0001652044-24-000053 0001652044-24-000079
+GOOGL,dep_amort,Depreciation,2023-09-30,3171000000,True,0001652044-24-000079 0001652044-24-000118
+GOOGL,dep_amort,Depreciation,2023-12-31,3316000000,True,0001652044-24-000118 0001652044-26-000018
+GOOGL,dep_amort,Depreciation,2024-03-31,3413000000,False,0001652044-25-000043
+GOOGL,dep_amort,Depreciation,2024-06-30,3708000000,True,0001652044-25-000043 0001652044-25-000062
+GOOGL,dep_amort,Depreciation,2024-09-30,3985000000,True,0001652044-25-000062 0001652044-25-000091
+GOOGL,dep_amort,Depreciation,2024-12-31,4205000000,True,0001652044-25-000091 0001652044-26-000018
+GOOGL,dep_amort,Depreciation,2025-03-31,4487000000,False,0001652044-26-000048
+GOOGL,dep_amort,Depreciation,2025-06-30,4998000000,True,0001652044-26-000048 0001652044-26-000071
+GOOGL,dep_amort,Depreciation,2025-09-30,5611000000,True,0001652044-26-000071 0001652044-26-000084
+GOOGL,dep_amort,Depreciation,2025-12-31,6040000000,True,0001652044-26-000084 0001652044-26-000018
+GOOGL,dep_amort,Depreciation,2026-03-31,6482000000,False,0001652044-26-000048
+GOOGL,dep_amort,Depreciation,2026-06-30,7104000000,True,0001652044-26-000048 0001652044-26-000071
+GOOGL,dep_amort,Depreciation,2026-09-30,8369000000,True,0001652044-26-000071 0001652044-26-000084
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-03-31,3837000000,False,0001326801-20-000048
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-06-30,3633000000,True,0001326801-20-000048 0001326801-20-000076
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-09-30,3532000000,True,0001326801-20-000076 0001326801-20-000084
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-12-31,4100000000,True,0001326801-20-000084 0001326801-22-000018
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-03-31,3558000000,False,0001326801-21-000033
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-06-30,3255000000,True,0001326801-21-000033 0001326801-21-000049
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-09-30,3689000000,True,0001326801-21-000049 0001326801-21-000065
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-12-31,4661000000,True,0001326801-21-000065 0001326801-23-000013
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-03-31,4303000000,False,0001326801-22-000057
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-06-30,4641000000,True,0001326801-22-000057 0001326801-22-000082
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-09-30,4346000000,True,0001326801-22-000082 0001326801-22-000108
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-12-31,5400000000,True,0001326801-22-000108 0001326801-24-000012
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-03-31,5441000000,False,0001326801-23-000067
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-06-30,7572000000,True,0001326801-23-000067 0001326801-23-000093
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-09-30,9375000000,True,0001326801-23-000093 0001326801-23-000103
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-12-31,8798000000,True,0001326801-23-000103 0001326801-25-000017
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-03-31,6823000000,False,0001326801-24-000049
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-06-30,6134000000,True,0001326801-24-000049 0001326801-24-000069
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-09-30,6496000000,True,0001326801-24-000069 0001326801-24-000081
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-12-31,7592000000,True,0001326801-24-000081 0001628280-26-003942
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-03-31,6400000000,False,0001326801-25-000054
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-06-30,8173000000,True,0001326801-25-000054 0001628280-25-036791
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-09-30,8258000000,True,0001628280-25-036791 0001628280-25-047240
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-12-31,14425000000,True,0001628280-25-047240 0001628280-26-003942
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-03-31,12941000000,False,0001628280-26-028526
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-06-30,16538000000,True,0001628280-26-028526 0001628280-26-050705
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-09-30,18829000000,True,0001628280-26-050705 0001628280-26-066773
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-12-31,21383000000,True,0001628280-26-066773 0001628280-26-003942
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-03-31,18997000000,False,0001628280-26-028526
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-06-30,30116000000,True,0001628280-26-028526 0001628280-26-050705
+META,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-09-30,33942000000,True,0001628280-26-050705 0001628280-26-066773
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2019-03-31,125000000,False,0001326801-20-000048
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2019-06-30,142000000,True,0001326801-20-000048 0001326801-20-000076
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2019-09-30,144000000,True,0001326801-20-000076 0001326801-20-000084
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2019-12-31,141000000,True,0001326801-20-000084 0001326801-22-000018
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2020-03-31,100000000,False,0001326801-21-000033
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2020-06-30,109000000,True,0001326801-21-000033 0001326801-21-000049
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2020-09-30,189000000,True,0001326801-21-000049 0001326801-21-000065
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2020-12-31,206000000,True,0001326801-21-000065 0001326801-23-000013
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2021-03-31,151000000,False,0001326801-22-000057
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2021-06-30,123000000,True,0001326801-22-000057 0001326801-22-000082
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2021-09-30,231000000,True,0001326801-22-000082 0001326801-22-000108
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2021-12-31,172000000,True,0001326801-22-000108 0001326801-24-000012
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2022-03-31,233000000,False,0001326801-23-000067
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2022-06-30,219000000,True,0001326801-23-000067 0001326801-23-000093
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2022-09-30,163000000,True,0001326801-23-000093 0001326801-23-000103
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2022-12-31,235000000,True,0001326801-23-000103 0001326801-25-000017
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2023-03-31,264000000,False,0001326801-24-000049
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2023-06-30,220000000,True,0001326801-24-000049 0001326801-24-000069
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2023-09-30,267000000,True,0001326801-24-000069 0001326801-24-000081
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2023-12-31,307000000,True,0001326801-24-000081 0001628280-26-003942
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2024-03-31,315000000,False,0001326801-25-000054
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2024-06-30,299000000,True,0001326801-25-000054 0001628280-25-036791
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2024-09-30,944000000,True,0001628280-25-036791 0001628280-25-047240
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2024-12-31,411000000,True,0001628280-25-047240 0001628280-26-003942
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2025-03-31,751000000,False,0001628280-26-028526
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2025-06-30,474000000,True,0001628280-26-028526 0001628280-26-050705
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2025-09-30,545000000,True,0001628280-26-050705 0001628280-26-066773
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2025-12-31,754000000,True,0001628280-26-066773 0001628280-26-003942
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2026-03-31,843000000,False,0001628280-26-028526
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2026-06-30,962000000,True,0001628280-26-028526 0001628280-26-050705
+META,finance_lease_principal,FinanceLeasePrincipalPayments,2026-09-30,964000000,True,0001628280-26-050705 0001628280-26-066773
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-03-31,15077000000,False,0001326801-20-000048
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-06-30,16886000000,False,0001326801-20-000076
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-09-30,17652000000,False,0001326801-20-000084
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-12-31,21082000000,True,0001326801-20-000084 0001326801-22-000018
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-03-31,17737000000,False,0001326801-21-000033
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-06-30,18687000000,False,0001326801-21-000049
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-09-30,21470000000,False,0001326801-21-000065
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-12-31,28072000000,True,0001326801-21-000065 0001326801-23-000013
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-03-31,26171000000,False,0001326801-22-000057
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-06-30,29077000000,False,0001326801-22-000082
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-09-30,29010000000,False,0001326801-22-000108
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-12-31,33671000000,True,0001326801-22-000108 0001326801-24-000012
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-03-31,27908000000,False,0001326801-23-000067
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-06-30,28822000000,False,0001326801-23-000093
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-09-30,27714000000,False,0001326801-23-000103
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-12-31,32165000000,True,0001326801-23-000103 0001326801-25-000017
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-03-31,28645000000,False,0001326801-24-000049
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-06-30,31999000000,False,0001326801-24-000069
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-09-30,34146000000,False,0001326801-24-000081
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-12-31,40111000000,True,0001326801-24-000081 0001628280-26-003942
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-03-31,36455000000,False,0001326801-25-000054
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-06-30,39071000000,False,0001628280-25-036791
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-09-30,40589000000,False,0001628280-25-047240
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-12-31,48385000000,True,0001628280-25-047240 0001628280-26-003942
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-03-31,42314000000,False,0001628280-26-028526
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-06-30,47516000000,False,0001628280-26-050705
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-09-30,51242000000,False,0001628280-26-066773
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-12-31,59893000000,True,0001628280-26-066773 0001628280-26-003942
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-03-31,56311000000,False,0001628280-26-028526
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-06-30,60801000000,False,0001628280-26-050705
+META,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-09-30,64601000000,False,0001628280-26-066773
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-03-31,9308000000,False,0001326801-20-000048
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-06-30,8616000000,True,0001326801-20-000048 0001326801-20-000076
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-09-30,9307000000,True,0001326801-20-000076 0001326801-20-000084
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-12-31,9083000000,True,0001326801-20-000084 0001326801-22-000018
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-03-31,11001000000,False,0001326801-21-000033
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-06-30,3877000000,True,0001326801-21-000033 0001326801-21-000049
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-09-30,9829000000,True,0001326801-21-000049 0001326801-21-000065
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-12-31,14040000000,True,0001326801-21-000065 0001326801-23-000013
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-03-31,12242000000,False,0001326801-22-000057
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-06-30,13247000000,True,0001326801-22-000057 0001326801-22-000082
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-09-30,14090000000,True,0001326801-22-000082 0001326801-22-000108
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-12-31,18104000000,True,0001326801-22-000108 0001326801-24-000012
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-03-31,14076000000,False,0001326801-23-000067
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-06-30,12196000000,True,0001326801-23-000067 0001326801-23-000093
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-09-30,9692000000,True,0001326801-23-000093 0001326801-23-000103
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-12-31,14511000000,True,0001326801-23-000103 0001326801-25-000017
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-03-31,13998000000,False,0001326801-24-000049
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-06-30,17309000000,True,0001326801-24-000049 0001326801-24-000069
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-09-30,20402000000,True,0001326801-24-000069 0001326801-24-000081
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-12-31,19404000000,True,0001326801-24-000081 0001628280-26-003942
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-03-31,19246000000,False,0001326801-25-000054
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-06-30,19370000000,True,0001326801-25-000054 0001628280-25-036791
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-09-30,24724000000,True,0001628280-25-036791 0001628280-25-047240
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-12-31,27988000000,True,0001628280-25-047240 0001628280-26-003942
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-03-31,24026000000,False,0001628280-26-028526
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-06-30,25561000000,True,0001628280-26-028526 0001628280-26-050705
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-09-30,29999000000,True,0001628280-26-050705 0001628280-26-066773
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-12-31,36214000000,True,0001628280-26-066773 0001628280-26-003942
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-03-31,32226000000,False,0001628280-26-028526
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-06-30,31862000000,True,0001628280-26-028526 0001628280-26-050705
+META,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-09-30,32785000000,True,0001628280-26-050705 0001628280-26-066773
+META,operating_income,OperatingIncomeLoss,2019-03-31,3317000000,False,0001326801-20-000048
+META,operating_income,OperatingIncomeLoss,2019-06-30,4626000000,False,0001326801-20-000076
+META,operating_income,OperatingIncomeLoss,2019-09-30,7185000000,False,0001326801-20-000084
+META,operating_income,OperatingIncomeLoss,2019-12-31,8858000000,True,0001326801-20-000084 0001326801-22-000018
+META,operating_income,OperatingIncomeLoss,2020-03-31,5893000000,False,0001326801-21-000033
+META,operating_income,OperatingIncomeLoss,2020-06-30,5963000000,False,0001326801-21-000049
+META,operating_income,OperatingIncomeLoss,2020-09-30,8040000000,False,0001326801-21-000065
+META,operating_income,OperatingIncomeLoss,2020-12-31,12775000000,True,0001326801-21-000065 0001326801-23-000013
+META,operating_income,OperatingIncomeLoss,2021-03-31,11378000000,False,0001326801-22-000057
+META,operating_income,OperatingIncomeLoss,2021-06-30,12367000000,False,0001326801-22-000082
+META,operating_income,OperatingIncomeLoss,2021-09-30,10423000000,False,0001326801-22-000108
+META,operating_income,OperatingIncomeLoss,2021-12-31,12585000000,True,0001326801-22-000108 0001326801-24-000012
+META,operating_income,OperatingIncomeLoss,2022-03-31,8524000000,False,0001326801-23-000067
+META,operating_income,OperatingIncomeLoss,2022-06-30,8358000000,False,0001326801-23-000093
+META,operating_income,OperatingIncomeLoss,2022-09-30,5664000000,False,0001326801-23-000103
+META,operating_income,OperatingIncomeLoss,2022-12-31,6399000000,True,0001326801-23-000103 0001326801-25-000017
+META,operating_income,OperatingIncomeLoss,2023-03-31,7227000000,False,0001326801-24-000049
+META,operating_income,OperatingIncomeLoss,2023-06-30,9392000000,False,0001326801-24-000069
+META,operating_income,OperatingIncomeLoss,2023-09-30,13748000000,False,0001326801-24-000081
+META,operating_income,OperatingIncomeLoss,2023-12-31,16384000000,True,0001326801-24-000081 0001628280-26-003942
+META,operating_income,OperatingIncomeLoss,2024-03-31,13818000000,False,0001326801-25-000054
+META,operating_income,OperatingIncomeLoss,2024-06-30,14847000000,False,0001628280-25-036791
+META,operating_income,OperatingIncomeLoss,2024-09-30,17350000000,False,0001628280-25-047240
+META,operating_income,OperatingIncomeLoss,2024-12-31,23364000000,True,0001628280-25-047240 0001628280-26-003942
+META,operating_income,OperatingIncomeLoss,2025-03-31,17555000000,False,0001628280-26-028526
+META,operating_income,OperatingIncomeLoss,2025-06-30,20441000000,False,0001628280-26-050705
+META,operating_income,OperatingIncomeLoss,2025-09-30,20535000000,False,0001628280-26-066773
+META,operating_income,OperatingIncomeLoss,2025-12-31,24745000000,True,0001628280-26-066773 0001628280-26-003942
+META,operating_income,OperatingIncomeLoss,2026-03-31,22872000000,False,0001628280-26-028526
+META,operating_income,OperatingIncomeLoss,2026-06-30,18775000000,False,0001628280-26-050705
+META,operating_income,OperatingIncomeLoss,2026-09-30,12988000000,False,0001628280-26-066773
+META,dep_amort,DepreciationDepletionAndAmortization,2019-03-31,1355000000,False,0001326801-20-000048
+META,dep_amort,DepreciationDepletionAndAmortization,2019-06-30,1502000000,True,0001326801-20-000048 0001326801-20-000076
+META,dep_amort,DepreciationDepletionAndAmortization,2019-09-30,1416000000,True,0001326801-20-000076 0001326801-20-000084
+META,dep_amort,DepreciationDepletionAndAmortization,2019-12-31,1468000000,True,0001326801-20-000084 0001326801-22-000018
+META,dep_amort,DepreciationDepletionAndAmortization,2020-03-31,1597000000,False,0001326801-21-000033
+META,dep_amort,DepreciationDepletionAndAmortization,2020-06-30,1704000000,True,0001326801-21-000033 0001326801-21-000049
+META,dep_amort,DepreciationDepletionAndAmortization,2020-09-30,1698000000,True,0001326801-21-000049 0001326801-21-000065
+META,dep_amort,DepreciationDepletionAndAmortization,2020-12-31,1863000000,True,0001326801-21-000065 0001326801-23-000013
+META,dep_amort,DepreciationDepletionAndAmortization,2021-03-31,1972000000,False,0001326801-22-000057
+META,dep_amort,DepreciationDepletionAndAmortization,2021-06-30,1986000000,True,0001326801-22-000057 0001326801-22-000082
+META,dep_amort,DepreciationDepletionAndAmortization,2021-09-30,1995000000,True,0001326801-22-000082 0001326801-22-000108
+META,dep_amort,DepreciationDepletionAndAmortization,2021-12-31,2014000000,True,0001326801-22-000108 0001326801-24-000012
+META,dep_amort,DepreciationDepletionAndAmortization,2022-03-31,2156000000,False,0001326801-23-000067
+META,dep_amort,DepreciationDepletionAndAmortization,2022-06-30,1979000000,True,0001326801-23-000067 0001326801-23-000093
+META,dep_amort,DepreciationDepletionAndAmortization,2022-09-30,2175000000,True,0001326801-23-000093 0001326801-23-000103
+META,dep_amort,DepreciationDepletionAndAmortization,2022-12-31,2376000000,True,0001326801-23-000103 0001326801-25-000017
+META,dep_amort,DepreciationDepletionAndAmortization,2023-03-31,2524000000,False,0001326801-24-000049
+META,dep_amort,DepreciationDepletionAndAmortization,2023-06-30,2623000000,True,0001326801-24-000049 0001326801-24-000069
+META,dep_amort,DepreciationDepletionAndAmortization,2023-09-30,2859000000,True,0001326801-24-000069 0001326801-24-000081
+META,dep_amort,DepreciationDepletionAndAmortization,2023-12-31,3172000000,True,0001326801-24-000081 0001628280-26-003942
+META,dep_amort,DepreciationDepletionAndAmortization,2024-03-31,3374000000,False,0001326801-25-000054
+META,dep_amort,DepreciationDepletionAndAmortization,2024-06-30,3637000000,True,0001326801-25-000054 0001628280-25-036791
+META,dep_amort,DepreciationDepletionAndAmortization,2024-09-30,4027000000,True,0001628280-25-036791 0001628280-25-047240
+META,dep_amort,DepreciationDepletionAndAmortization,2024-12-31,4460000000,True,0001628280-25-047240 0001628280-26-003942
+META,dep_amort,DepreciationDepletionAndAmortization,2025-03-31,3900000000,False,0001628280-26-028526
+META,dep_amort,DepreciationDepletionAndAmortization,2025-06-30,4342000000,True,0001628280-26-028526 0001628280-26-050705
+META,dep_amort,DepreciationDepletionAndAmortization,2025-09-30,4963000000,True,0001628280-26-050705 0001628280-26-066773
+META,dep_amort,DepreciationDepletionAndAmortization,2025-12-31,5411000000,True,0001628280-26-066773 0001628280-26-003942
+META,dep_amort,DepreciationDepletionAndAmortization,2026-03-31,5999000000,False,0001628280-26-028526
+META,dep_amort,DepreciationDepletionAndAmortization,2026-06-30,6356000000,True,0001628280-26-028526 0001628280-26-050705
+META,dep_amort,DepreciationDepletionAndAmortization,2026-09-30,7154000000,True,0001628280-26-050705 0001628280-26-066773
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-02-28,443000000,True,0001564590-19-045966 0001564590-20-010833
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-05-31,413000000,True,0001564590-20-010833 0001564590-21-033616
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-08-31,386000000,False,0001564590-20-043448
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-11-30,349000000,True,0001564590-20-043448 0001564590-20-056896
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-02-29,396000000,True,0001564590-20-056896 0001564590-21-012539
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-05-31,433000000,True,0001564590-21-012539 0001564590-22-023675
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-08-31,436000000,False,0001564590-21-047772
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-11-30,568000000,True,0001564590-21-047772 0001564590-21-060022
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-02-28,414000000,True,0001564590-21-060022 0001564590-22-009859
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-05-31,717000000,True,0001564590-22-009859 0000950170-23-028914
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-08-31,1062000000,False,0001564590-22-031545
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-11-30,925000000,True,0001564590-22-031545 0001564590-22-039278
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-02-28,1101000000,True,0001564590-22-039278 0001564590-23-003413
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-05-31,1423000000,True,0001564590-23-003413 0000950170-24-075605
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-08-31,1719000000,False,0000950170-23-047713
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-11-30,2435000000,True,0000950170-23-047713 0000950170-23-069682
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-02-28,2628000000,True,0000950170-23-069682 0000950170-24-029904
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-05-31,1913000000,True,0000950170-24-029904 0000950170-25-087926
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-08-31,1314000000,False,0000950170-24-104905
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-11-30,1080000000,True,0000950170-24-104905 0000950170-24-134973
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-02-29,1674000000,True,0000950170-24-134973 0000950170-25-037143
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-05-31,2798000000,True,0000950170-25-037143 0001193125-26-277521
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-08-31,2303000000,False,0001193125-25-200095
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-11-30,3970000000,True,0001193125-25-200095 0001193125-25-315925
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-02-28,5862000000,True,0001193125-25-315925 0001193125-26-101045
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-05-31,9080000000,True,0001193125-26-101045 0001193125-26-277521
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-08-31,8502000000,False,0001193125-26-389274
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-11-30,12033000000,True,0001193125-26-389274 0001193125-25-315925
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-02-28,18635000000,True,0001193125-25-315925 0001193125-26-101045
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-05-31,16493000000,True,0001193125-26-101045 0001193125-26-277521
+ORCL,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-08-31,28499000000,False,0001193125-26-389274
+ORCL,finance_lease_principal,FinanceLeasePrincipalPayments,2024-08-31,0,False,0001193125-25-200095
+ORCL,finance_lease_principal,FinanceLeasePrincipalPayments,2024-11-30,0,True,0001193125-25-200095 0001193125-25-315925
+ORCL,finance_lease_principal,FinanceLeasePrincipalPayments,2025-02-28,8000000,True,0001193125-25-315925 0001193125-26-101045
+ORCL,finance_lease_principal,FinanceLeasePrincipalPayments,2025-05-31,19000000,True,0001193125-26-101045 0000950170-25-087926
+ORCL,finance_lease_principal,FinanceLeasePrincipalPayments,2025-08-31,86000000,False,0001193125-25-200095
+ORCL,finance_lease_principal,FinanceLeasePrincipalPayments,2025-11-30,113000000,True,0001193125-25-200095 0001193125-25-315925
+ORCL,finance_lease_principal,FinanceLeasePrincipalPayments,2026-02-28,87000000,True,0001193125-25-315925 0001193125-26-101045
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-02-28,9614000000,False,0001564590-20-010833
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-05-31,11137000000,True,0001564590-20-010833 0001564590-21-033616
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-08-31,9218000000,False,0001564590-20-043448
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-11-30,9614000000,False,0001564590-20-056896
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-02-29,9796000000,False,0001564590-21-012539
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-05-31,10439000000,True,0001564590-21-012539 0001564590-22-023675
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-08-31,9367000000,False,0001564590-21-047772
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-11-30,9800000000,False,0001564590-21-060022
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-02-28,10085000000,False,0001564590-22-009859
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-05-31,11227000000,True,0001564590-22-009859 0000950170-23-028914
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-08-31,9728000000,False,0001564590-22-031545
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-11-30,10360000000,False,0001564590-22-039278
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-02-28,10513000000,False,0001564590-23-003413
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-05-31,11840000000,True,0001564590-23-003413 0000950170-24-075605
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-08-31,11445000000,False,0000950170-23-047713
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-11-30,12275000000,False,0000950170-23-069682
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-02-28,12398000000,False,0000950170-24-029904
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-05-31,13836000000,True,0000950170-24-029904 0000950170-25-087926
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-08-31,12453000000,False,0000950170-24-104905
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-11-30,12941000000,False,0000950170-24-134973
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-02-29,13280000000,False,0000950170-25-037143
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-05-31,14287000000,True,0000950170-25-037143 0001193125-26-277521
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-08-31,13307000000,False,0001193125-25-200095
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-11-30,14059000000,False,0001193125-25-315925
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-02-28,14130000000,False,0001193125-26-101045
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-05-31,15903000000,True,0001193125-26-101045 0001193125-26-277521
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-08-31,14926000000,False,0001193125-26-389274
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-11-30,16058000000,False,0001193125-25-315925
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-02-28,17190000000,False,0001193125-26-101045
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-05-31,19184000000,True,0001193125-26-101045 0001193125-26-277521
+ORCL,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-08-31,19345000000,False,0001193125-26-389274
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-02-28,2861000000,True,0001564590-19-045966 0001564590-20-010833
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-05-31,4422000000,True,0001564590-20-010833 0001564590-21-033616
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-08-31,6000000000,False,0001564590-20-043448
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-11-30,513000000,True,0001564590-20-043448 0001564590-20-056896
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-02-29,3012000000,True,0001564590-20-056896 0001564590-21-012539
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-05-31,3614000000,True,0001564590-21-012539 0001564590-22-023675
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-08-31,5953000000,False,0001564590-21-047772
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-11-30,1388000000,True,0001564590-21-047772 0001564590-21-060022
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-02-28,3704000000,True,0001564590-21-060022 0001564590-22-009859
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-05-31,4842000000,True,0001564590-22-009859 0000950170-23-028914
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-08-31,5391000000,False,0001564590-22-031545
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-11-30,-3682000000,True,0001564590-22-031545 0001564590-22-039278
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-02-28,3845000000,True,0001564590-22-039278 0001564590-23-003413
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-05-31,3985000000,True,0001564590-23-003413 0000950170-24-075605
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-08-31,6394000000,False,0000950170-23-047713
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-11-30,849000000,True,0000950170-23-047713 0000950170-23-069682
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-02-28,4275000000,True,0000950170-23-069682 0000950170-24-029904
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-05-31,5647000000,True,0000950170-24-029904 0000950170-25-087926
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-08-31,6974000000,False,0000950170-24-104905
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-11-30,143000000,True,0000950170-24-104905 0000950170-24-134973
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-02-29,5475000000,True,0000950170-24-134973 0000950170-25-037143
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-05-31,6081000000,True,0000950170-25-037143 0001193125-26-277521
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-08-31,7427000000,False,0001193125-25-200095
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-11-30,1304000000,True,0001193125-25-200095 0001193125-25-315925
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-02-28,5933000000,True,0001193125-25-315925 0001193125-26-101045
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-05-31,6157000000,True,0001193125-26-101045 0001193125-26-277521
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-08-31,8140000000,False,0001193125-26-389274
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-11-30,2066000000,True,0001193125-26-389274 0001193125-25-315925
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-02-28,7151000000,True,0001193125-25-315925 0001193125-26-101045
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-05-31,14620000000,True,0001193125-26-101045 0001193125-26-277521
+ORCL,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-08-31,23103000000,False,0001193125-26-389274
+ORCL,operating_income,OperatingIncomeLoss,2019-02-28,3399000000,False,0001564590-20-010833
+ORCL,operating_income,OperatingIncomeLoss,2019-05-31,4257000000,True,0001564590-20-010833 0001564590-21-033616
+ORCL,operating_income,OperatingIncomeLoss,2019-08-31,2877000000,False,0001564590-20-043448
+ORCL,operating_income,OperatingIncomeLoss,2019-11-30,3183000000,False,0001564590-20-056896
+ORCL,operating_income,OperatingIncomeLoss,2020-02-29,3528000000,False,0001564590-21-012539
+ORCL,operating_income,OperatingIncomeLoss,2020-05-31,4308000000,True,0001564590-21-012539 0001564590-22-023675
+ORCL,operating_income,OperatingIncomeLoss,2020-08-31,3211000000,False,0001564590-21-047772
+ORCL,operating_income,OperatingIncomeLoss,2020-11-30,3583000000,False,0001564590-21-060022
+ORCL,operating_income,OperatingIncomeLoss,2021-02-28,3878000000,False,0001564590-22-009859
+ORCL,operating_income,OperatingIncomeLoss,2021-05-31,4541000000,True,0001564590-22-009859 0000950170-23-028914
+ORCL,operating_income,OperatingIncomeLoss,2021-08-31,3427000000,False,0001564590-22-031545
+ORCL,operating_income,OperatingIncomeLoss,2021-11-30,-824000000,False,0001564590-22-039278
+ORCL,operating_income,OperatingIncomeLoss,2022-02-28,3822000000,False,0001564590-23-003413
+ORCL,operating_income,OperatingIncomeLoss,2022-05-31,4502000000,True,0001564590-23-003413 0000950170-24-075605
+ORCL,operating_income,OperatingIncomeLoss,2022-08-31,2623000000,False,0000950170-23-047713
+ORCL,operating_income,OperatingIncomeLoss,2022-11-30,3071000000,False,0000950170-23-069682
+ORCL,operating_income,OperatingIncomeLoss,2023-02-28,3260000000,False,0000950170-24-029904
+ORCL,operating_income,OperatingIncomeLoss,2023-05-31,4140000000,True,0000950170-24-029904 0000950170-25-087926
+ORCL,operating_income,OperatingIncomeLoss,2023-08-31,3296000000,False,0000950170-24-104905
+ORCL,operating_income,OperatingIncomeLoss,2023-11-30,3622000000,False,0000950170-24-134973
+ORCL,operating_income,OperatingIncomeLoss,2024-02-29,3750000000,False,0000950170-25-037143
+ORCL,operating_income,OperatingIncomeLoss,2024-05-31,4686000000,True,0000950170-25-037143 0001193125-26-277521
+ORCL,operating_income,OperatingIncomeLoss,2024-08-31,3991000000,False,0001193125-25-200095
+ORCL,operating_income,OperatingIncomeLoss,2024-11-30,4220000000,False,0001193125-25-315925
+ORCL,operating_income,OperatingIncomeLoss,2025-02-28,4358000000,False,0001193125-26-101045
+ORCL,operating_income,OperatingIncomeLoss,2025-05-31,5109000000,True,0001193125-26-101045 0001193125-26-277521
+ORCL,operating_income,OperatingIncomeLoss,2025-08-31,4277000000,False,0001193125-26-389274
+ORCL,operating_income,OperatingIncomeLoss,2025-11-30,4731000000,False,0001193125-25-315925
+ORCL,operating_income,OperatingIncomeLoss,2026-02-28,5464000000,False,0001193125-26-101045
+ORCL,operating_income,OperatingIncomeLoss,2026-05-31,6133000000,True,0001193125-26-101045 0001193125-26-277521
+ORCL,operating_income,OperatingIncomeLoss,2026-08-31,6728000000,False,0001193125-26-389274
+ORCL,dep_amort,Depreciation,2019-02-28,334000000,True,0001564590-19-045966 0001564590-20-010833
+ORCL,dep_amort,Depreciation,2019-05-31,330000000,True,0001564590-20-010833 0001564590-21-033616
+ORCL,dep_amort,Depreciation,2019-08-31,336000000,False,0001564590-20-043448
+ORCL,dep_amort,Depreciation,2019-11-30,341000000,True,0001564590-20-043448 0001564590-20-056896
+ORCL,dep_amort,Depreciation,2020-02-29,348000000,True,0001564590-20-056896 0001564590-21-012539
+ORCL,dep_amort,Depreciation,2020-05-31,357000000,True,0001564590-21-012539 0001564590-22-023675
+ORCL,dep_amort,Depreciation,2020-08-31,356000000,False,0001564590-21-047772
+ORCL,dep_amort,Depreciation,2020-11-30,386000000,True,0001564590-21-047772 0001564590-21-060022
+ORCL,dep_amort,Depreciation,2021-02-28,385000000,True,0001564590-21-060022 0001564590-22-009859
+ORCL,dep_amort,Depreciation,2021-05-31,410000000,True,0001564590-22-009859 0000950170-23-028914
+ORCL,dep_amort,Depreciation,2021-08-31,454000000,False,0001564590-22-031545
+ORCL,dep_amort,Depreciation,2021-11-30,459000000,True,0001564590-22-031545 0001564590-22-039278
+ORCL,dep_amort,Depreciation,2022-02-28,496000000,True,0001564590-22-039278 0001564590-23-003413
+ORCL,dep_amort,Depreciation,2022-05-31,563000000,True,0001564590-23-003413 0000950170-24-075605
+ORCL,dep_amort,Depreciation,2022-08-31,547000000,False,0000950170-23-047713
+ORCL,dep_amort,Depreciation,2022-11-30,591000000,True,0000950170-23-047713 0000950170-23-069682
+ORCL,dep_amort,Depreciation,2023-02-28,672000000,True,0000950170-23-069682 0000950170-24-029904
+ORCL,dep_amort,Depreciation,2023-05-31,716000000,True,0000950170-24-029904 0000950170-25-087926
+ORCL,dep_amort,Depreciation,2023-08-31,712000000,False,0000950170-24-104905
+ORCL,dep_amort,Depreciation,2023-11-30,798000000,True,0000950170-24-104905 0000950170-24-134973
+ORCL,dep_amort,Depreciation,2024-02-29,808000000,True,0000950170-24-134973 0000950170-25-037143
+ORCL,dep_amort,Depreciation,2024-05-31,811000000,True,0000950170-25-037143 0001193125-26-277521
+ORCL,dep_amort,Depreciation,2024-08-31,804000000,False,0001193125-25-200095
+ORCL,dep_amort,Depreciation,2024-11-30,908000000,True,0001193125-25-200095 0001193125-25-315925
+ORCL,dep_amort,Depreciation,2025-02-28,1003000000,True,0001193125-25-315925 0001193125-26-101045
+ORCL,dep_amort,Depreciation,2025-05-31,1152000000,True,0001193125-26-101045 0001193125-26-277521
+ORCL,dep_amort,Depreciation,2025-08-31,1351000000,False,0001193125-26-389274
+ORCL,dep_amort,Depreciation,2025-11-30,1704000000,True,0001193125-26-389274 0001193125-25-315925
+ORCL,dep_amort,Depreciation,2026-02-28,2153000000,True,0001193125-25-315925 0001193125-26-101045
+ORCL,dep_amort,Depreciation,2026-05-31,2415000000,True,0001193125-26-101045 0001193125-26-277521
+ORCL,dep_amort,Depreciation,2026-08-31,3156000000,False,0001193125-26-389274
+CRWV,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-03-31,1741935000,False,0001769628-25-000014
+CRWV,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-06-30,2247161000,True,0001769628-25-000014 0001769628-25-000041
+CRWV,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-09-30,1215155000,True,0001769628-25-000041 0001769628-25-000062
+CRWV,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-12-31,3497749000,True,0001769628-25-000062 0001769628-26-000104
+CRWV,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-03-31,1407000000,False,0001769628-26-000222
+CRWV,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-06-30,2453000000,True,0001769628-26-000222 0001769628-26-000366
+CRWV,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-09-30,2389239000,True,0001769628-26-000366 0001769628-25-000062
+CRWV,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-12-31,4059761000,True,0001769628-25-000062 0001769628-26-000104
+CRWV,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-03-31,7695000000,False,0001769628-26-000222
+CRWV,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-06-30,6422000000,True,0001769628-26-000222 0001769628-26-000366
+CRWV,finance_lease_principal,FinanceLeasePrincipalPayments,2025-03-31,14000000,False,0001769628-26-000222
+CRWV,finance_lease_principal,FinanceLeasePrincipalPayments,2025-06-30,14000000,True,0001769628-26-000222 0001769628-26-000366
+CRWV,finance_lease_principal,FinanceLeasePrincipalPayments,2026-03-31,15000000,False,0001769628-26-000222
+CRWV,finance_lease_principal,FinanceLeasePrincipalPayments,2026-06-30,18000000,True,0001769628-26-000222 0001769628-26-000366
+CRWV,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-03-31,188684000,False,0001769628-25-000014
+CRWV,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-06-30,395371000,False,0001769628-25-000041
+CRWV,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-09-30,583941000,False,0001769628-25-000062
+CRWV,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-12-31,747004000,True,0001769628-25-000062 0001769628-26-000104
+CRWV,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-03-31,982000000,False,0001769628-26-000222
+CRWV,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-06-30,1212000000,False,0001769628-26-000366
+CRWV,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-09-30,1364676000,False,0001769628-25-000062
+CRWV,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-12-31,1571904000,True,0001769628-25-000062 0001769628-26-000104
+CRWV,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-03-31,2078000000,False,0001769628-26-000222
+CRWV,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-06-30,2575000000,False,0001769628-26-000366
+CRWV,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-03-31,2039038000,False,0001769628-25-000014
+CRWV,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-06-30,-117824000,True,0001769628-25-000014 0001769628-25-000041
+CRWV,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-09-30,641222000,True,0001769628-25-000041 0001769628-25-000062
+CRWV,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-12-31,186564000,True,0001769628-25-000062 0001769628-26-000104
+CRWV,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-03-31,61000000,False,0001769628-26-000222
+CRWV,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-06-30,-251000000,True,0001769628-26-000222 0001769628-26-000366
+CRWV,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-09-30,1689051000,True,0001769628-26-000366 0001769628-25-000062
+CRWV,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-12-31,1558949000,True,0001769628-25-000062 0001769628-26-000104
+CRWV,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-03-31,2984000000,False,0001769628-26-000222
+CRWV,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-06-30,679000000,True,0001769628-26-000222 0001769628-26-000366
+CRWV,operating_income,OperatingIncomeLoss,2024-03-31,16847000,False,0001769628-25-000014
+CRWV,operating_income,OperatingIncomeLoss,2024-06-30,77721000,False,0001769628-25-000041
+CRWV,operating_income,OperatingIncomeLoss,2024-09-30,117116000,False,0001769628-25-000062
+CRWV,operating_income,OperatingIncomeLoss,2024-12-31,112316000,True,0001769628-25-000062 0001769628-26-000104
+CRWV,operating_income,OperatingIncomeLoss,2025-03-31,-27000000,False,0001769628-26-000222
+CRWV,operating_income,OperatingIncomeLoss,2025-06-30,19000000,False,0001769628-26-000366
+CRWV,operating_income,OperatingIncomeLoss,2025-09-30,51850000,False,0001769628-25-000062
+CRWV,operating_income,OperatingIncomeLoss,2025-12-31,-89589000,True,0001769628-25-000062 0001769628-26-000104
+CRWV,operating_income,OperatingIncomeLoss,2026-03-31,-144000000,False,0001769628-26-000222
+CRWV,operating_income,OperatingIncomeLoss,2026-06-30,-49000000,False,0001769628-26-000366
+CRWV,dep_amort,DepreciationDepletionAndAmortization,2024-03-31,79510000,False,0001769628-25-000014
+CRWV,dep_amort,DepreciationDepletionAndAmortization,2024-06-30,164460000,True,0001769628-25-000014 0001769628-25-000041
+CRWV,dep_amort,DepreciationDepletionAndAmortization,2024-09-30,254024000,True,0001769628-25-000041 0001769628-25-000062
+CRWV,dep_amort,DepreciationDepletionAndAmortization,2024-12-31,365006000,True,0001769628-25-000062 0001769628-26-000104
+CRWV,dep_amort,DepreciationDepletionAndAmortization,2025-03-31,443000000,False,0001769628-26-000222
+CRWV,dep_amort,DepreciationDepletionAndAmortization,2025-06-30,560000000,True,0001769628-26-000222 0001769628-26-000366
+CRWV,dep_amort,DepreciationDepletionAndAmortization,2025-09-30,630457000,True,0001769628-26-000366 0001769628-25-000062
+CRWV,dep_amort,DepreciationDepletionAndAmortization,2025-12-31,820543000,True,0001769628-25-000062 0001769628-26-000104
+CRWV,dep_amort,DepreciationDepletionAndAmortization,2026-03-31,1147000000,False,0001769628-26-000222
+CRWV,dep_amort,DepreciationDepletionAndAmortization,2026-06-30,1393000000,True,0001769628-26-000222 0001769628-26-000366
+NVDA,capex,PaymentsToAcquireProductiveAssets,2020-04-26,155000000,False,0001045810-21-000064
+NVDA,capex,PaymentsToAcquireProductiveAssets,2020-07-26,217000000,True,0001045810-21-000064 0001045810-21-000131
+NVDA,capex,PaymentsToAcquireProductiveAssets,2020-10-25,473000000,True,0001045810-21-000131 0001045810-21-000163
+NVDA,capex,PaymentsToAcquireProductiveAssets,2021-05-02,298000000,False,0001045810-21-000064
+NVDA,capex,PaymentsToAcquireProductiveAssets,2021-08-01,183000000,True,0001045810-21-000064 0001045810-21-000131
+NVDA,capex,PaymentsToAcquireProductiveAssets,2021-10-31,222000000,True,0001045810-21-000131 0001045810-21-000163
+NVDA,capex,PaymentsToAcquireProductiveAssets,2022-01-30,273000000,True,0001045810-21-000163 0001045810-24-000029
+NVDA,capex,PaymentsToAcquireProductiveAssets,2023-01-29,509000000,True,0001045810-23-000227 0001045810-25-000023
+NVDA,capex,PaymentsToAcquireProductiveAssets,2023-04-30,248000000,False,0001045810-24-000124
+NVDA,capex,PaymentsToAcquireProductiveAssets,2023-07-30,289000000,True,0001045810-24-000124 0001045810-24-000264
+NVDA,capex,PaymentsToAcquireProductiveAssets,2023-10-29,278000000,True,0001045810-24-000264 0001045810-24-000316
+NVDA,capex,PaymentsToAcquireProductiveAssets,2024-01-28,254000000,True,0001045810-24-000316 0001045810-26-000021
+NVDA,capex,PaymentsToAcquireProductiveAssets,2024-04-28,369000000,False,0001045810-25-000116
+NVDA,capex,PaymentsToAcquireProductiveAssets,2024-07-28,977000000,True,0001045810-25-000116 0001045810-25-000209
+NVDA,capex,PaymentsToAcquireProductiveAssets,2024-10-27,813000000,True,0001045810-25-000209 0001045810-25-000230
+NVDA,capex,PaymentsToAcquireProductiveAssets,2025-01-26,1077000000,True,0001045810-25-000230 0001045810-26-000021
+NVDA,capex,PaymentsToAcquireProductiveAssets,2025-04-27,1227000000,False,0001045810-26-000052
+NVDA,capex,PaymentsToAcquireProductiveAssets,2025-07-27,1895000000,True,0001045810-26-000052 0001045810-26-000075
+NVDA,capex,PaymentsToAcquireProductiveAssets,2025-10-26,1636000000,True,0001045810-26-000075 0001045810-25-000230
+NVDA,capex,PaymentsToAcquireProductiveAssets,2026-01-25,1284000000,True,0001045810-25-000230 0001045810-26-000021
+NVDA,capex,PaymentsToAcquireProductiveAssets,2026-04-26,1757000000,False,0001045810-26-000052
+NVDA,capex,PaymentsToAcquireProductiveAssets,2026-07-26,2677000000,True,0001045810-26-000052 0001045810-26-000075
+NVDA,revenue,Revenues,2019-04-28,2220000000,False,0001045810-20-000065
+NVDA,revenue,Revenues,2019-07-28,2579000000,False,0001045810-20-000147
+NVDA,revenue,Revenues,2019-10-27,3014000000,False,0001045810-20-000189
+NVDA,revenue,Revenues,2020-01-26,3105000000,True,0001045810-20-000189 0001045810-22-000036
+NVDA,revenue,Revenues,2020-04-26,3080000000,False,0001045810-21-000064
+NVDA,revenue,Revenues,2020-07-26,3866000000,False,0001045810-21-000131
+NVDA,revenue,Revenues,2020-10-25,4726000000,False,0001045810-21-000163
+NVDA,revenue,Revenues,2021-01-31,5003000000,True,0001045810-21-000163 0001045810-23-000017
+NVDA,revenue,Revenues,2021-05-02,5661000000,False,0001045810-22-000079
+NVDA,revenue,Revenues,2021-08-01,6507000000,False,0001045810-22-000147
+NVDA,revenue,Revenues,2021-10-31,7103000000,False,0001045810-22-000166
+NVDA,revenue,Revenues,2022-01-30,7643000000,True,0001045810-22-000166 0001045810-24-000029
+NVDA,revenue,Revenues,2022-05-01,8288000000,False,0001045810-23-000093
+NVDA,revenue,Revenues,2022-07-31,6704000000,False,0001045810-23-000175
+NVDA,revenue,Revenues,2022-10-30,5931000000,False,0001045810-23-000227
+NVDA,revenue,Revenues,2023-01-29,6051000000,True,0001045810-23-000227 0001045810-25-000023
+NVDA,revenue,Revenues,2023-04-30,7192000000,False,0001045810-24-000124
+NVDA,revenue,Revenues,2023-07-30,13507000000,False,0001045810-24-000264
+NVDA,revenue,Revenues,2023-10-29,18120000000,False,0001045810-24-000316
+NVDA,revenue,Revenues,2024-01-28,22103000000,True,0001045810-24-000316 0001045810-26-000021
+NVDA,revenue,Revenues,2024-04-28,26044000000,False,0001045810-25-000116
+NVDA,revenue,Revenues,2024-07-28,30040000000,False,0001045810-25-000209
+NVDA,revenue,Revenues,2024-10-27,35082000000,False,0001045810-25-000230
+NVDA,revenue,Revenues,2025-01-26,39331000000,True,0001045810-25-000230 0001045810-26-000021
+NVDA,revenue,Revenues,2025-04-27,44062000000,False,0001045810-26-000052
+NVDA,revenue,Revenues,2025-07-27,46743000000,False,0001045810-26-000075
+NVDA,revenue,Revenues,2025-10-26,57006000000,False,0001045810-25-000230
+NVDA,revenue,Revenues,2026-01-25,68127000000,True,0001045810-25-000230 0001045810-26-000021
+NVDA,revenue,Revenues,2026-04-26,81615000000,False,0001045810-26-000052
+NVDA,revenue,Revenues,2026-07-26,96221000000,False,0001045810-26-000075
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-01-27,898000000,True,0001045810-19-000170 0001045810-21-000010
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-04-28,720000000,False,0001045810-20-000065
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-07-28,936000000,True,0001045810-20-000065 0001045810-20-000147
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-10-27,1640000000,True,0001045810-20-000147 0001045810-20-000189
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-01-26,1465000000,True,0001045810-20-000189 0001045810-22-000036
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-04-26,909000000,False,0001045810-21-000064
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-07-26,1567000000,True,0001045810-21-000064 0001045810-21-000131
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-10-25,1279000000,True,0001045810-21-000131 0001045810-21-000163
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-01-31,2067000000,True,0001045810-21-000163 0001045810-23-000017
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-05-02,1874000000,False,0001045810-22-000079
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-08-01,2682000000,True,0001045810-22-000079 0001045810-22-000147
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-10-31,1519000000,True,0001045810-22-000147 0001045810-22-000166
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-01-30,3033000000,True,0001045810-22-000166 0001045810-24-000029
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-05-01,1731000000,False,0001045810-23-000093
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-07-31,1270000000,True,0001045810-23-000093 0001045810-23-000175
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-10-30,392000000,True,0001045810-23-000175 0001045810-23-000227
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-01-29,2248000000,True,0001045810-23-000227 0001045810-25-000023
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-04-30,2911000000,False,0001045810-24-000124
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-07-30,6348000000,True,0001045810-24-000124 0001045810-24-000264
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-10-29,7332000000,True,0001045810-24-000264 0001045810-24-000316
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-01-28,11499000000,True,0001045810-24-000316 0001045810-26-000021
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-04-28,15345000000,False,0001045810-25-000116
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-07-28,14488000000,True,0001045810-25-000116 0001045810-25-000209
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-10-27,17627000000,True,0001045810-25-000209 0001045810-25-000230
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-01-26,16629000000,True,0001045810-25-000230 0001045810-26-000021
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-04-27,27414000000,False,0001045810-26-000052
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-07-27,15365000000,True,0001045810-26-000052 0001045810-26-000075
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-10-26,23751000000,True,0001045810-26-000075 0001045810-25-000230
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-01-25,36188000000,True,0001045810-25-000230 0001045810-26-000021
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-04-26,50344000000,False,0001045810-26-000052
+NVDA,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-07-26,24077000000,True,0001045810-26-000052 0001045810-26-000075
+NVDA,operating_income,OperatingIncomeLoss,2019-01-27,294000000,True,0001045810-19-000170 0001045810-21-000010
+NVDA,operating_income,OperatingIncomeLoss,2019-04-28,358000000,False,0001045810-20-000065
+NVDA,operating_income,OperatingIncomeLoss,2019-07-28,571000000,False,0001045810-20-000147
+NVDA,operating_income,OperatingIncomeLoss,2019-10-27,927000000,False,0001045810-20-000189
+NVDA,operating_income,OperatingIncomeLoss,2020-01-26,990000000,True,0001045810-20-000189 0001045810-22-000036
+NVDA,operating_income,OperatingIncomeLoss,2020-04-26,976000000,False,0001045810-21-000064
+NVDA,operating_income,OperatingIncomeLoss,2020-07-26,651000000,False,0001045810-21-000131
+NVDA,operating_income,OperatingIncomeLoss,2020-10-25,1398000000,False,0001045810-21-000163
+NVDA,operating_income,OperatingIncomeLoss,2021-01-31,1507000000,True,0001045810-21-000163 0001045810-23-000017
+NVDA,operating_income,OperatingIncomeLoss,2021-05-02,1956000000,False,0001045810-22-000079
+NVDA,operating_income,OperatingIncomeLoss,2021-08-01,2444000000,False,0001045810-22-000147
+NVDA,operating_income,OperatingIncomeLoss,2021-10-31,2671000000,False,0001045810-22-000166
+NVDA,operating_income,OperatingIncomeLoss,2022-01-30,2970000000,True,0001045810-22-000166 0001045810-24-000029
+NVDA,operating_income,OperatingIncomeLoss,2022-05-01,1868000000,False,0001045810-23-000093
+NVDA,operating_income,OperatingIncomeLoss,2022-07-31,499000000,False,0001045810-23-000175
+NVDA,operating_income,OperatingIncomeLoss,2022-10-30,601000000,False,0001045810-23-000227
+NVDA,operating_income,OperatingIncomeLoss,2023-01-29,1256000000,True,0001045810-23-000227 0001045810-25-000023
+NVDA,operating_income,OperatingIncomeLoss,2023-04-30,2140000000,False,0001045810-24-000124
+NVDA,operating_income,OperatingIncomeLoss,2023-07-30,6800000000,False,0001045810-24-000264
+NVDA,operating_income,OperatingIncomeLoss,2023-10-29,10417000000,False,0001045810-24-000316
+NVDA,operating_income,OperatingIncomeLoss,2024-01-28,13614000000,True,0001045810-24-000316 0001045810-26-000021
+NVDA,operating_income,OperatingIncomeLoss,2024-04-28,16909000000,False,0001045810-25-000116
+NVDA,operating_income,OperatingIncomeLoss,2024-07-28,18642000000,False,0001045810-25-000209
+NVDA,operating_income,OperatingIncomeLoss,2024-10-27,21869000000,False,0001045810-25-000230
+NVDA,operating_income,OperatingIncomeLoss,2025-01-26,24034000000,True,0001045810-25-000230 0001045810-26-000021
+NVDA,operating_income,OperatingIncomeLoss,2025-04-27,21638000000,False,0001045810-26-000052
+NVDA,operating_income,OperatingIncomeLoss,2025-07-27,28440000000,False,0001045810-26-000075
+NVDA,operating_income,OperatingIncomeLoss,2025-10-26,36010000000,False,0001045810-25-000230
+NVDA,operating_income,OperatingIncomeLoss,2026-01-25,44299000000,True,0001045810-25-000230 0001045810-26-000021
+NVDA,operating_income,OperatingIncomeLoss,2026-04-26,53536000000,False,0001045810-26-000052
+NVDA,operating_income,OperatingIncomeLoss,2026-07-26,63734000000,False,0001045810-26-000075
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2021-01-31,288000000,True,0001045810-21-000163 0001045810-23-000017
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2021-05-02,281000000,False,0001045810-22-000079
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2021-08-01,286000000,True,0001045810-22-000079 0001045810-22-000147
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2021-10-31,298000000,True,0001045810-22-000147 0001045810-22-000166
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2022-01-30,309000000,True,0001045810-22-000166 0001045810-24-000029
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2022-05-01,334000000,False,0001045810-23-000093
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2022-07-31,378000000,True,0001045810-23-000093 0001045810-23-000175
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2022-10-30,406000000,True,0001045810-23-000175 0001045810-23-000227
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2023-01-29,426000000,True,0001045810-23-000227 0001045810-25-000023
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2023-04-30,384000000,False,0001045810-24-000124
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2023-07-30,365000000,True,0001045810-24-000124 0001045810-24-000264
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2023-10-29,372000000,True,0001045810-24-000264 0001045810-24-000316
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2024-01-28,387000000,True,0001045810-24-000316 0001045810-26-000021
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2024-04-28,410000000,False,0001045810-25-000116
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2024-07-28,433000000,True,0001045810-25-000116 0001045810-25-000209
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2024-10-27,478000000,True,0001045810-25-000209 0001045810-25-000230
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2025-01-26,543000000,True,0001045810-25-000230 0001045810-26-000021
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2025-04-27,611000000,False,0001045810-26-000052
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2025-07-27,669000000,True,0001045810-26-000052 0001045810-26-000075
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2025-10-26,751000000,True,0001045810-26-000075 0001045810-25-000230
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2026-01-25,812000000,True,0001045810-25-000230 0001045810-26-000021
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2026-04-26,997000000,False,0001045810-26-000052
+NVDA,dep_amort,DepreciationDepletionAndAmortization,2026-07-26,1127000000,True,0001045810-26-000052 0001045810-26-000075
+EQIX,capex,PaymentsToAcquireProductiveAssets,2019-03-31,363967000,False,0001628280-20-006896
+EQIX,capex,PaymentsToAcquireProductiveAssets,2019-06-30,444171000,False,0001628280-20-011187
+EQIX,capex,PaymentsToAcquireProductiveAssets,2019-09-30,556822000,False,0001628280-20-015158
+EQIX,capex,PaymentsToAcquireProductiveAssets,2019-12-31,714561000,True,0001628280-20-015158 0001628280-22-003171
+EQIX,capex,PaymentsToAcquireProductiveAssets,2020-03-31,400941000,False,0001628280-21-008434
+EQIX,capex,PaymentsToAcquireProductiveAssets,2020-06-30,481948000,False,0001628280-21-015030
+EQIX,capex,PaymentsToAcquireProductiveAssets,2020-09-30,565285000,False,0001628280-21-021707
+EQIX,capex,PaymentsToAcquireProductiveAssets,2020-12-31,834330000,True,0001628280-21-021707 0001628280-23-004039
+EQIX,capex,PaymentsToAcquireProductiveAssets,2021-03-31,563598000,False,0001628280-22-011503
+EQIX,capex,PaymentsToAcquireProductiveAssets,2021-06-30,692232000,False,0001628280-22-019818
+EQIX,capex,PaymentsToAcquireProductiveAssets,2021-09-30,678277000,False,0001628280-22-028466
+EQIX,capex,PaymentsToAcquireProductiveAssets,2021-12-31,817405000,True,0001628280-22-028466 0001628280-24-005350
+EQIX,capex,PaymentsToAcquireProductiveAssets,2022-03-31,412518000,False,0001628280-23-016073
+EQIX,capex,PaymentsToAcquireProductiveAssets,2022-06-30,484830000,False,0001628280-23-027511
+EQIX,capex,PaymentsToAcquireProductiveAssets,2022-09-30,552729000,False,0001628280-23-035406
+EQIX,capex,PaymentsToAcquireProductiveAssets,2022-12-31,827923000,True,0001628280-23-035406 0001628280-25-005126
+EQIX,capex,PaymentsToAcquireProductiveAssets,2023-03-31,530000000,False,0001628280-24-021647
+EQIX,capex,PaymentsToAcquireProductiveAssets,2023-06-30,638000000,False,0001628280-24-035638
+EQIX,capex,PaymentsToAcquireProductiveAssets,2023-09-30,617000000,False,0001628280-24-044355
+EQIX,capex,PaymentsToAcquireProductiveAssets,2023-12-31,996000000,True,0001628280-24-044355 0001101239-26-000032
+EQIX,capex,PaymentsToAcquireProductiveAssets,2024-03-31,707000000,False,0001628280-25-021086
+EQIX,capex,PaymentsToAcquireProductiveAssets,2024-06-30,648000000,False,0001101239-25-000029
+EQIX,capex,PaymentsToAcquireProductiveAssets,2024-09-30,724000000,False,0001101239-25-000062
+EQIX,capex,PaymentsToAcquireProductiveAssets,2024-12-31,987000000,True,0001101239-25-000062 0001101239-26-000032
+EQIX,capex,PaymentsToAcquireProductiveAssets,2025-03-31,750000000,False,0001101239-26-000091
+EQIX,capex,PaymentsToAcquireProductiveAssets,2025-06-30,989000000,False,0001101239-25-000029
+EQIX,capex,PaymentsToAcquireProductiveAssets,2025-09-30,1136000000,False,0001101239-25-000062
+EQIX,capex,PaymentsToAcquireProductiveAssets,2025-12-31,1436000000,True,0001101239-25-000062 0001101239-26-000032
+EQIX,capex,PaymentsToAcquireProductiveAssets,2026-03-31,1256000000,False,0001101239-26-000091
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2019-03-31,31158000,False,0001628280-20-006896
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2019-06-30,11954000,True,0001628280-20-006896 0001628280-20-011187
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2019-09-30,19673000,True,0001628280-20-011187 0001628280-20-015158
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2019-12-31,63701000,True,0001628280-20-015158 0001628280-22-003171
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2020-03-31,18977000,False,0001628280-21-008434
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2020-06-30,23704000,True,0001628280-21-008434 0001628280-21-015030
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2020-09-30,31765000,True,0001628280-21-015030 0001628280-21-021707
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2020-12-31,40842000,True,0001628280-21-021707 0001628280-23-004039
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2021-03-31,32584000,False,0001628280-22-011503
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2021-06-30,66293000,True,0001628280-22-011503 0001628280-22-019818
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2021-09-30,31252000,True,0001628280-22-019818 0001628280-22-028466
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2021-12-31,35410000,True,0001628280-22-028466 0001628280-24-005350
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2022-03-31,40773000,False,0001628280-23-016073
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2022-06-30,28783000,True,0001628280-23-016073 0001628280-23-027511
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2022-09-30,28252000,True,0001628280-23-027511 0001628280-23-035406
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2022-12-31,36192000,True,0001628280-23-035406 0001628280-25-005126
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2023-03-31,36000000,False,0001628280-24-021647
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2023-06-30,30000000,True,0001628280-24-021647 0001628280-24-035638
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2023-09-30,32000000,True,0001628280-24-035638 0001628280-24-044355
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2023-12-31,51000000,True,0001628280-24-044355 0001101239-26-000032
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2024-03-31,31000000,False,0001628280-25-021086
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2024-06-30,35000000,True,0001628280-25-021086 0001101239-25-000029
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2024-09-30,35000000,True,0001101239-25-000029 0001101239-25-000062
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2024-12-31,39000000,True,0001101239-25-000062 0001101239-26-000032
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2025-03-31,32000000,False,0001101239-26-000091
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2025-06-30,40000000,True,0001101239-26-000091 0001101239-26-000147
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2025-09-30,39000000,True,0001101239-26-000147 0001101239-26-000180
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2025-12-31,44000000,True,0001101239-26-000180 0001101239-26-000032
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2026-03-31,41000000,False,0001101239-26-000091
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2026-06-30,48000000,True,0001101239-26-000091 0001101239-26-000147
+EQIX,finance_lease_principal,FinanceLeasePrincipalPayments,2026-09-30,40000000,True,0001101239-26-000147 0001101239-26-000180
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-03-31,1363218000,False,0001628280-20-006896
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-06-30,1384977000,False,0001628280-20-011187
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-09-30,1396810000,False,0001628280-20-015158
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-12-31,1417135000,True,0001628280-20-015158 0001628280-22-003171
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-03-31,1444542000,False,0001628280-21-008434
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-06-30,1470121000,False,0001628280-21-015030
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-09-30,1519767000,False,0001628280-21-021707
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-12-31,1564115000,True,0001628280-21-021707 0001628280-23-004039
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-03-31,1596064000,False,0001628280-22-011503
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-06-30,1657919000,False,0001628280-22-019818
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-09-30,1675176000,False,0001628280-22-028466
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-12-31,1706378000,True,0001628280-22-028466 0001628280-24-005350
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-03-31,1734447000,False,0001628280-23-016073
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-06-30,1817154000,False,0001628280-23-027511
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-09-30,1840659000,False,0001628280-23-035406
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-12-31,1870740000,True,0001628280-23-035406 0001628280-25-005126
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-03-31,2225000000,False,0001628280-25-021086
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-06-30,2019000000,False,0001628280-24-035638
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-09-30,2061000000,False,0001628280-24-044355
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-12-31,2110000000,True,0001628280-24-044355 0001101239-26-000032
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-03-31,2127000000,False,0001628280-25-021086
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-06-30,2159000000,False,0001101239-25-000029
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-09-30,2201000000,False,0001101239-25-000062
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-12-31,2261000000,True,0001101239-25-000062 0001101239-26-000032
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-03-31,2225000000,False,0001101239-26-000091
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-06-30,2256000000,False,0001101239-26-000147
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-09-30,2316000000,False,0001101239-26-000180
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-12-31,2420000000,True,0001101239-26-000180 0001101239-26-000032
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-03-31,2444000000,False,0001101239-26-000091
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-06-30,2625000000,False,0001101239-26-000147
+EQIX,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-09-30,2571000000,False,0001101239-26-000180
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-03-31,421141000,False,0001628280-20-006896
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-06-30,542923000,True,0001628280-20-006896 0001628280-20-011187
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-09-30,498994000,True,0001628280-20-011187 0001628280-20-015158
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-12-31,529670000,True,0001628280-20-015158 0001628280-22-003171
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-03-31,516830000,False,0001628280-21-008434
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-06-30,574686000,True,0001628280-21-008434 0001628280-21-015030
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-09-30,532162000,True,0001628280-21-015030 0001628280-21-021707
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-12-31,686148000,True,0001628280-21-021707 0001628280-23-004039
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-03-31,391158000,False,0001628280-22-011503
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-06-30,599197000,True,0001628280-22-011503 0001628280-22-019818
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-09-30,664746000,True,0001628280-22-019818 0001628280-22-028466
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-12-31,892105000,True,0001628280-22-028466 0001628280-24-005350
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-03-31,581123000,False,0001628280-23-016073
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-06-30,801581000,True,0001628280-23-016073 0001628280-23-027511
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-09-30,820289000,True,0001628280-23-027511 0001628280-23-035406
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-12-31,760007000,True,0001628280-23-035406 0001628280-25-005126
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-03-31,692000000,False,0001628280-24-021647
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-06-30,741000000,True,0001628280-24-021647 0001628280-24-035638
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-09-30,785000000,True,0001628280-24-035638 0001628280-24-044355
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-12-31,999000000,True,0001628280-24-044355 0001101239-26-000032
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-03-31,598000000,False,0001628280-25-021086
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-06-30,912000000,True,0001628280-25-021086 0001101239-25-000029
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-09-30,758000000,True,0001101239-25-000029 0001101239-25-000062
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-12-31,981000000,True,0001101239-25-000062 0001101239-26-000032
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-03-31,809000000,False,0001101239-26-000091
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-06-30,944000000,True,0001101239-26-000091 0001101239-26-000147
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-09-30,1014000000,True,0001101239-26-000147 0001101239-26-000180
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-12-31,1144000000,True,0001101239-26-000180 0001101239-26-000032
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-03-31,717000000,False,0001101239-26-000091
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-06-30,1067000000,True,0001101239-26-000091 0001101239-26-000147
+EQIX,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-09-30,1243000000,True,0001101239-26-000147 0001101239-26-000180
+EQIX,operating_income,OperatingIncomeLoss,2019-03-31,279508000,False,0001628280-20-006896
+EQIX,operating_income,OperatingIncomeLoss,2019-06-30,291781000,False,0001628280-20-011187
+EQIX,operating_income,OperatingIncomeLoss,2019-09-30,285368000,False,0001628280-20-015158
+EQIX,operating_income,OperatingIncomeLoss,2019-12-31,312974000,True,0001628280-20-015158 0001628280-22-003171
+EQIX,operating_income,OperatingIncomeLoss,2020-03-31,253484000,False,0001628280-21-008434
+EQIX,operating_income,OperatingIncomeLoss,2020-06-30,282488000,False,0001628280-21-015030
+EQIX,operating_income,OperatingIncomeLoss,2020-09-30,288350000,False,0001628280-21-021707
+EQIX,operating_income,OperatingIncomeLoss,2020-12-31,228606000,True,0001628280-21-021707 0001628280-23-004039
+EQIX,operating_income,OperatingIncomeLoss,2021-03-31,297662000,False,0001628280-22-011503
+EQIX,operating_income,OperatingIncomeLoss,2021-06-30,278654000,False,0001628280-22-019818
+EQIX,operating_income,OperatingIncomeLoss,2021-09-30,282121000,False,0001628280-22-028466
+EQIX,operating_income,OperatingIncomeLoss,2021-12-31,249725000,True,0001628280-22-028466 0001628280-24-005350
+EQIX,operating_income,OperatingIncomeLoss,2022-03-31,267316000,False,0001628280-23-016073
+EQIX,operating_income,OperatingIncomeLoss,2022-06-30,317853000,False,0001628280-23-027511
+EQIX,operating_income,OperatingIncomeLoss,2022-09-30,333159000,False,0001628280-23-035406
+EQIX,operating_income,OperatingIncomeLoss,2022-12-31,281672000,True,0001628280-23-035406 0001628280-25-005126
+EQIX,operating_income,OperatingIncomeLoss,2023-03-31,384000000,False,0001628280-24-021647
+EQIX,operating_income,OperatingIncomeLoss,2023-06-30,332000000,False,0001628280-24-035638
+EQIX,operating_income,OperatingIncomeLoss,2023-09-30,381000000,False,0001628280-24-044355
+EQIX,operating_income,OperatingIncomeLoss,2023-12-31,346000000,True,0001628280-24-044355 0001101239-26-000032
+EQIX,operating_income,OperatingIncomeLoss,2024-03-31,364000000,False,0001628280-25-021086
+EQIX,operating_income,OperatingIncomeLoss,2024-06-30,436000000,False,0001101239-25-000029
+EQIX,operating_income,OperatingIncomeLoss,2024-09-30,425000000,False,0001101239-25-000062
+EQIX,operating_income,OperatingIncomeLoss,2024-12-31,103000000,True,0001101239-25-000062 0001101239-26-000032
+EQIX,operating_income,OperatingIncomeLoss,2025-03-31,458000000,False,0001101239-26-000091
+EQIX,operating_income,OperatingIncomeLoss,2025-06-30,494000000,False,0001101239-26-000147
+EQIX,operating_income,OperatingIncomeLoss,2025-09-30,474000000,False,0001101239-26-000180
+EQIX,operating_income,OperatingIncomeLoss,2025-12-31,422000000,True,0001101239-26-000180 0001101239-26-000032
+EQIX,operating_income,OperatingIncomeLoss,2026-03-31,577000000,False,0001101239-26-000091
+EQIX,operating_income,OperatingIncomeLoss,2026-06-30,665000000,False,0001101239-26-000147
+EQIX,operating_income,OperatingIncomeLoss,2026-09-30,600000000,False,0001101239-26-000180
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2019-03-31,313178000,False,0001628280-20-006896
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2019-06-30,319224000,False,0001628280-20-011187
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2019-09-30,321891000,False,0001628280-20-015158
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2019-12-31,330544000,True,0001628280-20-015158 0001628280-22-003171
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2020-03-31,335869000,False,0001628280-21-008434
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2020-06-30,348593000,False,0001628280-21-015030
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2020-09-30,360688000,False,0001628280-21-021707
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2020-12-31,378219000,True,0001628280-21-021707 0001628280-23-004039
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2021-03-31,395017000,False,0001628280-22-011503
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2021-06-30,416241000,False,0001628280-22-019818
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2021-09-30,418931000,False,0001628280-22-028466
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2021-12-31,426101000,True,0001628280-22-028466 0001628280-24-005350
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2022-03-31,435340000,False,0001628280-23-016073
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2022-06-30,433270000,False,0001628280-23-027511
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2022-09-30,430192000,False,0001628280-23-035406
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2022-12-31,438198000,True,0001628280-23-035406 0001628280-25-005126
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2023-03-31,457000000,False,0001628280-24-021647
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2023-06-30,462000000,False,0001628280-24-035638
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2023-09-30,463000000,False,0001628280-24-044355
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2023-12-31,463000000,True,0001628280-24-044355 0001101239-26-000032
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2024-03-31,526000000,False,0001628280-25-021086
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2024-06-30,489000000,False,0001101239-25-000029
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2024-09-30,496000000,False,0001101239-25-000062
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2024-12-31,498000000,True,0001101239-25-000062 0001101239-26-000032
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2025-03-31,479000000,False,0001101239-26-000091
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2025-06-30,499000000,False,0001101239-26-000147
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2025-09-30,530000000,False,0001101239-26-000180
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2025-12-31,542000000,True,0001101239-26-000180 0001101239-26-000032
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2026-03-31,541000000,False,0001101239-26-000091
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2026-06-30,551000000,False,0001101239-26-000147
+EQIX,dep_amort,DepreciationDepletionAndAmortization,2026-09-30,544000000,False,0001101239-26-000180
+DLR,revenue,Revenues,2019-03-31,814515000,False,0001558370-21-002191
+DLR,revenue,Revenues,2019-06-30,800797000,False,0001558370-21-002191
+DLR,revenue,Revenues,2019-09-30,806466000,False,0001558370-21-002191
+DLR,revenue,Revenues,2019-12-31,787463000,False,0001558370-21-002191
+DLR,revenue,Revenues,2020-03-31,823337000,False,0001558370-21-006512
+DLR,revenue,Revenues,2020-06-30,992995000,False,0001558370-21-010824
+DLR,revenue,Revenues,2020-09-30,1024668000,False,0001558370-21-014831
+DLR,revenue,Revenues,2020-12-31,1062609000,False,0001558370-21-002191
+DLR,revenue,Revenues,2021-03-31,1090391000,False,0001558370-22-007648
+DLR,revenue,Revenues,2021-06-30,1093188000,False,0001558370-22-012450
+DLR,revenue,Revenues,2021-09-30,1133136000,False,0001558370-22-016456
+DLR,revenue,Revenues,2021-12-31,1111167000,True,0001558370-22-016456 0001558370-24-001575
+DLR,revenue,Revenues,2022-03-31,1127322000,False,0001558370-23-008142
+DLR,revenue,Revenues,2022-06-30,1139322000,False,0001558370-23-013321
+DLR,revenue,Revenues,2022-09-30,1192083000,False,0001558370-23-018593
+DLR,revenue,Revenues,2022-12-31,1233107000,True,0001558370-23-018593 0001558370-25-001424
+DLR,revenue,Revenues,2023-03-31,1338723000,False,0001558370-24-006671
+DLR,revenue,Revenues,2023-06-30,1366267000,False,0001558370-24-010734
+DLR,revenue,Revenues,2023-09-30,1402432000,False,0001558370-24-014149
+DLR,revenue,Revenues,2023-12-31,1369639000,True,0001558370-24-014149 0001104659-26-015365
+DLR,revenue,Revenues,2024-03-31,1331143000,False,0001558370-25-006125
+DLR,revenue,Revenues,2024-06-30,1356749000,False,0001558370-25-009991
+DLR,revenue,Revenues,2024-09-30,1431214000,False,0001104659-25-104945
+DLR,revenue,Revenues,2024-12-31,1435862000,True,0001104659-25-104945 0001104659-26-015365
+DLR,revenue,Revenues,2025-03-31,1407637000,False,0001104659-26-054255
+DLR,revenue,Revenues,2025-06-30,1493150000,False,0001558370-25-009991
+DLR,revenue,Revenues,2025-09-30,1577234000,False,0001104659-25-104945
+DLR,revenue,Revenues,2025-12-31,1634671000,True,0001104659-25-104945 0001104659-26-015365
+DLR,revenue,Revenues,2026-03-31,1635173000,False,0001104659-26-054255
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-03-31,350700000,False,0001558370-20-006279
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-06-30,476612000,True,0001558370-20-006279 0001558370-20-009992
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-09-30,284632000,True,0001558370-20-009992 0001558370-20-013155
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-12-31,401873000,True,0001558370-20-013155 0001558370-22-002195
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-03-31,226660000,False,0001558370-21-006512
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-06-30,485710000,True,0001558370-21-006512 0001558370-21-010824
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-09-30,468369000,True,0001558370-21-010824 0001558370-21-014831
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-12-31,525802000,True,0001558370-21-014831 0001558370-23-002087
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-03-31,327875000,False,0001558370-22-007648
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-06-30,522616000,True,0001558370-22-007648 0001558370-22-012450
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-09-30,399798000,True,0001558370-22-012450 0001558370-22-016456
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-12-31,451939000,True,0001558370-22-016456 0001558370-24-001575
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-03-31,277685000,False,0001558370-23-008142
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-06-30,505893000,True,0001558370-23-008142 0001558370-23-013321
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-09-30,419386000,True,0001558370-23-013321 0001558370-23-018593
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-12-31,456424000,True,0001558370-23-018593 0001558370-25-001424
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-03-31,349726000,False,0001558370-24-006671
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-06-30,464388000,True,0001558370-24-006671 0001558370-24-010734
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-09-30,358361000,True,0001558370-24-010734 0001558370-24-014149
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-12-31,462305000,True,0001558370-24-014149 0001104659-26-015365
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-03-31,352275000,False,0001558370-25-006125
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-06-30,573212000,True,0001558370-25-006125 0001558370-25-009991
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-09-30,566515000,True,0001558370-25-009991 0001104659-25-104945
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-12-31,769475000,True,0001104659-25-104945 0001104659-26-015365
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-03-31,399085000,False,0001104659-26-054255
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-06-30,641237000,True,0001104659-26-054255 0001558370-25-009991
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-09-30,652861000,True,0001558370-25-009991 0001104659-25-104945
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-12-31,718953000,True,0001104659-25-104945 0001104659-26-015365
+DLR,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-03-31,532421000,False,0001104659-26-054255
+DLR,operating_income,OperatingIncomeLoss,2019-03-31,141543000,False,0001558370-20-006279
+DLR,operating_income,OperatingIncomeLoss,2019-06-30,148972000,False,0001558370-20-009992
+DLR,operating_income,OperatingIncomeLoss,2019-09-30,164767000,False,0001558370-20-013155
+DLR,operating_income,OperatingIncomeLoss,2019-12-31,138933000,True,0001558370-20-013155 0001558370-22-002195
+DLR,operating_income,OperatingIncomeLoss,2020-03-31,100049000,False,0001558370-21-006512
+DLR,operating_income,OperatingIncomeLoss,2020-06-30,152811000,False,0001558370-21-010824
+DLR,operating_income,OperatingIncomeLoss,2020-09-30,144403000,False,0001558370-21-014831
+DLR,operating_income,OperatingIncomeLoss,2020-12-31,160263000,True,0001558370-21-014831 0001558370-23-002087
+DLR,operating_income,OperatingIncomeLoss,2021-03-31,192519000,False,0001558370-22-007648
+DLR,operating_income,OperatingIncomeLoss,2021-06-30,185628000,False,0001558370-22-012450
+DLR,operating_income,OperatingIncomeLoss,2021-09-30,184365000,False,0001558370-22-016456
+DLR,operating_income,OperatingIncomeLoss,2021-12-31,131497000,True,0001558370-22-016456 0001558370-24-001575
+DLR,operating_income,OperatingIncomeLoss,2022-03-31,141235000,False,0001558370-23-008142
+DLR,operating_income,OperatingIncomeLoss,2022-06-30,170372000,False,0001558370-23-013321
+DLR,operating_income,OperatingIncomeLoss,2022-09-30,157381000,False,0001558370-23-018593
+DLR,operating_income,OperatingIncomeLoss,2022-12-31,120980000,True,0001558370-23-018593 0001558370-25-001424
+DLR,operating_income,OperatingIncomeLoss,2023-03-31,177334000,False,0001558370-24-006671
+DLR,operating_income,OperatingIncomeLoss,2023-06-30,154860000,False,0001558370-24-010734
+DLR,operating_income,OperatingIncomeLoss,2023-09-30,58226000,False,0001558370-24-014149
+DLR,operating_income,OperatingIncomeLoss,2023-12-31,134041000,True,0001558370-24-014149 0001104659-26-015365
+DLR,operating_income,OperatingIncomeLoss,2024-03-31,149367000,False,0001558370-25-006125
+DLR,operating_income,OperatingIncomeLoss,2024-06-30,9889000,False,0001558370-25-009991
+DLR,operating_income,OperatingIncomeLoss,2024-09-30,168286000,False,0001104659-25-104945
+DLR,operating_income,OperatingIncomeLoss,2024-12-31,144322000,True,0001104659-25-104945 0001104659-26-015365
+DLR,operating_income,OperatingIncomeLoss,2025-03-31,196861000,False,0001104659-26-054255
+DLR,operating_income,OperatingIncomeLoss,2025-06-30,211697000,False,0001558370-25-009991
+DLR,operating_income,OperatingIncomeLoss,2025-09-30,138421000,False,0001104659-25-104945
+DLR,operating_income,OperatingIncomeLoss,2025-12-31,112624000,True,0001104659-25-104945 0001104659-26-015365
+DLR,operating_income,OperatingIncomeLoss,2026-03-31,267806000,False,0001104659-26-054255
+DLR,dep_amort,DepreciationAndAmortization,2019-03-31,311486000,False,0001558370-20-006279
+DLR,dep_amort,DepreciationAndAmortization,2019-06-30,290562000,False,0001558370-20-009992
+DLR,dep_amort,DepreciationAndAmortization,2019-09-30,286718000,False,0001558370-20-013155
+DLR,dep_amort,DepreciationAndAmortization,2019-12-31,275008000,True,0001558370-20-013155 0001558370-22-002195
+DLR,dep_amort,DepreciationAndAmortization,2020-03-31,291457000,False,0001558370-21-006512
+DLR,dep_amort,DepreciationAndAmortization,2020-06-30,349165000,False,0001558370-21-010824
+DLR,dep_amort,DepreciationAndAmortization,2020-09-30,365842000,False,0001558370-21-014831
+DLR,dep_amort,DepreciationAndAmortization,2020-12-31,359915000,True,0001558370-21-014831 0001558370-23-002087
+DLR,dep_amort,DepreciationAndAmortization,2021-03-31,369733000,False,0001558370-22-007648
+DLR,dep_amort,DepreciationAndAmortization,2021-06-30,368981000,False,0001558370-22-012450
+DLR,dep_amort,DepreciationAndAmortization,2021-09-30,369035000,False,0001558370-22-016456
+DLR,dep_amort,DepreciationAndAmortization,2021-12-31,378883000,True,0001558370-22-016456 0001558370-24-001575
+DLR,dep_amort,DepreciationAndAmortization,2022-03-31,382132000,False,0001558370-23-008142
+DLR,dep_amort,DepreciationAndAmortization,2022-06-30,376967000,False,0001558370-23-013321
+DLR,dep_amort,DepreciationAndAmortization,2022-09-30,388704000,False,0001558370-23-018593
+DLR,dep_amort,DepreciationAndAmortization,2022-12-31,430130000,True,0001558370-23-018593 0001558370-25-001424
+DLR,dep_amort,DepreciationAndAmortization,2023-03-31,421198000,False,0001558370-24-006671
+DLR,dep_amort,DepreciationAndAmortization,2023-06-30,432573000,False,0001558370-24-010734
+DLR,dep_amort,DepreciationAndAmortization,2023-09-30,420613000,False,0001558370-24-014149
+DLR,dep_amort,DepreciationAndAmortization,2023-12-31,420475000,True,0001558370-24-014149 0001104659-26-015365
+DLR,dep_amort,DepreciationAndAmortization,2024-03-31,431102000,False,0001558370-25-006125
+DLR,dep_amort,DepreciationAndAmortization,2024-06-30,425343000,False,0001558370-25-009991
+DLR,dep_amort,DepreciationAndAmortization,2024-09-30,459997000,False,0001104659-25-104945
+DLR,dep_amort,DepreciationAndAmortization,2024-12-31,455355000,True,0001104659-25-104945 0001104659-26-015365
+DLR,dep_amort,DepreciationAndAmortization,2025-03-31,443009000,False,0001104659-26-054255
+DLR,dep_amort,DepreciationAndAmortization,2025-06-30,461167000,False,0001558370-25-009991
+DLR,dep_amort,DepreciationAndAmortization,2025-09-30,497002000,False,0001104659-25-104945
+DLR,dep_amort,DepreciationAndAmortization,2025-12-31,493458000,True,0001104659-25-104945 0001104659-26-015365
+DLR,dep_amort,DepreciationAndAmortization,2026-03-31,499511000,False,0001104659-26-054255
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-03-31,10700000,False,0001628280-20-006768
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-06-30,12300000,True,0001628280-20-006768 0001628280-20-011825
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-09-30,4900000,True,0001628280-20-011825 0001628280-20-015793
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2019-12-31,19700000,True,0001628280-20-015793 0001628280-22-004533
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-03-31,6700000,False,0001628280-21-008627
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-06-30,6500000,True,0001628280-21-008627 0001628280-21-015172
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-09-30,8100000,True,0001628280-21-015172 0001628280-21-020992
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2020-12-31,23100000,True,0001628280-21-020992 0001628280-23-005248
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-03-31,16800000,False,0001628280-22-011733
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-06-30,13600000,True,0001628280-22-011733 0001628280-22-020322
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-09-30,12900000,True,0001628280-22-020322 0001628280-22-027344
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2021-12-31,30100000,True,0001628280-22-027344 0001628280-24-006498
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-03-31,15100000,False,0001628280-23-013730
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-06-30,23100000,True,0001628280-23-013730 0001628280-23-026777
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-09-30,23500000,True,0001628280-23-026777 0001628280-23-035351
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2022-12-31,38300000,True,0001628280-23-035351 0001628280-25-005905
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-03-31,27800000,False,0001628280-24-018417
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-06-30,25800000,True,0001628280-24-018417 0001628280-24-033173
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-09-30,26500000,True,0001628280-24-033173 0001628280-24-043698
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2023-12-31,47800000,True,0001628280-24-043698 0001674101-26-000008
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-03-31,35800000,False,0001628280-25-019372
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-06-30,34100000,False,0001674101-25-000008
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-09-30,36400000,False,0001674101-25-000024
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2024-12-31,60700000,True,0001674101-25-000024 0001674101-26-000008
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-03-31,36500000,False,0001628280-26-026556
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-06-30,45000000,False,0001674101-25-000008
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-09-30,45200000,False,0001674101-25-000024
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2025-12-31,93300000,True,0001628280-26-067893 0001674101-26-000008
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-03-31,112600000,False,0001628280-26-026556
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-06-30,173300000,True,0001628280-26-026556 0001628280-26-050609
+VRT,capex,PaymentsToAcquirePropertyPlantAndEquipment,2026-09-30,139100000,True,0001628280-26-050609 0001628280-26-067893
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-03-31,1054800000,False,0001628280-21-008318
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-06-30,1134100000,False,0001628280-21-008318
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-09-30,1070700000,False,0001628280-21-008318
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2019-12-31,1171500000,False,0001628280-21-008318
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-03-31,897300000,False,0001628280-21-008627
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-06-30,1005700000,False,0001628280-21-015172
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-09-30,1162000000,False,0001628280-21-020992
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2020-12-31,1305500000,False,0001628280-21-008318
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-03-31,1098400000,False,0001628280-22-011733
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-06-30,1260300000,False,0001628280-22-020322
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-09-30,1228900000,False,0001628280-22-027344
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2021-12-31,1410500000,True,0001628280-22-027344 0001628280-24-006498
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-03-31,1156400000,False,0001628280-23-013730
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-06-30,1399400000,False,0001628280-23-026777
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-09-30,1481100000,False,0001628280-23-035351
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2022-12-31,1654600000,True,0001628280-23-035351 0001628280-25-005905
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-03-31,1521100000,False,0001628280-24-018417
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-06-30,1734100000,False,0001628280-24-033173
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-09-30,1742600000,False,0001628280-24-043698
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2023-12-31,1865400000,True,0001628280-24-043698 0001674101-26-000008
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-03-31,1639100000,False,0001628280-25-019372
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-06-30,1952800000,False,0001674101-25-000008
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-09-30,2073500000,False,0001674101-25-000024
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2024-12-31,2346400000,True,0001674101-25-000024 0001674101-26-000008
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-03-31,2036000000,False,0001628280-26-026556
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-06-30,2638100000,False,0001628280-26-050609
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-09-30,2675800000,False,0001628280-26-067893
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2025-12-31,2880000000,True,0001628280-26-067893 0001674101-26-000008
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-03-31,2649500000,False,0001628280-26-026556
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-06-30,3274300000,False,0001628280-26-050609
+VRT,revenue,RevenueFromContractWithCustomerExcludingAssessedTax,2026-09-30,4312800000,False,0001628280-26-067893
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-03-31,-33700000,False,0001628280-20-006768
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-06-30,-47900000,True,0001628280-20-006768 0001628280-20-011825
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-09-30,23500000,True,0001628280-20-011825 0001628280-20-015793
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2019-12-31,115600000,True,0001628280-20-015793 0001628280-22-004533
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-03-31,-194700000,False,0001628280-21-008627
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-06-30,73000000,True,0001628280-21-008627 0001628280-21-015172
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-09-30,136100000,True,0001628280-21-015172 0001628280-21-020992
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2020-12-31,194500000,True,0001628280-21-020992 0001628280-23-005248
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-03-31,60700000,False,0001628280-22-011733
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-06-30,59300000,True,0001628280-22-011733 0001628280-22-020322
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-09-30,54400000,True,0001628280-22-020322 0001628280-22-027344
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2021-12-31,36500000,True,0001628280-22-027344 0001628280-24-006498
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-03-31,-132200000,False,0001628280-23-013730
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-06-30,-205700000,True,0001628280-23-013730 0001628280-23-026777
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-09-30,4400000,True,0001628280-23-026777 0001628280-23-035351
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2022-12-31,180700000,True,0001628280-23-035351 0001628280-25-005905
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-03-31,42000000,False,0001628280-24-018417
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-06-30,253600000,True,0001628280-24-018417 0001628280-24-033173
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-09-30,248700000,True,0001628280-24-033173 0001628280-24-043698
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2023-12-31,356200000,True,0001628280-24-043698 0001674101-26-000008
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-03-31,137500000,False,0001628280-25-019372
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-06-30,381500000,True,0001628280-25-019372 0001674101-25-000008
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-09-30,375100000,True,0001674101-25-000008 0001674101-25-000024
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2024-12-31,425200000,True,0001674101-25-000024 0001674101-26-000008
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-03-31,303300000,False,0001628280-26-026556
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-06-30,322900000,True,0001628280-26-026556 0001628280-26-050609
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-09-30,482700000,True,0001628280-26-050609 0001628280-26-067893
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2025-12-31,1004900000,True,0001628280-26-067893 0001674101-26-000008
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-03-31,766800000,False,0001628280-26-026556
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-06-30,1099800000,True,0001628280-26-026556 0001628280-26-050609
+VRT,op_cash_flow,NetCashProvidedByUsedInOperatingActivities,2026-09-30,794000000,True,0001628280-26-050609 0001628280-26-067893
+VRT,operating_income,OperatingIncomeLoss,2020-03-31,-12200000,False,0001628280-21-008627
+VRT,operating_income,OperatingIncomeLoss,2020-06-30,70600000,False,0001628280-21-015172
+VRT,operating_income,OperatingIncomeLoss,2020-09-30,35100000,False,0001628280-21-020992
+VRT,operating_income,OperatingIncomeLoss,2020-12-31,120000000,True,0001628280-21-020992 0001628280-23-005248
+VRT,operating_income,OperatingIncomeLoss,2021-03-31,79800000,False,0001628280-22-011733
+VRT,operating_income,OperatingIncomeLoss,2021-06-30,102200000,False,0001628280-22-020322
+VRT,operating_income,OperatingIncomeLoss,2021-09-30,81800000,False,0001628280-22-027344
+VRT,operating_income,OperatingIncomeLoss,2021-12-31,-3900000,True,0001628280-22-027344 0001628280-24-006498
+VRT,operating_income,OperatingIncomeLoss,2022-03-31,-45200000,False,0001628280-23-013730
+VRT,operating_income,OperatingIncomeLoss,2022-06-30,26200000,False,0001628280-23-026777
+VRT,operating_income,OperatingIncomeLoss,2022-09-30,80000000,False,0001628280-23-035351
+VRT,operating_income,OperatingIncomeLoss,2022-12-31,162400000,True,0001628280-23-035351 0001628280-25-005905
+VRT,operating_income,OperatingIncomeLoss,2023-03-31,130300000,False,0001628280-24-018417
+VRT,operating_income,OperatingIncomeLoss,2023-06-30,205800000,False,0001628280-24-033173
+VRT,operating_income,OperatingIncomeLoss,2023-09-30,250900000,False,0001628280-24-043698
+VRT,operating_income,OperatingIncomeLoss,2023-12-31,285200000,True,0001628280-24-043698 0001674101-26-000008
+VRT,operating_income,OperatingIncomeLoss,2024-03-31,202600000,False,0001628280-25-019372
+VRT,operating_income,OperatingIncomeLoss,2024-06-30,336000000,False,0001674101-25-000008
+VRT,operating_income,OperatingIncomeLoss,2024-09-30,371600000,False,0001674101-25-000024
+VRT,operating_income,OperatingIncomeLoss,2024-12-31,457200000,True,0001674101-25-000024 0001674101-26-000008
+VRT,operating_income,OperatingIncomeLoss,2025-03-31,290700000,False,0001628280-26-026556
+VRT,operating_income,OperatingIncomeLoss,2025-06-30,442400000,False,0001628280-26-050609
+VRT,operating_income,OperatingIncomeLoss,2025-09-30,516700000,False,0001628280-26-067893
+VRT,operating_income,OperatingIncomeLoss,2025-12-31,579900000,True,0001628280-26-067893 0001674101-26-000008
+VRT,operating_income,OperatingIncomeLoss,2026-03-31,440100000,False,0001628280-26-026556
+VRT,operating_income,OperatingIncomeLoss,2026-06-30,637900000,False,0001628280-26-050609
+VRT,operating_income,OperatingIncomeLoss,2026-09-30,983800000,False,0001628280-26-067893
+VRT,dep_amort,DepreciationDepletionAndAmortization,2024-03-31,68700000,False,0001628280-25-019372
+VRT,dep_amort,DepreciationDepletionAndAmortization,2024-06-30,68400000,False,0001674101-25-000008
+VRT,dep_amort,DepreciationDepletionAndAmortization,2024-09-30,68900000,False,0001674101-25-000024
+VRT,dep_amort,DepreciationDepletionAndAmortization,2024-12-31,71000000,True,0001674101-25-000024 0001674101-26-000008
+VRT,dep_amort,DepreciationDepletionAndAmortization,2025-03-31,71600000,False,0001628280-26-026556
+VRT,dep_amort,DepreciationDepletionAndAmortization,2025-06-30,73300000,False,0001628280-26-050609
+VRT,dep_amort,DepreciationDepletionAndAmortization,2025-09-30,75400000,False,0001628280-26-067893
+VRT,dep_amort,DepreciationDepletionAndAmortization,2025-12-31,88300000,True,0001628280-26-067893 0001674101-26-000008
+VRT,dep_amort,DepreciationDepletionAndAmortization,2026-03-31,107700000,False,0001628280-26-026556
+VRT,dep_amort,DepreciationDepletionAndAmortization,2026-06-30,115800000,False,0001628280-26-050609
+VRT,dep_amort,DepreciationDepletionAndAmortization,2026-09-30,107900000,False,0001628280-26-067893

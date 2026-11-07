@@ -1,0 +1,348 @@
+{
+ "company": "NVIDIA Corporation",
+ "ticker": "NVDA",
+ "latest_period": "Q2 FY2027 (quarter ended 2026-07-26; 10-Q and earnings release filed 2026-08-26; interim figures unaudited)",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Revenue, Q2 FY27 vs Q2 FY26 (YoY +106%; Q1 FY27 81,615)",
+   "value": "96,221 vs 46,743",
+   "unit": "USD millions",
+   "period": "Q2 FY2027",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 19,
+   "quote": "Revenue | $96,221 | $81,615 | $46,743 | 18% | 106%",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Revenue, Q2 FY26",
+   "value": "46,743",
+   "unit": "USD millions",
+   "period": "Q2 FY2026",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 19,
+   "quote": "Revenue | $96,221 | $81,615 | $46,743 | 18% | 106%",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "data_center_revenue_q",
+   "label": "Data Center revenue, Q2 FY27 vs Q2 FY26",
+   "value": "89,023 vs 41,096 (YoY +117%)",
+   "unit": "USD millions",
+   "period": "Q2 FY2027",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 1064,
+   "quote": "Data Center | $89,023 | $75,246 | $41,096 | 18% | 117%",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "data_center_hyperscale_q",
+   "label": "Data Center sub-line: Hyperscale revenue, Q2 FY27 vs Q2 FY26",
+   "value": "48,710 vs 24,168 (YoY +102%)",
+   "unit": "USD millions",
+   "period": "Q2 FY2027",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 1065,
+   "quote": "Hyperscale | 48,710 | 43,050 | 24,168 | 13% | 102%",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "data_center_acie_q",
+   "label": "Data Center sub-line: AI Clouds, Industrial, & Enterprise revenue, Q2 FY27 vs Q2 FY26",
+   "value": "40,313 vs 16,928 (YoY +138%)",
+   "unit": "USD millions",
+   "period": "Q2 FY2027",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 1066,
+   "quote": "AI Clouds, Industrial, & Enterprise | 40,313 | 32,196 | 16,928 | 25% | 138%",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q",
+   "label": "Compute & Networking segment revenue, Q2 FY27 vs Q2 FY26",
+   "value": "88,299 vs 41,331",
+   "unit": "USD millions",
+   "period": "Q2 FY2027",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 1103,
+   "quote": "Compute & Networking | $88,299 | $41,331 | $46,968 | 114%",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_op_income_q",
+   "label": "Compute & Networking segment operating income, Q2 FY27 vs Q2 FY26",
+   "value": "62,696 vs 28,363",
+   "unit": "USD millions",
+   "period": "Q2 FY2027",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 1111,
+   "quote": "Compute & Networking | $62,696 | $28,363 | $34,333 | 121%",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "gross_margin_q",
+   "label": "GAAP gross margin, Q2 FY27 vs Q2 FY26",
+   "value": "75.0% vs 72.4%",
+   "unit": "percent",
+   "period": "Q2 FY2027",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 20,
+   "quote": "Gross margin | 75.0% | 74.9% | 72.4% | 0.1 pts | 2.6 pts",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "gross_margin_q_nongaap",
+   "label": "Non-GAAP gross margin, Q2 FY27 vs Q2 FY26",
+   "value": "75.0% vs 72.5%",
+   "unit": "percent",
+   "period": "Q2 FY2027",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 28,
+   "quote": "Gross margin | 75.0% | 75.0% | 72.5% | \u2014 | 2.5 pts",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "GAAP operating income, Q2 FY27 vs Q2 FY26",
+   "value": "63,734 vs 28,440",
+   "unit": "USD millions",
+   "period": "Q2 FY2027",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 22,
+   "quote": "Operating income | $63,734 | $53,536 | $28,440 | 19% | 124%",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q",
+   "label": "Purchases related to property and equipment and intangible assets, Q2 FY27 vs Q2 FY26 (columns: Q2 FY27, Q1 FY27, Q2 FY26, H1 FY27, H1 FY26)",
+   "value": "2,677 vs 1,894",
+   "unit": "USD millions",
+   "period": "Q2 FY2027",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 263,
+   "quote": "Purchases related to property and equipment and intangible assets | (2,677) | (1,757) | (1,894) | (4,434) | (3,122)",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q_prior",
+   "label": "Same, Q2 FY26",
+   "value": "1,894",
+   "unit": "USD millions",
+   "period": "Q2 FY2026",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 263,
+   "quote": "Purchases related to property and equipment and intangible assets | (2,677) | (1,757) | (1,894) | (4,434) | (3,122)",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Same, first half FY27 vs first half FY26",
+   "value": "4,434 vs 3,122",
+   "unit": "USD millions",
+   "period": "H1 FY2027",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 210,
+   "quote": "(4,434) | (3,122)",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "da_q",
+   "label": "Depreciation and amortization, Q2 FY27 vs Q2 FY26 and H1 FY27 vs H1 FY26",
+   "value": "Q2: 1,127 vs 668; H1: 2,124 vs 1,280",
+   "unit": "USD millions",
+   "period": "Q2 FY2027",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 193,
+   "quote": "Depreciation and amortization | 1,127 | 668 | 2,124 | 1,280",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash provided by operating activities, Q2 FY27 24,077 vs 15,365; first half FY27 vs FY26",
+   "value": "74,421 vs 42,779",
+   "unit": "USD millions",
+   "period": "H1 FY2027",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 204,
+   "quote": "Net cash provided by operating activities | 24,077 | 15,365 | 74,421 | 42,779",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_total",
+   "label": "Remaining performance obligations from contracts longer than one year at 2026-07-26 ($3.0 billion of it deferred revenue)",
+   "value": "3.2",
+   "unit": "USD billions",
+   "period": "2026-07-26",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 594,
+   "quote": "3.2",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_next_12m_pct",
+   "label": "Share of >1-year-contract RPO to be recognized over next twelve months",
+   "value": "39",
+   "unit": "percent",
+   "period": "2026-07-26",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 600,
+   "quote": "39",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Property and equipment, net, 2026-07-26 vs 2026-01-25",
+   "value": "14,285 vs 10,383",
+   "unit": "USD millions",
+   "period": "2026-07-26",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 161,
+   "quote": "Property and equipment, net | 14,285 | 10,383",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "leases_not_yet_commenced",
+   "label": "Data center leases not commenced, total future commitments (additional $20 billion of leases not commenced that NVIDIA expects to reassign to third parties, 10-Q line 737)",
+   "value": "25",
+   "unit": "USD billions",
+   "period": "2026-07-26",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 710,
+   "quote": "Data center leases not commenced | \u2014 | 1 | 1 | 2 | 1 | 20 | 25",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "supply_commitments",
+   "label": "Supply and capacity commitments at 2026-07-26 (up from $119 billion the prior quarter per text); total of all commitments $366 billion",
+   "value": "279",
+   "unit": "USD billions",
+   "period": "2026-07-26",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 708,
+   "quote": "Supply and capacity | $92 | $87 | $88 | $6 | $5 | $1 | $279",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_commitments",
+   "label": "Capital expenditure commitments (obligations, not guidance)",
+   "value": "8 (7 in remainder of FY2027)",
+   "unit": "USD billions",
+   "period": "2026-07-26",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 712,
+   "quote": "Capital expenditures | 7 | 1 | \u2014 | \u2014 | \u2014 | \u2014 | 8",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Long-term debt, 2026-07-26 vs 2026-01-25",
+   "value": "32,366 vs 7,469",
+   "unit": "USD millions",
+   "period": "2026-07-26",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 175,
+   "quote": "Long-term debt | 32,366 | 7,469",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "customer_concentration",
+   "label": "Direct customer concentration, Q2 FY27 (H1 FY27: three customers at 16%, 15%, 13%; Q2 FY26 two at 23% and 16%)",
+   "value": "one direct customer 16% of total revenue",
+   "unit": "percent",
+   "period": "Q2 FY2027",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 1123,
+   "quote": "For the second quarter of fiscal year 2027, one direct customer represented 16% of total revenue",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "q3_revenue_outlook",
+   "label": "Q3 FY27 revenue outlook (no China Data Center compute assumed)",
+   "value": "108.0 billion, plus or minus 2%",
+   "unit": "USD billions",
+   "period": "Q3 FY2027",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 36,
+   "quote": "Revenue is expected to be $108.0 billion, plus or minus 2%.",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Employees at end of fiscal 2026 (2026-01-25)",
+   "value": "approximately 42,000",
+   "unit": "employees",
+   "period": "FY2026",
+   "file": "NVDA/annual_10-K_2026-02-25.txt",
+   "line": 243,
+   "quote": "approximately 42,000 employees in 38 countries",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Property and equipment useful life range, two to seven years (the 'two' is on line 1280); buildings up to thirty years",
+   "value": "2 to 7 years",
+   "unit": "years",
+   "period": "FY2026 10-K",
+   "file": "NVDA/annual_10-K_2026-02-25.txt",
+   "line": 1282,
+   "quote": "seven years",
+   "non_gaap": false,
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "Data Center revenue growth was driven by the ramp of Blackwell Ultra infrastructure; Hyperscale more than doubled YoY and rose 13% sequentially, and AI Clouds, Industrial and Enterprise rose 138% on AI-native, enterprise, sovereign and hyperscaler-via-AI-cloud demand.",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 1073
+  },
+  {
+   "text": "Gross margin rose YoY on improved Blackwell Ultra mix and was about flat sequentially.",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 1076
+  },
+  {
+   "text": "Operating expenses up 55% YoY, driven by higher compute infrastructure costs and compensation and benefits.",
+   "file": "NVDA/quarterly_10-Q_2026-08-26.txt",
+   "line": 1077
+  },
+  {
+   "text": "Supply commitments (mainly memory and manufacturing) rose from $119 billion to $279 billion in one quarter to meet multi-year demand; NVIDIA also announced financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to mobilize over $500 billion of third-party capital, subject to definitive agreements.",
+   "file": "NVDA/earnings_8-K_2026-08-26.txt",
+   "line": 59
+  }
+ ],
+ "gaps": [
+  "data_center compute vs networking split: not disclosed in the 10-Q or release as read; the platform split is Hyperscale, ACIE, Edge Computing. Compute & Networking is a reportable segment, not a Data Center split.",
+  "capex_guidance: no capex guidance stated in the release; only contractual capex commitments of $8 billion are disclosed.",
+  "leases_not_yet_commenced: the $25 billion row is total commitments; term and start dates (Q3 FY27 to FY33) are in the 10-Q text.",
+  "useful_life_change: no change to useful lives found in the lines read.",
+  "Quarterly 10-Q file name displays as the literal string quarterly_10-Q_2026-08-26.txt in the directory and manifest; cited as displayed. Fiscal calendar: quarter ended 2026-07-26 is Q2 FY2027."
+ ]
+}

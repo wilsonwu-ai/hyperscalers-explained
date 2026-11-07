@@ -1,0 +1,69 @@
+<template>
+<style>
+@font-face { font-family: 'Fraunces'; src: url('assets/fonts/fraunces-600.woff2') format('woff2'); font-weight: 600; }
+#root { position:absolute; inset:0; background:#F6F3EC; font-family:'Inter',sans-serif; color:#10202F; overflow:hidden; }
+#root .wrap { position:absolute; inset:0; }
+#root .h { font-family:'Fraunces','EB Garamond',serif; font-weight:600; position:absolute; line-height:1.08; letter-spacing:-0.01em; white-space:nowrap; font-variant-numeric:tabular-nums; }
+#root .t { position:absolute; font-weight:600; white-space:nowrap; line-height:1.1; font-variant-numeric:tabular-nums; }
+#root .box { position:absolute; }
+
+#root .tile { position:absolute; top:400px; width:220px; height:220px; border-radius:20px; background:#6B4FA0; color:#fff; font-family:'Fraunces',serif; font-weight:600; font-size:96px; text-align:center; line-height:220px; }
+#root .col { position:absolute; box-sizing:border-box; transform-origin:50% 100%; }
+</style>
+<div id="root" data-composition-id="s5" data-width="1920" data-height="1080">
+<div class="wrap" id="s5-wrap">
+<div class="h" id="s5-h" style="left:192px;top:100px;font-size:80px;">The catch</div>
+<div class="tile" id="s5-t0" style="left:192px;">1</div>
+<div class="tile" id="s5-t1" style="left:448px;">2</div>
+<div class="tile" id="s5-t2" style="left:704px;">3</div>
+<div class="tile" id="s5-t3" style="left:960px;">4</div>
+<div class="tile" id="s5-t4" style="left:1216px;">5</div>
+<div class="tile" id="s5-t5" style="left:1472px;">6</div>
+<div class="h" id="s5-yrs" style="left:192px;top:690px;font-size:92px;color:#C2552D;">about 6 years</div>
+<div class="col" id="s5-rev" style="left:260px;width:280px;top:570.4px;height:329.6px;background:#1E7F55;border-radius:10px 10px 0 0;"></div>
+<div class="col" id="s5-dep" style="left:660px;width:280px;top:631.6px;height:268.4px;background:#C2552D;"></div>
+<div class="col" id="s5-opx" style="left:660px;width:280px;top:592.0px;height:39.6px;background:#8A7A66;border-top:3px solid #F6F3EC;"></div>
+<div class="col" id="s5-pw" style="left:660px;width:280px;top:559.6px;height:32.4px;background:#C98A1B;border-top:3px solid #F6F3EC;"></div>
+<div class="col" id="s5-int" style="left:660px;width:280px;top:412.4px;height:147.2px;border:5px dashed #C2552D;background: repeating-linear-gradient(135deg, rgba(194,85,45,0.28) 0 14px, rgba(194,85,45,0.08) 14px 28px);border-radius:10px 10px 0 0;"></div>
+<div class="box" id="s5-ref" style="left:200px;width:800px;top:570.4px;height:0;border-top:4px dashed #5B6672;"></div>
+<div class="t" id="s5-lr" style="left:260px;top:916px;font-size:52px;width:280px;text-align:center;">Revenue</div>
+<div class="t" id="s5-lc" style="left:660px;top:916px;font-size:52px;width:280px;text-align:center;">Costs</div>
+<div class="h" id="s5-m1" style="left:1090px;top:330px;font-size:76px;color:#10202F;">Roughly even.</div>
+<div class="h" id="s5-m2" style="left:1090px;top:470px;font-size:76px;color:#C2552D;">Borrowing tips<br>it into a loss.</div>
+<div class="t" id="s5-il" style="left:1090px;top:780px;font-size:44px;color:#5B6672;">Illustrative 1 GW campus<br>Model estimate, not a forecast</div>
+
+</div>
+</div>
+<script>
+(function() {
+const tl = gsap.timeline({ paused: true });
+const D = 9.18;
+tl.fromTo('#s5-wrap', { opacity: 0 }, { opacity: 1, duration: 0.25, ease: 'power2.out' }, 0);
+tl.to('#s5-wrap', { opacity: 0, duration: 0.2, ease: 'power2.in' }, D - 0.2);
+tl.fromTo('#s5-h', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 0.43);
+tl.fromTo('.tile', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out', stagger: 0.08 }, 1.290);
+tl.to('#s5-t0', { backgroundColor: '#C2552D', duration: 0.25, ease: 'power1.out' }, 1.940);
+tl.to('#s5-t1', { backgroundColor: '#C2552D', duration: 0.25, ease: 'power1.out' }, 2.170);
+tl.to('#s5-t2', { backgroundColor: '#C2552D', duration: 0.25, ease: 'power1.out' }, 2.400);
+tl.to('#s5-t3', { backgroundColor: '#C2552D', duration: 0.25, ease: 'power1.out' }, 2.630);
+tl.to('#s5-t4', { backgroundColor: '#C2552D', duration: 0.25, ease: 'power1.out' }, 2.860);
+tl.to('#s5-t5', { backgroundColor: '#C2552D', duration: 0.25, ease: 'power1.out' }, 3.090);
+tl.fromTo('#s5-yrs', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 2.25);
+tl.to('#s5-h,.tile,#s5-yrs', { opacity: 0, duration: 0.4, ease: 'power2.in' }, 3.48);
+tl.set('#s5-rev,#s5-dep,#s5-opx,#s5-pw,#s5-int,#s5-ref,#s5-lr,#s5-lc,#s5-m1,#s5-m2,#s5-il', { opacity: 0 }, 0);
+tl.fromTo('#s5-rev', { opacity: 1, scaleY: 0 }, { opacity: 1, scaleY: 1, duration: 0.9, ease: 'power2.out' }, 3.580);
+tl.fromTo('#s5-dep', { opacity: 1, scaleY: 0 }, { opacity: 1, scaleY: 1, duration: 0.5, ease: 'power2.out' }, 3.730);
+tl.fromTo('#s5-opx', { opacity: 1, scaleY: 0 }, { opacity: 1, scaleY: 1, duration: 0.5, ease: 'power2.out' }, 4.080);
+tl.fromTo('#s5-pw', { opacity: 1, scaleY: 0 }, { opacity: 1, scaleY: 1, duration: 0.5, ease: 'power2.out' }, 4.430);
+tl.fromTo('#s5-lr', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 3.98);
+tl.fromTo('#s5-lc', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 4.08);
+tl.fromTo('#s5-ref', { opacity: 0 }, { opacity: 1, duration: 0.5 }, 6.010);
+tl.fromTo('#s5-m1', { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 6.01);
+tl.fromTo('#s5-int', { opacity: 1, scaleY: 0 }, { opacity: 1, scaleY: 1, duration: 0.8, ease: 'power2.out' }, 7.170);
+tl.fromTo('#s5-m2', { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, 7.27);
+tl.fromTo('#s5-il', { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 3.7800000000000002);
+
+window.__timelines['s5'] = tl;
+})();
+</script>
+</template>

@@ -1,0 +1,350 @@
+{
+ "ticker": "GOOGL",
+ "company": "Alphabet Inc.",
+ "latest_period": "Q3 2026 (quarter ended 2026-09-30; 10-Q filed 2026-10-29, earnings release 2026-10-28; interim figures unaudited; $ millions unless noted)",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Total revenues, Q3 2026",
+   "value": "127,577",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 57,
+   "quote": "Total revenues | $102,346 | $127,577",
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Total revenues, Q3 2025",
+   "value": "102,346",
+   "unit": "$ millions",
+   "period": "Q3 2025",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 57,
+   "quote": "Total revenues | $102,346 | $127,577",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q",
+   "label": "Google Cloud revenues, Q3 2026",
+   "value": "30,709",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 54,
+   "quote": "Google Cloud | 15,157 | 30,709",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q_prior",
+   "label": "Google Cloud revenues, Q3 2025",
+   "value": "15,157",
+   "unit": "$ millions",
+   "period": "Q3 2025",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 54,
+   "quote": "Google Cloud | 15,157 | 30,709",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_growth_pct",
+   "label": "Google Cloud revenue growth as stated",
+   "value": "103",
+   "unit": "%",
+   "period": "Q3 2026",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 16,
+   "quote": "revenues increased 103% to $30.7 billion",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_op_income_q",
+   "label": "Google Cloud operating income, Q3 2026",
+   "value": "11,121",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 65,
+   "quote": "Google Cloud | 3,594 | 11,121",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_op_income_q_prior",
+   "label": "Google Cloud operating income, Q3 2025",
+   "value": "3,594",
+   "unit": "$ millions",
+   "period": "Q3 2025",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 65,
+   "quote": "Google Cloud | 3,594 | 11,121",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "Income from operations, Q3 2026 (Q3 2025: 31,228; 9M 2026: 121,042)",
+   "value": "40,576",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 159,
+   "quote": "Income from operations | 31,228 | 40,576 | 93,105 | 121,042",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q",
+   "label": "Purchases of property and equipment, Q3 2026",
+   "value": "51,355",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 194,
+   "quote": "Purchases of property and equipment | (23,953) | (51,355) | (63,596) | (131,953)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q_prior",
+   "label": "Purchases of property and equipment, Q3 2025",
+   "value": "23,953",
+   "unit": "$ millions",
+   "period": "Q3 2025",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 194,
+   "quote": "Purchases of property and equipment | (23,953) | (51,355) | (63,596) | (131,953)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Purchases of property and equipment, nine months 2026",
+   "value": "131,953",
+   "unit": "$ millions",
+   "period": "9M 2026",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 194,
+   "quote": "Purchases of property and equipment | (23,953) | (51,355) | (63,596) | (131,953)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd_prior",
+   "label": "Purchases of property and equipment, nine months 2025",
+   "value": "63,596",
+   "unit": "$ millions",
+   "period": "9M 2025",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 194,
+   "quote": "Purchases of property and equipment | (23,953) | (51,355) | (63,596) | (131,953)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_guidance",
+   "label": "Qualitative only: 2026 technical-infrastructure investment expected to rise significantly versus 2025; no dollar figure",
+   "value": "no dollar guidance",
+   "unit": "n/a",
+   "period": "FY2026",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 1974,
+   "quote": "In 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure",
+   "verify": "exact"
+  },
+  {
+   "key": "finance_lease_principal_q",
+   "label": "Financing cash flows used for finance leases, Q3 2026 (Q3 2025: 92; 9M 2026: 1,950)",
+   "value": "1,110",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 863,
+   "quote": "Financing cash flows used for finance leases (1) | $92 | $1,110 | $394 | $1,950",
+   "verify": "exact"
+  },
+  {
+   "key": "finance_lease_assets_obtained_q",
+   "label": "Finance-lease assets obtained, Q3 2026 (Q3 2025: 383; 9M 2026: 2,987)",
+   "value": "2,085",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 866,
+   "quote": "Finance leases | $383 | $2,085 | $989 | $2,987",
+   "verify": "exact"
+  },
+  {
+   "key": "da_q",
+   "label": "Depreciation of property and equipment (depreciation only, excludes amortization), Q3 2026",
+   "value": "8,369",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 179,
+   "quote": "Depreciation of property and equipment | 5,611 | 8,369 | 15,096 | 21,955",
+   "verify": "exact"
+  },
+  {
+   "key": "da_ytd",
+   "label": "Depreciation of property and equipment, nine months 2026 (9M 2025: 15,096)",
+   "value": "21,955",
+   "unit": "$ millions",
+   "period": "9M 2026",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 179,
+   "quote": "Depreciation of property and equipment | 5,611 | 8,369 | 15,096 | 21,955",
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash provided by operating activities, nine months 2026 (9M 2025: 112,311; Q3 2026: 42,290)",
+   "value": "127,149",
+   "unit": "$ millions",
+   "period": "9M 2026",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 192,
+   "quote": "Net cash provided by operating activities | 48,414 | 42,290 | 112,311 | 127,149",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_total",
+   "label": "Revenue backlog (remaining performance obligations), billions; number on its own line",
+   "value": "567.7",
+   "unit": "$ billions",
+   "period": "as of 2026-09-30",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 479,
+   "quote": "567.7",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_google_cloud",
+   "label": "Portion of revenue backlog related to Google Cloud (billions)",
+   "value": "560.8",
+   "unit": "$ billions",
+   "period": "as of 2026-09-30",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 481,
+   "quote": "560.8",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_next_24m_pct",
+   "label": "Just over 55% of backlog to be recognized over next 24 months (12-month share not disclosed)",
+   "value": "just over 55",
+   "unit": "%",
+   "period": "as of 2026-09-30",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 483,
+   "quote": "55",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_related_party",
+   "label": "Backlog from Crux AI related-party JV agreement (billions)",
+   "value": "16.8",
+   "unit": "$ billions",
+   "period": "as of 2026-09-30",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 487,
+   "quote": "16.8",
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Property and equipment, net, 2026-09-30 (2025-12-31: 246,597)",
+   "value": "372,827",
+   "unit": "$ millions",
+   "period": "as of 2026-09-30",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 118,
+   "quote": "Property and equipment, net | 246,597 | 372,827",
+   "verify": "exact"
+  },
+  {
+   "key": "leases_not_yet_commenced",
+   "label": "Future lease payments for leases not yet commenced, mainly data centers and energy infrastructure",
+   "value": "130.5",
+   "unit": "$ billions",
+   "period": "as of 2026-09-30",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 1978,
+   "quote": "that have not yet commenced with future lease payments of $130.5 billion",
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Long-term debt, 2026-09-30 (2025-12-31: 46,547)",
+   "value": "125,102",
+   "unit": "$ millions",
+   "period": "as of 2026-09-30",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 132,
+   "quote": "Long-term debt | 46,547 | 125,102",
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Employees at 2025-12-31, annual report",
+   "value": "190,820",
+   "unit": "employees",
+   "period": "as of 2025-12-31",
+   "file": "GOOGL/annual_10-K_2026-02-05.txt",
+   "line": 818,
+   "quote": "190,820 employees.",
+   "verify": "exact"
+  },
+  {
+   "key": "headcount_q3_2026",
+   "label": "Employees at 2026-09-30 per 10-Q (Q3 2025: 190,167)",
+   "value": "204,757",
+   "unit": "employees",
+   "period": "as of 2026-09-30",
+   "file": "GOOGL/earnings_8-K_2026-10-28.txt",
+   "line": 59,
+   "quote": "Number of employees | 190,167 | 204,757",
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Servers and network equipment depreciated generally over six years (number on following line)",
+   "value": "six years",
+   "unit": "years",
+   "period": "as of 2025-12-31",
+   "file": "GOOGL/annual_10-K_2026-02-05.txt",
+   "line": 1493,
+   "quote": "six years",
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "Google Cloud revenue growth came mainly from Google Cloud Platform (infrastructure and platform services) and TPU system sales; management also cites enterprise AI infrastructure and AI solutions demand.",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 1834
+  },
+  {
+   "text": "Google Cloud operating income rose on higher revenue, partly offset by inventory and related costs from TPU system sales and technical infrastructure usage costs.",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 1907
+  },
+  {
+   "text": "Cost of revenues up 24%, driven by TPU-system inventory costs, depreciation expense, TAC and YouTube content costs.",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 1772
+  },
+  {
+   "text": "Capex of $51.4 billion in the quarter mainly reflects technical infrastructure investment; Alphabet-level activities (shared AI R&D) swung to a larger loss of 7,655 vs 4,467.",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 1787
+  },
+  {
+   "text": "Alphabet raised cash via senior unsecured notes (net $28.7 billion), ATM share issuance and June 2026 equity and mandatory convertible preferred offerings, to fund AI infrastructure capex.",
+   "file": "GOOGL/quarterly_10-Q_2026-10-29.txt",
+   "line": 1781
+  }
+ ],
+ "gaps": [
+  "capex_guidance: no dollar capex guidance in the release or 10-Q; only the qualitative statement that 2026 technical-infrastructure investment will significantly increase versus 2025.",
+  "rpo_next_12m_pct: not disclosed; the 10-Q gives just over 55% over the next 24 months.",
+  "da_q is depreciation of property and equipment only; no combined depreciation and amortization line was found in the release cash flow statement.",
+  "useful_life_change: no change in server useful life found in the 10-K or Q3 10-Q text; the 10-K says servers and network equipment are depreciated generally over six years and that any change is applied prospectively.",
+  "capex_incl_finance_leases_q: no single disclosed figure; inputs are purchases of PP&E 51,355, finance-lease assets obtained 2,085 and financing cash flows used for finance leases 1,110. Also 159 million (Q3) of lease prepayments for leases not yet commenced (10-Q line 869).",
+  "Quote for the Q3 2026 headcount on the release line carries both years; the 10-Q MD&A (line 1789) also states 204,757."
+ ]
+}

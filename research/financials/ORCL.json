@@ -1,0 +1,510 @@
+{
+ "company": "Oracle Corporation",
+ "ticker": "ORCL",
+ "latest_period": "Q1 FY2027 (three months ended 2026-08-31; 10-Q filed 2026-09-11, earnings 8-K 2026-09-10); unaudited interim",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Total revenues, Q1 FY27",
+   "value": "19,345",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 954,
+   "quote": "Total revenues | 19,345 | 30% | 30% | 14,926",
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Total revenues, Q1 FY26 (prior-year quarter); YoY +30% actual and constant currency, same row",
+   "value": "14,926",
+   "unit": "USD millions",
+   "period": "Q1 FY2026",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 954,
+   "quote": "Total revenues | 19,345 | 30% | 30% | 14,926",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q",
+   "label": "Total cloud revenues (cloud applications + cloud infrastructure), Q1 FY27; YoY 62% USD",
+   "value": "11,607",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 292,
+   "quote": "Total cloud revenues | $7,186 | $7,977 | $8,914 | $9,913 | $33,989 | $11,607 | $11,607",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q_prior",
+   "label": "Total cloud revenues, Q1 FY26 (first column of the same row)",
+   "value": "7,186",
+   "unit": "USD millions",
+   "period": "Q1 FY2026",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 292,
+   "quote": "Total cloud revenues | $7,186 | $7,977 | $8,914 | $9,913 | $33,989 | $11,607 | $11,607",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_infrastructure_revenue_q",
+   "label": "Cloud infrastructure (IaaS) revenue, Q1 FY27",
+   "value": "7,388",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 1038,
+   "quote": "Cloud infrastructure | 7,388 | 121% | 120% | 3,347",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_infrastructure_revenue_q_prior",
+   "label": "Cloud infrastructure revenue, Q1 FY26; YoY +121% actual, +120% constant currency, same row",
+   "value": "3,347",
+   "unit": "USD millions",
+   "period": "Q1 FY2026",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 1038,
+   "quote": "Cloud infrastructure | 7,388 | 121% | 120% | 3,347",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_growth_pct",
+   "label": "Cloud infrastructure growth as stated in release",
+   "value": "121% USD / 120% constant currency",
+   "unit": "percent",
+   "period": "Q1 FY2027",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 20,
+   "quote": "Q1 Cloud Infra (IaaS) Revenue up 121% in USD & up 120% in constant currency to $7.4 billion.",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_applications_revenue_q",
+   "label": "Cloud applications (SaaS) revenue, Q1 FY27 vs Q1 FY26 $3,839",
+   "value": "4,219",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 1037,
+   "quote": "Cloud applications | $4,219 | 10% | 10% | $3,839",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_margin_q",
+   "label": "Cloud and software business segment margin (not GAAP operating income; excludes SBC, amortization and other unallocated items), Q1 FY27",
+   "value": "9,358",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 1030,
+   "quote": "Total Margin | $9,358 | 22% | 22% | $7,691",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_margin_q_prior",
+   "label": "Cloud and software segment margin, Q1 FY26 (margin 60% prior vs 55% current, line 1031)",
+   "value": "7,691",
+   "unit": "USD millions",
+   "period": "Q1 FY2026",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 1030,
+   "quote": "Total Margin | $9,358 | 22% | 22% | $7,691",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "GAAP operating income, Q1 FY27",
+   "value": "6,728",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 159,
+   "quote": "Operating income | 6,728 | 4,277",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q_prior",
+   "label": "GAAP operating income, Q1 FY26; YoY +57% per release",
+   "value": "4,277",
+   "unit": "USD millions",
+   "period": "Q1 FY2026",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 159,
+   "quote": "Operating income | 6,728 | 4,277",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q_non_gaap",
+   "label": "Non-GAAP operating income, Q1 FY27 (GAAP 6,728 + 1,423 adjustments); prior-year 6,236",
+   "value": "8,151",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 114,
+   "quote": "OPERATING INCOME | $6,728 | $1,423 | $8,151 | $4,277 | $1,959 | $6,236",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q",
+   "label": "Capital expenditures (cash flow statement), Q1 FY27 = fiscal year to date",
+   "value": "28,499",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 255,
+   "quote": "Capital expenditures | ( 28,499) | ( 8,502)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q_prior",
+   "label": "Capital expenditures, Q1 FY26",
+   "value": "8,502",
+   "unit": "USD millions",
+   "period": "Q1 FY2026",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 255,
+   "quote": "Capital expenditures | ( 28,499) | ( 8,502)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Capex fiscal YTD equals the single quarter (Q1 is the first quarter of FY27)",
+   "value": "28,499",
+   "unit": "USD millions",
+   "period": "FY2027 YTD (3 months)",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 212,
+   "quote": "Capital expenditures | (28,499) | (8,502)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_fy2026",
+   "label": "Full fiscal 2026 capital expenditures (from release FCF table)",
+   "value": "55,663",
+   "unit": "USD millions",
+   "period": "FY2026",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 248,
+   "quote": "Capital Expenditures | $8,502 | $12,033 | $18,635 | $16,493 | $55,663 | $28,499 | $28,499",
+   "verify": "exact"
+  },
+  {
+   "key": "net_cash_outlay_capex_q",
+   "label": "Net cash outlay for capital expenditures as defined by Oracle (capex less other short-term financing and customer prepayments with financing component; company-defined)",
+   "value": "17,966",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 251,
+   "quote": "Net Cash Outlay for Capital Expenditures | $6,544 | $12,793 | $17,166 | $11,223 | $47,726 | $17,966 | $17,966",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "customer_prepayments_financing_q",
+   "label": "Increase in deferred revenues from customer prepayments with significant financing component (operating cash flow line)",
+   "value": "11,363",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 249,
+   "quote": "Increase in deferred revenues from customer prepayments with significant financing component | 11,363 | \u2014",
+   "verify": "exact"
+  },
+  {
+   "key": "unpaid_capex",
+   "label": "Unpaid capital expenditures (non-cash investing), Aug 31 2026 vs Aug 31 2025 $4,010",
+   "value": "6,247",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 271,
+   "quote": "Unpaid capital expenditures | $6,247 | $4,010",
+   "verify": "exact"
+  },
+  {
+   "key": "finance_lease_cash_paid_q",
+   "label": "Cash paid for finance leases included in lease liability measurement (supplemental cash flow info), Q1 FY27; Q1 FY26 $86",
+   "value": "186",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 573,
+   "quote": "Finance leases | $186 | $86",
+   "verify": "exact"
+  },
+  {
+   "key": "finance_lease_liabilities_total",
+   "label": "Total finance lease liabilities at Aug 31 2026 (May 31 2026: 7,701)",
+   "value": "9,185",
+   "unit": "USD millions",
+   "period": "2026-08-31",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 567,
+   "quote": "Total finance lease liabilities | $9,185 | $7,701",
+   "verify": "exact"
+  },
+  {
+   "key": "operating_lease_liabilities_total",
+   "label": "Total lease liability from maturities table (operating leases column) at Aug 31 2026",
+   "value": "34,621",
+   "unit": "USD millions",
+   "period": "2026-08-31",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 595,
+   "quote": "Total lease liability | $34,621 | $9,185",
+   "verify": "exact"
+  },
+  {
+   "key": "da_q",
+   "label": "Depreciation expense (cash flow statement), Q1 FY27",
+   "value": "3,156",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 239,
+   "quote": "Depreciation | 3,156 | 1,351",
+   "verify": "exact"
+  },
+  {
+   "key": "da_q_prior",
+   "label": "Depreciation expense, Q1 FY26",
+   "value": "1,351",
+   "unit": "USD millions",
+   "period": "Q1 FY2026",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 239,
+   "quote": "Depreciation | 3,156 | 1,351",
+   "verify": "exact"
+  },
+  {
+   "key": "amortization_intangibles_q",
+   "label": "Amortization of intangible assets, Q1 FY27 vs 420",
+   "value": "202",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 240,
+   "quote": "Amortization of intangible assets | 202 | 420",
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash provided by operating activities, fiscal YTD (3 months); includes 11,363 of customer prepayments",
+   "value": "23,103",
+   "unit": "USD millions",
+   "period": "FY2027 YTD (3 months)",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 251,
+   "quote": "Net cash provided by operating activities | 23,103 | 8,140",
+   "verify": "exact"
+  },
+  {
+   "key": "free_cash_flow_q",
+   "label": "Free cash flow as defined by Oracle (operating cash flow less capex); prior-year quarter $(362)",
+   "value": "(5,396)",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 236,
+   "quote": "Free Cash Flow | $(362) | $(9,967) | $(11,484) | $(1,873) | $(23,686) | $(5,396) | $(5,396)",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_total",
+   "label": "Remaining performance obligations at Aug 31 2026, up $209 billion YoY",
+   "value": "664",
+   "unit": "USD billions",
+   "period": "2026-08-31",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 24,
+   "quote": "Remaining Performance Obligations or RPO up $209 billion year-over-year to $664 billion",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_next_12m_pct",
+   "label": "Share of RPO expected to be recognized over next twelve months (value split across lines in the 10-Q; 37% months 13-36, 34% months 37-60)",
+   "value": "13",
+   "unit": "percent",
+   "period": "2026-08-31",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 325,
+   "quote": "13",
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Property, plant and equipment, net at Aug 31 2026 (May 31 2026: 99,957)",
+   "value": "127,845",
+   "unit": "USD millions",
+   "period": "2026-08-31",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 102,
+   "quote": "Property, plant and equipment, net | 127,845 | 99,957",
+   "verify": "exact"
+  },
+  {
+   "key": "construction_in_progress",
+   "label": "Construction in progress within PP&E (May 31 2026: 39,973)",
+   "value": "48,546",
+   "unit": "USD millions",
+   "period": "2026-08-31",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 433,
+   "quote": "Construction in progress (2) | \u2014 | 48,546 | 39,973",
+   "verify": "exact"
+  },
+  {
+   "key": "leases_not_yet_commenced",
+   "label": "Additional lease commitments not yet on balance sheet, substantially all data centers; expected to commence between Q2 FY27 and FY2029 for 15 to 19 years (number is on this line, text on 597 and 599-604)",
+   "value": "288",
+   "unit": "USD billions",
+   "period": "2026-08-31",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 598,
+   "quote": "288",
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Notes payable and other borrowings, non-current (May 31 2026: 122,342)",
+   "value": "117,712",
+   "unit": "USD millions",
+   "period": "2026-08-31",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 118,
+   "quote": "Notes payable and other borrowings, non-current | 117,712 | 122,342",
+   "verify": "exact"
+  },
+  {
+   "key": "debt_current",
+   "label": "Notes payable and other borrowings, current (May 31 2026: 7,199)",
+   "value": "7,625",
+   "unit": "USD millions",
+   "period": "2026-08-31",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 111,
+   "quote": "Notes payable and other borrowings, current | $7,625 | $7,199",
+   "verify": "exact"
+  },
+  {
+   "key": "interest_expense_q",
+   "label": "Interest expense, Q1 FY27 vs 923",
+   "value": "1,428",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 160,
+   "quote": "Interest expense | ( 1,428) | ( 923)",
+   "verify": "exact"
+  },
+  {
+   "key": "atm_equity_proceeds_q",
+   "label": "Proceeds from at-the-market common stock program, net of issuance costs (financing cash flow)",
+   "value": "19,909",
+   "unit": "USD millions",
+   "period": "Q1 FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 258,
+   "quote": "Proceeds from issuances of common stock via at-the-market program, net of issuance costs | 19,909 | \u2014",
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Full-time employees at May 31 2026 (10-K)",
+   "value": "141,000",
+   "unit": "employees (approximate)",
+   "period": "2026-05-31",
+   "file": "ORCL/annual_10-K_2026-06-22.txt",
+   "line": 249,
+   "quote": "we employed approximately 141,000 full-time employees",
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Estimated useful life of servers and networking equipment (number on line 439; same figure on 10-K line 1891)",
+   "value": "6",
+   "unit": "years",
+   "period": "2026-08-31",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 439,
+   "quote": "six years",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_guidance",
+   "label": "Qualitative only: FY27 capex expected higher than FY26 (no dollar figure)",
+   "value": "FY2027 capex higher than FY2026 (no amount stated)",
+   "unit": "text",
+   "period": "FY2027",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 1237,
+   "quote": "We expect our capital expenditures in fiscal 2027 to be higher than fiscal 2026",
+   "verify": "exact"
+  },
+  {
+   "key": "q2_guidance_total_revenue_growth",
+   "label": "Q2 FY27 guidance, total revenue growth",
+   "value": "30% to 34%",
+   "unit": "percent",
+   "period": "Q2 FY2027",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 35,
+   "quote": "Total revenues are expected to grow between 30% and 34% in constant currency and USD.",
+   "verify": "exact"
+  },
+  {
+   "key": "q2_guidance_cloud_growth",
+   "label": "Q2 FY27 guidance, total cloud revenue growth in USD",
+   "value": "65% to 71%",
+   "unit": "percent",
+   "period": "Q2 FY2027",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 37,
+   "quote": "Total Cloud revenue is expected to grow between 64% and 70% in constant currency and between 65% and 71% in USD.",
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "Management attributes revenue growth to its infrastructure business, citing delivery of 850MW of additional datacenter capacity; cloud revenue up 62% with IaaS up 121% and SaaS up 10%, while software revenue fell 3% as customers migrate to the cloud.",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 25
+  },
+  {
+   "text": "Oracle says AI cloud demand keeps growing faster than supply; it booked more than $30 billion of new AI cloud contracts in Q1 and delivered more than 300,000 GPUs since the end of Q4.",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 29
+  },
+  {
+   "text": "Cloud and software expenses rose mainly on a $2.8 billion increase in infrastructure expenses; segment margin percentage fell (55% vs 60%) as infrastructure costs for OCI growth rose; management expects the trend to continue as data center capacity expands.",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 1045
+  },
+  {
+   "text": "Cash capex rose from $8.5 billion to $28.5 billion mainly from data center expansion; funded in part by a completed $20 billion at-the-market equity sale and customer prepayments.",
+   "file": "ORCL/quarterly_10-Q_2026-09-11.txt",
+   "line": 1237
+  },
+  {
+   "text": "Release states the new contracts have no incremental impact on plans to raise capital, and free cash flow was negative about $5 billion as Oracle invested for OCI growth.",
+   "file": "ORCL/earnings_8-K_2026-09-10.txt",
+   "line": 27
+  }
+ ],
+ "gaps": [
+  "cloud_segment_op_income: Oracle reports segment margin for the cloud and software business (9,358 vs 7,691, excludes SBC, intangibles amortization and other items), not a segment operating income; no OCI-only profit disclosed in these files.",
+  "Oracle no longer shows a 'cloud services and license support' line in this 10-Q; the offerings table gives cloud applications, cloud infrastructure, software license and software support (lines 1037-1040).",
+  "capex_guidance: no dollar capex guidance in the 10-Q or earnings release exhibit (only 'higher than fiscal 2026'); any figure given on the call is not in these files.",
+  "useful_life_change: no change in estimate of server useful life found in the FY26 10-K (searched change in estimate, extend useful); servers and networking stated at six years.",
+  "capex_incl_finance_leases_q: Oracle does not give a combined figure; inputs are capex 28,499 and finance lease cash paid 186 (supplemental line); finance lease principal repayment is not a separate cash flow line in these files.",
+  "rpo_total and rpo_next_12m_pct in the 10-Q are split across lines (664 on line 321, 13 on line 325); only the release states RPO on one line.",
+  "da_ytd equals da_q (Q1 is fiscal YTD); no separate D&A total beyond depreciation 3,156 plus intangible amortization 202.",
+  "Non-quote context: 10-Q line numbers for ORCL quarterly file confirmed by Grep; filename is quarterly_10-Q_2026-09-11.txt (display of the name was masked by the tool)."
+ ]
+}

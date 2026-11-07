@@ -1,0 +1,361 @@
+{
+ "ticker": "MSFT",
+ "company": "Microsoft Corporation",
+ "latest_period": "FY2027 Q1 (quarter ended 2026-09-30; 10-Q filed 2026-10-28, earnings release 2026-10-28; interim figures unaudited, Deloitte review only; $ millions unless noted)",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Total revenue, FY27 Q1",
+   "value": "92,279",
+   "unit": "$ millions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 177,
+   "quote": "Total revenue | 92,279 | 77,673",
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Total revenue, FY26 Q1",
+   "value": "77,673",
+   "unit": "$ millions",
+   "period": "FY2026 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 177,
+   "quote": "Total revenue | 92,279 | 77,673",
+   "verify": "exact"
+  },
+  {
+   "key": "microsoft_cloud_revenue_q",
+   "label": "Microsoft Cloud revenue, FY27 Q1 (up 30%, 31% constant currency)",
+   "value": "63.9",
+   "unit": "$ billions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 34,
+   "quote": "Microsoft Cloud revenue was $63.9 billion and increased 30% (up 31% in constant currency)",
+   "verify": "exact"
+  },
+  {
+   "key": "microsoft_cloud_revenue_q_prior",
+   "label": "Microsoft Cloud revenue, FY26 Q1 (billions; number on its own line in 10-Q)",
+   "value": "49.1",
+   "unit": "$ billions",
+   "period": "FY2026 Q1",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 957,
+   "quote": "49.1",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q",
+   "label": "Agents and Infra segment revenue, FY27 Q1 (new segment from FY27, replaces Intelligent Cloud; prior period recast)",
+   "value": "76,795",
+   "unit": "$ millions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 300,
+   "quote": "Revenue | $76,795 | $61,672",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q_prior",
+   "label": "Agents and Infra segment revenue, FY26 Q1 (recast)",
+   "value": "61,672",
+   "unit": "$ millions",
+   "period": "FY2026 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 300,
+   "quote": "Revenue | $76,795 | $61,672",
+   "verify": "exact"
+  },
+  {
+   "key": "azure_revenue_q",
+   "label": "Azure revenue, FY27 Q1 (FY26 Q1: 22,384)",
+   "value": "33,165",
+   "unit": "$ millions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 320,
+   "quote": "Azure | $33,165 | $22,384",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_growth_pct",
+   "label": "Azure revenue growth as stated (constant currency also 48%)",
+   "value": "48",
+   "unit": "%",
+   "period": "FY2027 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 36,
+   "quote": "Azure revenue increased 48%",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_op_income_q",
+   "label": "Agents and Infra operating income, FY27 Q1",
+   "value": "40,558",
+   "unit": "$ millions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 303,
+   "quote": "Operating income | $40,558 | $32,718",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_op_income_q_prior",
+   "label": "Agents and Infra operating income, FY26 Q1 (recast)",
+   "value": "32,718",
+   "unit": "$ millions",
+   "period": "FY2026 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 303,
+   "quote": "Operating income | $40,558 | $32,718",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "Operating income, FY27 Q1 (FY26 Q1: 37,961; +21%)",
+   "value": "45,915",
+   "unit": "$ millions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 186,
+   "quote": "Operating income | 45,915 | 37,961",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q",
+   "label": "Additions to property and equipment, FY27 Q1 (cash flow)",
+   "value": "39,367",
+   "unit": "$ millions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 282,
+   "quote": "Additions to property and equipment | (39,367) | (19,394)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q_prior",
+   "label": "Additions to property and equipment, FY26 Q1",
+   "value": "19,394",
+   "unit": "$ millions",
+   "period": "FY2026 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 282,
+   "quote": "Additions to property and equipment | (39,367) | (19,394)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Fiscal YTD equals Q1 (first quarter of FY27)",
+   "value": "39,367",
+   "unit": "$ millions",
+   "period": "FY2027 YTD (3 months)",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 282,
+   "quote": "Additions to property and equipment | (39,367) | (19,394)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd_prior",
+   "label": "Fiscal YTD prior year equals FY26 Q1",
+   "value": "19,394",
+   "unit": "$ millions",
+   "period": "FY2026 YTD (3 months)",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 282,
+   "quote": "Additions to property and equipment | (39,367) | (19,394)",
+   "verify": "exact"
+  },
+  {
+   "key": "finance_lease_principal_q",
+   "label": "Financing cash flows from finance leases, FY27 Q1 (FY26 Q1: 639)",
+   "value": "1,000",
+   "unit": "$ millions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 762,
+   "quote": "Financing cash flows from finance leases | 1,000 | 639",
+   "verify": "exact"
+  },
+  {
+   "key": "rou_finance_leases_obtained_q",
+   "label": "Right-of-use assets obtained for finance leases, FY27 Q1 (FY26 Q1: 9,147)",
+   "value": "5,192",
+   "unit": "$ millions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 765,
+   "quote": "Finance leases | 5,192 | 9,147",
+   "verify": "exact"
+  },
+  {
+   "key": "da_q",
+   "label": "Depreciation, amortization, and other, FY27 Q1 (cash flow statement; FY26 Q1: 8,147)",
+   "value": "11,744",
+   "unit": "$ millions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 259,
+   "quote": "Depreciation, amortization, and other | 11,744 | 8,147",
+   "verify": "exact"
+  },
+  {
+   "key": "depreciation_expense_q",
+   "label": "PP&E depreciation expense, FY27 Q1 (billions; number on its own line; FY26 Q1: 7.1)",
+   "value": "11.1",
+   "unit": "$ billions",
+   "period": "FY2027 Q1",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 598,
+   "quote": "11.1",
+   "verify": "exact"
+  },
+  {
+   "key": "da_ytd",
+   "label": "Fiscal YTD equals Q1",
+   "value": "11,744",
+   "unit": "$ millions",
+   "period": "FY2027 YTD (3 months)",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 259,
+   "quote": "Depreciation, amortization, and other | 11,744 | 8,147",
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash from operations, FY27 Q1 = YTD (FY26 Q1: 45,057)",
+   "value": "58,000",
+   "unit": "$ millions",
+   "period": "FY2027 YTD (3 months)",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 273,
+   "quote": "Net cash from operations | 58,000 | 45,057",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_total",
+   "label": "Total company remaining performance obligation (billions; number on its own line)",
+   "value": "683",
+   "unit": "$ billions",
+   "period": "as of 2026-09-30",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 725,
+   "quote": "683",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_commercial",
+   "label": "Commercial remaining performance obligation (up 73%)",
+   "value": "677",
+   "unit": "$ billions",
+   "period": "as of 2026-09-30",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 32,
+   "quote": "Commercial remaining performance obligation increased 73% to $677 billion",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_next_12m_pct",
+   "label": "Share of total and commercial RPO to be recognized over next 12 months (number on its own line)",
+   "value": "30",
+   "unit": "%",
+   "period": "as of 2026-09-30",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 731,
+   "quote": "30",
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Property and equipment, net, 2026-09-30 (2026-06-30: 313,076)",
+   "value": "346,844",
+   "unit": "$ millions",
+   "period": "as of 2026-09-30",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 221,
+   "quote": "346,844 | 313,076",
+   "verify": "exact"
+  },
+  {
+   "key": "leases_not_yet_commenced",
+   "label": "Additional leases, primarily datacenters, not yet commenced (billions; number on its own line)",
+   "value": "364.6",
+   "unit": "$ billions",
+   "period": "as of 2026-09-30",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 800,
+   "quote": "364.6",
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Long-term debt, 2026-09-30 (2026-06-30: 31,067); current portion 4,391",
+   "value": "31,090",
+   "unit": "$ millions",
+   "period": "as of 2026-09-30",
+   "file": "MSFT/earnings_8-K_2026-10-28.txt",
+   "line": 237,
+   "quote": "Long-term debt | 31,090 | 31,067",
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Full-time employees at 2026-06-30, annual report",
+   "value": "223,000",
+   "unit": "employees",
+   "period": "as of 2026-06-30",
+   "file": "MSFT/annual_10-K_2026-07-29.txt",
+   "line": 262,
+   "quote": "we employed approximately 223,000 people on a full-time basis",
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Servers and network equipment useful life: two to six years (10-K FY2026, number split across lines)",
+   "value": "two to six years",
+   "unit": "years",
+   "period": "as of 2026-06-30",
+   "file": "MSFT/annual_10-K_2026-07-29.txt",
+   "line": 1315,
+   "quote": "; servers and network equipment,",
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "Azure grew 48% on demand across the platform with growth across all workloads; Microsoft 365 commercial cloud up 17% on higher revenue per user (Copilot, E5, E7 upsell) and usage-based services such as GitHub Copilot.",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 1103
+  },
+  {
+   "text": "Agents and Infra cost of revenue up 35% on datacenter infrastructure investment to support Azure and Microsoft 365 cloud demand.",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 1114
+  },
+  {
+   "text": "Microsoft Cloud gross margin percentage fell to 66% on mix shift toward Azure, partly offset by product-level margin gains primarily in Azure.",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 1073
+  },
+  {
+   "text": "Investing outflow rose mainly from a $20.0 billion increase in additions to property and equipment, plus higher other investing to facilitate component purchases.",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 1215
+  },
+  {
+   "text": "Devices and Consumer revenue fell 3%, with Windows OEM and devices down 22% on lapping Windows 10 end-of-support demand, OEM/channel inventory drawdowns and weaker PC demand.",
+   "file": "MSFT/quarterly_10-Q_2026-10-28.txt",
+   "line": 1129
+  }
+ ],
+ "gaps": [
+  "Microsoft no longer reports an Intelligent Cloud segment from FY27 (segments recast to Agents and Infra and Devices and Consumer; announced Sept 2026). Agents and Infra includes Microsoft 365 cloud and other lines, so it is not a like-for-like Intelligent Cloud figure. The FY2026 10-K still reports Intelligent Cloud (annual only).",
+  "capex_guidance: the release says guidance is given on the call (line 52); no capex figure in the filings.",
+  "capex_incl_finance_leases_q: no single disclosed figure; inputs are additions to PP&E 39,367, finance-lease ROU assets obtained 5,192, and financing cash flows from finance leases 1,000. Accounts-payable-accrued PP&E is 26.5 billion at 2026-09-30 (10-Q line 603).",
+  "useful_life_change: no change in estimated useful lives found in the FY2026 10-K or Q1 FY27 10-Q text searched; the 10-K states only the 2-to-6-year servers range.",
+  "Microsoft Cloud prior-year (49.1) and several RPO and lease figures sit on lines of their own in the 10-Q, so quotes are bare numbers (billions).",
+  "Headcount: the 10-Q says total company headcount decreased 2% (line 1074) but gives no 10-Q count."
+ ]
+}

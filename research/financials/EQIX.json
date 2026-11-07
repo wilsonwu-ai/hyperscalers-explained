@@ -1,0 +1,325 @@
+{
+ "company": "Equinix, Inc.",
+ "ticker": "EQIX",
+ "latest_period": "Q3 2026 (quarter ended 2026-09-30; 10-Q and 8-K filed 2026-10-28; interim figures unaudited)",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Revenues, Q3 2026 vs Q3 2025",
+   "value": "2,571 vs 2,316 (YoY +11% as reported, stated in release)",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 191,
+   "quote": "Revenues | 2,571 | 2,625 | 2,316 | 7,640 | 6,797",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Revenues, Q3 2025",
+   "value": "2,316",
+   "unit": "USD millions",
+   "period": "Q3 2025",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 191,
+   "quote": "Revenues | 2,571 | 2,625 | 2,316 | 7,640 | 6,797",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "Income from operations, Q3 2026 vs Q3 2025",
+   "value": "600 vs 474",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 202,
+   "quote": "Income from operations | 600 | 665 | 474 | 1,842 | 1,426",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "adjusted_ebitda_q",
+   "label": "Adjusted EBITDA (company-defined), Q3 2026 vs Q3 2025",
+   "value": "1,321 vs 1,148",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 441,
+   "quote": "Adjusted EBITDA | $1,321 | $1,396 | $1,148 | $3,962 | $3,344",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Purchases of other property, plant and equipment, nine months 2026 vs 2025 (quarter alone not disclosed)",
+   "value": "4,392 vs 2,875",
+   "unit": "USD millions",
+   "period": "9M 2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 313,
+   "quote": "Purchases of other property, plant and equipment | (4,392) | (2,875)",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd_prior",
+   "label": "Purchases of other PP&E, nine months 2025",
+   "value": "2,875",
+   "unit": "USD millions",
+   "period": "9M 2025",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 313,
+   "quote": "Purchases of other property, plant and equipment | (4,392) | (2,875)",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "finance_lease_principal_ytd",
+   "label": "Repayment of finance lease liabilities, nine months 2026 vs 2025",
+   "value": "129 vs 111",
+   "unit": "USD millions",
+   "period": "9M 2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 323,
+   "quote": "Repayment of finance lease liabilities | (129) | (111)",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_guidance",
+   "label": "FY2026 total capital expenditures guidance (raised guidance cycle)",
+   "value": "$5 to $6 billion",
+   "unit": "USD billions",
+   "period": "FY2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 64,
+   "quote": "Total capital expenditures are expected to range between $5 and $6 billion.",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "da_q",
+   "label": "Depreciation, amortization and accretion, Q3 2026 vs Q3 2025",
+   "value": "548 vs 533",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 435,
+   "quote": "Depreciation, amortization and accretion expense | 548 | 557 | 533 | 1,649 | 1,515",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "da_ytd",
+   "label": "Depreciation, amortization and accretion, nine months 2026 vs 2025",
+   "value": "1,649 vs 1,515",
+   "unit": "USD millions",
+   "period": "9M 2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 293,
+   "quote": "Depreciation, amortization and accretion | 1,649 | 1,515",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash provided by operating activities, nine months 2026 vs 2025",
+   "value": "3,027 vs 2,767",
+   "unit": "USD millions",
+   "period": "9M 2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 305,
+   "quote": "Net cash provided by operating activities | 3,027 | 2,767",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_total",
+   "label": "Remaining performance obligations at 2026-09-30 (number printed alone on its own line, preceded by 'Approximately $' and followed by 'billion')",
+   "value": "15.9",
+   "unit": "USD billions",
+   "period": "2026-09-30",
+   "file": "EQIX/quarterly_10-Q_2026-10-28.txt",
+   "line": 394,
+   "quote": "15.9",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_two_year_pct",
+   "label": "Share of RPO expected to be recognized over next two years (more in first year; no 12-month percentage given)",
+   "value": "65",
+   "unit": "percent",
+   "period": "2026-09-30",
+   "file": "EQIX/quarterly_10-Q_2026-10-28.txt",
+   "line": 404,
+   "quote": "65",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Property, plant and equipment, net, 2026-09-30 vs 2025-12-31",
+   "value": "26,282 vs 23,584",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 231,
+   "quote": "Property, plant and equipment, net | 26,282 | 23,584",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "leases_not_yet_commenced",
+   "label": "Total lease commitments for leases not yet commenced at 2026-09-30 (expected to commence 2026 to 2029)",
+   "value": "694",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "EQIX/quarterly_10-Q_2026-10-28.txt",
+   "line": 827,
+   "quote": "694",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Senior notes, less current portion, 2026-09-30 vs 2025-12-31",
+   "value": "20,963 vs 16,910",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 249,
+   "quote": "Senior notes, less current portion | 20,963 | 16,910",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "total_debt_principal",
+   "label": "Total debt principal outstanding (incl. finance leases), 2026-09-30 vs 2025-12-31",
+   "value": "25,217 vs 21,417",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 282,
+   "quote": "Total debt principal outstanding | $25,217 | $21,417",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "interest_expense_q",
+   "label": "Interest expense, Q3 2026 vs Q3 2025",
+   "value": "163 vs 128",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 205,
+   "quote": "Interest expense | (163) | (151) | (128) | (462) | (385)",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Total headcount 2026-09-30 vs 2025-12-31 (10-K: 13,716 employees at 2025-12-31)",
+   "value": "14,042 vs 13,716",
+   "unit": "employees",
+   "period": "2026-09-30",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 268,
+   "quote": "Total headcount | 14,042 | 13,716",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Estimated useful lives, core systems (no server-specific policy; data center operator)",
+   "value": "3 to 40 years (personal property 3 to 10; buildings 12 to 60)",
+   "unit": "years",
+   "period": "FY2025 10-K",
+   "file": "EQIX/annual_10-K_2026-02-11.txt",
+   "line": 2249,
+   "quote": "Core systems | 3 | - | 40 years",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "useful_life_change",
+   "label": "10-K note: Americas FY2025 cost of revenues included accelerated depreciation for assets with shortened useful lives (earnings impact of that item alone not separated; the $29 million includes IBX expansions)",
+   "value": "approximately $29 million higher depreciation (combined with IBX expansions), Americas, FY2025",
+   "unit": "USD millions",
+   "period": "FY2025",
+   "file": "EQIX/annual_10-K_2026-02-11.txt",
+   "line": 1336,
+   "quote": "acceleration of depreciation expense for certain assets with shortened useful lives",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "annualized_gross_bookings_q",
+   "label": "Record annualized gross bookings, Q3 2026",
+   "value": "533 (up 35% YoY)",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 9,
+   "quote": "Delivered record annualized gross bookings of $533 million, up 35% year over year",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "largest_customer_share",
+   "label": "Largest customer share of recurring revenues, Q3 and 9M 2026 (3% in 2025 periods)",
+   "value": "approximately 2%",
+   "unit": "percent of recurring revenues",
+   "period": "Q3 2026",
+   "file": "EQIX/quarterly_10-Q_2026-10-28.txt",
+   "line": 1522,
+   "quote": "Our largest customer accounted for approximately 2% of our recurring revenues",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "fy_revenue_guidance",
+   "label": "FY2026 revenue guidance (revised)",
+   "value": "$10.325 to $10.365 billion",
+   "unit": "USD billions",
+   "period": "FY2026",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 64,
+   "quote": "total revenues are expected to range between $10.325 and $10.365 billion",
+   "non_gaap": false,
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "Management attributes growth to demand from traditional and AI workloads: record annualized gross bookings of $533M (up 35% YoY), double-digit monthly recurring revenue growth for a fourth quarter, and interconnection revenue up 10%.",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 9
+  },
+  {
+   "text": "Equinix accelerated capacity: nearly 40% more cabinets planned for delivery in 2026 than initially anticipated, consistent with FY2026 capex of $5 to $6 billion.",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 15
+  },
+  {
+   "text": "Operating income rose 27% YoY on underlying operating performance; net income also benefited from a non-recurring fee from the atNorth joint venture investment.",
+   "file": "EQIX/earnings_8-K_2026-10-28.txt",
+   "line": 33
+  },
+  {
+   "text": "10-Q: new IBX builds are designed for power and cooling needs twice those of earlier IBX sites as AI drives per-cabinet power draw; supply chain constraints led Equinix to pre-commit purchases.",
+   "file": "EQIX/quarterly_10-Q_2026-10-28.txt",
+   "line": 1518
+  }
+ ],
+ "gaps": [
+  "capex_q and capex_q_prior (quarter alone): the release and 10-Q cash flow statements show only nine-month capex; Q3 standalone not disclosed in the files read. Inputs: 9M 2026 4,392; 9M 2025 2,875 (purchases of other PP&E); real estate acquisitions 9M 234 vs 391.",
+  "rpo_next_12m_pct: 10-Q gives only about 65% over the next two years with more in the first year; no 12-month percentage.",
+  "cloud_segment fields: not applicable (EQIX reports Americas, EMEA, Asia-Pacific regions).",
+  "server_useful_life and useful_life_change: no server-specific life; no stated total earnings impact of shortened lives found.",
+  "xScale/hyperscale development backlog and development capex split: not located in the lines read; 10-Q line 459 shows 'Total xScale Joint Ventures | 687 | 536' but its meaning was not confirmed so it is not reported as a metric.",
+  "Quarterly 10-Q file name displays as the literal string quarterly_10-Q_2026-10-28.txt in the directory and manifest; cited as displayed."
+ ]
+}

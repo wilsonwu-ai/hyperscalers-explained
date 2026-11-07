@@ -1,0 +1,43 @@
+{
+ "voice": "marin",
+ "model": "gpt-4o-mini-tts",
+ "instructions": "Calm, clear, warm American female teacher. Steady medium pace, friendly and unhurried. A short pause before each number. Plain American English.",
+ "scenes": [
+  {
+   "id": "s1",
+   "vo": "Every time you stream, search, or ask an AI, you are renting a computer in a giant building.",
+   "caption": "Every time you stream, search, or ask an AI, you are renting a computer in a giant building."
+  },
+  {
+   "id": "s2",
+   "vo": "Land, power, a building, chips, a network, and software. Rented out by the hour, or by contract.",
+   "caption": "Land, power, a building, chips, a network, and software. Rented out by the hour, or by contract."
+  },
+  {
+   "id": "s3",
+   "vo": "It is a huge business. Cloud rental earns five hundred fifty-eight billion dollars a year, growing fifty-five percent. About two point four nine trillion more is already signed, in backlog.",
+   "caption": "It is a huge business. Cloud rental earns $558 billion a year, growing 55 percent. About $2.49 trillion more is already signed, in backlog."
+  },
+  {
+   "id": "s4",
+   "vo": "Now the bill. Five companies spent two hundred thirty point four billion dollars in one quarter. One gigawatt campus costs about fifty-two point six billion, as an illustration.",
+   "caption": "Now the bill. Five companies spent $230.4 billion in one quarter. One gigawatt campus costs about $52.6 billion, as an illustration."
+  },
+  {
+   "id": "s5",
+   "vo": "Here is the catch. Chips wear out in about six years. At today's GPU cloud prices, a campus barely breaks even, and borrowing makes it worse.",
+   "caption": "Here is the catch. Chips wear out in about six years. At today's GPU cloud prices, a campus barely breaks even, and borrowing makes it worse."
+  },
+  {
+   "id": "s6",
+   "vo": "So who keeps the money? Chip makers. NVIDIA's operating margin is sixty-six percent. The big clouds make thirty-six to thirty-nine percent. GPU clouds, zero or less.",
+   "caption": "So who keeps the money? Chip makers. NVIDIA's operating margin is 66 percent. The big clouds make 36 to 39 percent. GPU clouds, zero or less."
+  },
+  {
+   "id": "s7",
+   "vo": "The question is not whether AI is real. It is whether revenue per gigawatt outruns depreciation and interest.",
+   "caption": "The question is not whether AI is real. It is whether revenue per gigawatt outruns depreciation and interest."
+  }
+ ],
+ "speed": 1.25
+}

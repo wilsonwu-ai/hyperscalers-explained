@@ -1,0 +1,300 @@
+{
+ "company": "Vertiv Holdings Co",
+ "ticker": "VRT",
+ "latest_period": "Q3 2026 (quarter ended 2026-09-30; 10-Q and earnings release filed 2026-10-28; interim figures unaudited)",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Net sales, Q3 2026 vs Q3 2025",
+   "value": "4,312.8 vs 2,675.8 (YoY +61.2%; organic +55.0%)",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 100,
+   "quote": "Net sales | 4,312.8 | 2,675.8 | 10,236.6 | 7,349.9",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Net sales, Q3 2025",
+   "value": "2,675.8",
+   "unit": "USD millions",
+   "period": "Q3 2025",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 100,
+   "quote": "Net sales | 4,312.8 | 2,675.8 | 10,236.6 | 7,349.9",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "organic_growth_q",
+   "label": "Organic net sales growth, Q3 2026 (company-defined)",
+   "value": "55.0%",
+   "unit": "percent",
+   "period": "Q3 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 235,
+   "quote": "Total | $4,312.8 | $2,675.8 | $1,637.0 | 61.2% | 55.0%",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "Operating profit, Q3 2026 vs Q3 2025",
+   "value": "983.8 vs 516.7",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 111,
+   "quote": "Operating profit (loss) | 983.8 | 516.7 | 2,061.8 | 1,249.8",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "adjusted_op_profit_q",
+   "label": "Adjusted operating profit, Q3 2026 vs Q3 2025 (margin 25.2% vs 22.3%)",
+   "value": "1,086.9 vs 595.6",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 366,
+   "quote": "Adjusted operating profit (loss) | $1,086.9 | $595.6 | $2,377.5 | $1,421.6",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "orders_growth",
+   "label": "Organic orders growth YoY, Q3 2026 (stated in the headline; no dollar orders given)",
+   "value": "over 100%",
+   "unit": "percent",
+   "period": "Q3 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 6,
+   "quote": "Net Sales Growth of 61%, Organic Orders Growth over 100%",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q",
+   "label": "Capital expenditures, Q3 2026 vs Q3 2025 (nine months 425.0 vs 126.7)",
+   "value": "139.1 vs 45.2",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 185,
+   "quote": "Capital expenditures | (139.1) | (45.2) | (425.0) | (126.7)",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q_prior",
+   "label": "Capital expenditures, Q3 2025",
+   "value": "45.2",
+   "unit": "USD millions",
+   "period": "Q3 2025",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 185,
+   "quote": "Capital expenditures | (139.1) | (45.2) | (425.0) | (126.7)",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Capital expenditures, nine months 2026 vs 2025",
+   "value": "425.0 vs 126.7",
+   "unit": "USD millions",
+   "period": "9M 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 185,
+   "quote": "Capital expenditures | (139.1) | (45.2) | (425.0) | (126.7)",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_guidance",
+   "label": "FY2026 capex outlook (percent of revenue)",
+   "value": "approximately 4.0% of revenue",
+   "unit": "percent of revenue",
+   "period": "FY2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 40,
+   "quote": "Capital expenditures for full year 2026 are still anticipated at approximately 4.0% of revenue",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "depreciation_q",
+   "label": "Depreciation (cash flow add-back), Q3 2026 vs Q3 2025; nine months 106.7 vs 70.9",
+   "value": "39.8 vs 24.5",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 175,
+   "quote": "Depreciation | 39.8 | 24.5 | 106.7 | 70.9",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "amortization_q",
+   "label": "Amortization (cash flow add-back, mostly intangibles), Q3 2026 vs Q3 2025; nine months 224.7 vs 149.4",
+   "value": "68.1 vs 50.9",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 176,
+   "quote": "Amortization | 68.1 | 50.9 | 224.7 | 149.4",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash from operating activities, nine months 2026 vs 2025 (Q3: 794.0 vs 482.7)",
+   "value": "2,660.6 vs 1,108.9",
+   "unit": "USD millions",
+   "period": "9M 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 183,
+   "quote": "Net cash provided by (used for) operating activities | 794.0 | 482.7 | 2,660.6 | 1,108.9",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "adjusted_fcf_q",
+   "label": "Adjusted free cash flow (company-defined), Q3 2026 vs Q3 2025; nine months 2,230.3 vs 977.5",
+   "value": "652.2 vs 436.0",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 358,
+   "quote": "Adjusted free cash flow | $652.2 | $436.0 | $2,230.3 | $977.5",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "backlog_prior_year_end",
+   "label": "Estimated combined order backlog at 2025-12-31 vs 2024-12-31 (latest backlog figure in the files; Q3 2026 backlog not stated)",
+   "value": "15.0 vs 7.2",
+   "unit": "USD billions",
+   "period": "2025-12-31",
+   "file": "VRT/annual_10-K_2026-02-13.txt",
+   "line": 217,
+   "quote": "estimated combined order backlog was $15.0 billion and $7.2 billion as of December 31, 2025 and 2024",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "deferred_revenue",
+   "label": "Deferred revenue, 2026-09-30 vs 2025-12-31",
+   "value": "4,120.5 vs 1,814.7",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 150,
+   "quote": "Deferred revenue | 4,120.5 | 1,814.7",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Property, plant and equipment, net, 2026-09-30 vs 2025-12-31",
+   "value": "1,324.6 vs 921.8",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 137,
+   "quote": "Property, plant and equipment, net | 1,324.6 | 921.8",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Long-term debt, net, 2026-09-30 vs 2025-12-31",
+   "value": "2,925.1 vs 2,892.1",
+   "unit": "USD millions",
+   "period": "2026-09-30",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 154,
+   "quote": "Long-term debt, net | 2,925.1 | 2,892.1",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "fy_net_sales_guidance",
+   "label": "FY2026 net sales guidance midpoint (guidance raised by $650 million)",
+   "value": "14,650",
+   "unit": "USD millions",
+   "period": "FY2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 29,
+   "quote": "Expects full year 2026 net sales of $14,650 million and organic sales growth of 38%",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "amer_net_sales_q",
+   "label": "Americas net sales, Q3 2026 vs Q3 2025",
+   "value": "2,988.8 vs 1,712.4 (organic +66.2%)",
+   "unit": "USD millions",
+   "period": "Q3 2026",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 232,
+   "quote": "AMER | $2,988.8 | $1,712.4 | $1,276.4 | 74.5% | 66.2%",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Full-time and part-time employees at 2025-12-31",
+   "value": "approximately 34,000",
+   "unit": "employees",
+   "period": "2025-12-31",
+   "file": "VRT/annual_10-K_2026-02-13.txt",
+   "line": 326,
+   "quote": "we employed approximately 34,000 full-time and part-time employees",
+   "non_gaap": false,
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Service lives for machinery and equipment: 7 to 10 years (numbers on lines 1506 and 1508); buildings 30 to 40 years",
+   "value": "7 to 10 years",
+   "unit": "years",
+   "period": "FY2025 10-K",
+   "file": "VRT/annual_10-K_2026-02-13.txt",
+   "line": 1506,
+   "quote": "7",
+   "non_gaap": false,
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "Growth was broad-based: Americas up 75% (66% organic), APAC up 50%, EMEA up 23%; acquisitions contributed about 6 points of the 61% growth. Management cites strong demand visibility and capacity investments and raised FY2026 net sales guidance by $650 million.",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 33
+  },
+  {
+   "text": "Adjusted operating margin rose 290 basis points to 25.2% on operating leverage and manufacturing productivity, partly offset by mix and growth investments.",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 34
+  },
+  {
+   "text": "Adjusted free cash flow rose on higher adjusted operating profit, partly offset by working capital build and higher capital expenditures to support growth; FY2026 capex still about 4.0% of revenue.",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 39
+  },
+  {
+   "text": "Management describes the largest infrastructure buildout accelerating, with more than 100% organic orders growth YoY and compressed product development cycles.",
+   "file": "VRT/earnings_8-K_2026-10-28.txt",
+   "line": 36
+  }
+ ],
+ "gaps": [
+  "Q3 2026 orders in dollars, backlog and book_to_bill: not stated in the release or 10-Q as searched; only 'organic orders growth over 100%' and the 10-K year-end 2025 backlog of $15.0 billion.",
+  "rpo_total / rpo_next_12m_pct: no remaining-performance-obligation disclosure found in the 10-Q by search; leases_not_yet_commenced: none found.",
+  "da_q combined: depreciation 39.8 and amortization 68.1 are reported separately from the cash flow statement; no combined D&A figure was computed.",
+  "Segment (Americas, APAC, EMEA) data is geographic, not a cloud segment; cloud fields not applicable.",
+  "Quarterly 10-Q file name displays as the literal string quarterly_10-Q_2026-10-28.txt (same label as EQIX's); no VRT 10-Q line is cited in the metrics."
+ ]
+}

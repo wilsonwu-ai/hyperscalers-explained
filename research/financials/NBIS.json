@@ -1,0 +1,488 @@
+{
+ "company": "Nebius Group N.V.",
+ "ticker": "NBIS",
+ "latest_period": "Q2 2026 (three months ended 2026-06-30; earnings release exhibit 99.1 dated 2026-08-12; unaudited); also 6-K dated 2026-10-22 on a new credit facility",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Revenues, Q2 2026 (table column order is 2025 then 2026); YoY +454%",
+   "value": "582.3",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 23,
+   "quote": "Revenues | 105.1 | 582.3 | 454% | 156.0 | 981.3 | 529%",
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Revenues, Q2 2025",
+   "value": "105.1",
+   "unit": "USD millions",
+   "period": "Q2 2025",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 23,
+   "quote": "Revenues | 105.1 | 582.3 | 454% | 156.0 | 981.3 | 529%",
+   "verify": "exact"
+  },
+  {
+   "key": "revenue_ytd",
+   "label": "Revenues, six months 2026 vs 156.0; +529%",
+   "value": "981.3",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 23,
+   "quote": "Revenues | 105.1 | 582.3 | 454% | 156.0 | 981.3 | 529%",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q",
+   "label": "Nebius AI cloud revenue, Q2 2026 (+514%; about 98% of group revenue)",
+   "value": "574.9",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part3.txt",
+   "line": 93,
+   "quote": "from $93.7 million in the second quarter of 2025 to $574.9 million in the second quarter of 2026",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q_prior",
+   "label": "Nebius AI cloud revenue, Q2 2025",
+   "value": "93.7",
+   "unit": "USD millions",
+   "period": "Q2 2025",
+   "file": "NBIS/earnings_q2_part3.txt",
+   "line": 93,
+   "quote": "from $93.7 million in the second quarter of 2025 to $574.9 million in the second quarter of 2026",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_growth_pct",
+   "label": "Nebius AI cloud revenue growth YoY",
+   "value": "514%",
+   "unit": "percent",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part3.txt",
+   "line": 93,
+   "quote": "Revenues for the Nebius AI cloud business grew by $481.2 million, or 514%",
+   "verify": "exact"
+  },
+  {
+   "key": "arr",
+   "label": "Annualized run-rate revenue (company KPI: last month of quarter Nebius AI cloud revenue times 12), end of June; up 56% from $1.9 billion at end of March",
+   "value": "3.0",
+   "unit": "USD billions",
+   "period": "2026-06-30",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 516,
+   "quote": "Annualized run-rate revenue (ARR)1 of $3.0 billion",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "Loss from operations, Q2 2026 (column order 2025, 2026)",
+   "value": "(175.9)",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 265,
+   "quote": "Loss from operations | (111.2) | (175.9) | (231.5) | (303.9)",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q_prior",
+   "label": "Loss from operations, Q2 2025",
+   "value": "(111.2)",
+   "unit": "USD millions",
+   "period": "Q2 2025",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 265,
+   "quote": "Loss from operations | (111.2) | (175.9) | (231.5) | (303.9)",
+   "verify": "exact"
+  },
+  {
+   "key": "adjusted_ebitda_q",
+   "label": "Group adjusted EBITDA (company-defined non-GAAP), Q2 2026 vs (21.0) in Q2 2025",
+   "value": "236.2",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 24,
+   "quote": "Adjusted EBITDA / (loss) | (21.0) | 236.2 | n/m | (74.7) | 365.7 | n/m",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "ai_cloud_adjusted_ebitda_q",
+   "label": "Nebius AI cloud adjusted EBITDA (non-GAAP), Q2 2026; margin 49.7%",
+   "value": "285.7",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 571,
+   "quote": "primarily by the strong growth in our Nebius AI cloud busi-ness, which generated adjusted EBITDA of $285.7 million",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q",
+   "label": "Purchases of property and equipment and intangible assets, Q2 2026 (order 2025, 2026)",
+   "value": "5,657.4",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 67,
+   "quote": "Purchases of property and equipment and intangible assets | (510.6) | (5,657.4) | 1008% | (1,054.5) | (8,130.3) | 671%",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q_prior",
+   "label": "Purchases of property and equipment and intangible assets, Q2 2025",
+   "value": "510.6",
+   "unit": "USD millions",
+   "period": "Q2 2025",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 67,
+   "quote": "Purchases of property and equipment and intangible assets | (510.6) | (5,657.4) | 1008% | (1,054.5) | (8,130.3) | 671%",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Purchases of property and equipment and intangible assets, six months 2026",
+   "value": "8,130.3",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 67,
+   "quote": "Purchases of property and equipment and intangible assets | (510.6) | (5,657.4) | 1008% | (1,054.5) | (8,130.3) | 671%",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd_prior",
+   "label": "Purchases of property and equipment and intangible assets, six months 2025",
+   "value": "1,054.5",
+   "unit": "USD millions",
+   "period": "6M 2025",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 67,
+   "quote": "Purchases of property and equipment and intangible assets | (510.6) | (5,657.4) | 1008% | (1,054.5) | (8,130.3) | 671%",
+   "verify": "exact"
+  },
+  {
+   "key": "da_q",
+   "label": "Depreciation and amortization, Q2 2026 (order 2025, 2026)",
+   "value": "259.7",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 52,
+   "quote": "Depreciation and amortization | 75.2 | 259.7 | 245% | 124.3 | 471.7 | 279%",
+   "verify": "exact"
+  },
+  {
+   "key": "da_q_prior",
+   "label": "Depreciation and amortization, Q2 2025",
+   "value": "75.2",
+   "unit": "USD millions",
+   "period": "Q2 2025",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 52,
+   "quote": "Depreciation and amortization | 75.2 | 259.7 | 245% | 124.3 | 471.7 | 279%",
+   "verify": "exact"
+  },
+  {
+   "key": "da_ytd",
+   "label": "Depreciation and amortization, six months 2026 vs 124.3",
+   "value": "471.7",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 52,
+   "quote": "Depreciation and amortization | 75.2 | 259.7 | 245% | 124.3 | 471.7 | 279%",
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_q",
+   "label": "Net cash from operating activities, continuing operations, Q2 2026 (order 2025, 2026)",
+   "value": "2,246.1",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 66,
+   "quote": "\u2013 continuing operations | (167.7) | 2,246.1 | n/m | (352.0) | 4,504.1 | n/m",
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash from operating activities, continuing operations, six months 2026 vs (352.0); helped by customer prepayments",
+   "value": "4,504.1",
+   "unit": "USD millions",
+   "period": "6M 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 66,
+   "quote": "\u2013 continuing operations | (167.7) | 2,246.1 | n/m | (352.0) | 4,504.1 | n/m",
+   "verify": "exact"
+  },
+  {
+   "key": "interest_expense_q",
+   "label": "Interest expense, Q2 2026 (order 2025, 2026); six months 182.8 vs 4.8",
+   "value": "119.1",
+   "unit": "USD millions",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 267,
+   "quote": "Interest expense | (4.8) | (119.1) | (4.8) | (182.8)",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_total",
+   "label": "Unsatisfied RPO at Jun 30 2026, fully attributed to Nebius AI cloud; 36% within 24 months ending Jun 30 2028, 40% months 25-48",
+   "value": "37,490.6",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "NBIS/earnings_q2_part4.txt",
+   "line": 578,
+   "quote": "the amount of unsatisfied RPO was $37,490.6, of which 36% is expected to be recognized as revenue",
+   "verify": "exact"
+  },
+  {
+   "key": "customer_commitments",
+   "label": "Management statement on customer commitments (company-described, not an RPO measure)",
+   "value": "more than 40",
+   "unit": "USD billions",
+   "period": "2026-08-12",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 599,
+   "quote": "We have more than $40 billion of cus-tomer commitments.",
+   "verify": "exact"
+  },
+  {
+   "key": "customer_prepayments_expected_2026",
+   "label": "Expected customer prepayments in 2026",
+   "value": "over 9",
+   "unit": "USD billions",
+   "period": "FY2026",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 586,
+   "quote": "We expect to receive over $9 billion in customer prepayments",
+   "verify": "exact"
+  },
+  {
+   "key": "contracted_power_target",
+   "label": "Year-end 2026 contracted power target raised to 5 GW (a target, not an achieved figure; contracted power is secured by contracted land and power commitments); prior indication +4 GW",
+   "value": "5",
+   "unit": "GW",
+   "period": "YE 2026 target",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 161,
+   "quote": "and today we are raising our year-end contracted power tar-get again to 5 GW.",
+   "verify": "exact"
+  },
+  {
+   "key": "largest_customer_share_q",
+   "label": "Customer C share of revenue, three months 2026 (Customer D 21%, Customer E 14%; Q2 2025 Customer A 39%, B 15%); identities not given; row order 2025 then 2026",
+   "value": "24",
+   "unit": "percent of revenue",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part4.txt",
+   "line": 510,
+   "quote": "Customer C | | * | | 24% | | * | | 26%",
+   "verify": "exact"
+  },
+  {
+   "key": "customer_d_share_q",
+   "label": "Customer D share of revenue, three months 2026; six months also 21%",
+   "value": "21",
+   "unit": "percent of revenue",
+   "period": "Q2 2026",
+   "file": "NBIS/earnings_q2_part4.txt",
+   "line": 511,
+   "quote": "Customer D | | * | | 21% | | * | | 21%",
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Property and equipment, net at Jun 30 2026 (Dec 31 2025: 5,553.3; balance sheet columns order Dec 31 2025 then Jun 30 2026)",
+   "value": "13,045.2",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 212,
+   "quote": "Property and equipment, net | 5,553.3 | 13,045.2",
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Debt, non-current at Jun 30 2026 (Dec 31 2025: 4,103.2)",
+   "value": "8,499.0",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 229,
+   "quote": "Debt, non-current | 4,103.2 | 8,499.0",
+   "verify": "exact"
+  },
+  {
+   "key": "debt_current",
+   "label": "Debt, current at Jun 30 2026 (Dec 31 2025: 24.5)",
+   "value": "46.7",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 224,
+   "quote": "Debt, current | 24.5 | 46.7",
+   "verify": "exact"
+  },
+  {
+   "key": "deferred_revenue_non_current",
+   "label": "Deferred revenue, non-current at Jun 30 2026 (Dec 31 2025: 1,302.0); prepayments",
+   "value": "4,995.8",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 230,
+   "quote": "Deferred revenue, non-current | 1,302.0 | 4,995.8",
+   "verify": "exact"
+  },
+  {
+   "key": "convertible_notes_march_2026",
+   "label": "Senior unsecured convertible notes issued March 20 2026, aggregate original principal (convertible notes are the main debt)",
+   "value": "4.34",
+   "unit": "USD billions",
+   "period": "2026-03-20",
+   "file": "NBIS/earnings_q2_part4.txt",
+   "line": 802,
+   "quote": "of $4.34 billion aggregate original principal amount of senior unsecured convertible notes",
+   "verify": "exact"
+  },
+  {
+   "key": "secured_debt_july_2026",
+   "label": "First secured debt financing (July 2026, after quarter end), backed by deployed GPU infrastructure and contracted cash flows",
+   "value": "775",
+   "unit": "USD millions",
+   "period": "2026-07",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 595,
+   "quote": "raising $775 million priced at SOFR + 2.50%.",
+   "verify": "exact"
+  },
+  {
+   "key": "bridge_facility_oct_2026",
+   "label": "Senior secured term loan (Bridge Facility Agreement with Citibank), signed Oct 17 2026, maturity Oct 16 2027 (6-K lines 33-34, 39-40)",
+   "value": "3.5",
+   "unit": "USD billions",
+   "period": "2026-10-17",
+   "file": "NBIS/misc_6K_oct22.txt",
+   "line": 33,
+   "quote": "for a senior secured term loan facility in an aggregate principal amount of $3.5 billion",
+   "verify": "exact"
+  },
+  {
+   "key": "atm_proceeds_ytd",
+   "label": "Gross proceeds from at-the-market program through Jun 30 2026 (12.7 million Class A shares at weighted-average $223.6)",
+   "value": "approximately 2.8",
+   "unit": "USD billions",
+   "period": "6M 2026",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 603,
+   "quote": "generating gross proceeds of approximately $2.8 billion.",
+   "verify": "moved"
+  },
+  {
+   "key": "leases_not_yet_commenced",
+   "label": "Undiscounted future payments on executed leases not yet commenced (mainly data centers), commencing 2026-2027, terms up to twelve years; prepayments of $612.4 made",
+   "value": "12,054.1",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "NBIS/earnings_q2_part4.txt",
+   "line": 749,
+   "quote": "amounted to $12,054.1, and the Company had made prepayments of $612.4 as of June 30, 2026.",
+   "verify": "exact"
+  },
+  {
+   "key": "operating_lease_liabilities_non_current",
+   "label": "Operating lease liabilities, non-current (Dec 31 2025: 760.5)",
+   "value": "1,510.4",
+   "unit": "USD millions",
+   "period": "2026-06-30",
+   "file": "NBIS/earnings_q2_part1.txt",
+   "line": 228,
+   "quote": "Operating lease liabilities | 760.5 | 1,510.4",
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Employees at Dec 31 2025 (20-F)",
+   "value": "approximately 1,500",
+   "unit": "employees",
+   "period": "2025-12-31",
+   "file": "NBIS/annual_20-F_2026-04-30.txt",
+   "line": 719,
+   "quote": "As of December 31, 2025, Nebius had approximately 1,500 employees",
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Useful life of server and network equipment from 2026, up from four years before 2026 (Q2 release)",
+   "value": "5",
+   "unit": "years",
+   "period": "2026",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 562,
+   "quote": "We use a five-year useful life for our server and network",
+   "verify": "exact"
+  },
+  {
+   "key": "useful_life_change",
+   "label": "Useful lives of servers and network equipment extended from four to five years, assessed January 2026, applied prospectively from January 1 2026 (20-F note); earnings impact not stated",
+   "value": "4 to 5 years, effective 2026-01-01",
+   "unit": "text",
+   "period": "FY2026",
+   "file": "NBIS/annual_20-F_2026-04-30.txt",
+   "line": 1062,
+   "quote": "should be extended from four to five years.",
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "Group revenue growth of 454% was driven by capacity scaling with higher pricing and improved utilization; the AI cloud business was about 98% of group revenue, and the Microsoft contract tranches have all been delivered.",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 506
+  },
+  {
+   "text": "Q2 was the strongest commercial quarter: management cites four deals averaging more than $1 billion total contract value, roughly 70% of deals with customer prepayments, and contract value per MW above $20 million; most deals relate to capacity arriving in late 2026 and revenue mainly in 2027.",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 199
+  },
+  {
+   "text": "D&A rose 245% mainly on GPU-related capital expenditures and data center hardware; useful life for servers and networking was lengthened to five years from four.",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 559
+  },
+  {
+   "text": "Q2 capex of about $5.7 billion went mainly to GPUs and data center expansion; funding sources include operating cash flow, over $9 billion of expected 2026 customer prepayments, secured debt and an at-the-market equity program.",
+   "file": "NBIS/earnings_q2_part2.txt",
+   "line": 580
+  },
+  {
+   "text": "Interest expense jumped mainly because of convertible notes issued in June 2025, September 2025 and March 2026.",
+   "file": "NBIS/earnings_q2_part3.txt",
+   "line": 161
+  }
+ ],
+ "gaps": [
+  "capex_guidance: the release defers detailed guidance to the call (line 612: 'will share a detailed view of guidance on its earnings call'); the deck text says FY2026 guidance reiterated and 50-60% of capex self-financed, but no capex dollar guidance is in the files.",
+  "rpo_next_12m_pct: only 36% within the 24 months ending Jun 30 2028 is given; no 12-month share.",
+  "useful_life_change: the stated earnings impact is not in the 20-F or release text searched (searched four to five, reduction in depreciation).",
+  "contracted_power: only year-end 2026 target (5 GW) and prior indication (+4 GW) found; the deck graphic (lines 98-105 of part2) shows a progression chart but no current actual figure in text.",
+  "largest-customer share: Customers A to E are not named in the filing, so mapping to Microsoft or Meta is not stated; Customer C held 83% of accounts receivable at Dec 31 2025, Customer E 29% and D 16% at Jun 30 2026.",
+  "cloud_segment_op_income_q: no segment operating income found in the parts read (AI cloud adjusted EBITDA 285.7 is non-GAAP); segment note not read in full.",
+  "Nebius files 6-K/20-F; 'quarterly_*' 10-Q does not exist, so Q2 figures are from earnings_q2_part1-4 (parts 1-4 read selectively), all unaudited.",
+  "Nebius column order in the release is 2025 then 2026 (prior year first); balance sheet is Dec 31 2025 then Jun 30 2026.",
+  "Interest expense is net of capitalized interest per MD&A; capex line also includes intangible assets, so it is not strictly purchases of PP&E."
+ ]
+}

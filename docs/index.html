@@ -1,0 +1,1112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hyperscalers, explained</title>
+<meta name="description" content="How the companies that rent out the world's computing power make money, what the AI build-out costs, who pays for it, and what has to be true for it to pay off. Plain language first, the numbers underneath.">
+<meta property="og:title" content="Hyperscalers, explained">
+<meta property="og:description" content="Revenue drivers, cost drivers, the capex wave, competition and the future of the AI cloud, explained for everyone.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://wilsonwu-ai.github.io/hyperscalers-explained/media/poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Inter:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/css/diagrams-a.css">
+<link rel="stylesheet" href="assets/css/diagrams-b.css">
+<link rel="stylesheet" href="assets/css/charts-a.css">
+<link rel="stylesheet" href="assets/css/charts-b.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="./">Hyperscalers, explained</a>
+    <nav class="toplinks" aria-label="Site">
+      <a href="#pitch">The one-pager</a>
+      <a href="#sources">Sources</a>
+      <a href="https://github.com/wilsonwu-ai/hyperscalers-explained">Code and data</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <section class="hero" aria-labelledby="top-title">
+    <p class="kicker">Plain language first, the numbers underneath</p>
+    <h1 id="top-title">Hyperscalers, explained</h1>
+    <p class="dek">How the companies that rent out the world's computing power make money, what the AI build-out costs, who pays for it, and what has to be true for it to pay off.</p>
+<p><strong>The short answer.</strong> The revenue is real, growing fast and, for the biggest players, backed by years of signed contracts. The bill is growing faster, and more of it now arrives as depreciation (the cost of chips wearing out) and interest. The winners would be the companies whose revenue from each gigawatt of data centers stays ahead of both. On today's numbers that favors the three cloud giants, which have large, profitable older businesses underneath them, and the companies that sell them chips and power equipment. The risk sits mostly with the GPU clouds and builders that borrowed to grow.</p>
+    <p class="byline">By Wilson Wu, an operator who studies AI engineering and screens small businesses to buy. Figures as of 7 November 2026.</p>
+    <figure class="fig" id="fig-hero" aria-labelledby="fig-hero-t">
+  <p class="fig-title" id="fig-hero-t">An AI campus turns electricity into computing, then rents it out</p>
+  <p class="fig-sub">A simplified sketch of one campus. Power comes in, chips do the work, customers pay rent.</p>
+  <svg class="fig-hero-svg" viewBox="0 0 320 232" role="img" aria-label="Sketch of an AI campus: a power line feeds a building full of server racks that hold chips, and rent money flows out of the building.">
+    <line class="fig-hero-ground" x1="0" y1="190" x2="320" y2="190"/>
+
+    <g class="fig-hero-pylon-g">
+      <path class="fig-hero-pylon" d="M18 190L34 56L50 190M22 154H46M26 120H42M22 154L42 120M46 154L26 120M14 76H54"/>
+    </g>
+    <g class="fig-hero-wiregrp">
+      <path class="fig-hero-wire" d="M54 76Q72 92 84 92"/>
+      <path class="fig-hero-wire" d="M14 76Q6 84 0 86"/>
+      <path class="fig-hero-pulse" d="M54 76Q72 92 84 92"/>
+    </g>
+
+    <g class="fig-hero-bld-g">
+      <rect class="fig-hero-cool" x="98" y="30" width="22" height="10" rx="2"/>
+      <rect class="fig-hero-cool" x="130" y="30" width="22" height="10" rx="2"/>
+      <rect class="fig-hero-cool" x="162" y="30" width="22" height="10" rx="2"/>
+      <rect class="fig-hero-bld" x="84" y="40" width="142" height="150" rx="8"/>
+    </g>
+
+    <g class="fig-hero-rk"><rect class="fig-hero-rack" x="95" y="56" width="24" height="54" rx="3"/><circle class="fig-hero-led fig-hero-led-a" cx="101" cy="64" r="2.2"/><circle class="fig-hero-led fig-hero-led-b" cx="107" cy="64" r="2.2"/><circle class="fig-hero-led fig-hero-led-c" cx="113" cy="64" r="2.2"/><rect class="fig-hero-chip" x="101" y="78" width="12" height="12" rx="2"/><path class="fig-hero-pin" d="M98 81h3M98 87h3M113 81h3M113 87h3"/><path class="fig-hero-slot" d="M100 98h14"/></g>
+    <g class="fig-hero-rk"><rect class="fig-hero-rack" x="127" y="56" width="24" height="54" rx="3"/><circle class="fig-hero-led fig-hero-led-b" cx="133" cy="64" r="2.2"/><circle class="fig-hero-led fig-hero-led-c" cx="139" cy="64" r="2.2"/><circle class="fig-hero-led fig-hero-led-a" cx="145" cy="64" r="2.2"/><rect class="fig-hero-chip" x="133" y="78" width="12" height="12" rx="2"/><path class="fig-hero-pin" d="M130 81h3M130 87h3M145 81h3M145 87h3"/><path class="fig-hero-slot" d="M132 98h14"/></g>
+    <g class="fig-hero-rk"><rect class="fig-hero-rack" x="159" y="56" width="24" height="54" rx="3"/><circle class="fig-hero-led fig-hero-led-c" cx="165" cy="64" r="2.2"/><circle class="fig-hero-led fig-hero-led-a" cx="171" cy="64" r="2.2"/><circle class="fig-hero-led fig-hero-led-b" cx="177" cy="64" r="2.2"/><rect class="fig-hero-chip" x="165" y="78" width="12" height="12" rx="2"/><path class="fig-hero-pin" d="M162 81h3M162 87h3M177 81h3M177 87h3"/><path class="fig-hero-slot" d="M164 98h14"/></g>
+    <g class="fig-hero-rk"><rect class="fig-hero-rack" x="191" y="56" width="24" height="54" rx="3"/><circle class="fig-hero-led fig-hero-led-a" cx="197" cy="64" r="2.2"/><circle class="fig-hero-led fig-hero-led-c" cx="203" cy="64" r="2.2"/><circle class="fig-hero-led fig-hero-led-b" cx="209" cy="64" r="2.2"/><rect class="fig-hero-chip" x="197" y="78" width="12" height="12" rx="2"/><path class="fig-hero-pin" d="M194 81h3M194 87h3M209 81h3M209 87h3"/><path class="fig-hero-slot" d="M196 98h14"/></g>
+    <g class="fig-hero-rk"><rect class="fig-hero-rack" x="95" y="120" width="24" height="54" rx="3"/><circle class="fig-hero-led fig-hero-led-b" cx="101" cy="128" r="2.2"/><circle class="fig-hero-led fig-hero-led-a" cx="107" cy="128" r="2.2"/><circle class="fig-hero-led fig-hero-led-c" cx="113" cy="128" r="2.2"/><rect class="fig-hero-chip" x="101" y="142" width="12" height="12" rx="2"/><path class="fig-hero-pin" d="M98 145h3M98 151h3M113 145h3M113 151h3"/><path class="fig-hero-slot" d="M100 162h14"/></g>
+    <g class="fig-hero-rk"><rect class="fig-hero-rack" x="127" y="120" width="24" height="54" rx="3"/><circle class="fig-hero-led fig-hero-led-c" cx="133" cy="128" r="2.2"/><circle class="fig-hero-led fig-hero-led-b" cx="139" cy="128" r="2.2"/><circle class="fig-hero-led fig-hero-led-a" cx="145" cy="128" r="2.2"/><rect class="fig-hero-chip" x="133" y="142" width="12" height="12" rx="2"/><path class="fig-hero-pin" d="M130 145h3M130 151h3M145 145h3M145 151h3"/><path class="fig-hero-slot" d="M132 162h14"/></g>
+    <g class="fig-hero-rk"><rect class="fig-hero-rack" x="159" y="120" width="24" height="54" rx="3"/><circle class="fig-hero-led fig-hero-led-a" cx="165" cy="128" r="2.2"/><circle class="fig-hero-led fig-hero-led-b" cx="171" cy="128" r="2.2"/><circle class="fig-hero-led fig-hero-led-c" cx="177" cy="128" r="2.2"/><rect class="fig-hero-chip" x="165" y="142" width="12" height="12" rx="2"/><path class="fig-hero-pin" d="M162 145h3M162 151h3M177 145h3M177 151h3"/><path class="fig-hero-slot" d="M164 162h14"/></g>
+    <g class="fig-hero-rk"><rect class="fig-hero-rack" x="191" y="120" width="24" height="54" rx="3"/><circle class="fig-hero-led fig-hero-led-c" cx="197" cy="128" r="2.2"/><circle class="fig-hero-led fig-hero-led-a" cx="203" cy="128" r="2.2"/><circle class="fig-hero-led fig-hero-led-b" cx="209" cy="128" r="2.2"/><rect class="fig-hero-chip" x="197" y="142" width="12" height="12" rx="2"/><path class="fig-hero-pin" d="M194 145h3M194 151h3M209 145h3M209 151h3"/><path class="fig-hero-slot" d="M196 162h14"/></g>
+
+    <line class="fig-hero-pipe" x1="226" y1="123" x2="298" y2="123"/>
+    <polygon class="fig-hero-arrow" points="298,117 310,123 298,129"/>
+    <g class="fig-hero-coins">
+      <g class="fig-hero-coin fig-hero-coin-a"><circle cx="248" cy="123" r="11"/><text class="fig-hero-dollar" x="248" y="128">$</text></g>
+      <g class="fig-hero-coin fig-hero-coin-b"><circle cx="276" cy="123" r="11"/><text class="fig-hero-dollar" x="276" y="128">$</text></g>
+    </g>
+
+    <g class="fig-hero-lab">
+      <rect class="fig-hero-bar fig-hero-bar-p" x="20" y="199" width="28" height="3" rx="1.5"/>
+      <text class="fig-hero-t" x="34" y="224">Power in</text>
+    </g>
+    <g class="fig-hero-lab">
+      <rect class="fig-hero-bar fig-hero-bar-b" x="123" y="199" width="14" height="3" rx="1.5"/>
+      <rect class="fig-hero-bar fig-hero-bar-c" x="141" y="199" width="14" height="3" rx="1.5"/>
+      <rect class="fig-hero-bar fig-hero-bar-h" x="159" y="199" width="14" height="3" rx="1.5"/>
+      <text class="fig-hero-t" x="148" y="224">Servers and chips</text>
+    </g>
+    <g class="fig-hero-lab">
+      <rect class="fig-hero-bar fig-hero-bar-m" x="258" y="199" width="28" height="3" rx="1.5"/>
+      <text class="fig-hero-t" x="272" y="224">Rent earned</text>
+    </g>
+  </svg>
+
+  <ul class="fig-hero-tiles">
+    <li class="fig-hero-tile">
+      <p class="fig-hero-num"><span data-k="capex_wave.big5_latest" data-f="b1">$230.4B</span></p>
+      <div class="fig-hero-txt">
+        <p class="fig-hero-cap">spent by five companies in one quarter</p>
+        <p class="fig-hero-note">On buildings, chips and equipment (called capex). Amazon, Microsoft, Alphabet, Meta, Oracle.</p>
+      </div>
+    </li>
+    <li class="fig-hero-tile">
+      <p class="fig-hero-num"><span data-k="backlog.big4_total_b" data-f="t2">$2.49T</span></p>
+      <div class="fig-hero-txt">
+        <p class="fig-hero-cap">already signed in backlog</p>
+        <p class="fig-hero-note">Contracts for work not yet delivered, at Amazon, Microsoft, Alphabet and Oracle.</p>
+      </div>
+    </li>
+    <li class="fig-hero-tile">
+      <p class="fig-hero-num"><span data-k="industry.synergy_ttm.value" data-f="b0">$558B</span></p>
+      <div class="fig-hero-txt">
+        <p class="fig-hero-cap">a year of cloud revenue</p>
+        <p class="fig-hero-note">Worldwide, for the 12 months to Q3 2026.</p>
+      </div>
+    </li>
+  </ul>
+  <figcaption>Source: spending from the companies' SEC filings (cash purchases of property and equipment, latest quarter, unaudited); backlog from their latest 10-Qs (unaudited); cloud revenue from Synergy Research Group. The drawing is an illustration, not to scale.</figcaption>
+</figure>
+
+    <figure class="video">
+      <video controls preload="metadata" playsinline poster="media/poster.jpg">
+        <source src="media/hyperscalers.mp4" type="video/mp4">
+        <track kind="captions" src="media/hyperscalers.vtt" srclang="en" label="English" default>
+      </video>
+      <figcaption>The whole story in about a minute. Captions are on by default.</figcaption>
+    </figure>
+    <nav class="toc" aria-label="Sections in this article">
+      <p class="toc-h">In this article</p>
+      <ol>
+        <li><a href="#situation">What the screen found</a></li>
+        <li><a href="#task">The question</a></li>
+        <li><a href="#how-it-works">How the business works</a></li>
+        <li><a href="#revenue">Where the money comes from</a></li>
+        <li><a href="#costs">Where the money goes</a></li>
+        <li><a href="#capex">The build-out and who pays</a></li>
+        <li><a href="#competition">Who keeps the profit</a></li>
+        <li><a href="#sentiment">What people are saying</a></li>
+        <li><a href="#future">What happens next</a></li>
+        <li><a href="#pitch">The one-pager</a></li>
+        <li><a href="#glossary">Glossary</a></li>
+        <li><a href="#sources">Sources</a></li>
+      </ol>
+    </nav>
+  </section>
+
+  <div class="part" id="part-1"><p class="part-k">Part 1: Situation</p></div>
+  <section id="situation" class="section"><div class="copy"><h2>What the industry screen found</h2>
+<p>Out of 31 US industries I compared, one finished first on both profit margin (the share of each dollar of sales left over as profit) and growth: hyperscale data centers. They kept 29.9% of sales as profit, the highest of the 31, and grew 25.1% a year over 10 years after inflation, from about $29B to about $272B a year, according to IBISWorld's US industry report "Hyperscale Data Center Services" (updated 30 March 2026).</p>
+<p>I'm an operator who studies AI engineering and screens small businesses to buy. To compare many industries the same way, I used the US industry reports from IBISWorld, a firm that publishes research on industries, and sorted 31 of them with four questions. Which earn the most? Which grow fastest? Which are steadiest? Which are shrinking? The numbers here are headline figures from IBISWorld's 2026 US industry reports, rounded.</p>
+<figure class="fig" id="fig-situation" aria-labelledby="fig-situation-t">
+  <p class="fig-title" id="fig-situation-t">One industry topped two lists: the buildings that host the cloud</p>
+  <p class="fig-sub">A screen of 31 US industries, sorted into four buckets. The highlighted row is the same industry both times.</p>
+  <div class="fig-sit-grid">
+    <div class="fig-sit-card" data-b="profitable">
+      <p class="fig-sit-h">Most profitable</p>
+      <ul class="fig-sit-items">
+        <li class="fig-sit-item fig-sit-hot"><span class="fig-sit-name">Hyperscale data centers</span><span class="fig-sit-stat">29.9% margin</span></li>
+        <li class="fig-sit-item"><span class="fig-sit-name">Occupational health and safety</span><span class="fig-sit-stat">26.7%</span></li>
+        <li class="fig-sit-item"><span class="fig-sit-name">Security software</span><span class="fig-sit-stat">24.9%</span></li>
+        <li class="fig-sit-item"><span class="fig-sit-name">Insurance brokers</span><span class="fig-sit-stat">20.6%</span></li>
+      </ul>
+    </div>
+    <div class="fig-sit-card" data-b="growing">
+      <p class="fig-sit-h">Fastest growing</p>
+      <ul class="fig-sit-items">
+        <li class="fig-sit-item fig-sit-hot"><span class="fig-sit-name">Hyperscale data centers</span><span class="fig-sit-stat">25.1% a year</span></li>
+        <li class="fig-sit-item"><span class="fig-sit-name">3D printing services</span><span class="fig-sit-stat">18.3%</span></li>
+        <li class="fig-sit-item"><span class="fig-sit-name">Security software</span><span class="fig-sit-stat">14.3%</span></li>
+      </ul>
+    </div>
+    <div class="fig-sit-card" data-b="steady">
+      <p class="fig-sit-h">Steadiest</p>
+      <ul class="fig-sit-items">
+        <li class="fig-sit-item"><span class="fig-sit-name">Janitorial services</span><span class="fig-sit-stat">no down year since 2012</span></li>
+        <li class="fig-sit-item"><span class="fig-sit-name">IT consulting</span></li>
+        <li class="fig-sit-item"><span class="fig-sit-name">Insurance brokers</span></li>
+      </ul>
+    </div>
+    <div class="fig-sit-card" data-b="declining">
+      <p class="fig-sit-h">Declining</p>
+      <ul class="fig-sit-items">
+        <li class="fig-sit-item"><span class="fig-sit-name">Directory publishing</span><span class="fig-sit-stat">12% of its 2007 peak</span></li>
+        <li class="fig-sit-item"><span class="fig-sit-name">Newsprint</span><span class="fig-sit-stat">16% of its 2008 peak</span></li>
+        <li class="fig-sit-item"><span class="fig-sit-name">Printing</span><span class="fig-sit-stat">53% of its 2007 peak</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fig-sit-go">
+    <svg class="fig-sit-arrow" viewBox="0 0 24 36" aria-hidden="true" focusable="false"><path d="M12 2V28M4 20L12 30L20 20"/></svg>
+    <p class="fig-sit-go-t">So I studied them</p>
+    <p class="fig-sit-go-s">Hyperscale data centers are the giant buildings full of computers that the big cloud companies run.</p>
+  </div>
+  <figcaption>Source: IBISWorld US industry reports, 2026 (screen of 31 industries, 6 November 2026). Headline figures only, rounded. Each bucket shows examples, not a full ranking. Growth is after inflation over 10 years; margins are the profit margins in the reports.</figcaption>
+</figure>
+
+
+<p>Each answer is a bucket, and each bucket taught me one plain thing.</p>
+<ul>
+<li><strong>Most profitable.</strong> Six of the 31 kept 18% or more of sales as profit, including hyperscale data centers (29.9%), occupational health and safety services (26.7%), security software (24.9%) and insurance brokers (20.6%). One trap: IBISWorld's free "highest margin" ranking shows value added, which includes wages, not profit, so I used the profit figures inside each report. The lesson: a margin is an average across every firm in an industry, so it describes the industry, not any one company in it.</li>
+<li><strong>Fastest growing.</strong> Hyperscale data centers (25.1% a year), 3D printing services (18.3%) and security software (14.3%) lead, all measured over 10 years after inflation. The lesson: fast growth tends to fade. IBISWorld forecasts hyperscale data centers at 12.2% a year through 2032, about half the past rate.</li>
+<li><strong>Steadiest.</strong> Janitorial services, IT consulting and insurance brokers had no down year from 2012 to 2026. The lesson: steady is not recession-proof. In IBISWorld's long history, plumbers' revenue fell 20.8% from peak to trough between 2007 and 2011, and electricians' fell 19.9%.</li>
+<li><strong>Declining.</strong> Directory publishing is at 12.0% of its 2007 peak, newsprint at 15.7% of its 2008 peak and commercial printing at 52.9% of its 2007 peak. The lesson: a structural decline is not a bad year. Solar panel installation fell 10.4% in 2026, yet IBISWorld forecasts it to grow about 2.9% a year from here. Some falls recover. Others do not.</li>
+</ul>
+<h3>The weak spot</h3>
+<p>The screen ranks industries on paper. It told me hyperscale data centers earn well and grow fast. It could not tell me how a hyperscaler makes its money, what the AI build-out costs, or who carries the risk if it goes wrong. A ranking cannot answer those, and they are the questions that decide whether a number like 29.9% lasts.</p>
+<p>That gap is why I studied the industry. The rest of this page is what I learned, with sources I could check. I'm not an expert, and I would rather show my work than sound sure.</p>
+<div class="simple">
+<p><strong>The simple version.</strong> Imagine a guidebook that ranks restaurants by stars and crowds. It shows which ones are popular and well reviewed. It does not show what the kitchen costs, who owns the building, or what happens if the bank wants its loan back. The screen was the guidebook. The rest of this page is a visit to the kitchen.</p>
+</div></div></section>
+
+  <div class="part" id="part-2"><p class="part-k">Part 2: Task and action</p></div>
+  <section id="task" class="section"><div class="copy"><h2>The question, and how I answered it</h2>
+<p>The question: will the AI build-out pay, and who carries the risk? To keep from wandering, I split it with an issue tree, a way of breaking a big question into parts that do not overlap and together cover the whole. Five questions came out:</p>
+<ol>
+<li>Demand and revenue drivers: is the demand real, and what moves revenue?</li>
+<li>Costs and cost drivers: what does it cost to serve?</li>
+<li>Financing: who pays for the build, and with what money?</li>
+<li>Competition and who keeps the profit: where does the profit end up?</li>
+<li>
+<p>Scenarios and what has to be true: what must happen from here for the build-out to pay?</p>
+</li>
+<li>
+<p><strong>Filings.</strong> I read the latest 10-Q (a company's quarterly report to the US regulator, the SEC), 10-K (its annual report) and earnings release for 11 public companies: Amazon, Microsoft, Alphabet, Meta, Oracle, CoreWeave, Nebius, NVIDIA, Equinix, Digital Realty and Vertiv. Amazon's <a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm" target="_blank" rel="noopener">10-Q</a> and <a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm" target="_blank" rel="noopener">earnings release</a> show the style. Quarterly figures are unaudited: outside accountants have not signed off on them as they do for annual accounts.</p>
+</li>
+<li><strong>Checks.</strong> I checked every figure I pulled against the filing text. Of 339 quotes, 337 sat on the exact line I cited, one sat elsewhere in the same filing, and I did not use the one I could not find. Quarterly capex (money spent on buildings and chips that last for years) was checked two ways: the SEC's machine-readable XBRL data against the earnings release.</li>
+<li><strong>News.</strong> Full articles from The Wall Street Journal, The New York Times, the Financial Times and The Economist (the Times and The Economist through a university library).</li>
+<li><strong>Sentiment.</strong> Themes from X, Hacker News and StockTwits. Reddit could not be read directly, so I do not quote it.</li>
+<li><strong>Industry figures.</strong> <a href="https://www.srgresearch.com/articles/cloud-market-growth-rate-surges-to-well-over-50-per-year-q3-2026" target="_blank" rel="noopener">Synergy Research</a>, <a href="https://techblog.comsoc.org/2026/09/16/delloro-data-center-capex-grew-92-in-2q-2026-caveats-galore/" target="_blank" rel="noopener">Dell'Oro</a>, <a href="https://finviz.com/news/388803/cushman-wakefield-releases-2026-data-center-development-cost-guide" target="_blank" rel="noopener">Cushman &amp; Wakefield</a>, <a href="https://www.jll.com/en-us/insights/market-outlook/data-center-outlook" target="_blank" rel="noopener">JLL</a> and the <a href="https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a" target="_blank" rel="noopener">US Energy Information Administration</a>, each checked against the saved source page where the site allowed it.</li>
+<li><strong>A model.</strong> An illustrative campus of 1 GW (a gigawatt, a billion watts of power), to see what one site might earn and cost.</li>
+<li><strong>Frameworks.</strong> Issue tree, pyramid principle (answer first, then the support), Porter's five forces (a checklist for sizing up competition), 7 Powers (seven kinds of lasting advantage), scenario planning (several futures, not one guess) and TAM/SAM/SOM (the whole market, the part you can serve, the part you might win).</li>
+</ol>
+<div class="simple">
+<p><strong>The simple version.</strong> Judging whether a restaurant chain's new kitchens will pay works the same way. Ask if diners queue, what the kitchens cost, who lent the money, who the rivals are, and what must go right. Then check the claims against the receipts, not the menu.</p>
+</div>
+<details class="deep">
+<summary>For engineers and investors: how the numbers were checked</summary>
+<p>Fiscal years differ. Microsoft's ends June 30, Oracle's May 31 and NVIDIA's in late January, so "latest quarter" covers different months. Capex definitions differ too: Meta's company-defined figure includes principal payments on finance leases. The 1 GW campus is a model, not a forecast, and its inputs are shown beside each result.</p>
+</details></div></section>
+  <section id="how-it-works" class="section"><div class="copy"><h2>How the business works</h2>
+<h3>What a hyperscaler is</h3>
+<p>A hyperscaler is a company that runs data centers at a size few others can match and rents out the computing power inside them. Three giants lead: Amazon Web Services (AWS), Microsoft Azure and Google Cloud. Synergy Research Group's Q3 2026 release puts their shares of cloud infrastructure at 26%, 19% and 16%, or 61% together (<a href="https://www.srgresearch.com/articles/cloud-market-growth-rate-surges-to-well-over-50-per-year-q3-2026" target="_blank" rel="noopener">Synergy</a>). Meta also builds huge data centers, but mostly to run its own apps. Oracle and the neoclouds, newer companies such as CoreWeave and Nebius built to rent out computing for AI, sell capacity too, much of it to AI labs.</p>
+<p>The easiest picture is renting instead of buying.</p>
+<figure class="fig" id="fig-garage" aria-labelledby="fig-garage-t">
+  <p class="fig-title" id="fig-garage-t">A hyperscaler is a landlord for computers: you pay for the hours you use</p>
+  <p class="fig-sub">Think of a car. You can own one that sits in the garage, or rent one for the days you drive.</p>
+  <svg class="fig-garage-svg" viewBox="0 0 320 322" role="img" aria-label="Two ways to get computing power. Buy your own: a big bill up front, and the machines sit idle most of the time. Or rent from a hyperscaler: a meter counts the hours and you pay only for what you use.">
+    <g class="fig-garage-a">
+      <rect class="fig-garage-card" x="0.5" y="0.5" width="319" height="149" rx="12"/>
+      <polygon class="fig-garage-wall" points="12,62 66,30 120,62"/>
+      <rect class="fig-garage-wall" x="16" y="62" width="100" height="58" rx="2"/>
+      <rect class="fig-garage-rack" x="50" y="74" width="32" height="46" rx="3"/>
+      <circle class="fig-garage-led-off" cx="58" cy="83" r="2.4"/>
+      <circle class="fig-garage-led-off" cx="66" cy="83" r="2.4"/>
+      <circle class="fig-garage-led-off" cx="74" cy="83" r="2.4"/>
+      <text class="fig-garage-z" x="90" y="98">zz</text>
+      <text class="fig-garage-lab" x="66" y="142">Your garage</text>
+      <text class="fig-garage-h" x="136" y="32">Buy your own</text>
+      <text class="fig-garage-p" x="136" y="56">Big bill up front</text>
+      <text class="fig-garage-m" x="136" y="86">How often it is used</text>
+      <rect class="fig-garage-track" x="136" y="95" width="168" height="14" rx="7"/>
+      <rect class="fig-garage-used" x="136" y="95" width="36" height="14" rx="7"/>
+      <text class="fig-garage-p" x="136" y="132">Idle most of the time</text>
+    </g>
+
+    <text class="fig-garage-or" x="160" y="164">or</text>
+
+    <g class="fig-garage-b">
+      <rect class="fig-garage-card" x="0.5" y="170.5" width="319" height="149" rx="12"/>
+      <rect class="fig-garage-wall" x="16" y="212" width="90" height="82" rx="3"/>
+      <rect class="fig-garage-win" x="28" y="222" width="14" height="12" rx="2"/>
+      <rect class="fig-garage-win" x="50" y="222" width="14" height="12" rx="2"/>
+      <rect class="fig-garage-win" x="72" y="222" width="14" height="12" rx="2"/>
+      <rect class="fig-garage-win" x="28" y="244" width="14" height="12" rx="2"/>
+      <rect class="fig-garage-win" x="50" y="244" width="14" height="12" rx="2"/>
+      <rect class="fig-garage-win" x="72" y="244" width="14" height="12" rx="2"/>
+      <rect class="fig-garage-win" x="28" y="266" width="14" height="12" rx="2"/>
+      <rect class="fig-garage-win" x="50" y="266" width="14" height="12" rx="2"/>
+      <rect class="fig-garage-win" x="72" y="266" width="14" height="12" rx="2"/>
+      <text class="fig-garage-lab" x="61" y="314">Hyperscaler</text>
+      <text class="fig-garage-h" x="124" y="200">Rent by the hour</text>
+      <text class="fig-garage-p" x="124" y="224">Pay for what you use</text>
+      <path class="fig-garage-arc-track" d="M128 282A32 32 0 0 1 192 282"/>
+      <path class="fig-garage-arc-on" d="M128 282A32 32 0 0 1 178.4 255.8"/>
+      <line class="fig-garage-needle" x1="160" y1="282" x2="174.9" y2="260.7"/>
+      <circle class="fig-garage-hub" cx="160" cy="282" r="4"/>
+      <text class="fig-garage-m fig-garage-mid" x="160" y="306">meter</text>
+      <rect class="fig-garage-cell fig-garage-cell-on" x="212" y="246" width="18" height="18" rx="3"/>
+      <rect class="fig-garage-cell fig-garage-cell-on" x="234" y="246" width="18" height="18" rx="3"/>
+      <rect class="fig-garage-cell fig-garage-cell-on" x="256" y="246" width="18" height="18" rx="3"/>
+      <rect class="fig-garage-cell fig-garage-cell-on" x="278" y="246" width="18" height="18" rx="3"/>
+      <rect class="fig-garage-cell fig-garage-cell-on fig-garage-cell-last" x="212" y="270" width="18" height="18" rx="3"/>
+      <rect class="fig-garage-cell" x="234" y="270" width="18" height="18" rx="3"/>
+      <rect class="fig-garage-cell" x="256" y="270" width="18" height="18" rx="3"/>
+      <rect class="fig-garage-cell" x="278" y="270" width="18" height="18" rx="3"/>
+      <text class="fig-garage-m" x="212" y="308">hours used</text>
+    </g>
+  </svg>
+  <figcaption>An illustration of the idea, not data. Real contracts also come by the year, which is cheaper per hour but less flexible.</figcaption>
+</figure>
+
+
+<h3>The simple machine</h3>
+<p>Think of a stack of layers, each needed by the one above it:</p>
+<ol>
+<li><strong>Land and power.</strong> A site, plus a grid connection that delivers electricity around the clock.</li>
+<li><strong>Buildings and cooling.</strong> Halls, backup power and cooling systems that carry the heat away.</li>
+<li><strong>Chips and servers.</strong> Computers full of GPUs (graphics processing units, chips that do huge numbers of sums at once and do most of AI's heavy work).</li>
+<li><strong>Network and storage.</strong> The cables, switches and disks that connect machines and keep data.</li>
+<li><strong>Software.</strong> The services customers actually use, from basic virtual computers to ready-made AI tools.</li>
+</ol>
+<p>The business is to build all five once, then rent the result out many times over.</p>
+<figure class="fig" id="fig-stack" aria-labelledby="fig-stack-t">
+  <p class="fig-title" id="fig-stack-t">Five layers stack up under the customer, and a different set of companies earns at each one</p>
+  <p class="fig-sub">Read from the bottom up. Tap a layer to see what it is.</p>
+  <ol class="fig-stack-layers">
+    <li class="fig-stack-layer fig-stack-power">
+      <button type="button" class="fig-stack-btn" aria-expanded="true" aria-controls="fig-stack-d1">
+        <span class="fig-stack-n">Land and power</span>
+        <span class="fig-stack-who"><span class="fig-stack-k">Who earns here:</span> utilities and turbine makers</span>
+      </button>
+      <p class="fig-stack-detail" id="fig-stack-d1">Every campus starts with a plot of land and a connection to the electric grid, so power often decides where it gets built.</p>
+    </li>
+    <li class="fig-stack-layer fig-stack-buildings">
+      <button type="button" class="fig-stack-btn" aria-expanded="true" aria-controls="fig-stack-d2">
+        <span class="fig-stack-n">Buildings and cooling</span>
+        <span class="fig-stack-who"><span class="fig-stack-k">Who earns here:</span> data center landlords such as Equinix and Digital Realty</span>
+      </button>
+      <p class="fig-stack-detail" id="fig-stack-d2">Giant sheds with cooling and backup power. Some companies build their own, and others rent space from a landlord.</p>
+    </li>
+    <li class="fig-stack-layer fig-stack-chips">
+      <button type="button" class="fig-stack-btn" aria-expanded="true" aria-controls="fig-stack-d3">
+        <span class="fig-stack-n">Chips and servers</span>
+        <span class="fig-stack-who"><span class="fig-stack-k">Who earns here:</span> NVIDIA and TSMC</span>
+      </button>
+      <p class="fig-stack-detail" id="fig-stack-d3">GPUs are chips built for AI work. Servers are the machines that hold them, stacked in racks.</p>
+    </li>
+    <li class="fig-stack-layer fig-stack-compute">
+      <button type="button" class="fig-stack-btn" aria-expanded="true" aria-controls="fig-stack-d4">
+        <span class="fig-stack-n">Network and storage</span>
+        <span class="fig-stack-who"><span class="fig-stack-k">Who earns here:</span> the cloud companies, as part of the same machine</span>
+      </button>
+      <p class="fig-stack-detail" id="fig-stack-d4">Cables, switches and disks that tie thousands of chips together so they work as one machine.</p>
+    </li>
+    <li class="fig-stack-layer fig-stack-compute">
+      <button type="button" class="fig-stack-btn" aria-expanded="true" aria-controls="fig-stack-d5">
+        <span class="fig-stack-n">Cloud software and AI services</span>
+        <span class="fig-stack-who"><span class="fig-stack-k">Who earns here:</span> AWS, Microsoft Azure, Google Cloud, Oracle, CoreWeave</span>
+      </button>
+      <p class="fig-stack-detail" id="fig-stack-d5">What customers actually rent, by the hour or by contract: from plain computing to ready-made AI tools.</p>
+    </li>
+    <li class="fig-stack-layer fig-stack-cash">
+      <button type="button" class="fig-stack-btn" aria-expanded="true" aria-controls="fig-stack-d6">
+        <span class="fig-stack-n">Customers</span>
+        <span class="fig-stack-who"><span class="fig-stack-k">Who pays:</span> AI labs, banks, streaming services</span>
+      </button>
+      <p class="fig-stack-detail" id="fig-stack-d6">Whoever rents the computing. Their payments flow back down the stack to everyone below.</p>
+    </li>
+  </ol>
+  <figcaption>Source: the author's simplified map of the value chain. Company names are examples, not a complete list.</figcaption>
+</figure>
+
+
+<p>Different companies earn money at different layers: utilities and turbine makers at the bottom, data center landlords such as Equinix and Digital Realty, chip makers such as NVIDIA and TSMC, and the clouds on top.</p>
+<h3>Who rents it, and why</h3>
+<ul>
+<li><strong>A streaming service at peak hours.</strong> Millions watch in the evening and few at 4 a.m., so it rents extra capacity for the rush and hands it back.</li>
+<li><strong>A bank's apps.</strong> The apps must stay up and stay fast, so the bank rents space across several sites instead of building them all.</li>
+<li><strong>A startup training a model.</strong> Training can need thousands of GPUs for weeks. Buying them first would drain the startup's cash.</li>
+<li><strong>An AI lab serving a chatbot.</strong> Every answer takes computing, and the more people ask, the more capacity the lab needs.</li>
+</ul>
+<p>The thread is the same: needs rise and fall, and owning is expensive.</p>
+<h3>Five ways to buy</h3>
+<ol>
+<li><strong>On demand.</strong> Pay by the hour, no promises. This is the most flexible and the highest price. For AI chips the unit is the GPU-hour: one GPU rented for one hour.</li>
+<li><strong>Commit for a discount.</strong> Promise to spend a set amount for one or three years. AWS Savings Plans offer discounts of up to 72% against on-demand prices (<a href="https://aws.amazon.com/savingsplans/compute-pricing/" target="_blank" rel="noopener">AWS</a>).</li>
+<li><strong>Spare capacity.</strong> AWS Spot sells unused machines at up to 90% off, but AWS can take them back at short notice (<a href="https://aws.amazon.com/ec2/spot/pricing/" target="_blank" rel="noopener">AWS</a>). It suits jobs that can pause.</li>
+<li><strong>Multi-year contracts for whole data centers.</strong> A customer signs for years of capacity. Revenue that is signed but not yet delivered is called backlog, and formally remaining performance obligations. Microsoft reported $683B at 30 September 2026 in its <a href="https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm" target="_blank" rel="noopener">10-Q</a> (unaudited). By my sum, the four biggest (Microsoft, Oracle, Amazon and Alphabet) hold about $2.49T. Later sections return to this.</li>
+<li><strong>Per-token pricing for AI.</strong> A token is a small chunk of text, roughly a word or part of one. Amazon Bedrock lists Mistral Large 3 at $0.50 per 1M input tokens and $1.50 per 1M output tokens (<a href="https://aws.amazon.com/bedrock/pricing/" target="_blank" rel="noopener">Amazon Bedrock</a>).</li>
+</ol>
+<h3>Why scale wins</h3>
+<p>Three advantages help the giants, and none is guaranteed:</p>
+<ul>
+<li><strong>Keeping machines busy.</strong> An idle machine earns nothing. Utilization, the share of capacity actually in use, can rise when many customers with different peaks share one pool.</li>
+<li><strong>Buying power.</strong> Huge orders for chips, equipment and electricity may bring better terms and earlier delivery than a small buyer gets.</li>
+<li><strong>Custom chips.</strong> Google designs its own TPU chips and Amazon its Trainium chips, so each can tune hardware to its own work.</li>
+</ul>
+<p>Scale can also make buildings more efficient. Google reports a fleet-wide PUE (total power drawn divided by power that reaches the computers) of 1.09, against an industry average of 1.54 (<a href="https://datacenters.google/efficiency/" target="_blank" rel="noopener">Google</a>).</p>
+<h3>Training and inference</h3>
+<p>Training is teaching a model by running it over enormous amounts of data, which can take thousands of chips for weeks. Inference is using the finished model to answer a question. One answer is small, but it happens millions of times. Training is writing the textbook. Inference is every student who looks something up. Where the rent comes from, and how fast each grows, is part of what this page asks.</p>
+<div class="simple">
+<p><strong>The simple version.</strong> A hyperscaler is a very large landlord for computing power. Instead of buying computers that sit idle most of the day, a company rents what it needs by the hour, like taking a taxi instead of owning a car. The landlord's job is to keep every room rented.</p>
+</div>
+<details class="deep">
+<summary>For engineers and investors: GPU-hour prices, on demand versus a contract</summary>
+<p>The median on-demand list price for an NVIDIA H100 was $4.20 per GPU-hour on 7 October 2026, across 16 providers (<a href="https://uvik.net/blog/gpu-price-index/" target="_blank" rel="noopener">Uvik GPU price index</a>). SemiAnalysis's one-year contract index for the same chip stood at $2.35 in March 2026, up from $1.70 in October 2025, as cited by Uvik. By my arithmetic the contract price is about 44% below on demand, though the dates differ. For the newer B200, the median on-demand price was $8.19 (9 providers). These are list and index prices, not what any one customer pays.</p>
+</details></div></section>
+
+  <div class="part" id="part-3"><p class="part-k">Part 3: Result</p></div>
+  <section id="revenue" class="section"><div class="copy"><h2>Where the money comes from</h2>
+<p>Part 3 answers the five questions from the issue tree in order: revenue, costs, the build-out and who pays for it, who keeps the profit, and what happens next. Each section starts with its answer. Company figures come from each company's latest quarterly filing and are unaudited.</p>
+<p><strong>The answer: the demand is real, much of it is signed years in advance, and a large part of it rests on a handful of AI labs.</strong> For now, the companies' own numbers suggest the limit on revenue is how fast new capacity can be switched on, more than how many customers want it.</p>
+<p>The market for renting computing power, which the industry calls cloud infrastructure services, brought in <a href="https://www.srgresearch.com/articles/cloud-market-growth-rate-surges-to-well-over-50-per-year-q3-2026" target="_blank" rel="noopener">$167.7B in the third quarter of 2026, up 55% on a year earlier</a>, and $558B over the last 12 months, according to Synergy Research Group. Three companies, Amazon, Microsoft and Google, hold 61% of it.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Cloud business, latest quarter</th>
+<th>Revenue</th>
+<th>Growth on a year earlier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm" target="_blank" rel="noopener">Amazon Web Services (AWS)</a>, Jul to Sep</td>
+<td>$46.0B</td>
+<td>+39%</td>
+</tr>
+<tr>
+<td><a href="https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm" target="_blank" rel="noopener">Microsoft Azure</a>, Jul to Sep</td>
+<td>$33.2B</td>
+<td>+48%</td>
+</tr>
+<tr>
+<td><a href="https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm" target="_blank" rel="noopener">Google Cloud</a>, Jul to Sep</td>
+<td>$30.7B</td>
+<td>+103%</td>
+</tr>
+<tr>
+<td><a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm" target="_blank" rel="noopener">Oracle cloud infrastructure</a>, Jun to Aug</td>
+<td>$7.4B</td>
+<td>+121%</td>
+</tr>
+<tr>
+<td><a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm" target="_blank" rel="noopener">CoreWeave</a>, Apr to Jun</td>
+<td>$2.6B</td>
+<td>+112%</td>
+</tr>
+<tr>
+<td><a href="https://www.sec.gov/Archives/edgar/data/1513845/000110465926094568/tm2622968d1_ex99-1.htm" target="_blank" rel="noopener">Nebius</a>, Apr to Jun</td>
+<td>$0.6B</td>
+<td>+454%</td>
+</tr>
+</tbody>
+</table></div>
+<p>What moves that revenue? A consultant would draw a driver tree: break the total into the few things that multiply together to make it.</p>
+<figure class="fig" id="fig-revenue-tree" aria-labelledby="fig-revenue-tree-t">
+  <p class="fig-title" id="fig-revenue-tree-t">Revenue is four things multiplied, plus the contracts already signed</p>
+  <p class="fig-sub">Read from the top down. GW means gigawatts, a unit of electric power.</p>
+  <div class="fig-rt">
+    <p class="fig-rt-root">Revenue <span aria-hidden="true">=</span><span class="sr-only">equals</span></p>
+    <div class="fig-rt-tree">
+      <ol class="fig-rt-list">
+        <li class="fig-rt-node">
+          <div class="fig-rt-card">
+            <p class="fig-rt-name">Capacity online</p>
+            <p class="fig-rt-why">How much computing power is switched on, counted in GW.</p>
+            <p class="fig-rt-ex">Example: CoreWeave, a cloud that rents out AI chips, had <strong class="num"><span data-k="drivers.crwv_active_gw" data-f="raw">1.5</span> GW</strong> online at 30 June 2026.</p>
+          </div>
+        </li>
+        <li class="fig-rt-node">
+          <span class="fig-rt-op"><span aria-hidden="true">&times;</span><span class="sr-only">times</span></span>
+          <div class="fig-rt-card">
+            <p class="fig-rt-name">Share of capacity busy</p>
+            <p class="fig-rt-why">A machine that nobody rents earns nothing. The more is rented, the more is earned.</p>
+          </div>
+        </li>
+        <li class="fig-rt-node">
+          <span class="fig-rt-op"><span aria-hidden="true">&times;</span><span class="sr-only">times</span></span>
+          <div class="fig-rt-card">
+            <p class="fig-rt-name">Price per unit</p>
+            <p class="fig-rt-why">What one chip earns for one hour. A GPU is a chip built for AI.</p>
+            <p class="fig-rt-ex">Example, one NVIDIA H100 chip for one hour: <strong class="num">$<span data-k="drivers.h100_od" data-f="n2">4.20</span></strong> pay as you go, <strong class="num">$<span data-k="drivers.h100_1yr" data-f="n2">2.35</span></strong> on a one-year contract.</p>
+          </div>
+        </li>
+        <li class="fig-rt-node fig-rt-last">
+          <span class="fig-rt-op"><span aria-hidden="true">&times;</span><span class="sr-only">times</span></span>
+          <div class="fig-rt-card">
+            <p class="fig-rt-name">Mix of what is sold</p>
+            <p class="fig-rt-why">Raw computing, or managed services and AI tools on top of it. Selling more layers can earn more from the same capacity.</p>
+          </div>
+        </li>
+        <li class="fig-rt-node fig-rt-side">
+          <span class="fig-rt-op"><span aria-hidden="true">+</span><span class="sr-only">plus</span></span>
+          <div class="fig-rt-card">
+            <p class="fig-rt-name">Backlog: revenue already signed</p>
+            <p class="fig-rt-why">Contracts that customers have signed for work not yet delivered.</p>
+            <p class="fig-rt-ex">Example: the four biggest clouds hold <strong class="num"><span data-k="backlog.big4_total_b" data-f="t2">$2.49T</span></strong> of it.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <figcaption>Source: CoreWeave Q2 2026 results (unaudited); GPU prices from the Uvik GPU price index (median list price, 7 Oct 2026) and the SemiAnalysis H100 one-year index as cited by Uvik (March 2026); backlog from the companies' latest 10-Qs (unaudited).</figcaption>
+</figure>
+
+
+<ol>
+<li><strong>Capacity online.</strong> How much computing power is switched on, measured in gigawatts (GW) of electricity it can draw. CoreWeave had 1.5 GW running at the end of June and 3.7 GW under contract. The gap is capacity still being built and connected, which is why, for now, supply more than demand sets the pace.</li>
+<li><strong>How busy the chips are.</strong> A chip that sits idle earns nothing. The giants spread many customers with different peaks across one fleet, which helps keep machines busy.</li>
+<li><strong>Price per unit.</strong> The median on-demand price for an NVIDIA H100, the workhorse AI chip, was <a href="https://uvik.net/blog/gpu-price-index/" target="_blank" rel="noopener">$4.20 an hour in October</a> across 16 providers, and $8.19 for the newer B200. Commit for a year and the H100 costs about $2.35 an hour, on a SemiAnalysis index for March 2026. That contract price had risen from $1.70 in October 2025, which suggests demand was outrunning supply even for older chips.</li>
+<li><strong>Mix.</strong> Raw chip time is the cheapest thing a cloud sells. Databases, storage, security and ready-made AI models sit on top of it and earn more from the same gigawatt. That is likely a big part of why the giants earn far higher margins than clouds that rent mainly GPUs.</li>
+</ol>
+<p>The last branch of the tree is the one investors watch most: backlog, the value of signed contracts not yet delivered. Filings call it remaining performance obligations.</p>
+<figure class="fig" id="fig-backlog" aria-labelledby="fig-backlog-t">
+  <p class="fig-title" id="fig-backlog-t">The four biggest backlogs add up to years of revenue already signed</p>
+  <p class="fig-sub">Backlog is work customers have signed for but the company has not yet delivered. Bar length is dollars; the note by each name is years of current revenue.</p>
+  <p class="fig-backlog-callout"><span class="fig-backlog-big" data-k="backlog.big4_total_b" data-f="t2">$2.49T</span><span class="fig-backlog-callout-t">is the four largest backlogs added together: Microsoft, Oracle, Amazon and Alphabet. Oracle's equals <span data-k="backlog.rows[name=Oracle].years_of_revenue" data-f="y1">8.6 years</span> of its current revenue, Microsoft's <span data-k="backlog.rows[name=Microsoft].years_of_revenue" data-f="y1">1.9 years</span>.</span></p>
+  <div class="chart" id="fig-backlog-chart" role="img" aria-label="Horizontal bar chart of signed cloud backlog. Microsoft, Oracle, Amazon and Alphabet each have hundreds of billions of dollars signed, far more than the newer GPU clouds CoreWeave and Nebius. Relative to current revenue, Oracle, CoreWeave and Nebius have the most work waiting."></div>
+  <div class="fallback"><div class="table-wrap"><table><caption class="sr-only">Signed backlog, $ billions</caption><thead><tr><th scope="col">Company</th><th scope="col">Backlog</th><th scope="col">Revenue run rate</th><th scope="col">Backlog / run rate</th></tr></thead><tbody><tr><th scope="row">Microsoft</th><td>$683.0B</td><td>$369.1B</td><td>1.9x</td></tr><tr><th scope="row">Oracle</th><td>$664.0B</td><td>$77.4B</td><td>8.6x</td></tr><tr><th scope="row">Amazon</th><td>$578.0B</td><td>$183.9B</td><td>3.1x</td></tr><tr><th scope="row">Alphabet</th><td>$567.7B</td><td>$122.8B</td><td>4.6x</td></tr><tr><th scope="row">CoreWeave</th><td>$103.7B</td><td>$10.3B</td><td>10.1x</td></tr><tr><th scope="row">Nebius</th><td>$37.5B</td><td>$2.3B</td><td>16.1x</td></tr></tbody></table></div></div>
+  <figcaption>Source: company SEC filings. Backlog as of 30 September 2026 for Microsoft, Amazon and Alphabet, 31 August 2026 for Oracle, and 30 June 2026 for CoreWeave and Nebius. Interim figures unaudited. Microsoft's fiscal year ends June 30 and Oracle's May 31. Years of revenue = backlog divided by the latest quarter's revenue times 4 (AWS revenue for Amazon and Google Cloud revenue for Alphabet, where nearly all their backlog sits; total company revenue for the others). Microsoft's and Oracle's backlogs cover all their contracts, not only cloud.</figcaption>
+</figure>
+
+
+<p>The four largest backlogs add up to about $2.49T: <a href="https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm" target="_blank" rel="noopener">Microsoft $683B</a>, <a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm" target="_blank" rel="noopener">Oracle $664B</a>, <a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm" target="_blank" rel="noopener">Amazon $578B</a> and <a href="https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm" target="_blank" rel="noopener">Alphabet $567.7B</a>. Divided by current yearly revenue (the whole company for Microsoft and Oracle; AWS and Google Cloud for Amazon and Alphabet, where nearly all their backlog sits), that is about 1.9 years at Microsoft, 3.1 at Amazon, 4.6 at Alphabet and 8.6 at Oracle. The GPU clouds stretch further: <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm" target="_blank" rel="noopener">CoreWeave's $103.7B</a> is about ten years of its current revenue, and Nebius's $37.5B about 16. Timing matters too: Microsoft expects about 30% of its backlog to become revenue within 12 months, Oracle 13%, and Alphabet just over 55% within 24 months.</p>
+<p>The catch is who signed. Microsoft recorded $10.0B of revenue from its commercial arrangements with OpenAI in a single quarter, according to a related-party note in its 10-Q. CoreWeave's largest customer was 36% of its revenue in the second quarter, and its largest a year earlier had been 71%. Anthropic, in the filing for its planned stock market listing, details about $895.4B of computing and infrastructure commitments through 2045, <a href="https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14" target="_blank" rel="noopener">The Wall Street Journal reports</a>. A backlog is only as strong as the customers behind it, and a large part of this one rests on a few AI labs.</p>
+<div class="simple">
+<p><strong>The simple version.</strong> Picture a landlord who has signed tenants for an apartment tower that is still going up. The leases are real money, but the rent arrives only as each floor is finished, and two or three tenants have signed for a big share of the building.</p>
+</div>
+<details class="deep">
+<summary>For engineers and investors: reading a backlog</summary>
+<ul>
+<li>Remaining performance obligations are contracted revenue not yet recognized. Definitions differ: Amazon counts contracts longer than one year, mainly AWS, with a weighted-average remaining life of 6.1 years; Alphabet reports a revenue backlog, $560.8B of it Google Cloud; Microsoft's commercial backlog rose 73% in a year.</li>
+<li>"Years of revenue" here is backlog divided by the latest quarter's revenue times four. It measures visibility, not a forecast.</li>
+<li>Backlog becomes revenue only when capacity is delivered. That makes power, buildings and chip supply the main limit on near-term revenue, and it makes backlog quality (who the customer is, and whether it can pay) the real risk.</li>
+</ul>
+</details></div></section>
+  <section id="costs" class="section"><div class="copy"><h2>Where the money goes</h2>
+<p><strong>The answer: AI has changed the shape of the cost base.</strong> A software company spends mostly on people. An AI cloud spends mostly on machines that wear out, so its biggest cost tends to be depreciation, the yearly write-down of chips, servers and buildings. Electricity is a smaller bill than most people expect, and one of the tightest constraints.</p>
+<p>To make this concrete I built an illustrative model of one AI campus with 1 GW of computing load: about 600,000 of NVIDIA's newest GPUs in about 8,333 racks. It uses public inputs and it is a sketch, not a forecast. The code is in the repository linked at the bottom of the page.</p>
+<figure class="fig" id="fig-cost-stack" aria-labelledby="fig-cost-stack-t">
+  <p class="fig-title" id="fig-cost-stack-t">The bill for one gigawatt (illustrative): depreciation is about 8 times the power bill</p>
+  <p class="fig-sub">Left: the one-time build. Right: what it costs each year. Depreciation means spreading an equipment bill over the years the equipment lasts. A gigawatt (GW) is a billion watts of power.</p>
+  <svg class="fig-cost-stack-svg" viewBox="0 0 320 404" role="img" aria-label="Illustrative bill for one gigawatt. A one-time build, mostly chips and servers, is spread over the life of the chips as depreciation. Each year, depreciation is about 8 times the electricity bill. Exact figures are listed after the diagram.">
+    <g class="fig-cost-stack-heads">
+      <text class="fig-cost-stack-head" x="0" y="18">One-time build</text>
+      <text class="fig-cost-stack-head" x="148" y="18">Costs every year</text>
+    </g>
+
+    <g class="fig-cost-stack-left">
+      <rect class="fig-cost-stack-fac" x="0" y="34" width="84" height="110.4" rx="3"/>
+      <rect class="fig-cost-stack-it" x="0" y="144.4" width="84" height="219.6" rx="3"/>
+    </g>
+    <g class="fig-cost-stack-lt">
+      <text class="fig-cost-stack-name fig-cost-stack-mid" x="42" y="64">Building,</text>
+      <text class="fig-cost-stack-name fig-cost-stack-mid" x="42" y="81">power and</text>
+      <text class="fig-cost-stack-name fig-cost-stack-mid" x="42" y="98">cooling</text>
+      <text class="fig-cost-stack-val fig-cost-stack-mid" x="42" y="126"><tspan data-k="campus.capex_facility_b" data-f="b1">$17.6B</tspan></text>
+      <text class="fig-cost-stack-name fig-cost-stack-mid fig-cost-stack-on" x="42" y="236">Chips and</text>
+      <text class="fig-cost-stack-name fig-cost-stack-mid fig-cost-stack-on" x="42" y="253">servers</text>
+      <text class="fig-cost-stack-val fig-cost-stack-mid fig-cost-stack-on" x="42" y="281"><tspan data-k="campus.capex_it_b" data-f="b1">$35.0B</tspan></text>
+    </g>
+    <g class="fig-cost-stack-total">
+      <path class="fig-cost-stack-lead" d="M0 369 V375 H84 V369"/>
+      <text class="fig-cost-stack-val" x="0" y="393">Total <tspan data-k="campus.capex_b" data-f="b1">$52.6B</tspan></text>
+    </g>
+
+    <g class="fig-cost-stack-arr">
+      <text class="fig-cost-stack-name fig-cost-stack-mid" x="116" y="198">spread</text>
+      <text class="fig-cost-stack-name fig-cost-stack-mid" x="116" y="215">over</text>
+      <text class="fig-cost-stack-val fig-cost-stack-mid" x="116" y="232"><tspan data-k="campus.params.life_it" data-f="raw">6</tspan> years</text>
+      <path class="fig-cost-stack-arrow" d="M92 252 H141 M133 245 L141 252 L133 259"/>
+    </g>
+
+    <g class="fig-cost-stack-bar">
+      <rect class="fig-cost-stack-pow" x="148" y="34" width="36" height="31.4" rx="3"/>
+      <rect class="fig-cost-stack-run" x="148" y="65.4" width="36" height="38.4" rx="3"/>
+      <rect class="fig-cost-stack-dep" x="148" y="103.8" width="36" height="260.2" rx="3"/>
+    </g>
+    <g class="fig-cost-stack-lab">
+      <path class="fig-cost-stack-lead" d="M184 49.7 H190"/>
+      <text class="fig-cost-stack-name" x="194" y="46">Electricity</text>
+      <text class="fig-cost-stack-val" x="194" y="63"><tspan data-k="campus.power_b" data-f="b2">$0.81B</tspan></text>
+    </g>
+    <g class="fig-cost-stack-lab">
+      <path class="fig-cost-stack-lead" d="M184 84.6 H190"/>
+      <text class="fig-cost-stack-name" x="194" y="86">Running costs</text>
+      <text class="fig-cost-stack-val" x="194" y="103"><tspan data-k="campus.cases.base.pnl.opex" data-f="b2">$0.99B</tspan></text>
+    </g>
+    <g class="fig-cost-stack-lab">
+      <path class="fig-cost-stack-lead" d="M184 234 H190"/>
+      <text class="fig-cost-stack-val" x="194" y="226">Depreciation</text>
+      <text class="fig-cost-stack-hero" x="194" y="252"><tspan data-k="campus.cases.base.pnl.depreciation" data-f="b1">$6.7B</tspan></text>
+      <text class="fig-cost-stack-sm" x="194" y="272">equipment</text>
+      <text class="fig-cost-stack-sm" x="194" y="289">wearing out,</text>
+      <text class="fig-cost-stack-sm" x="194" y="306">a slice a year</text>
+    </g>
+  </svg>
+  <p class="fig-cost-stack-note">Power limits how fast anyone can build, but it is not the biggest bill.</p>
+  <ul class="sr-only">
+    <li>One-time build, in total: <span data-k="campus.capex_b" data-f="b1">$52.6B</span>. Building, power and cooling: <span data-k="campus.capex_facility_b" data-f="b1">$17.6B</span>. Chips and servers: <span data-k="campus.capex_it_b" data-f="b1">$35.0B</span>.</li>
+    <li>Each year: depreciation <span data-k="campus.cases.base.pnl.depreciation" data-f="b1">$6.7B</span>, electricity <span data-k="campus.power_b" data-f="b2">$0.81B</span>, running costs <span data-k="campus.cases.base.pnl.opex" data-f="b2">$0.99B</span>.</li>
+  </ul>
+  <figcaption>Source: the author's illustrative model of a one-gigawatt campus, not a forecast; year-one view, before tax. Inputs: Cushman &amp; Wakefield 2026 (building), a reported NVIDIA system estimate (chips), EIA August 2026 (electricity price) and a <span data-k="campus.params.life_it" data-f="raw">6</span>-year chip life. The yearly bar uses the base revenue case, built from CoreWeave's current revenue per gigawatt. It is drawn larger than the build block so the small items stay visible. Interim figures unaudited.</figcaption>
+</figure>
+
+
+<p><strong>The build costs about $52.6B.</strong> The building, power and cooling systems come to $17.6B, using <a href="https://finviz.com/news/388803/cushman-wakefield-releases-2026-data-center-development-cost-guide" target="_blank" rel="noopener">Cushman &amp; Wakefield's average of $17.6M per megawatt</a> for new US and Canadian data centers before chips. Chips, servers and networking add about $35B, in line with Jensen Huang's estimate, reported in September 2026, that about $35B of a gigawatt's cost goes to NVIDIA systems. The GPU racks alone come to about $25B at analyst estimates of <a href="https://fal.ai/learn/serverless/nvidia-gb200-price" target="_blank" rel="noopener">$3M per rack</a>. Huang's reported all-in figure is <a href="https://247wallst.com/investing/2026/09/24/nvidias-ceo-says-a-1-gigawatt-ai-factory-rents-for-50-billion/" target="_blank" rel="noopener">$50B to $60B per gigawatt</a>.</p>
+<p><strong>The yearly bill:</strong></p>
+<ul>
+<li>Depreciation: about $6.7B a year, spreading the chips over six years ($5.8B) and the building over 20 ($0.9B).</li>
+<li>Electricity: about $0.8B a year. The campus uses about 8.4 terawatt-hours, priced at $96.40 per megawatt-hour, the <a href="https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a" target="_blank" rel="noopener">US average industrial price in August 2026</a>.</li>
+<li>Running costs (staff, maintenance, network, insurance): assumed at 12% of revenue, about $1.0B at today's GPU-cloud prices.</li>
+</ul>
+<p>Depreciation is about eight times the power bill. Power is a bottleneck, not the biggest bill: the scarce thing is a grid connection, not the electricity that flows through it. Several signs point to scarcity. The capacity auction run by PJM, a grid operator in the eastern US, cleared at its <a href="https://www.utilitydive.com/news/pjm-interconnection-capacity-auction-data-center/808264/" target="_blank" rel="noopener">price cap for the third auction in a row</a> in December 2025, at $333.44 per megawatt-day for the 12 months from June 2027. GE Vernova's backlog and reserved production slots for gas turbines reached <a href="https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000147/gev2q2026form8-k.pdf" target="_blank" rel="noopener">116 GW at the end of June 2026</a>. US industrial electricity cost 9.64 cents per kilowatt-hour in August, up from 8.98 a year earlier.</p>
+<p>Efficiency is the engineer's lever. Google's fleet runs at a <a href="https://datacenters.google/efficiency/" target="_blank" rel="noopener">power usage effectiveness (PUE) of 1.09</a>, against an industry average of 1.54, so less of each megawatt is lost to cooling and power conversion before it reaches a chip. The model assumes 1.2.</p>
+<p><strong>The biggest lever is an accounting choice.</strong> How fast a company depreciates its chips depends on their useful life, the number of years it expects them to earn their keep, and companies give different answers.</p>
+<figure class="fig" id="fig-depreciation" aria-labelledby="fig-depreciation-t">
+  <p class="fig-title" id="fig-depreciation-t">The shorter a chip's assumed life, the bigger the yearly bill and the smaller the profit</p>
+  <p class="fig-sub">Illustrative 1 GW campus. Chip cost (depreciation) is the purchase price spread over the years a chip is assumed to last. Dots below the line are losses.</p>
+  <div class="chart" id="fig-depreciation-chart" role="img" aria-label="Two charts. First, the yearly chip cost of an illustrative 1 GW campus rises as the assumed chip life gets shorter, and at the shortest life even a busy, well-priced campus makes no profit. Second, the server life each company assumes, which clusters between five and six years."></div>
+  <div class="fallback"><div class="table-wrap"><table><caption class="sr-only">Useful life sensitivity, 1 GW campus, $ billions a year</caption><thead><tr><th scope="col">Chip life</th><th scope="col">Chip depreciation a year</th><th scope="col">Operating profit, base</th><th scope="col">Operating profit, high</th></tr></thead><tbody><tr><th scope="row">3 years</th><td>$11.67B</td><td>-$6.11B</td><td>-$0.40B</td></tr><tr><th scope="row">4 years</th><td>$8.75B</td><td>-$3.19B</td><td>$2.51B</td></tr><tr><th scope="row">5 years</th><td>$7.00B</td><td>-$1.44B</td><td>$4.26B</td></tr><tr><th scope="row">6 years</th><td>$5.83B</td><td>-$0.27B</td><td>$5.43B</td></tr></tbody></table></div><div class="table-wrap"><table><caption class="sr-only">Server useful life by company</caption><thead><tr><th scope="col">Company</th><th scope="col">Server life policy</th></tr></thead><tbody><tr><th scope="row">Alphabet</th><td>6 years</td></tr><tr><th scope="row">Microsoft</th><td>2 to 6 years</td></tr><tr><th scope="row">Oracle</th><td>6 years</td></tr><tr><th scope="row">CoreWeave</th><td>6 (from 5 in 2023) years</td></tr><tr><th scope="row">Amazon</th><td>5 to 6 (some cut from 6 to 5) years</td></tr><tr><th scope="row">Meta</th><td>5.5 (from 2025) years</td></tr><tr><th scope="row">Nebius</th><td>5 (from 4 in 2026) years</td></tr></tbody></table></div></div>
+  <figcaption>Source: the author's illustrative model of a 1 GW campus (not a forecast) and each company's latest 10-K or 10-Q. Chip cost spreads <span data-k="campus.capex_it_b" data-f="b1">$35.0B</span> of chips and servers evenly over the life shown. Base case: revenue per GW at CoreWeave's current level. Busy case: a well-priced, well-used campus. Interim figures unaudited. Microsoft's fiscal year ends June 30 and Oracle's May 31.</figcaption>
+</figure>
+
+
+<p>In the illustration, cutting the chips' useful life from six years to four adds about $2.9B of expense a year. At three years, even a busy, well-priced campus would lose money. Here is what the companies chose, from their latest annual or quarterly reports:</p>
+<ul>
+<li>Alphabet, Oracle and CoreWeave: six years (CoreWeave moved up from five in 2023).</li>
+<li>Amazon: five to six years. In 2025 it <a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm" target="_blank" rel="noopener">shortened some servers from six years to five</a> because AI technology moves faster, which added $1.4B of depreciation that year.</li>
+<li>Meta: 5.5 years from 2025, which <a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm" target="_blank" rel="noopener">cut its 2025 depreciation by $2.92B</a>.</li>
+<li>Nebius: five years from 2026, up from four.</li>
+<li>Microsoft: two to six years.</li>
+</ul>
+<p>Two camps argue about this online. One says the lives are too long and flatter profits. The other points to the rising one-year rental price of the older H100 as proof that old chips still earn their keep. Both read the same facts; the next two years of rental prices should help settle it.</p>
+<p>More depreciation is likely on the way. Over the last 12 months these companies spent from 2.7 times (Amazon) to 8 times (Oracle) as much on new assets as they recorded in depreciation. As those assets go into service, the expense should keep climbing. In the latest quarter compared with a year earlier (unaudited), Microsoft's depreciation of property and equipment rose from $7.1B to $11.1B, Meta's depreciation and amortization from $5.0B to $7.2B, and Oracle's depreciation from $1.4B to $3.2B.</p>
+<div class="simple">
+<p><strong>The simple version.</strong> Buy a delivery van for $60,000 that will be worn out in six years, and $10,000 of its value disappears every year, whether you drive it or not. Accountants call that depreciation. In the illustrative campus, the vans are the chips and the building, and their yearly wear costs about eight times the electricity that runs them.</p>
+</div>
+<details class="deep">
+<summary>For engineers and investors: how the campus model works</summary>
+<ul>
+<li>Energy: 1,000 MW of computing load x PUE 1.2 x 80% average load x 8,760 hours = 8.41 TWh a year. At $96.4 per MWh that is $0.81B.</li>
+<li>Depreciation: $35.0B of chips and servers over 6 years ($5.83B) plus $17.6B of building over 20 years ($0.88B) = $6.71B a year.</li>
+<li>GPUs: 1,000 MW divided by 120 kW per 72-GPU rack (an NVIDIA GB200 NVL72) = 8,333 racks, about 600,000 GPUs.</li>
+<li>Calibration: at CoreWeave's current revenue per gigawatt the model's operating margin (operating profit as a share of revenue) is -3.3%, against CoreWeave's reported -1.9%. In the busy case it is 36.9%, against AWS's reported 38.7%. Close enough to trust the shape, not the decimals.</li>
+<li>Limits: it is a year-one view before tax. It ignores construction time, price declines as chips age, and resale value. The code is <code>model/hyperscaler_model.py</code> in the repository.</li>
+</ul>
+</details></div></section>
+  <section id="capex" class="section"><div class="copy"><h2>The build-out, and who pays for it</h2>
+<p><strong>The answer: at most of these companies the AI build now costs more than their operations bring in, so the gap is being filled with debt, leases and other people's money.</strong> Over the last 12 months Amazon, Oracle and CoreWeave each spent more on new assets than their operations brought in. In the latest quarter, so did Alphabet and Meta.</p>
+<figure class="fig" id="fig-capex-wave" aria-labelledby="fig-capex-wave-t">
+  <p class="fig-title" id="fig-capex-wave-t">In one quarter, five companies spent <span data-k="capex_wave.big5_latest" data-f="b1">$230.4B</span> on buildings and equipment, up from <span data-k="capex_wave.big5_year_ago" data-f="b1">$105.8B</span> a year earlier</p>
+  <p class="fig-sub">Each column is one quarter of capex, the money spent on buildings, servers and other equipment. The five are Amazon, Microsoft, Alphabet, Meta and Oracle, with CoreWeave stacked on top when it reports. Tap or drag across the columns to read one quarter.</p>
+  <div class="chart" id="fig-capex-wave-chart" role="img" aria-label="Stacked columns of quarterly capex for Amazon, Microsoft, Alphabet, Meta, Oracle and CoreWeave. The columns grow taller over time, and the latest quarter is more than twice the same quarter a year earlier."></div>
+  <div class="fallback"><div class="table-wrap"><table><caption class="sr-only">Quarterly capex, $ billions</caption><thead><tr><th scope="col">Company</th><th scope="col">Q3 25</th><th scope="col">Q4 25</th><th scope="col">Q1 26</th><th scope="col">Q2 26</th><th scope="col">Q3 26</th></tr></thead><tbody><tr><th scope="row">Amazon</th><td>$35.1B</td><td>$39.5B</td><td>$44.2B</td><td>$54.2B</td><td>$77.3B</td></tr><tr><th scope="row">Microsoft</th><td>$19.4B</td><td>$29.9B</td><td>$30.9B</td><td>$35.8B</td><td>$39.4B</td></tr><tr><th scope="row">Alphabet</th><td>$24.0B</td><td>$27.9B</td><td>$35.7B</td><td>$44.9B</td><td>$51.4B</td></tr><tr><th scope="row">Meta</th><td>$18.8B</td><td>$21.4B</td><td>$19.0B</td><td>$30.1B</td><td>$33.9B</td></tr><tr><th scope="row">Oracle</th><td>$8.5B</td><td>$12.0B</td><td>$18.6B</td><td>$16.5B</td><td>$28.5B</td></tr><tr><th scope="row">CoreWeave</th><td>$2.4B</td><td>$4.1B</td><td>$7.7B</td><td>$6.4B</td><td>n/a</td></tr></tbody></table></div></div>
+  <div class="fig-capex-wave-ui" id="fig-capex-wave-ui"></div>
+  <figcaption>Source: SEC EDGAR company facts (XBRL), 10-Q and 10-K filings. <span data-k="capex_wave.note" data-f="raw">Cash purchases of property and equipment from SEC filings (XBRL), by calendar quarter of the period end. Oracle's quarters end one month earlier (Aug, Nov, Feb, May). Microsoft and Meta also add assets through finance leases, not shown. CoreWeave reports Q3 2026 after this page's date. Interim figures unaudited.</span></figcaption>
+</figure>
+
+
+<p>Amazon, Microsoft, Alphabet, Meta and Oracle put $230.4B into property and equipment in their latest quarter (unaudited), more than double the $105.8B of a year earlier. Amazon alone spent $77.3B in three months. Amazon, Microsoft, Google and Meta are on track to spend more than $720B this year on data centers and other capital projects, about triple two years earlier, <a href="https://www.nytimes.com/2026/10/29/technology/big-tech-data-center-spending.html" target="_blank" rel="noopener">The New York Times reports</a>. Worldwide, Dell'Oro Group expects data center capex to pass <a href="https://techblog.comsoc.org/2026/09/16/delloro-data-center-capex-grew-92-in-2q-2026-caveats-galore/" target="_blank" rel="noopener">$1T in 2026 and $3T a year by 2030</a>.</p>
+<figure class="fig" id="fig-capex-intensity" aria-labelledby="fig-capex-intensity-t">
+  <p class="fig-title" id="fig-capex-intensity-t">Over the last 12 months, Oracle spent <span data-k="intensity.rows[ticker=ORCL].capex_to_revenue" data-f="p0">105%</span> of its revenue on buildings and equipment, and CoreWeave <span data-k="intensity.rows[ticker=CRWV].capex_to_revenue" data-f="p0">271%</span></p>
+  <p class="fig-sub">Capex means money spent on buildings and equipment. Bars compare it with revenue, dots compare it with the cash a business brings in from its operations. Past the dashed line, spending is bigger than income.</p>
+  <div class="chart" id="fig-capex-intensity-chart" role="img" aria-label="Horizontal bars of capex as a share of revenue for Amazon, Microsoft, Alphabet, Meta, Oracle and CoreWeave, sorted from highest to lowest, with a dot for capex as a share of cash from operations. Oracle and CoreWeave spend more than their revenue, and Amazon, Oracle and CoreWeave spend more than their operating cash."></div>
+  <div class="fallback"><div class="table-wrap"><table><caption class="sr-only">Capex intensity, trailing 12 months</caption><thead><tr><th scope="col">Company</th><th scope="col">Capex, 12 months</th><th scope="col">Revenue, 12 months</th><th scope="col">Capex / revenue</th><th scope="col">Capex / operating cash</th><th scope="col">Free cash flow</th></tr></thead><tbody><tr><th scope="row">Amazon</th><td>$215.2B</td><td>$797.5B</td><td>27%</td><td>128%</td><td>-$46.9B</td></tr><tr><th scope="row">Microsoft</th><td>$135.9B</td><td>$346.4B</td><td>39%</td><td>69%</td><td>$60.0B</td></tr><tr><th scope="row">Alphabet</th><td>$159.8B</td><td>$471.1B</td><td>34%</td><td>89%</td><td>$19.7B</td></tr><tr><th scope="row">Meta</th><td>$104.4B</td><td>$241.6B</td><td>43%</td><td>78%</td><td>$28.6B</td></tr><tr><th scope="row">Oracle</th><td>$75.7B</td><td>$71.8B</td><td>105%</td><td>161%</td><td>-$28.7B</td></tr><tr><th scope="row">CoreWeave</th><td>$20.6B</td><td>$7.6B</td><td>271%</td><td>298%</td><td>-$13.7B</td></tr></tbody></table></div></div>
+  <figcaption>Source: SEC EDGAR company facts (XBRL), trailing 12 months to each company's latest quarter: Oracle to <span data-k="intensity.rows[ticker=ORCL].ttm_end" data-f="raw">2026-08-31</span>, CoreWeave to <span data-k="intensity.rows[ticker=CRWV].ttm_end" data-f="raw">2026-06-30</span>, the others to <span data-k="intensity.rows[ticker=AMZN].ttm_end" data-f="raw">2026-09-30</span>. Interim figures unaudited.</figcaption>
+</figure>
+
+
+<p>Measured against revenue over the last 12 months, Oracle spent 105% of its revenue on capex, Meta 43%, Microsoft 39%, Alphabet 34% and Amazon 27%. CoreWeave spent 271%. Measured against the cash their operations generate, Amazon spent 128%, Oracle 161% and CoreWeave 298%.</p>
+<p>Free cash flow is the cash left after paying for new assets. The latest figures, using each company's own definition where it has one:</p>
+<ul>
+<li>Amazon: -$42.4B over the last 12 months.</li>
+<li>Alphabet: operations brought in $42.3B in the third quarter and capex took $51.4B, a gap of about $9.1B.</li>
+<li>Meta: -$2.1B in the third quarter.</li>
+<li>Oracle: -$5.4B in its latest quarter.</li>
+<li>Microsoft, the exception: about +$18.6B in the quarter ($58.0B from operations less $39.4B of capex). Even there, an analyst quoted by the <a href="https://www.ft.com/content/f16babea-fd38-440b-8278-5871d3a47b17" target="_blank" rel="noopener">Financial Times</a> argues that much of that cash comes from financing choices such as leases, stock-based pay and slower payments to suppliers, rather than core profit.</li>
+</ul>
+<p><strong>Does a campus pay for itself?</strong> Try it. The chart below runs the illustrative 1 GW campus through a simple profit and loss. Pick a revenue case, a way to finance it and a chip life.</p>
+<figure class="fig" id="fig-campus" aria-labelledby="fig-campus-t">
+  <p class="fig-campus-tag">Illustrative</p>
+  <p class="fig-title" id="fig-campus-t">A 1 GW AI campus would cost about <span data-k="campus.capex_b" data-f="b1">$52.6B</span> to build, and would need about <span data-k="campus.breakeven_revenue_b" data-f="b2">$8.55B</span> a year in revenue to cover its costs before interest</p>
+  <p class="fig-sub">Illustrative model, not a forecast. Read down: money comes in, each cost comes off, and what is left is profit. Pick a revenue case, a way of paying for the build and how long the chips last.</p>
+  <div class="fig-campus-controls" id="fig-campus-controls"></div>
+  <div class="chart" id="fig-campus-chart" role="img" aria-label="Illustrative waterfall for a 1 GW campus: revenue, minus electricity, minus running costs, equals cash profit, minus depreciation, equals operating profit, minus interest, equals profit before tax."></div>
+  <div class="fallback"><div class="table-wrap"><table><caption class="sr-only">Illustrative 1 GW campus, $ billions a year</caption><thead><tr><th scope="col">Per year, one 1 GW campus</th><th scope="col">Low</th><th scope="col">Base</th><th scope="col">High</th></tr></thead><tbody><tr><th scope="row">Revenue</th><td>$6.87B</td><td>$8.24B</td><td>$14.72B</td></tr><tr><th scope="row">Electricity</th><td>$0.81B</td><td>$0.81B</td><td>$0.81B</td></tr><tr><th scope="row">Running costs</th><td>$0.82B</td><td>$0.99B</td><td>$1.77B</td></tr><tr><th scope="row">Cash profit (EBITDA)</th><td>$5.23B</td><td>$6.44B</td><td>$12.14B</td></tr><tr><th scope="row">Depreciation</th><td>$6.71B</td><td>$6.71B</td><td>$6.71B</td></tr><tr><th scope="row">Operating profit</th><td>-$1.48B</td><td>-$0.27B</td><td>$5.43B</td></tr><tr><th scope="row">Interest (neocloud financing)</th><td>$3.68B</td><td>$3.68B</td><td>$3.68B</td></tr><tr><th scope="row">Profit before tax (neocloud)</th><td>-$5.16B</td><td>-$3.95B</td><td>$1.74B</td></tr></tbody></table></div></div>
+  <div class="fig-campus-stats" id="fig-campus-stats"></div>
+  <p class="fig-campus-gloss">GW is a gigawatt, a billion watts: here, the power the computers inside would use. A GPU is the kind of chip used for AI. EBITDA is cash profit before depreciation and interest. Depreciation spreads the cost of buildings and chips over the years they stay useful. Payback is how many years of cash profit it takes to earn back the build cost.</p>
+  <figcaption>Illustrative model built from the inputs listed in the Sources section, with revenue cases based on CoreWeave's unaudited Q2 2026 filing. <span data-k="campus.note" data-f="raw">Illustration only, not a forecast. Year-one view, before taxes; interest on the full starting debt.</span></figcaption>
+</figure>
+
+
+<p>Three things stand out:</p>
+<ol>
+<li>At CoreWeave's current revenue per gigawatt, about $8.2B a year, the campus would roughly break even before interest (an operating loss of about $0.3B) and would need 8.2 years of cash profit to pay back its cost. Breakeven before interest would be about $8.6B a year.</li>
+<li>At $14.7B a year (600,000 GPUs rented at $3.50 an hour, busy 80% of the time) it would earn about 37%, close to AWS, and pay back in 4.3 years.</li>
+<li>Financing decides who can ride out a slow year. Funded 70% with debt at 10%, interest would be about $3.7B a year, turning the base case from about -$0.3B into about -$4.0B and lifting breakeven to about $12.7B. Funded mostly with cash and cheap bonds (30% debt at 5%), interest would be about $0.8B.</li>
+</ol>
+<p><strong>Where the money comes from now.</strong> For most of these companies internal cash is no longer enough, so the build is moving onto borrowed money and other people's balance sheets.</p>
+<figure class="fig" id="fig-debt" aria-labelledby="fig-debt-t">
+  <p class="fig-title" id="fig-debt-t">Borrowing is rising: Amazon's long-term debt went from <span data-k="debt.rows[ticker=AMZN].before_b" data-f="b1">$65.6B</span> to <span data-k="debt.rows[ticker=AMZN].now_b" data-f="b1">$173.1B</span> in nine months</p>
+  <p class="fig-sub">Debt is money owed to lenders and bondholders. The hollow dot is the balance on Dec 31 2025, the filled dot is the latest quarter, and the figure on the right is the increase.</p>
+  <div class="chart" id="fig-debt-chart" role="img" aria-label="Dumbbell chart of long-term debt for Amazon, Alphabet, Meta, CoreWeave and Nebius, from Dec 31 2025 to the latest quarter, sorted by the size of the increase. Every company owes more than it did, and Amazon and Alphabet show the largest increases."></div>
+  <div class="fallback"><div class="table-wrap"><table><caption class="sr-only">Long-term debt, $ billions</caption><thead><tr><th scope="col">Company</th><th scope="col">Dec 31 2025</th><th scope="col">Latest quarter</th></tr></thead><tbody><tr><th scope="row">Amazon</th><td>$65.6B</td><td>$173.1B</td></tr><tr><th scope="row">Alphabet</th><td>$46.5B</td><td>$125.1B</td></tr><tr><th scope="row">Meta</th><td>$58.7B</td><td>$80.9B</td></tr><tr><th scope="row">CoreWeave</th><td>$20.7B</td><td>$31.4B</td></tr><tr><th scope="row">Nebius</th><td>$4.1B</td><td>$8.5B</td></tr></tbody></table></div></div>
+  <figcaption>Source: company balance sheets in SEC filings and earnings releases. Latest quarter means Sep 30 2026 for Amazon, Alphabet and Meta, and Jun 30 2026 for CoreWeave and Nebius. Each figure is the debt line the company reports, and definitions differ a little, so compare sizes rather than exact amounts. Unaudited.</figcaption>
+</figure>
+
+
+<ul>
+<li><strong>Bonds.</strong> Amazon's long-term debt went from $65.6B at the end of 2025 to $173.1B nine months later; it raised $115.1B of long-term debt in that time. Alphabet's went from $46.5B to $125.1B, and Meta's from $58.7B to $80.9B. The Economist ("The AI industry's gigantic debts are making investors nervous", 18 October 2026) reports that Alphabet, Amazon, Microsoft and Meta borrowed $214B in 2026, against $83B in all of 2025, and that JPMorgan expects about $5.5T of capex through 2030, three quarters of it funded with debt.</li>
+<li><strong>Expensive debt at the GPU clouds.</strong> CoreWeave's recourse debt rose from $20.7B to $31.4B, and its quarterly interest expense of $640M was about 13 times its operating loss. Nebius roughly doubled its long-term debt to $8.5B and in October signed a $3.5B bridge loan with Citibank that matures in a year.</li>
+<li><strong>Leases that have not started.</strong> Signed leases, mostly for data centers, that have not yet begun: Microsoft $364.6B, Meta $355.7B, Oracle $288B, Amazon $164.9B and Alphabet $130.5B. That is more than $1.3T together, none of it yet on the balance sheet.</li>
+<li><strong>Partners.</strong> Meta's Hyperion campus in Louisiana sits in a <a href="https://www.hubbis.com/news/meta-and-blue-owl-capital-launch-usd27-billion-joint-venture-for-hyperion" target="_blank" rel="noopener">joint venture of about $27B</a>, 80% funded by Blue Owl. Meta reports a <a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm" target="_blank" rel="noopener">maximum exposure to loss of $68.4B</a> across two such ventures, including $41.5B of guarantees on the value of the assets.</li>
+<li><strong>Customers and shareholders.</strong> In a single quarter Oracle took in $11.4B of customer prepayments and raised $19.9B by selling new shares.</li>
+</ul>
+<p>Markets noticed. S&amp;P Global Ratings cut Meta's credit outlook, and the Nasdaq fell 5.3% in October, its worst month since March 2025 (<a href="https://www.nytimes.com/2026/11/02/business/dealbook/ai-borrowing.html" target="_blank" rel="noopener">The New York Times</a>). The <a href="https://www.ft.com/content/5f08f1fb-4948-4420-8fe4-3c8c8cc492ef" target="_blank" rel="noopener">Financial Times</a> reported higher interest rates on new hyperscaler bonds and rising prices for insurance against default. After the 3 November midterm elections the Nasdaq fell into a correction, and one day's sell-off on 5 November erased about $2.5T of Nasdaq market value (<a href="https://www.wsj.com/finance/stocks/midterms-markets-week-ai-trade-97b3fc5d" target="_blank" rel="noopener">The Wall Street Journal</a>). The <a href="https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c" target="_blank" rel="noopener">Financial Times</a> put that day's rout at $3.2T, without naming the index.</p>
+<div class="simple">
+<p><strong>The simple version.</strong> A family that pays for a kitchen renovation from savings can pause the work if money gets tight. A family that borrowed for it owes the monthly payment no matter what. The cloud giants are mostly the first family. Many GPU clouds are the second.</p>
+</div>
+<details class="deep">
+<summary>For engineers and investors: what the capex numbers include</summary>
+<ul>
+<li>Capex here is cash purchases of property and equipment from each company's cash flow statement, read from SEC XBRL data and checked against the earnings releases. All six matched.</li>
+<li>It leaves out assets acquired through finance leases, which matter for Microsoft and Meta, and the leases not yet started listed above.</li>
+<li>Oracle's quarters end a month earlier (August, November, February, May). CoreWeave reports its third quarter after this page's date.</li>
+<li>Free cash flow definitions differ: Amazon nets out proceeds and incentives, Meta also subtracts finance lease principal, and Oracle subtracts capex as reported. Compare directions, not decimals.</li>
+</ul>
+</details></div></section>
+  <section id="competition" class="section"><div class="copy"><h2>Who keeps the profit</h2>
+<p><strong>The answer: the core of the market is an oligopoly with strong margins, and its edge is a commodity with thin ones.</strong> The fattest margins in the AI build-out sit upstream, with the companies that make the chips.</p>
+<figure class="fig" id="fig-chain" aria-labelledby="fig-chain-t">
+  <p class="fig-title" id="fig-chain-t">Chip makers keep the most of each sales dollar; GPU clouds lose money</p>
+  <p class="fig-sub">Operating margin is the share of each sales dollar left after running costs, in the latest quarter. Bars left of the zero line are losses.</p>
+  <div class="chart" id="fig-chain-chart" role="img" aria-label="Horizontal bar chart of operating margin, highest first. The two chip companies earn the most, the full-service clouds AWS and Google Cloud come next, then data center landlords and power and cooling gear, and the GPU clouds CoreWeave and Nebius have negative margins."></div>
+  <div class="fallback"><div class="table-wrap"><table><caption class="sr-only">Operating margin along the value chain</caption><thead><tr><th scope="col">Company</th><th scope="col">Operating margin</th><th scope="col">Period</th></tr></thead><tbody><tr><th scope="row">TSMC (makes the chips)</th><td>58.7%</td><td>Q3 2026</td></tr><tr><th scope="row">NVIDIA (designs GPUs and systems)</th><td>66.2%</td><td>FY27 Q2 (May to Jul 2026)</td></tr><tr><th scope="row">Vertiv (power and cooling gear)</th><td>22.8%</td><td>Q3 2026</td></tr><tr><th scope="row">AWS (full-service cloud)</th><td>38.7%</td><td>Q3 2026</td></tr><tr><th scope="row">Google Cloud (full-service cloud)</th><td>36.2%</td><td>Q3 2026</td></tr><tr><th scope="row">Equinix (data center landlord)</th><td>23.3%</td><td>Q3 2026</td></tr><tr><th scope="row">Digital Realty (data center landlord)</th><td>15.9%</td><td>Q3 2026</td></tr><tr><th scope="row">CoreWeave (GPU cloud)</th><td>-1.9%</td><td>Q2 2026</td></tr><tr><th scope="row">Nebius (GPU cloud)</th><td>-30.2%</td><td>Q2 2026</td></tr></tbody></table></div></div>
+  <figcaption>Source: company SEC filings and earnings releases, latest quarter: Q3 2026 for TSMC, AWS, Google Cloud, Vertiv, Equinix and Digital Realty; May to July 2026 for NVIDIA (its fiscal year ends late January); Q2 2026 for CoreWeave and Nebius. Operating income divided by revenue; AWS and Google Cloud are divisions of Amazon and Alphabet. Interim figures unaudited.</figcaption>
+</figure>
+
+
+<p>Follow the money from chip to customer. The measure is operating margin, the share of revenue left after running costs and depreciation, for the latest quarter (unaudited):</p>
+<ul>
+<li><strong>Chips.</strong> <a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm" target="_blank" rel="noopener">NVIDIA</a> kept 66.2% of its revenue as operating profit, with a gross margin of 75.0%. <a href="https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/" target="_blank" rel="noopener">TSMC</a>, which manufactures the chips, kept 58.7%.</li>
+<li><strong>Power and cooling equipment.</strong> <a href="https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm" target="_blank" rel="noopener">Vertiv</a> 22.8%.</li>
+<li><strong>Buildings.</strong> <a href="https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/a991eqix-q326xpr.htm" target="_blank" rel="noopener">Equinix</a> 23.3% and <a href="https://www.sec.gov/Archives/edgar/data/1297996/000110465926120212/dlr-ex99d1.htm" target="_blank" rel="noopener">Digital Realty</a> 15.9%.</li>
+<li><strong>Full-service clouds.</strong> AWS 38.7% and Google Cloud 36.2%.</li>
+<li><strong>GPU clouds.</strong> CoreWeave -1.9% and Nebius -30.2%.</li>
+</ul>
+<p>Fast growth does not buy margin. Nebius grew 454% and lost 30 cents on every dollar of revenue at the operating line. Google Cloud more than doubled and kept 36 cents.</p>
+<figure class="fig" id="fig-growth-margin" aria-labelledby="fig-growth-margin-t">
+  <p class="fig-title" id="fig-growth-margin-t">Growth is not profit: Nebius sales grew <span data-k="growth_margin.points[name=Nebius].growth_pct" data-f="p0">454%</span> while its operating margin was <span data-k="growth_margin.points[name=Nebius].op_margin_pct" data-f="p0">-30%</span></p>
+  <p class="fig-sub">Each dot is one company's latest quarter: how fast sales grew (across) and how much of each sales dollar was left as operating profit (up).</p>
+  <div class="chart" id="fig-growth-margin-chart" role="img" aria-label="Scatter chart of revenue growth against operating margin. AWS and Google Cloud grow at different speeds but both keep a healthy margin. NVIDIA, the chip supplier, has the highest margin. CoreWeave and Nebius grow fast but have negative margins. Microsoft Azure and Oracle cloud infrastructure are shown by growth only because they do not report a margin."></div>
+  <div class="fallback"><div class="table-wrap"><table><caption class="sr-only">Growth versus operating margin</caption><thead><tr><th scope="col">Business</th><th scope="col">Revenue growth</th><th scope="col">Operating margin</th><th scope="col">Period</th></tr></thead><tbody><tr><th scope="row">AWS</th><td>39%</td><td>38.7%</td><td>Q3 2026 (Jul to Sep)</td></tr><tr><th scope="row">Google Cloud</th><td>103%</td><td>36.2%</td><td>Q3 2026 (Jul to Sep)</td></tr><tr><th scope="row">CoreWeave</th><td>112%</td><td>-1.9%</td><td>Q2 2026 (Apr to Jun)</td></tr><tr><th scope="row">Nebius</th><td>454%</td><td>-30.2%</td><td>Q2 2026 (Apr to Jun)</td></tr><tr><th scope="row">NVIDIA (supplier)</th><td>106%</td><td>66.2%</td><td>FY27 Q2 (May to Jul 2026)</td></tr><tr><th scope="row">Microsoft Azure</th><td>48%</td><td>not reported</td><td></td></tr><tr><th scope="row">Oracle cloud infrastructure</th><td>121%</td><td>not reported</td><td></td></tr></tbody></table></div></div>
+  <figcaption>Source: company SEC filings and earnings releases, latest quarter: Q3 2026 for AWS and Google Cloud (divisions of Amazon and Alphabet); May to July 2026 for NVIDIA (its fiscal year ends late January); Q2 2026 for CoreWeave and Nebius. Growth is versus a year earlier. Growth above 200% is clipped at the edge of the plot and labelled with its real value. Interim figures unaudited.</figcaption>
+</figure>
+
+
+<p>Porter's five forces, a standard way to judge how much profit an industry can keep, explains why:</p>
+<figure class="fig" id="fig-forces" aria-labelledby="fig-forces-t">
+  <p class="fig-title" id="fig-forces-t">Suppliers have the most power over the cloud giants, and substitutes the least</p>
+  <p class="fig-sub">Porter's five forces is a checklist of the pressures that can squeeze a company's profit. More filled dots means more pressure.</p>
+  <ul class="fig-forces-grid" role="list">
+    <li class="fig-forces-card fig-forces-rivalry" data-i="0">
+      <div class="fig-forces-head">
+        <div>
+          <p class="fig-forces-name">Rivalry</p>
+          <p class="fig-forces-plain">How hard today's players fight each other</p>
+        </div>
+        <span class="fig-forces-meter" aria-hidden="true"><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot"></span></span>
+      </div>
+      <p class="fig-forces-level"><span data-k="forces[0].level" data-f="raw">4</span> of 5, <span class="fig-forces-word">high</span></p>
+      <p class="fig-forces-why">Three giants hold 61% and fight on AI capacity, price and chips; Oracle and neoclouds add supply.</p>
+    </li>
+    <li class="fig-forces-card fig-forces-entrants" data-i="1">
+      <div class="fig-forces-head">
+        <div>
+          <p class="fig-forces-name">New entrants</p>
+          <p class="fig-forces-plain">How easily newcomers can join in</p>
+        </div>
+        <span class="fig-forces-meter" aria-hidden="true"><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot"></span><span class="fig-forces-dot"></span></span>
+      </div>
+      <p class="fig-forces-level"><span data-k="forces[1].level" data-f="raw">3</span> of 5, <span class="fig-forces-word">medium</span></p>
+      <p class="fig-forces-why">GPU clouds can start fast with debt, but full-service cloud takes decades and hundreds of billions.</p>
+    </li>
+    <li class="fig-forces-card fig-forces-supplier" data-i="2">
+      <div class="fig-forces-head">
+        <div>
+          <p class="fig-forces-name">Supplier power</p>
+          <p class="fig-forces-plain">How much the sellers of chips and power can charge</p>
+        </div>
+        <span class="fig-forces-meter" aria-hidden="true"><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span></span>
+      </div>
+      <p class="fig-forces-level"><span data-k="forces[2].level" data-f="raw">5</span> of 5, <span class="fig-forces-word">very high</span></p>
+      <p class="fig-forces-why">NVIDIA keeps 75% gross margins; turbines and grid connections are scarce too.</p>
+    </li>
+    <li class="fig-forces-card fig-forces-buyer" data-i="3">
+      <div class="fig-forces-head">
+        <div>
+          <p class="fig-forces-name">Buyer power</p>
+          <p class="fig-forces-plain">How much the biggest customers can demand</p>
+        </div>
+        <span class="fig-forces-meter" aria-hidden="true"><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot"></span></span>
+      </div>
+      <p class="fig-forces-level"><span data-k="forces[3].level" data-f="raw">4</span> of 5, <span class="fig-forces-word">high</span></p>
+      <p class="fig-forces-why">A few AI labs sign the largest contracts; CoreWeave's top customer is 36% of revenue.</p>
+    </li>
+    <li class="fig-forces-card fig-forces-substitutes" data-i="4">
+      <div class="fig-forces-head">
+        <div>
+          <p class="fig-forces-name">Substitutes</p>
+          <p class="fig-forces-plain">Other ways to get the same job done</p>
+        </div>
+        <span class="fig-forces-meter" aria-hidden="true"><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot is-on"></span><span class="fig-forces-dot"></span><span class="fig-forces-dot"></span><span class="fig-forces-dot"></span></span>
+      </div>
+      <p class="fig-forces-level"><span data-k="forces[4].level" data-f="raw">2</span> of 5, <span class="fig-forces-word">low</span></p>
+      <p class="fig-forces-why">Own data centers, custom chips and smaller open models can replace some rented compute.</p>
+    </li>
+  </ul>
+  <figcaption>Source: the author's assessment on a 1 to 5 scale, built on Synergy Research Group market shares and the latest NVIDIA and CoreWeave filings. Levels are judgment, not measurements. Interim figures unaudited.</figcaption>
+</figure>
+
+
+<ul>
+<li><strong>Rivalry is high.</strong> Three giants hold 61% and compete on AI capacity, price and chips, while Oracle and the neoclouds add supply.</li>
+<li><strong>Suppliers hold the most power.</strong> NVIDIA keeps 75% gross margins and had <a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm" target="_blank" rel="noopener">$279B of supply and capacity commitments</a> at the end of July. Turbines and grid connections are scarce too, as the costs section showed.</li>
+<li><strong>Buyers are concentrated.</strong> A few AI labs sign the biggest contracts and can play providers against each other.</li>
+<li><strong>Entry is split in two.</strong> A GPU cloud can start quickly with borrowed money. A full-service cloud took the leaders about two decades and hundreds of billions of dollars to build.</li>
+<li><strong>Substitutes are modest.</strong> Companies can build their own data centers, design their own chips or run smaller open models, but none of these replaces the cloud for most customers.</li>
+</ul>
+<p>7 Powers, a framework for lasting advantage, adds the other half. The giants have scale economies (buying power and fleets kept busy by millions of customers), switching costs (once a company's data and applications live in one cloud, moving them is slow and expensive) and cornered resources: powered land, chip allocations and their own chips, such as Google's TPUs and Amazon's Trainium. The neoclouds win on counter-positioning, being faster and focused only on GPUs, an edge that could fade as the giants catch up.</p>
+<p>So renting raw GPUs has so far been a thin-margin, capital-hungry business. The giants also sell the layers above it, which is the most likely reason their cloud margins are so much higher. <a href="https://www.wsj.com/tech/ai/how-the-data-center-backlash-could-play-into-the-hands-of-big-tech-a37dfb29" target="_blank" rel="noopener">The Wall Street Journal</a> makes a related point: a slower build-out would give existing powered data centers scarcity value, which favors the largest players.</p>
+<div class="simple">
+<p><strong>The simple version.</strong> In a gold rush, the people selling shovels often do better than most miners. Here the shovel sellers are the chip makers. The big clouds are miners who also own the general store and the hotel, so they earn several ways. A GPU cloud is a miner with one claim and a large loan.</p>
+</div>
+<details class="deep">
+<summary>For engineers and investors: how the forces were scored</summary>
+<p>Each force is scored from 1 (weak) to 5 (strong) on my judgment, using the filings: rivalry 4, new entrants 3, supplier power 5, buyer power 4, substitutes 2. Margins in the chain chart are company-wide operating margins for the latest reported quarter, except AWS and Google Cloud, which are segment figures. Microsoft and Oracle do not report a separate operating margin for Azure or Oracle cloud infrastructure, so they appear in the growth chart without one.</p>
+</details></div></section>
+  <section id="sentiment" class="section"><div class="copy"><h2>What people are saying</h2>
+<p><strong>The answer: the public conversation agrees on the facts and splits on what they mean.</strong> Everyone sees record growth and record spending. The argument is about whether the revenue will arrive in time, and who holds the bill if it does not.</p>
+<p><strong>The newspapers.</strong> I read The Wall Street Journal, The New York Times, the Financial Times and The Economist in full. Four themes ran through them:</p>
+<ol>
+<li><strong>Cash is being burned to build.</strong> Writing in the <a href="https://www.ft.com/content/b954b99c-b71e-4334-9789-18e2b69de76d" target="_blank" rel="noopener">Financial Times</a>, Martin Wolf notes that the largest hyperscalers' forecast spending now exceeds their operating cash flow, and that financing is moving to developers, property trusts, infrastructure funds and private credit, where risks are harder to see.</li>
+<li><strong>Debt and credit stress</strong>, covered in the build-out section above: record bond issuance, a cut to Meta's credit outlook and costlier insurance against default.</li>
+<li><strong>The revenue gap.</strong> The Economist ("AI revenues are growing fast, but not fast enough", 28 July 2026) puts today's AI revenue at $150B to $220B a year, against roughly $2.5T a year needed to cover the capex. Goldman Sachs estimates that about $1T of revenue a year would be needed for a 10% to 20% return, The Economist reported ("The AI boom is threatened by an epidemic of unreliable numbers", 14 October 2026).</li>
+<li><strong>The backlash.</strong> In the 3 November elections, voters chose to limit or block data centers in 40 of 41 local ballot measures (The New York Times, "A target on industry as power balance shifts", 6 November 2026, read through a university library). Texas, Georgia and Ohio hold more than 40% of planned US capacity, per Evercore ISI, and Goldman Sachs puts AI investment at 1.9% of US GDP this year (<a href="https://www.wsj.com/tech/ai/the-election-day-revolt-that-threatens-americas-ai-boom-03a53b52" target="_blank" rel="noopener">The Wall Street Journal</a>). OpenAI is weighing whether to reset next year's capacity plans, <a href="https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14" target="_blank" rel="noopener">the Journal reported</a> on 5 November.</li>
+</ol>
+<p><strong>X.</strong> About 40 posts across seven searches, read but not engaged with. The loudest themes were spending versus revenue; a bullish reply that the sell-off misreads a boom in which demand still exceeds supply; a bubble story of debt, circular deals and falling stocks; backlog concentrated in OpenAI and Anthropic; Oracle as the most leveraged bet; and the fight over how long GPUs really last. Across posts about the group, stances split almost evenly: 6 bullish, 6 bearish and 9 mixed.</p>
+<p><strong>Hacker News</strong>, where engineers gather. The <a href="https://news.ycombinator.com/item?id=47807619" target="_blank" rel="noopener">most-discussed thread</a> compared the build to the railroads, and drew the reply that GPUs wear out in years while railways last generations. Another debated <a href="https://news.ycombinator.com/item?id=48873836" target="_blank" rel="noopener">circular financing</a>, in which NVIDIA invests in GPU clouds that then buy NVIDIA chips. Others argued that cheap open-weight models could squeeze the AI labs, while the clouds collect rent whichever lab wins. The most-upvoted cloud threads were about trust rather than spending: price rises, billing errors and resilience.</p>
+<p><strong>StockTwits</strong>, where retail traders post. In a rough count of tagged messages on 7 November, bullish outnumbered bearish for Amazon (8 to 2), Alphabet (7 to 2) and Nebius (13 to 2), while Microsoft, Meta and CoreWeave were evenly split. Most messages carry no tag, so treat this as a temperature reading, not a poll.</p>
+<p><strong>Reddit</strong> blocked automated reading, so I have not quoted it.</p>
+<p>What I take from it: the crowd is right that spending is outrunning cash, and right to worry about concentration. It is split on chip lives, as the filings are. And it seems to give too little weight to how much revenue is already contracted, which buys the giants time.</p>
+<div class="simple">
+<p><strong>The simple version.</strong> It sounds like a crowded sports bar after a wild game: everyone agrees on the score, and nobody agrees on what it means for next season.</p>
+</div></div></section>
+  <section id="future" class="section"><div class="copy"><h2>What happens next</h2>
+<p><strong>The answer: whether the build-out pays comes down to two questions that nobody can answer yet.</strong> Will AI revenue keep pace with the capacity being built? And will chips stay useful long enough, with money cheap enough, to earn back their cost? Crossing the two gives four futures.</p>
+<figure class="fig" id="fig-scenarios" aria-labelledby="fig-scenarios-t">
+  <p class="fig-title" id="fig-scenarios-t">Four futures hang on two questions: does AI revenue keep pace, and do chips last and money stay cheap?</p>
+  <p class="fig-sub">These are scenarios, not forecasts. An asset life is how many years equipment stays useful before it is replaced.</p>
+  <p class="fig-scenarios-hint" hidden>Tap a box to see what to watch for.</p>
+  <div class="fig-scenarios-grid">
+    <div class="fig-scenarios-colhead fig-scenarios-ch1">AI revenue slows</div>
+    <div class="fig-scenarios-colhead fig-scenarios-ch2">AI revenue keeps pace</div>
+    <div class="fig-scenarios-axis-x" aria-hidden="true"></div>
+    <div class="fig-scenarios-rowhead fig-scenarios-rh1">Long asset lives, cheap money</div>
+    <div class="fig-scenarios-rowhead fig-scenarios-rh2">Short lives, costly money</div>
+    <div class="fig-scenarios-axis-y" aria-hidden="true"></div>
+
+    <button type="button" class="fig-scenarios-cell fig-scenarios-utility" data-id="utility">
+      <span class="fig-scenarios-name">The new utility</span>
+      <span class="fig-scenarios-what">Backlog would convert on time; capex would stay high but earn its keep; margins would hold near today's.</span>
+      <span class="fig-scenarios-watch"><strong>What to watch:</strong> Backlog turning into revenue on schedule; GPU rental prices holding</span>
+    </button>
+    <button type="button" class="fig-scenarios-cell fig-scenarios-squeeze" data-id="squeeze">
+      <span class="fig-scenarios-name">The margin squeeze</span>
+      <span class="fig-scenarios-what">Demand would be real, but faster chip cycles and higher rates would eat profit; cash-rich giants would gain share.</span>
+      <span class="fig-scenarios-watch"><strong>What to watch:</strong> Useful-life cuts; bond spreads and default-swap prices</span>
+    </button>
+    <button type="button" class="fig-scenarios-cell fig-scenarios-digestion" data-id="digestion">
+      <span class="fig-scenarios-name">Digestion</span>
+      <span class="fig-scenarios-what">Too much capacity for a while; prices would fall, capex would be cut, customers would win, as with fiber after 2001.</span>
+      <span class="fig-scenarios-watch"><strong>What to watch:</strong> Capex guidance cuts; on-demand GPU prices falling</span>
+    </button>
+    <button type="button" class="fig-scenarios-cell fig-scenarios-bust" data-id="bust">
+      <span class="fig-scenarios-name">The bust</span>
+      <span class="fig-scenarios-what">Write-downs and defaults among debt-funded builders; the giants would lean on their other businesses.</span>
+      <span class="fig-scenarios-watch"><strong>What to watch:</strong> Neocloud refinancing; lease cancellations; impairment charges</span>
+    </button>
+  </div>
+  <p class="sr-only fig-scenarios-live" aria-live="polite"></p>
+  <figcaption>Source: the author's scenario analysis, built on the company filings and news listed in the sources section. Scenarios, not forecasts.</figcaption>
+</figure>
+
+
+<ul>
+<li><strong>The new utility</strong> (revenue keeps pace; long lives and cheap money). Backlog would convert on time, capex would stay high but earn its keep, and margins would hold near today's.</li>
+<li><strong>The margin squeeze</strong> (revenue keeps pace; short lives and costly money). Demand would be real, but faster chip cycles and higher rates would eat the profit. The cash-rich giants would likely gain share.</li>
+<li><strong>Digestion</strong> (revenue slows; long lives and cheap money). There would be too much capacity for a while: prices would fall, capex would be cut and customers would win, as with fiber-optic networks after 2001.</li>
+<li><strong>The bust</strong> (revenue slows; short lives and costly money). Write-downs and defaults would hit debt-funded builders. The giants would lean on their other businesses.</li>
+</ul>
+<p>The gap to close is large. About $1T a year of revenue would earn a 10% to 20% return on this cycle, by Goldman Sachs's estimate, against $150B to $220B of AI revenue today (both via The Economist). My own rough estimate of AI-heavy computing sold today, built from company disclosures, is about $104.9B a year (see the one-pager below).</p>
+<p>Signposts, in the order I would check them each quarter:</p>
+<ol>
+<li><strong>Backlog turning into revenue on schedule.</strong> Microsoft says about 30% of its $683B (unaudited) lands within 12 months. If revenue growth slows while backlog keeps growing, delivery is slipping.</li>
+<li><strong>GPU rental prices.</strong> On-demand H100s at $4.20 an hour and one-year contracts at $2.35 are today's markers. Falling prices would point to digestion.</li>
+<li><strong>Useful-life changes.</strong> A company that shortens its chip lives is saying chips age faster than planned, as Amazon did for some servers in 2025.</li>
+<li><strong>Credit.</strong> Bond spreads, default-swap prices and whether GPU clouds can refinance. Nebius's $3.5B bridge loan comes due in October 2027.</li>
+<li><strong>Power and permits.</strong> Local votes, grid auctions and turbine queues decide how fast capacity can come online.</li>
+</ol>
+<p>My read: the three giants sit between the new utility and the margin squeeze, because their other businesses and their contracted backlog buy them time. The debt-funded GPU clouds sit between the squeeze and digestion, where a year of slower demand or higher rates would hurt most. The suppliers of chips, power and cooling earn the highest margins while the build runs. In digestion their orders would fall first, but their margins give them a cushion that leveraged builders lack.</p>
+<p>What it means:</p>
+<ul>
+<li><strong>For investors:</strong> on today's numbers, the toll collectors (chips, power and cooling) and the cash-rich giants look better placed than leveraged builders. Watch the signposts, not the headlines.</li>
+<li><strong>For operators and builders:</strong> keeping the existing fleet powered, cooled and maintained is needed in every scenario. New construction would slow in digestion and largely stop in a bust.</li>
+<li><strong>For engineers:</strong> efficiency per watt is the competitive lever: Google's PUE of 1.09 against an industry 1.54, custom chips, and software that keeps every GPU busy.</li>
+</ul>
+<div class="simple">
+<p><strong>The simple version.</strong> Nobody knows which of the four boxes we will land in. A good list of things to watch is more useful than a confident forecast.</p>
+</div></div></section>
+  <section id="pitch" class="section"><div class="copy"><h2>The one-pager</h2>
+<p>If the industry had to pitch itself to Y Combinator on a single page, it might read like this. The numbers are the ones above, and company figures from quarterly filings are unaudited; the framing is mine.</p>
+<div class="pitch">
+<div class="card">
+<h3>What it is</h3>
+<p>Renting computing power by the hour or by contract, at planet scale. Land, power, buildings, chips, network and software run as one machine, and sold to everyone from a streaming service to an AI lab.</p>
+</div>
+<div class="card">
+<h3>Why an investor should care</h3>
+<ul>
+<li>A $558B market, with its latest quarter up 55% on a year earlier.</li>
+<li>About $2.49T of signed backlog at the four largest players, not all of it cloud.</li>
+<li>More than $1T of data center capex worldwide expected in 2026, and more than $3T a year by 2030, on Dell'Oro's forecast.</li>
+<li>AWS and Google Cloud already earn operating margins of 36% to 39%.</li>
+</ul>
+</div>
+<div class="card">
+<h3>How it makes money</h3>
+<p>Revenue = capacity online x how busy it is x price per unit x mix. Raw GPU time is close to a commodity. Databases, AI services and software on top appear to be where the margin is, and multi-year contracts give years of visibility.</p>
+</div>
+<div class="card">
+<h3>How much capex it takes</h3>
+<p>About $52.6B per gigawatt in the illustration: $17.6B of building, power and cooling, and $35B of chips and servers. Jensen Huang's reported estimate is $50B to $60B. In the illustration one gigawatt holds about 600,000 GPUs, and payback would take 4.3 years at strong prices or 8.2 at today's GPU-cloud revenue per gigawatt. Companies depreciate chips over five or six years, so if chips are replaced on that cycle, the spending never really stops.</p>
+</div>
+<div class="card">
+<h3>Specialized skills</h3>
+<p>Power and grid interconnection; electrical and mechanical construction; chip and system design; distributed systems and reliability engineering; capital markets, for billions in bonds, leases and joint ventures; and permitting and community relations, which the 2026 local votes made more important.</p>
+</div>
+<div class="card">
+<h3>How competitive it is</h3>
+<p>Three giants hold 61%. Oracle and the neoclouds grow fastest, much of it on contracts with AI labs. Suppliers hold the pricing power: NVIDIA's operating margin was 66% in its latest quarter. A new full-service cloud would take decades and hundreds of billions; a new GPU cloud is possible, but so far it has been a thin-margin, debt-funded business.</p>
+</div>
+<div class="card">
+<h3>TAM, SAM and SOM</h3>
+<ul>
+<li><strong>TAM $558B:</strong> worldwide cloud infrastructure services over the last 12 months (Synergy).</li>
+<li><strong>SAM about $104.9B:</strong> AI-heavy computing sold by the hour or by contract, added up from company run rates. It is rough: the run rates come from different months and definitions, and Google, which does not disclose its AI revenue, is left out.</li>
+<li><strong>SOM $5.2B to $10.5B:</strong> what a well-funded new entrant could win in about five years, 5% to 10% of today's SAM. CoreWeave is the reality check: revenue running at about $10.3B a year, on 1.5 GW of active power and $31.4B of debt.</li>
+</ul>
+</div>
+<div class="card">
+<h3>Risks, and what would change my mind</h3>
+<p>Revenue concentrated in a few AI labs; chips aging faster than their accounting lives; rising interest costs; local opposition to new data centers. I would turn more cautious if backlog stopped turning into revenue on schedule, if GPU rental prices fell, or if the GPU clouds struggled to refinance.</p>
+</div>
+</div>
+<figure class="fig" id="fig-tam" aria-labelledby="fig-tam-t">
+  <p class="fig-title" id="fig-tam-t">A well-funded newcomer could win only a sliver of a very large market</p>
+  <p class="fig-sub">TAM, SAM and SOM size a market three ways: the whole thing, the part you could serve, and the part you could win. Circle areas are drawn to scale.</p>
+  <svg class="fig-tam-svg" viewBox="0 0 320 216" role="img" aria-label="Three nested circles drawn to scale. The largest is the whole cloud market. A much smaller circle inside it is the AI-heavy compute part. A tiny dot at the bottom is the slice a well-funded newcomer could win. Exact values are listed below the diagram.">
+    <circle class="fig-tam-circle fig-tam-c-tam" cx="84" cy="96" r="80"/>
+    <circle class="fig-tam-circle fig-tam-c-sam" cx="84" cy="141.31" r="34.69"/>
+    <circle class="fig-tam-circle fig-tam-c-somhi" cx="84" cy="165.03" r="10.97"/>
+    <circle class="fig-tam-circle fig-tam-c-somlo" cx="84" cy="168.28" r="7.72"/>
+
+    <g class="fig-tam-tag">
+      <path class="fig-tam-lead" d="M140.57 39.43 H166"/>
+      <circle class="fig-tam-dot" cx="140.57" cy="39.43" r="2.5"/>
+      <text class="fig-tam-name" x="172" y="44">TAM <tspan data-k="tam.tam_b" data-f="b0">$558B</tspan></text>
+      <text class="fig-tam-sm" x="172" y="62">the whole market</text>
+    </g>
+    <g class="fig-tam-tag">
+      <path class="fig-tam-lead" d="M112.42 121.41 H166"/>
+      <circle class="fig-tam-dot" cx="112.42" cy="121.41" r="2.5"/>
+      <text class="fig-tam-name" x="172" y="126">SAM <tspan data-k="tam.sam_b" data-f="b1">$104.9B</tspan></text>
+      <text class="fig-tam-sm" x="172" y="144">AI-heavy compute</text>
+    </g>
+    <g class="fig-tam-tag">
+      <path class="fig-tam-lead" d="M94.97 165.03 H166"/>
+      <circle class="fig-tam-dot" cx="94.97" cy="165.03" r="2.5"/>
+      <text class="fig-tam-name" x="172" y="170">SOM</text>
+      <text class="fig-tam-name" x="172" y="188"><tspan data-k="tam.som_low_b" data-f="b1">$5.2B</tspan> to <tspan data-k="tam.som_high_b" data-f="b1">$10.5B</tspan></text>
+      <text class="fig-tam-sm" x="172" y="206">newcomer's share</text>
+    </g>
+  </svg>
+  <ol class="fig-tam-legend">
+    <li>
+      <span class="fig-tam-key fig-tam-key-tam" aria-hidden="true"></span>
+      <p><strong>TAM, the whole market: <span data-k="tam.tam_b" data-f="b0">$558B</span></strong><span class="fig-tam-lab">Worldwide cloud infrastructure services, last 12 months (Synergy Research)</span></p>
+    </li>
+    <li>
+      <span class="fig-tam-key fig-tam-key-sam" aria-hidden="true"></span>
+      <p><strong>SAM, the part you could serve: <span data-k="tam.sam_b" data-f="b1">$104.9B</span></strong><span class="fig-tam-lab">AI-heavy compute sold by the hour or by contract, a rough sum of company run rates that leaves out Google</span></p>
+    </li>
+    <li>
+      <span class="fig-tam-key fig-tam-key-som" aria-hidden="true"></span>
+      <p><strong>SOM, the part you could win: <span data-k="tam.som_low_b" data-f="b1">$5.2B</span> to <span data-k="tam.som_high_b" data-f="b1">$10.5B</span></strong><span class="fig-tam-lab">What a well-funded new entrant could win in about five years: 5% to 10% of today's SAM</span></p>
+    </li>
+  </ol>
+  <figcaption>Source: TAM from Synergy Research Group (12 months to Q3 2026). SAM adds up run rates from company releases and The Economist (14 Oct 2026), taken from different months and definitions, so treat it as rough. SOM is an illustrative estimate, not a forecast. Circle areas are drawn to scale. Interim figures unaudited.</figcaption>
+</figure>
+
+
+<p><strong>The pitch in one sentence:</strong> for now the world wants to rent more computing power than the industry can switch on, the giants with large profitable businesses underneath can afford to keep building, and for everyone else the question is whether revenue per gigawatt outruns depreciation and interest.</p></div></section>
+  <section id="glossary" class="section"><div class="copy"><h2>Glossary</h2>
+<ul>
+<li><strong>10-Q</strong>: The quarterly report a US public company files with the SEC, the market regulator. Its figures are unaudited; the annual version is the 10-K.</li>
+<li><strong>Backlog (remaining performance obligations)</strong>: Revenue a company has signed contracts for but not yet delivered. Accountants call it remaining performance obligations; Microsoft reported $683B at 30 September 2026 (<a href="https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm" target="_blank" rel="noopener">10-Q</a>, unaudited).</li>
+<li><strong>Capex</strong>: Capital expenditure, money spent on things that last for years, such as buildings, power equipment and chips, rather than on day-to-day running costs. Amazon's purchases of property and equipment were $77.3B in Q3 2026 (<a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm" target="_blank" rel="noopener">10-Q</a>, unaudited).</li>
+<li><strong>Credit default swap</strong>: A contract in which one side pays a fee and is paid if a borrower fails to repay its debt. A higher price means investors see more risk; the Financial Times reported on 3 November 2026 that these prices for AI borrowers had risen (<a href="https://www.ft.com/content/5f08f1fb-4948-4420-8fe4-3c8c8cc492ef" target="_blank" rel="noopener">FT</a>).</li>
+<li><strong>Depreciation</strong>: Spreading the cost of an asset over the years it is expected to last, instead of counting it all at once. It is a yearly expense that involves no cash leaving that year; Microsoft recorded $11.1B of property and equipment depreciation in its fiscal Q1 2027 (unaudited).</li>
+<li><strong>EBITDA</strong>: Earnings before interest, taxes, depreciation and amortization, a rough measure of operating profit before the cost of borrowing and of aging assets. Many companies publish adjusted versions that they define themselves, so compare with care.</li>
+<li><strong>Finance lease</strong>: A lease that works like buying with installments. The user records the asset and a matching debt on its books; some companies count the payments in their capex.</li>
+<li><strong>Free cash flow</strong>: Cash from operations minus spending on capex, or what is left for debt and owners. Amazon's was negative $42.4B over the 12 months to 30 September 2026 on its own definition (unaudited).</li>
+<li><strong>GPU</strong>: Graphics processing unit, a chip that does huge numbers of sums at the same time. It began in video graphics and now does most of the heavy work in AI.</li>
+<li><strong>GPU-hour</strong>: One GPU rented for one hour, the usual price unit for AI computing. The median on-demand price for an NVIDIA H100 was $4.20 on 7 October 2026 (<a href="https://uvik.net/blog/gpu-price-index/" target="_blank" rel="noopener">Uvik</a>).</li>
+<li><strong>Hyperscaler</strong>: A company that runs data centers at very large scale and rents out the computing inside them. The three giants, Amazon, Microsoft and Google, held 61% of cloud infrastructure in Q3 2026 (<a href="https://www.srgresearch.com/articles/cloud-market-growth-rate-surges-to-well-over-50-per-year-q3-2026" target="_blank" rel="noopener">Synergy Research Group</a>).</li>
+<li><strong>Inference</strong>: Using a trained AI model to answer a question or produce a result. Each answer is small, but the total grows with every user.</li>
+<li><strong>Investment grade</strong>: A credit rating in the upper bands, meaning the rating agency judges that default is unlikely. Borrowing is usually cheaper at these ratings.</li>
+<li><strong>Joint venture</strong>: A shared business that two or more companies set up and fund together. Meta and Blue Owl formed one of about $27B for the Hyperion campus, with Blue Owl funding 80% (<a href="https://www.hubbis.com/news/meta-and-blue-owl-capital-launch-usd27-billion-joint-venture-for-hyperion" target="_blank" rel="noopener">Hubbis</a>); Meta says it does not consolidate two data center ventures in which it holds 20%.</li>
+<li><strong>MW and GW</strong>: Units of power. A megawatt (MW) is a million watts and a gigawatt (GW) is 1,000 MW; CoreWeave reported 1.5 GW of active power at 30 June 2026 (unaudited).</li>
+<li><strong>Neocloud</strong>: A newer company built mainly to rent out GPU computing for AI, such as CoreWeave and Nebius. Most lack the older businesses that fund the giants' building.</li>
+<li><strong>Operating margin</strong>: Operating profit divided by revenue, or how many cents of each sales dollar is left after running costs and depreciation. AWS's was 38.7% in Q3 2026 (<a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm" target="_blank" rel="noopener">Amazon release</a>, unaudited).</li>
+<li><strong>PUE</strong>: Power usage effectiveness, total power drawn by a data center divided by the power reaching its computers. A perfect score is 1.0; Google reports 1.09 against an industry average of 1.54 (<a href="https://datacenters.google/efficiency/" target="_blank" rel="noopener">Google</a>).</li>
+<li><strong>SAM</strong>: Serviceable addressable market, the part of the total market a business could actually serve with what it sells. This page estimates one for AI-heavy computing.</li>
+<li><strong>SOM</strong>: Serviceable obtainable market, the slice of the SAM a business could realistically win. For a new entrant, it is a share of today's SAM over a few years; the page treats it as an estimate, not a forecast.</li>
+<li><strong>Spot capacity</strong>: Spare cloud machines sold at a deep discount, up to 90% off on AWS, with the catch that the provider can take them back at short notice (<a href="https://aws.amazon.com/ec2/spot/pricing/" target="_blank" rel="noopener">AWS</a>).</li>
+<li><strong>TAM</strong>: Total addressable market, the whole yearly revenue available in a market. Here it is cloud infrastructure services: $558B over the 12 months to Q3 2026 (<a href="https://www.srgresearch.com/articles/cloud-market-growth-rate-surges-to-well-over-50-per-year-q3-2026" target="_blank" rel="noopener">Synergy Research Group</a>).</li>
+<li><strong>Token</strong>: A small chunk of text, roughly a word or part of one, that AI models read and write. Many AI services charge per million tokens.</li>
+<li><strong>Training</strong>: Teaching an AI model by running it over very large amounts of data. It can take thousands of chips for weeks, then the finished model moves on to inference.</li>
+<li><strong>Useful life</strong>: The number of years a company assumes an asset will last, which sets how fast it is depreciated. It is a judgment; Meta extended most servers to 5.5 years from 1 January 2025, which cut its 2025 depreciation by $2.92B (<a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm" target="_blank" rel="noopener">10-K</a>).</li>
+<li><strong>Utilization</strong>: The share of capacity actually in use. A data center full of idle chips earns little, so keeping utilization high matters.</li>
+</ul></div></section>
+  <section id="sources" class="section"><div class="copy"><h2>Sources</h2>
+<p>Every number on this page comes from one of the sources below. Company figures come from SEC filings; quarterly figures are unaudited. The 1 GW campus is an illustration built from these inputs, not a forecast. The model and the data behind every chart are in the <a href="https://github.com/wilsonwu-ai/hyperscalers-explained" target="_blank" rel="noopener">GitHub repository</a>.</p>
+<h3>Company filings (SEC EDGAR)</h3>
+<ul>
+<li><strong>Amazon</strong>: <a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm" target="_blank" rel="noopener">quarterly report (10-Q, filed 2026-10-30)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm" target="_blank" rel="noopener">annual report (10-K, filed 2026-02-06)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm" target="_blank" rel="noopener">earnings release (8-K, filed 2026-10-29)</a></li>
+<li><strong>Microsoft</strong>: <a href="https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm" target="_blank" rel="noopener">quarterly report (10-Q, filed 2026-10-28)</a>; <a href="https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm" target="_blank" rel="noopener">annual report (10-K, filed 2026-07-29)</a>; <a href="https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm" target="_blank" rel="noopener">earnings release (8-K, filed 2026-10-28)</a></li>
+<li><strong>Alphabet</strong>: <a href="https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm" target="_blank" rel="noopener">quarterly report (10-Q, filed 2026-10-29)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm" target="_blank" rel="noopener">annual report (10-K, filed 2026-02-05)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm" target="_blank" rel="noopener">earnings release (8-K, filed 2026-10-28)</a></li>
+<li><strong>Meta</strong>: <a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm" target="_blank" rel="noopener">quarterly report (10-Q, filed 2026-10-22)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm" target="_blank" rel="noopener">annual report (10-K, filed 2026-01-29)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm" target="_blank" rel="noopener">earnings release (8-K, filed 2026-10-21)</a></li>
+<li><strong>Oracle</strong>: <a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm" target="_blank" rel="noopener">quarterly report (10-Q, filed 2026-09-11)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm" target="_blank" rel="noopener">annual report (10-K, filed 2026-06-22)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm" target="_blank" rel="noopener">earnings release (8-K, filed 2026-09-10)</a></li>
+<li><strong>CoreWeave</strong>: <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm" target="_blank" rel="noopener">quarterly report (10-Q, filed 2026-08-12)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm" target="_blank" rel="noopener">annual report (10-K, filed 2026-03-02)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm" target="_blank" rel="noopener">earnings release (8-K, filed 2026-08-11)</a></li>
+<li><strong>Nebius</strong>: <a href="https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm" target="_blank" rel="noopener">annual report (20-F, filed 2026-04-30)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1513845/000110465926094568/tm2622968d1_ex99-1.htm" target="_blank" rel="noopener">earnings release (6-K, filed 2026-08-12)</a></li>
+<li><strong>NVIDIA</strong>: <a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm" target="_blank" rel="noopener">quarterly report (10-Q, filed 2026-08-26)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm" target="_blank" rel="noopener">annual report (10-K, filed 2026-02-25)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm" target="_blank" rel="noopener">earnings release (8-K, filed 2026-08-26)</a></li>
+<li><strong>Equinix</strong>: <a href="https://www.sec.gov/Archives/edgar/data/1101239/000110123926000180/eqix-20260930.htm" target="_blank" rel="noopener">quarterly report (10-Q, filed 2026-10-28)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1101239/000110123926000032/eqix-20251231.htm" target="_blank" rel="noopener">annual report (10-K, filed 2026-02-11)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/a991eqix-q326xpr.htm" target="_blank" rel="noopener">earnings release (8-K, filed 2026-10-28)</a></li>
+<li><strong>Digital Realty</strong>: <a href="https://www.sec.gov/Archives/edgar/data/1297996/000110465926120710/dlr-20260930x10q.htm" target="_blank" rel="noopener">quarterly report (10-Q, filed 2026-10-30)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1297996/000110465926015365/dlr-20251231x10k.htm" target="_blank" rel="noopener">annual report (10-K, filed 2026-02-13)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1297996/000110465926120212/dlr-ex99d1.htm" target="_blank" rel="noopener">earnings release (8-K, filed 2026-10-29)</a></li>
+<li><strong>Vertiv</strong>: <a href="https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm" target="_blank" rel="noopener">quarterly report (10-Q, filed 2026-10-28)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1674101/000167410126000008/vrt-20251231.htm" target="_blank" rel="noopener">annual report (10-K, filed 2026-02-13)</a>; <a href="https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm" target="_blank" rel="noopener">earnings release (8-K, filed 2026-10-28)</a></li>
+</ul>
+<h3>Industry research and data</h3>
+<ul>
+<li>Synergy Research Group, Q3 2026 cloud market release (2026-10): <a href="https://www.srgresearch.com/articles/cloud-market-growth-rate-surges-to-well-over-50-per-year-q3-2026" target="_blank" rel="noopener">Worldwide cloud infrastructure services revenue, Q3 2026, up 55% year on year</a></li>
+<li>Synergy Research Group (2026): <a href="https://www.srgresearch.com/articles/hyperscale-operators-to-account-for-67-of-all-data-center-capacity-by-2031" target="_blank" rel="noopener">Hyperscale operators' share of all data center capacity, 2025 and 2031 forecast</a></li>
+<li>Dell'Oro Group, as summarised by IEEE ComSoc Technology Blog (2026-09-16): <a href="https://techblog.comsoc.org/2026/09/16/delloro-data-center-capex-grew-92-in-2q-2026-caveats-galore/" target="_blank" rel="noopener">Worldwide data center capex in 2026, more than $1 trillion (June 2026 outlook)</a></li>
+<li>McKinsey &amp; Company, 'The cost of compute: A $7 trillion race to scale data centers' (2025-04-28): <a href="https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers" target="_blank" rel="noopener">Cumulative data center capital spending needed worldwide by 2030 ($5.2T of it for AI)</a></li>
+<li>Uvik GPU price index (2026-10-07): <a href="https://uvik.net/blog/gpu-price-index/" target="_blank" rel="noopener">Median on-demand list price, NVIDIA H100, 7 Oct 2026 (16 providers)</a></li>
+<li>fal.ai summary of analyst estimates (2026): <a href="https://fal.ai/learn/serverless/nvidia-gb200-price" target="_blank" rel="noopener">Analyst estimates for one GB200 NVL72 rack (72 GPUs); NVIDIA does not publish a price</a></li>
+<li>Cushman &amp; Wakefield 2026 Data Center Development Cost Guide (2026-09): <a href="https://finviz.com/news/388803/cushman-wakefield-releases-2026-data-center-development-cost-guide" target="_blank" rel="noopener">Average all-in greenfield cost of new US and Canadian data centers, excluding chips and GPUs</a></li>
+<li>JLL 2026 Global Data Center Outlook (2026): <a href="https://www.jll.com/en-us/insights/market-outlook/data-center-outlook" target="_blank" rel="noopener">JLL global average data center construction cost forecast for 2026</a></li>
+<li>Reported remarks (secondhand), 24/7 Wall St. (2026-09-24): <a href="https://247wallst.com/investing/2026/09/24/nvidias-ceo-says-a-1-gigawatt-ai-factory-rents-for-50-billion/" target="_blank" rel="noopener">Jensen Huang's reported estimate of the all-in cost of 1 GW of AI data center, about $35B of it NVIDIA systems</a></li>
+<li>Google data center efficiency page (2026): <a href="https://datacenters.google/efficiency/" target="_blank" rel="noopener">Google fleet-wide average power usage effectiveness, 2025</a></li>
+<li>US Energy Information Administration, Electric Power Monthly Table 5.6.A (2026-10): <a href="https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a" target="_blank" rel="noopener">US average retail electricity price, industrial customers, August 2026 (8.98 a year earlier; preliminary)</a></li>
+<li>Utility Dive (2025-12-18): <a href="https://www.utilitydive.com/news/pjm-interconnection-capacity-auction-data-center/808264/" target="_blank" rel="noopener">PJM capacity auction price for 2027/28, at the price cap for a third straight auction</a></li>
+<li>TSMC Q3 2026 management report (SEC Form 6-K) (2026-10): <a href="https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/" target="_blank" rel="noopener">TSMC gross and operating margin, Q3 2026</a></li>
+<li>GE Vernova Q2 2026 Form 8-K (2026-07): <a href="https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000147/gev2q2026form8-k.pdf" target="_blank" rel="noopener">GE Vernova gas power equipment backlog plus slot reservations, Q2 2026 (up from 100 GW)</a></li>
+<li>Hubbis (Meta and Blue Owl announcement coverage) (2025-10-21): <a href="https://www.hubbis.com/news/meta-and-blue-owl-capital-launch-usd27-billion-joint-venture-for-hyperion" target="_blank" rel="noopener">Meta and Blue Owl joint venture for the Hyperion campus in Louisiana: about $27B, Blue Owl funds 80%, Meta 20%</a></li>
+<li>AWS Savings Plans pricing page (2026): <a href="https://aws.amazon.com/savingsplans/compute-pricing/" target="_blank" rel="noopener">AWS Savings Plans: a one- or three-year spending commitment for discounts of up to 72% versus on-demand prices</a></li>
+<li>AWS EC2 Spot pricing page (2026): <a href="https://aws.amazon.com/ec2/spot/pricing/" target="_blank" rel="noopener">AWS Spot: spare capacity at up to 90% off on-demand prices, which AWS can take back at short notice</a></li>
+<li>Amazon Bedrock pricing page (2026): <a href="https://aws.amazon.com/bedrock/pricing/" target="_blank" rel="noopener">Example of per-token AI pricing on Amazon Bedrock (Mistral Large 3, on demand)</a></li>
+<li>IBISWorld US industry reports, 2026 (screen of 31 industries, 6 November 2026). Headline figures only.</li>
+</ul>
+<h3>News</h3>
+<ul>
+<li>Financial Times, "<a href="https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c" target="_blank" rel="noopener">How Wall Street's all-in bet on AI blew up</a>", 2026-11-07.</li>
+<li>Financial Times, "<a href="https://www.ft.com/content/f16babea-fd38-440b-8278-5871d3a47b17" target="_blank" rel="noopener">Unpicking Microsoft's free cash flow</a>", 2026-11-02.</li>
+<li>The Wall Street Journal, "<a href="https://www.wsj.com/finance/stocks/midterms-markets-week-ai-trade-97b3fc5d" target="_blank" rel="noopener">The Wild Week That Brought AI Investors to the Brink</a>", 2026-11-06.</li>
+<li>The Wall Street Journal, "<a href="https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14" target="_blank" rel="noopener">AI Companies Scramble to Navigate a World Hostile to Data Centers</a>", 2026-11-05.</li>
+<li>The New York Times, "<a href="https://www.nytimes.com/2026/10/29/technology/big-tech-data-center-spending.html" target="_blank" rel="noopener">Big Tech's Data Center Blitz Is Burning Through Cash and Scaring Wall St.</a>", 2026-10-29 (read through a university library).</li>
+<li>The New York Times, "<a href="https://www.nytimes.com/2026/11/02/business/dealbook/ai-borrowing.html" target="_blank" rel="noopener">Cracks in the A.I. Borrowing Binge (DealBook)</a>", 2026-11-02 (read through a university library).</li>
+<li>The New York Times, "<a href="https://www.proquest.com/docview/3409700015" target="_blank" rel="noopener">A target on industry as power balance shifts.</a>", 2026-11-06 (read through a university library).</li>
+<li>The Economist, "<a href="https://www.economist.com/" target="_blank" rel="noopener">The AI industry's gigantic debts are making investors nervous</a>", 2026-10-18 (read through a university library).</li>
+<li>The Economist, "<a href="https://www.economist.com/" target="_blank" rel="noopener">AI revenues are growing fast, but not fast enough</a>", 2026-07-28 (read through a university library).</li>
+<li>The Economist, "<a href="https://www.economist.com/" target="_blank" rel="noopener">The AI boom is threatened by an epidemic of unreliable numbers</a>", 2026-10-14 (read through a university library).</li>
+<li>Financial Times, "<a href="https://www.ft.com/content/5f08f1fb-4948-4420-8fe4-3c8c8cc492ef" target="_blank" rel="noopener">A chill wind in the AI credit market</a>", 2026-11-03.</li>
+<li>Financial Times, "<a href="https://www.ft.com/content/b954b99c-b71e-4334-9789-18e2b69de76d" target="_blank" rel="noopener">Are we ready for an AI bust? (Martin Wolf)</a>", 2026-11-04.</li>
+<li>The Wall Street Journal, "<a href="https://www.wsj.com/tech/ai/the-election-day-revolt-that-threatens-americas-ai-boom-03a53b52" target="_blank" rel="noopener">The Election Day Revolt That Threatens America's AI Boom</a>", 2026-11-04.</li>
+<li>The Wall Street Journal, "<a href="https://www.wsj.com/tech/ai/how-the-data-center-backlash-could-play-into-the-hands-of-big-tech-a37dfb29" target="_blank" rel="noopener">How the Data Center Backlash Could Play Into the Hands of Big Tech</a>", 2026-11-05.</li>
+</ul>
+<h3>Social media and forums</h3>
+<p>Themes were read from public posts on X, Hacker News threads and StockTwits message boards in the week after third-quarter earnings. Only public figures are named. Reddit could not be read directly and is not quoted.</p></div></section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Educational only. Not investment advice. Figures come from public filings and the sources listed, as of 7 November 2026; quarterly figures are unaudited.</p>
+    <p>Code, model and data: <a href="https://github.com/wilsonwu-ai/hyperscalers-explained">github.com/wilsonwu-ai/hyperscalers-explained</a>. Also in this series: <a href="https://wilsonwu-ai.github.io/buying-a-business-explained/">Buying a business, explained</a>.</p>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/diagrams-a.js"></script>
+<script src="assets/js/diagrams-b.js"></script>
+<script src="assets/js/charts-a.js"></script>
+<script src="assets/js/charts-b.js"></script>
+</body>
+</html>

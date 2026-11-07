@@ -1,0 +1,372 @@
+{
+ "ticker": "AMZN",
+ "company": "Amazon.com, Inc.",
+ "latest_period": "Q3 2026 (quarter ended 2026-09-30; 10-Q filed 2026-10-30, earnings release 2026-10-29; interim figures unaudited; $ millions unless noted)",
+ "metrics": [
+  {
+   "key": "total_revenue_q",
+   "label": "Total net sales, Q3 2026",
+   "value": "201,944",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 205,
+   "quote": "Total net sales | 180,169 | 201,944 | 503,538 | 584,069",
+   "verify": "exact"
+  },
+  {
+   "key": "total_revenue_q_prior",
+   "label": "Total net sales, Q3 2025",
+   "value": "180,169",
+   "unit": "$ millions",
+   "period": "Q3 2025",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 205,
+   "quote": "Total net sales | 180,169 | 201,944 | 503,538 | 584,069",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q",
+   "label": "AWS segment net sales, Q3 2026",
+   "value": "45,984",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 260,
+   "quote": "Net sales | $33,006 | $45,984 | $93,146 | $125,803",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_revenue_q_prior",
+   "label": "AWS segment net sales, Q3 2025",
+   "value": "33,006",
+   "unit": "$ millions",
+   "period": "Q3 2025",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 260,
+   "quote": "Net sales | $33,006 | $45,984 | $93,146 | $125,803",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_growth_pct",
+   "label": "AWS YoY sales growth as stated",
+   "value": "39",
+   "unit": "%",
+   "period": "Q3 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 19,
+   "quote": "AWS segment sales increased 39% year-over-year to $46.0 billion.",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_op_income_q",
+   "label": "AWS segment operating income, Q3 2026",
+   "value": "17,773",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 262,
+   "quote": "Operating income | $11,434 | $17,773 | $33,141 | $48,555",
+   "verify": "exact"
+  },
+  {
+   "key": "cloud_segment_op_income_q_prior",
+   "label": "AWS segment operating income, Q3 2025",
+   "value": "11,434",
+   "unit": "$ millions",
+   "period": "Q3 2025",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 262,
+   "quote": "Operating income | $11,434 | $17,773 | $33,141 | $48,555",
+   "verify": "exact"
+  },
+  {
+   "key": "company_op_income_q",
+   "label": "Consolidated operating income, Q3 2026 (Q3 2025: 17,422)",
+   "value": "28,076",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 214,
+   "quote": "Operating income | 17,422 | 28,076 | 54,998 | 79,389",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q",
+   "label": "Purchases of property and equipment, Q3 2026 (gross, cash flow statement)",
+   "value": "77,259",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 171,
+   "quote": "Purchases of property and equipment | (35,095) | (77,259) | (92,297) | (175,670)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_q_prior",
+   "label": "Purchases of property and equipment, Q3 2025",
+   "value": "35,095",
+   "unit": "$ millions",
+   "period": "Q3 2025",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 171,
+   "quote": "Purchases of property and equipment | (35,095) | (77,259) | (92,297) | (175,670)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd",
+   "label": "Purchases of property and equipment, nine months 2026",
+   "value": "175,670",
+   "unit": "$ millions",
+   "period": "9M 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 171,
+   "quote": "Purchases of property and equipment | (35,095) | (77,259) | (92,297) | (175,670)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_ytd_prior",
+   "label": "Purchases of property and equipment, nine months 2025",
+   "value": "92,297",
+   "unit": "$ millions",
+   "period": "9M 2025",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 171,
+   "quote": "Purchases of property and equipment | (35,095) | (77,259) | (92,297) | (175,670)",
+   "verify": "exact"
+  },
+  {
+   "key": "capex_guidance",
+   "label": "2026 cash capital expenditures guidance",
+   "value": "approximately 220",
+   "unit": "$ billions",
+   "period": "FY2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 137,
+   "quote": "We continue to expect 2026 cash capital expenditures to be approximately $220 billion.",
+   "verify": "exact"
+  },
+  {
+   "key": "finance_lease_principal_q",
+   "label": "Principal repayments of finance leases, Q3 2026 (Q3 2025: 351; 9M 2026: 1,296)",
+   "value": "433",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 182,
+   "quote": "Principal repayments of finance leases | (351) | (433) | (1,172) | (1,296) | (1,505) | (1,681)",
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_acquired_under_finance_leases_q",
+   "label": "Property and equipment acquired under finance leases, Q3 2026 (Q3 2025: 977)",
+   "value": "1,472",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 195,
+   "quote": "Property and equipment acquired under finance leases, net of remeasurements and modifications | 977 | 1,472",
+   "verify": "exact"
+  },
+  {
+   "key": "da_q",
+   "label": "Depreciation and amortization (PP&E, capitalized content, operating lease assets, other), Q3 2026",
+   "value": "20,949",
+   "unit": "$ millions",
+   "period": "Q3 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 158,
+   "quote": "operating lease assets, and other | 16,796 | 20,949 | 46,285 | 59,882",
+   "verify": "exact"
+  },
+  {
+   "key": "da_ytd",
+   "label": "Same D&A line, nine months 2026 (9M 2025: 46,285)",
+   "value": "59,882",
+   "unit": "$ millions",
+   "period": "9M 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 158,
+   "quote": "operating lease assets, and other | 16,796 | 20,949 | 46,285 | 59,882",
+   "verify": "exact"
+  },
+  {
+   "key": "op_cash_flow_ytd",
+   "label": "Net cash from operating activities, nine months 2026 (9M 2025: 85,055)",
+   "value": "113,841",
+   "unit": "$ millions",
+   "period": "9M 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 169,
+   "quote": "operating activities | 35,525 | 42,422 | 85,055 | 113,841",
+   "verify": "exact"
+  },
+  {
+   "key": "free_cash_flow_ttm",
+   "label": "Free cash flow, trailing twelve months (company definition: OCF less purchases of PP&E net of proceeds and incentives)",
+   "value": "(42,357)",
+   "unit": "$ millions",
+   "period": "TTM to 2026-09-30",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 327,
+   "quote": "Free cash flow -- TTM (1) | $18,184 | $14,788 | $11,194 | $1,232 | $(7,604) | $(42,357)",
+   "non_gaap": true,
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_total",
+   "label": "Performance obligations not yet recognized, contracts over one year, primarily AWS (billions; 10-Q splits figure across lines)",
+   "value": "578",
+   "unit": "$ billions",
+   "period": "as of 2026-09-30",
+   "file": "AMZN/quarterly_10-Q_2026-10-30.txt",
+   "line": 405,
+   "quote": "578",
+   "verify": "exact"
+  },
+  {
+   "key": "rpo_weighted_avg_life",
+   "label": "Weighted-average remaining life of long-term contracts (years)",
+   "value": "6.1",
+   "unit": "years",
+   "period": "as of 2026-09-30",
+   "file": "AMZN/quarterly_10-Q_2026-10-30.txt",
+   "line": 407,
+   "quote": "6.1",
+   "verify": "exact"
+  },
+  {
+   "key": "ppe_net",
+   "label": "Property and equipment, net, 2026-09-30 (2025-12-31: 357,025)",
+   "value": "508,862",
+   "unit": "$ millions",
+   "period": "as of 2026-09-30",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 294,
+   "quote": "Property and equipment, net | 357,025 | 508,862",
+   "verify": "exact"
+  },
+  {
+   "key": "leases_not_yet_commenced",
+   "label": "Leases not yet commenced, total undiscounted commitments",
+   "value": "164,922",
+   "unit": "$ millions",
+   "period": "as of 2026-09-30",
+   "file": "AMZN/quarterly_10-Q_2026-10-30.txt",
+   "line": 631,
+   "quote": "Leases not yet commenced | 2,590 | 12,448 | 11,477 | 12,193 | 11,385 | 114,829 | 164,922",
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt",
+   "label": "Long-term debt, 2026-09-30 (2025-12-31: 65,648)",
+   "value": "173,125",
+   "unit": "$ millions",
+   "period": "as of 2026-09-30",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 306,
+   "quote": "Long-term debt | 65,648 | 173,125",
+   "verify": "exact"
+  },
+  {
+   "key": "long_term_debt_proceeds_ytd",
+   "label": "Proceeds from long-term debt, nine months 2026 (9M 2025: 746; Q3 2026: 48,102)",
+   "value": "115,100",
+   "unit": "$ millions",
+   "period": "9M 2026",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 180,
+   "quote": "Proceeds from long-term debt | \u2014 | 48,102 | 746 | 115,100 | 746 | 130,027",
+   "verify": "exact"
+  },
+  {
+   "key": "headcount",
+   "label": "Employees at 2025-12-31 (full-time and part-time), annual report",
+   "value": "1,576,000",
+   "unit": "employees",
+   "period": "as of 2025-12-31",
+   "file": "AMZN/annual_10-K_2026-02-06.txt",
+   "line": 144,
+   "quote": "we employed approximately 1,576,000 full-time and part-time employees",
+   "verify": "exact"
+  },
+  {
+   "key": "headcount_q3_2026",
+   "label": "Employees at 2026-09-30 per earnings release (Q3 2025: 1,578,000)",
+   "value": "1,638,000",
+   "unit": "employees",
+   "period": "as of 2026-09-30",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 419,
+   "quote": "1,546,000 | 1,578,000 | 1,576,000 | 1,575,000 | 1,595,000 | 1,638,000 | 4%",
+   "verify": "exact"
+  },
+  {
+   "key": "server_useful_life",
+   "label": "Servers and networking equipment useful life, as of 2025-12-31",
+   "value": "Five to six years",
+   "unit": "years",
+   "period": "as of 2025-12-31",
+   "file": "AMZN/annual_10-K_2026-02-06.txt",
+   "line": 1187,
+   "quote": "Servers and networking equipment | Five to six years (1)",
+   "verify": "exact"
+  },
+  {
+   "key": "useful_life_change",
+   "label": "Effective 2025-01-01 subset of servers and networking equipment shortened from six to five years (AI/ML pace of technology); FY2025 effect: D&A +1.4 billion, net income -1.0 billion",
+   "value": "six to five years; D&A +$1.4 billion; net income -$1.0 billion (FY2025)",
+   "unit": "years / $ billions",
+   "period": "FY2025",
+   "file": "AMZN/annual_10-K_2026-02-06.txt",
+   "line": 940,
+   "quote": "Effective January 1, 2025 we changed our estimate of the useful lives of a subset of our servers and networking equipment from",
+   "verify": "exact"
+  },
+  {
+   "key": "useful_life_change_effect_da",
+   "label": "D&A increase from the 2025 change (billions; number on its own line)",
+   "value": "1.4",
+   "unit": "$ billions",
+   "period": "FY2025",
+   "file": "AMZN/annual_10-K_2026-02-06.txt",
+   "line": 945,
+   "quote": "1.4",
+   "verify": "exact"
+  }
+ ],
+ "drivers": [
+  {
+   "text": "AWS sales growth reflects higher customer usage, partly offset by pricing changes tied to long-term customer contracts; AWS operating income rose on higher sales, partly offset by technology infrastructure spend supporting AWS growth.",
+   "file": "AMZN/quarterly_10-Q_2026-10-30.txt",
+   "line": 1194
+  },
+  {
+   "text": "AWS operating income increase: primarily higher sales, partially offset by infrastructure investments to support AWS growth.",
+   "file": "AMZN/quarterly_10-Q_2026-10-30.txt",
+   "line": 1260
+  },
+  {
+   "text": "Technology and infrastructure costs rose mainly from higher infrastructure spending including depreciation and amortization.",
+   "file": "AMZN/quarterly_10-Q_2026-10-30.txt",
+   "line": 1235
+  },
+  {
+   "text": "Free cash flow turned to a trailing-twelve-month outflow because purchases of property and equipment (net of proceeds and incentives) rose by $94.8 billion YoY, mainly AI investment.",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 38
+  },
+  {
+   "text": "Prime Day timing shifted into Q2 in 2026 (all in Q3 in 2025); management says Q3 growth would have been about 400 bps higher excluding the shift.",
+   "file": "AMZN/earnings_8-K_2026-10-29.txt",
+   "line": 13
+  }
+ ],
+ "gaps": [
+  "rpo_next_12m_pct: not found in AMZN 10-Q; the 10-Q gives only total ($578B) and weighted-average life 6.1 years.",
+  "capex_incl_finance_leases_q: no single disclosed figure; inputs are purchases of PP&E 77,259 and PP&E acquired under finance leases 1,472 (Q3 2026) plus finance-lease principal repayments 433. Proceeds/incentives 1,381 are on cash flow line 172.",
+  "Quarterly useful-life change: none found in the Q3 2026 10-Q; last change is the Jan 2025 change in the 10-K.",
+  "AWS RPO separate from total: not split out (total described as 'primarily related to AWS').",
+  "Headcount by 10-K is as of 2025-12-31; Q3 2026 headcount comes from the earnings release (1,638,000)."
+ ]
+}

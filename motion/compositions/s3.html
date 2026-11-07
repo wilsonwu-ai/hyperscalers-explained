@@ -1,0 +1,51 @@
+<template>
+<style>
+@font-face { font-family: 'Fraunces'; src: url('assets/fonts/fraunces-600.woff2') format('woff2'); font-weight: 600; }
+#root { position:absolute; inset:0; background:#F6F3EC; font-family:'Inter',sans-serif; color:#10202F; overflow:hidden; }
+#root .wrap { position:absolute; inset:0; }
+#root .h { font-family:'Fraunces','EB Garamond',serif; font-weight:600; position:absolute; line-height:1.08; letter-spacing:-0.01em; white-space:nowrap; font-variant-numeric:tabular-nums; }
+#root .t { position:absolute; font-weight:600; white-space:nowrap; line-height:1.1; font-variant-numeric:tabular-nums; }
+#root .box { position:absolute; }
+
+#root .bar1 { position:absolute; left:192px; top:370px; height:92px; width:336px; background:#1E7F55; border-radius:12px; transform-origin:0 50%; }
+#root .bar2 { position:absolute; left:192px; top:700px; height:92px; width:1500px; border-radius:12px; transform-origin:0 50%;
+  background: repeating-linear-gradient(135deg, #1E7F55 0 18px, #3F9A71 18px 36px); }
+#root .chip { position:absolute; left:760px; top:206px; height:96px; padding:0 36px; border-radius:48px; border:4px solid #1E7F55; color:#1E7F55; font-size:56px; font-weight:600; line-height:88px; box-sizing:border-box; }
+</style>
+<div id="root" data-composition-id="s3" data-width="1920" data-height="1080">
+<div class="wrap" id="s3-wrap">
+<div class="h" id="s3-n1" style="left:192px;top:210px;font-size:104px;color:#1E7F55;">$0B</div>
+<div class="t" id="s3-u1" style="left:600px;top:244px;font-size:54px;">a year of cloud rental</div>
+<div class="bar1" id="s3-b1"></div>
+<div class="chip" id="s3-chip" style="left:1180px;top:340px;">&#8593; up 55%</div>
+<div class="h" id="s3-n2" style="left:192px;top:540px;font-size:104px;color:#1E7F55;">$0T</div>
+<div class="t" id="s3-u2" style="left:660px;top:574px;font-size:54px;">already signed, called backlog</div>
+<div class="bar2" id="s3-b2"></div>
+<div class="t" id="s3-src" style="left:192px;top:940px;font-size:44px;color:#5B6672;">Synergy Research Group; company filings, unaudited</div>
+
+</div>
+</div>
+<script>
+(function() {
+const tl = gsap.timeline({ paused: true });
+const D = 9.55;
+tl.fromTo('#s3-wrap', { opacity: 0 }, { opacity: 1, duration: 0.25, ease: 'power2.out' }, 0);
+tl.to('#s3-wrap', { opacity: 0, duration: 0.2, ease: 'power2.in' }, D - 0.2);
+tl.fromTo('#s3-n1', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 1.29);
+tl.fromTo('#s3-u1', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 1.49);
+tl.fromTo('#s3-b1', { scaleX: 0 }, { scaleX: 1, duration: 1.4, ease: 'power2.out' }, 1.390);
+(function(){ const o = { v: 0 }; const el = document.querySelector('#s3-n1');
+tl.to(o, { v: 558, duration: 1.4, ease: 'power2.out', onUpdate: function(){ el.textContent = '$' + Math.round(o.v) + 'B'; } }, 1.3900000000000001); })();
+tl.fromTo('#s3-chip', { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.6, ease: 'power2.out' }, 4.330);
+tl.fromTo('#s3-n2', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 5.34);
+tl.fromTo('#s3-u2', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 5.54);
+tl.fromTo('#s3-b2', { scaleX: 0 }, { scaleX: 1, duration: 2.4, ease: 'power2.out' }, 5.440);
+tl.fromTo('#s3-src', { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, 5.9399999999999995);
+(function(){ const o = { v: 0 }; const el = document.querySelector('#s3-n2');
+tl.to(o, { v: 2.49, duration: 2.4, ease: 'power2.out', onUpdate: function(){ el.textContent = '$' + o.v.toFixed(2) + 'T'; } }, 5.4399999999999995); })();
+tl.to('#s3-b2', { backgroundPosition: '72px 0px', duration: 1.61, ease: 'none' }, 7.840);
+
+window.__timelines['s3'] = tl;
+})();
+</script>
+</template>

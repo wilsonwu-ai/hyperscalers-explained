@@ -1,0 +1,106 @@
+<template>
+<style>
+@font-face { font-family: 'Fraunces'; src: url('assets/fonts/fraunces-600.woff2') format('woff2'); font-weight: 600; }
+#root { position:absolute; inset:0; background:#F6F3EC; font-family:'Inter',sans-serif; color:#10202F; overflow:hidden; }
+#root .wrap { position:absolute; inset:0; }
+#root .h { font-family:'Fraunces','EB Garamond',serif; font-weight:600; position:absolute; line-height:1.08; letter-spacing:-0.01em; white-space:nowrap; font-variant-numeric:tabular-nums; }
+#root .t { position:absolute; font-weight:600; white-space:nowrap; line-height:1.1; font-variant-numeric:tabular-nums; }
+#root .box { position:absolute; }
+
+#s1-pill { }
+#root .pill { position:absolute; left:192px; width:460px; height:104px; border-radius:52px; background:#fff; border:3px solid #E2DDD2; font-size:54px; font-weight:600; line-height:98px; padding-left:92px; box-sizing:border-box; }
+#root .pill i { position:absolute; left:34px; top:34px; width:30px; height:30px; border-radius:15px; background:#2F5DA8; }
+#root .rack { position:absolute; width:100px; height:80px; border-radius:8px; background:#2F5DA8; }
+</style>
+<div id="root" data-composition-id="s1" data-width="1920" data-height="1080">
+<div class="wrap" id="s1-wrap">
+<div class="h" id="s1-h" style="left:192px;top:104px;font-size:80px;">You are renting a computer<br>in a giant building.</div>
+<div class="pill" id="s1-p0" style="top:360px;"><i></i>Stream</div>
+<div class="pill" id="s1-p1" style="top:500px;"><i></i>Search</div>
+<div class="pill" id="s1-p2" style="top:640px;"><i></i>Ask an AI</div>
+<div class="box" id="s1-roof" style="left:1150px;top:390px;width:580px;height:44px;border-radius:10px;background:#6F6150;"></div>
+<div class="box" id="s1-bld" style="left:1180px;top:434px;width:520px;height:430px;background:#8A7A66;"></div>
+<div class="box" id="s1-door" style="left:1400px;top:790px;width:80px;height:74px;background:#6F6150;border-radius:8px 8px 0 0;"></div>
+<div class="rack" id="s1-r0" style="left:1210px;top:462px;"></div>
+<div class="rack" id="s1-r1" style="left:1335px;top:462px;"></div>
+<div class="rack" id="s1-r2" style="left:1460px;top:462px;"></div>
+<div class="rack" id="s1-r3" style="left:1585px;top:462px;"></div>
+<div class="rack" id="s1-r4" style="left:1210px;top:570px;"></div>
+<div class="rack" id="s1-r5" style="left:1335px;top:570px;"></div>
+<div class="rack" id="s1-r6" style="left:1460px;top:570px;"></div>
+<div class="rack" id="s1-r7" style="left:1585px;top:570px;"></div>
+<div class="rack" id="s1-r8" style="left:1210px;top:678px;"></div>
+<div class="rack" id="s1-r9" style="left:1335px;top:678px;"></div>
+<div class="rack" id="s1-r10" style="left:1460px;top:678px;"></div>
+<div class="rack" id="s1-r11" style="left:1585px;top:678px;"></div>
+<div class="box" id="s1-k00" style="left:640px;top:400px;width:24px;height:24px;border-radius:12px;background:#2F5DA8;opacity:0;"></div>
+<div class="box" id="s1-k01" style="left:640px;top:400px;width:24px;height:24px;border-radius:12px;background:#2F5DA8;opacity:0;"></div>
+<div class="box" id="s1-k02" style="left:640px;top:400px;width:24px;height:24px;border-radius:12px;background:#2F5DA8;opacity:0;"></div>
+<div class="box" id="s1-k10" style="left:640px;top:540px;width:24px;height:24px;border-radius:12px;background:#2F5DA8;opacity:0;"></div>
+<div class="box" id="s1-k11" style="left:640px;top:540px;width:24px;height:24px;border-radius:12px;background:#2F5DA8;opacity:0;"></div>
+<div class="box" id="s1-k12" style="left:640px;top:540px;width:24px;height:24px;border-radius:12px;background:#2F5DA8;opacity:0;"></div>
+<div class="box" id="s1-k20" style="left:640px;top:680px;width:24px;height:24px;border-radius:12px;background:#2F5DA8;opacity:0;"></div>
+<div class="box" id="s1-k21" style="left:640px;top:680px;width:24px;height:24px;border-radius:12px;background:#2F5DA8;opacity:0;"></div>
+<div class="box" id="s1-k22" style="left:640px;top:680px;width:24px;height:24px;border-radius:12px;background:#2F5DA8;opacity:0;"></div>
+
+</div>
+</div>
+<script>
+(function() {
+const tl = gsap.timeline({ paused: true });
+const D = 5.81;
+
+tl.to('#s1-wrap', { opacity: 0, duration: 0.2, ease: 'power2.in' }, D - 0.2);
+tl.fromTo('#s1-h', { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: 'power2.out' }, 3.13);
+tl.set('.rack', { opacity: 0.18 }, 0);
+tl.fromTo('#s1-p0', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 0.82);
+tl.fromTo('#s1-k00', { x: 0, y: 0 }, { x: 516, y: 188, duration: 1.0, ease: 'power1.inOut' }, 1.170);
+tl.fromTo('#s1-k00', { opacity: 0 }, { opacity: 1, duration: 0.12 }, 1.170);
+tl.to('#s1-k00', { opacity: 0, duration: 0.12 }, 2.050);
+tl.fromTo('#s1-k01', { x: 0, y: 0 }, { x: 516, y: 188, duration: 1.0, ease: 'power1.inOut' }, 1.920);
+tl.fromTo('#s1-k01', { opacity: 0 }, { opacity: 1, duration: 0.12 }, 1.920);
+tl.to('#s1-k01', { opacity: 0, duration: 0.12 }, 2.800);
+tl.fromTo('#s1-k02', { x: 0, y: 0 }, { x: 516, y: 188, duration: 1.0, ease: 'power1.inOut' }, 2.670);
+tl.fromTo('#s1-k02', { opacity: 0 }, { opacity: 1, duration: 0.12 }, 2.670);
+tl.to('#s1-k02', { opacity: 0, duration: 0.12 }, 3.550);
+tl.fromTo('#s1-p1', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 1.28);
+tl.fromTo('#s1-k10', { x: 0, y: 0 }, { x: 516, y: 48, duration: 1.0, ease: 'power1.inOut' }, 1.630);
+tl.fromTo('#s1-k10', { opacity: 0 }, { opacity: 1, duration: 0.12 }, 1.630);
+tl.to('#s1-k10', { opacity: 0, duration: 0.12 }, 2.510);
+tl.fromTo('#s1-k11', { x: 0, y: 0 }, { x: 516, y: 48, duration: 1.0, ease: 'power1.inOut' }, 2.380);
+tl.fromTo('#s1-k11', { opacity: 0 }, { opacity: 1, duration: 0.12 }, 2.380);
+tl.to('#s1-k11', { opacity: 0, duration: 0.12 }, 3.260);
+tl.fromTo('#s1-k12', { x: 0, y: 0 }, { x: 516, y: 48, duration: 1.0, ease: 'power1.inOut' }, 3.130);
+tl.fromTo('#s1-k12', { opacity: 0 }, { opacity: 1, duration: 0.12 }, 3.130);
+tl.to('#s1-k12', { opacity: 0, duration: 0.12 }, 4.010);
+tl.fromTo('#s1-p2', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 2.1);
+tl.fromTo('#s1-k20', { x: 0, y: 0 }, { x: 516, y: -92, duration: 1.0, ease: 'power1.inOut' }, 2.450);
+tl.fromTo('#s1-k20', { opacity: 0 }, { opacity: 1, duration: 0.12 }, 2.450);
+tl.to('#s1-k20', { opacity: 0, duration: 0.12 }, 3.330);
+tl.fromTo('#s1-k21', { x: 0, y: 0 }, { x: 516, y: -92, duration: 1.0, ease: 'power1.inOut' }, 3.200);
+tl.fromTo('#s1-k21', { opacity: 0 }, { opacity: 1, duration: 0.12 }, 3.200);
+tl.to('#s1-k21', { opacity: 0, duration: 0.12 }, 4.080);
+tl.fromTo('#s1-k22', { x: 0, y: 0 }, { x: 516, y: -92, duration: 1.0, ease: 'power1.inOut' }, 3.950);
+tl.fromTo('#s1-k22', { opacity: 0 }, { opacity: 1, duration: 0.12 }, 3.950);
+tl.to('#s1-k22', { opacity: 0, duration: 0.12 }, 4.830);
+tl.to('#s1-r7', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 3.430);
+tl.to('#s1-r7', { opacity: 0.55, duration: 0.25, yoyo: true, repeat: 1, ease: 'sine.inOut' }, 4.694);
+tl.to('#s1-r11', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 3.550);
+tl.to('#s1-r11', { opacity: 0.55, duration: 0.25, yoyo: true, repeat: 1, ease: 'sine.inOut' }, 4.484);
+tl.to('#s1-r3', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 3.670);
+tl.to('#s1-r3', { opacity: 0.55, duration: 0.25, yoyo: true, repeat: 1, ease: 'sine.inOut' }, 4.666);
+tl.to('#s1-r10', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 3.790);
+tl.to('#s1-r10', { opacity: 0.55, duration: 0.25, yoyo: true, repeat: 1, ease: 'sine.inOut' }, 4.714);
+tl.to('#s1-r8', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 3.910);
+tl.to('#s1-r4', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 4.030);
+tl.to('#s1-r9', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 4.150);
+tl.to('#s1-r1', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 4.270);
+tl.to('#s1-r0', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 4.390);
+tl.to('#s1-r6', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 4.510);
+tl.to('#s1-r2', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 4.630);
+tl.to('#s1-r5', { opacity: 1, duration: 0.3, ease: 'power1.out' }, 4.750);
+
+window.__timelines['s1'] = tl;
+})();
+</script>
+</template>
