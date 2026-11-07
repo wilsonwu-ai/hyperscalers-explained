@@ -1,26 +1,26 @@
 /* Hyperscalers, explained. Base styles. Tokens come from brief/design-tokens.md.
    Figure-specific styles live in assets/css/<group>.css, scoped under each figure's id. */
 :root{
-  --paper:#F6F3EC;--surface:#FFFFFF;--ink:#10202F;--muted:#5B6672;--line:#E2DDD2;--wash:#FFF2CC;
-  --compute:#2F5DA8;--power:#C98A1B;--buildings:#8A7A66;--chips:#6B4FA0;--cash:#1E7F55;--cost:#C2552D;
-  --pass:#1E7F55;--fail:#B42318;
-  --compute-wash:rgba(47,93,168,.12);--power-wash:rgba(201,138,27,.14);--buildings-wash:rgba(138,122,102,.14);
-  --chips-wash:rgba(107,79,160,.12);--cash-wash:rgba(30,127,85,.12);--cost-wash:rgba(194,85,45,.12);
+  --paper:#F5F7FA;--surface:#FFFFFF;--ink:#14212F;--muted:#4C5A6B;--line:#D5DCE5;--wash:#FBEEE3;
+  --compute:#3A86C8;--power:#A87400;--buildings:#0A2942;--chips:#7A3E8E;--cash:#1B6B45;--cost:#A8481B;
+  --pass:#1B6B45;--fail:#B3261E;
+  --compute-wash:rgba(58, 134, 200, .12);--power-wash:rgba(168, 116, 0, .14);--buildings-wash:rgba(10, 41, 66, .14);
+  --chips-wash:rgba(122, 62, 142, .12);--cash-wash:rgba(27, 107, 69, .12);--cost-wash:rgba(168, 72, 27, .12);
   --on-color:#FFFFFF;
   /* company series (company charts only; topic colors mean topics everywhere else) */
   --s-amzn:var(--compute);--s-msft:var(--chips);--s-googl:var(--cash);--s-meta:var(--power);--s-orcl:var(--cost);--s-crwv:var(--buildings);--s-nbis:var(--muted);
-  --serif:Fraunces,Georgia,"Times New Roman",serif;
-  --sans:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --serif:"Benton Sans", BentonSans, "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --sans:"Benton Sans", BentonSans, "Public Sans", "Helvetica Neue", Arial, sans-serif;
   --radius:12px;
 }
 @media (prefers-color-scheme:dark){
   :root{
-    --paper:#0E1620;--surface:#16212D;--ink:#EEF1F4;--muted:#9AA6B2;--line:#26323F;--wash:#3A3320;
-    --compute:#6E9BE0;--power:#E8B04A;--buildings:#B8A890;--chips:#A68BDB;--cash:#4CC38A;--cost:#F08A62;
-    --pass:#4CC38A;--fail:#F07167;
-    --compute-wash:rgba(110,155,224,.16);--power-wash:rgba(232,176,74,.16);--buildings-wash:rgba(184,168,144,.16);
-    --chips-wash:rgba(166,139,219,.16);--cash-wash:rgba(76,195,138,.16);--cost-wash:rgba(240,138,98,.16);
-    --on-color:#0E1620;
+    --paper:#081420;--surface:#0E2238;--ink:#E8EDF3;--muted:#9DAEC0;--line:#22384F;--wash:#33231A;
+    --compute:#6FB4EA;--power:#E3B341;--buildings:#4FC3C0;--chips:#C48BDC;--cash:#5FC38A;--cost:#EE9264;
+    --pass:#5FC38A;--fail:#F27D74;
+    --compute-wash:rgba(111, 180, 234, .16);--power-wash:rgba(227, 179, 65, .16);--buildings-wash:rgba(79, 195, 192, .16);
+    --chips-wash:rgba(196, 139, 220, .16);--cash-wash:rgba(95, 195, 138, .16);--cost-wash:rgba(238, 146, 100, .16);
+    --on-color:#081420;
   }
 }
 
